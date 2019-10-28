@@ -4,7 +4,7 @@ html {
 }
 
 #header {
-  height: 220px;
+  height: 200px;
   /* transition: all 0.5s;
     z-index: 997;
     transition: all 0.5s;
@@ -21,7 +21,7 @@ html {
   top: 63px;
   left: 98px;
   width: 210px;
-  height: 77px;
+  height: 70px;
 }
 
 .content {
@@ -40,10 +40,10 @@ body {
 
 .header-check {
   color: #fff;
-  top: 170px;
+  top: 160px;
   right: 50px;
   /* line-height: 46px; */
-  font-size: 25px;
+  font-size: 22px;
   font-weight: bold;
   position: absolute;
   /* display: flex; */
@@ -65,11 +65,11 @@ a:hover {
   border: #0092c0;
   margin-bottom: 20px;
   font-size: 22px;
-  margin-top: 20px;
+  margin-top: 15px;
 }
 
 .card-body {
-  padding: 40px 70px;
+  padding: 40px 70px 20px 70px;
 }
 
 .btn-default {
@@ -120,6 +120,7 @@ a:hover {
 .newAc {
   color: #0092c0;
   text-decoration: underline;
+  /* margin-bottom: -50px; */
 }
 
 /* 
