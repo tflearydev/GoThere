@@ -51,15 +51,6 @@ body {
   margin-right: 40px;
   margin-top: -40px;
 
-  /* top: 120px;
-left: 1191px;
-width: 201px;
-height: 46px;
-text-align: right;
-font: Bold 30px/25px Titillium Web;
-letter-spacing: 0.57px;
-color: #FFFFFF;
-opacity: 1; */
 }
 .header-check a {
   color: #fff;
@@ -104,6 +95,10 @@ a:hover {
 
 .card {
   width: 35rem;
+}
+
+#registerPage .card {
+  width: 45rem;
 }
 .form-control {
   font-size: 23px;
