@@ -10,6 +10,7 @@ html {
     transition: all 0.5s;
     padding: 20px 0; */
   background-image: url("../assets/bg.svg");
+  background-size: cover;
   background-color: #0092c0;
   background-position: -320px -325px;
 
