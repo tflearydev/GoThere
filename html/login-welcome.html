@@ -17,6 +17,7 @@ especially with many different attributes and style selectors -->
     <!-- I added this so that a user cannot zoom on mobile, which makes it feel more like a native application-->
     <meta name="description" content="live practice website" />
 
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"/>
 
     <!-- Libraries CSS Files -->
@@ -27,6 +28,9 @@ especially with many different attributes and style selectors -->
     <link href="../lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
 
     <link rel="stylesheet" href="../css/login.css" type="text/css" />
+
+    <!-- google font import-->
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web&display=swap" rel="stylesheet">
   </head>
 
   
@@ -189,7 +193,7 @@ especially with many different attributes and style selectors -->
       </div>
     </section>
 
-
+   
 
 
 
@@ -198,6 +202,9 @@ especially with many different attributes and style selectors -->
     <section id='registerPage' style="display:none" class="page">
       <div class="content">
         <div class="content-header">
+
+            <span onclick="openNav()" id="navToggle" class="fa fa-bars" aria-hidden="true"></span>
+            <div class="head-title">Login</div>
 
           <div class='container-fluid mb-5 mt-5'>
               <div class='row justify-content-center'>
@@ -217,7 +224,7 @@ especially with many different attributes and style selectors -->
                         <!-- <div class="input-group-prepend">
                             <span class="input-group-text"> <i class="fa fa-user"></i> </span>
                          </div> -->
-                        <input name="" class="form-control" placeholder="First name" type="text">
+                        <input name="" class="form-control form-input" placeholder="First name" type="text">
                     </div> <!-- input-group.// -->
                     </div> <!-- form-group// -->
 
@@ -226,7 +233,7 @@ especially with many different attributes and style selectors -->
                           <!-- <div class="input-group-prepend">
                               <span class="input-group-text"> <i class="fa fa-lock"></i> </span>
                            </div> -->
-                          <input class="form-control" placeholder="Phone Number" type="password">
+                          <input class="form-control form-input" placeholder="Phone Number" type="password">
                       </div> <!-- input-group.// -->
                       </div> <!-- form-group// -->
                       </div>
@@ -239,7 +246,7 @@ especially with many different attributes and style selectors -->
                         <!-- <div class="input-group-prepend">
                             <span class="input-group-text"> <i class="fa fa-lock"></i> </span>
                          </div> -->
-                        <input class="form-control" placeholder="Last name" type="password">
+                        <input class="form-control form-input" placeholder="Last name" type="password">
                     </div> <!-- input-group.// -->
                     </div> <!-- form-group// -->
 
@@ -248,7 +255,7 @@ especially with many different attributes and style selectors -->
                           <!-- <div class="input-group-prepend">
                               <span class="input-group-text"> <i class="fa fa-lock"></i> </span>
                            </div> -->
-                          <input class="form-control" placeholder="Password" type="password">
+                          <input class="form-control form-input" placeholder="Password" type="password">
                       </div> <!-- input-group.// -->
                       </div> <!-- form-group// -->
                     </div>
@@ -260,7 +267,7 @@ especially with many different attributes and style selectors -->
                       <!-- <div class="input-group-prepend">
                           <span class="input-group-text"> <i class="fa fa-lock"></i> </span>
                        </div> -->
-                      <input class="form-control" placeholder="Address" type="text">
+                      <input class="form-control form-input" placeholder="Address" type="text">
                   </div> <!-- input-group.// -->
                   </div> <!-- form-group// -->
 
@@ -269,7 +276,7 @@ especially with many different attributes and style selectors -->
                         <!-- <div class="input-group-prepend">
                             <span class="input-group-text"> <i class="fa fa-lock"></i> </span>
                          </div> -->
-                        <input class="form-control" placeholder="Re-enter Password" type="password">
+                        <input class="form-control form-input" placeholder="Re-enter Password" type="password">
                     </div> <!-- input-group.// -->
                     </div> <!-- form-group// -->
                   </div>
@@ -281,7 +288,7 @@ especially with many different attributes and style selectors -->
                     <!-- <div class="input-group-prepend">
                         <span class="input-group-text"> <i class="fa fa-lock"></i> </span>
                      </div> -->
-                    <input class="form-control" placeholder="Email" type="email">
+                    <input class="form-control form-input" placeholder="Email" type="email">
                 </div> <!-- input-group.// -->
                 </div> <!-- form-group// -->
   

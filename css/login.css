@@ -229,10 +229,21 @@ a:hover {
 }
 .form-control {
   font-size: 23px;
+  font-family: 'Titillium Web', sans-serif;
 }
 @media screen and (max-width: 420px) {
   .form-control {
     font-size: 18px;
+    font-family: 'Titillium Web', sans-serif;
+  }
+}
+
+.form-input {
+  font-size: 23px;
+}
+@media screen and (max-width: 585px) {
+  .form-input {
+    font-size: 16px;
   }
 }
 .passw {
