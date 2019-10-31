@@ -567,6 +567,7 @@ a {
   text-align: center;
   margin-top: -32px;
   font-family: 'Titillium Web', sans-serif;
+  font-weight: bold;
 }
 
 @media screen and (min-width: 700px) {

@@ -40,7 +40,7 @@ html {
   height: 105px;
   /* width:35%; */
      margin:0 auto;
-     display:block;
+     display: block;
      padding-top: 50px;
      font-weight: 600;
      /* float:none !important; */
@@ -49,7 +49,7 @@ html {
 
 @media screen and (min-width: 700px) {
     .atlPic {
-      float: left;
+      /* float: left; */
       margin-left: 60px;
       /* width: 220px; */
       height:  110px;
@@ -74,7 +74,30 @@ html {
     /* left: 4%;
     width: 200px;
     height: 200px; */
+    /* display: inline; */
     }
+  }
+
+  .center-search {
+      /* top: 51px;
+      left: 800px;
+      width: 900px;
+      height: 61px; */
+      text-align: center;
+      font-weight: 900; 
+      font-size: 35px ;
+      font-family: 'Titillium Web', sans-serif;
+      letter-spacing: 0;
+      color: #FFFFFF;
+      opacity: 1;
+      margin-top: -50px;
+      
+  }
+
+  @media screen and (max-width: 700px) {
+      .center-search {
+          display: none;
+      }
   }
 
 
@@ -106,7 +129,7 @@ body {
 
 .header-check {
   color: #fff;
-  top: 160px;
+  top: 150px;
   right: 10px;
   /* line-height: 46px; */
   font-size: 18px;
@@ -134,7 +157,7 @@ body {
 
 .header-check1 {
     color: #fff;
-    top: 120px;
+    top: 110px;
     right: 10px;
     /* line-height: 46px; */
     font-size: 18px;
@@ -598,6 +621,7 @@ a {
   text-align: center;
   margin-top: -30px;
   font-family: 'Titillium Web', sans-serif;
+  font-weight: bold;
 }
 
 @media screen and (min-width: 700px) {
