@@ -19,7 +19,7 @@ html {
 
 @media screen and (min-width: 700px) {
   #header {
-    height: 180px;
+    height: 200px;
     /* transition: all 0.5s;
       z-index: 997;
       transition: all 0.5s;
@@ -52,7 +52,7 @@ html {
       float: left;
       margin-left: 60px;
       /* width: 220px; */
-      height:  120px;
+      height:  110px;
       /* float: left;
       height: 130px; */
      
@@ -107,9 +107,9 @@ body {
 .header-check {
   color: #fff;
   top: 160px;
-  right: 50px;
+  right: 10px;
   /* line-height: 46px; */
-  font-size: 22px;
+  font-size: 18px;
   font-weight: bold;
   position: absolute;
   /* display: flex; */
@@ -132,6 +132,33 @@ body {
   }
 }
 
+.header-check1 {
+    color: #fff;
+    top: 120px;
+    right: 10px;
+    /* line-height: 46px; */
+    font-size: 18px;
+    font-weight: bold;
+    position: absolute;
+    /* display: flex; */
+    /* align-items: center; */
+    margin-right: 40px;
+    margin-top: -65px;
+   
+   }
+  
+  
+  .header-check1 a {
+    color: #fff;
+    text-decoration: none;
+  
+  }
+  
+  @media screen and (max-width: 700px) {
+    .header-check1 {
+      display: none;
+    }
+  }
 
 /* @media screen and(max-width: 700px) {
   .header-check a {
@@ -254,8 +281,13 @@ a:hover {
 }
 
 
+img.cart {
+    width: 30px;
+    height: 30px;
+}
+
 .cart {
-  margin-right: 20px;
+  margin-right: 10px;
 }
 
 .col-5 {
@@ -532,7 +564,7 @@ a {
 
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 700px) {
   .fa-bars {
   font-size: 25px;
   margin-left: 20px;

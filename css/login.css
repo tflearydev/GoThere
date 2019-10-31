@@ -107,7 +107,7 @@ body {
 .header-check {
   color: #fff;
   top: 160px;
-  right: 50px;
+  right: 1px;
   /* line-height: 46px; */
   font-size: 22px;
   font-weight: bold;
@@ -255,7 +255,8 @@ a:hover {
 
 
 .cart {
-  margin-right: 20px;
+  margin-right: 10px;
+  
 }
 
 .col-5 {
@@ -532,7 +533,7 @@ a {
 
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 700px) {
   .fa-bars {
   font-size: 25px;
   margin-left: 20px;
