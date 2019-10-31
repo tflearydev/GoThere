@@ -30,3 +30,5 @@ function openNav() {
      // planned to make entire page slide right but it compromised style on mobile
   }
 
+  
+ 
