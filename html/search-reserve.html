@@ -18,6 +18,7 @@
     <link href="../lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
     <link href="../lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
 
+    <!-- external css file-->
     <link rel="stylesheet" href="../css/search.css" type="text/css" />
 
      <!-- google font import-->
@@ -76,7 +77,7 @@
                           <div class="card-body">
                               <div class="form-group" style="margin-bottom: 40px;">
                                   <label for="exampleFormControlSelect1">Pick up location <span style="color:#0092c0">*</span></label>
-                                  <select class="form-control" id="exampleFormControlSelect1">
+                                  <select class="form-control" id="exampleFormControlSelect1" style="height: 40px">
                                     <option>Atlanta, Ga</option>
                                     <option>Alpharetta, Ga</option>
                                     <option>Decatur, Ga</option>
@@ -86,7 +87,7 @@
 
                                 <div class="form-group">
                                     <label for="exampleFormControlSelect1">Drop off location <span style="color:#0092c0">*</span></label>
-                                    <select class="form-control" id="exampleFormControlSelect1">
+                                    <select class="form-control" id="exampleFormControlSelect1" style="height: 40px">
                                       <option>Atlanta, Ga</option>
                                       <option>Alpharetta, Ga</option>
                                       <option>Decatur, Ga</option>
@@ -97,7 +98,7 @@
                                   <div class="form-check">
                                       <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
                                       <label class="form-check-label" for="defaultCheck1">
-                                        Default checkbox
+                                        Same Drop-Off Location
                                       </label>
                                     </div>
                           </div>
@@ -131,20 +132,27 @@
                               </div>
                               <hr>
 
-                              <form>
+                              <form style="padding-left: 40px;">
                                   <div class="form-group row">
-                                    <label for="inputEmail3" class="col-sm-3 col-form-label">Start Time: </label>
-                                    <div class="col-sm-67">
-                                      <input type="text" class="form-control" id="inputEmail3" placeholder="Email">
+                                    <label for="inputEmail3" class="col-sm-4 col-form-label">Start Time <span style="color:#0092c0">*</span></label>
+                                    <div class="col-sm-6">
+                                      <input type="text" class="form-control" id="inputEmail3" placeholder="Email" style="height: 40px">
                                     </div>
                                   </div>
                                   <div class="form-group row">
-                                    <label for="inputPassword3" class="col-sm-3 col-form-label">End Time: </label>
-                                    <div class="col-sm-7">
-                                      <input type="text" class="form-control" id="inputPassword3" placeholder="Password">
+                                    <label for="inputPassword3" class="col-sm-4 col-form-label">End Time <span style="color:#0092c0">*</span></label>
+                                    <div class="col-sm-6">
+                                      <input type="text" class="form-control" id="inputPassword3" placeholder="Password" style="height: 40px">
                                     </div>
                                   </div>
                                   </form>
+
+                                  <div class="form-check" style="padding-left: 60px;">
+                                      <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                      <label class="form-check-label" for="defaultCheck1">
+                                        Recurring Rental
+                                      </label>
+                                    </div>
 
                           </div>
                         </div>
@@ -164,7 +172,7 @@
                           <div class="card-body">
                               <div class="form-group">
                                   <label for="exampleFormControlSelect1">Vehicle Make/ Model</label>
-                                  <select class="form-control" id="exampleFormControlSelect1">
+                                  <select class="form-control" id="exampleFormControlSelect1" style="height: 46px">
                                       <option>Any</option>
                                       <option>Any</option>
                                       <option>Any</option>
@@ -174,7 +182,7 @@
 
                                 <div class="form-group">
                                     <label for="exampleFormControlSelect1">Cargo Space</label>
-                                    <select class="form-control" id="exampleFormControlSelect1">
+                                    <select class="form-control" id="exampleFormControlSelect1" style="height: 46px">
                                         <option>Any</option>
                                         <option>Any</option>
                                         <option>Any</option>
@@ -184,7 +192,7 @@
 
                                   <div class="form-group">
                                       <label for="exampleFormControlSelect1">Transmission</label>
-                                      <select class="form-control" id="exampleFormControlSelect1">
+                                      <select class="form-control" id="exampleFormControlSelect1" style="height: 46px">
                                         <option>Any</option>
                                         <option>Any</option>
                                         <option>Any</option>
@@ -194,7 +202,7 @@
     
                                     <div class="form-group">
                                         <label for="exampleFormControlSelect1">Fuel Type</label>
-                                        <select class="form-control" id="exampleFormControlSelect1">
+                                        <select class="form-control" id="exampleFormControlSelect1" style="height: 46px">
                                           <option>Any</option>
                                           <option>Any</option>
                                           <option>Any</option>
