@@ -14,7 +14,7 @@ function show(elementID) {
 
 //side navigation js
 function openNav() {
-    document.getElementById("mySidenav").style.width = "200px";
+    document.getElementById("mySidenav").style.width = "225px";
     // document.getElementById("main").style.marginLeft = "250px";
     // document.querySelector("body").style.backgroundColor = "rgba(0,0,0,0.4)";
 
@@ -31,9 +31,9 @@ function openNav() {
   }
 
   //creating reusable web components
-  const template = document.querySelector('template');
-const node = document.importNode(template.content, true);
-document.body.appendChild(node);
+//   const template = document.querySelector('template');
+// const node = document.importNode(template.content, true);
+// document.body.appendChild(node);
 
 //
 //plugin bootstrap minus and plus
