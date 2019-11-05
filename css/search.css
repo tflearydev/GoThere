@@ -172,7 +172,17 @@ a:hover {
   transform: scale(0.90)
 }
 
+.center{
+    
+     width: 150px;
+     
+      
+    }
 
+    .btn-color {
+        background-color: #0092c0;
+        border: #0092c0;
+    }
 
 .btn-default {
  
@@ -364,8 +374,44 @@ a {
     /* width: 50px; */
 }
 
+@media screen and (max-width: 1200px) {
+    .seLabel {
+        font-size: 15px;
+    }
+}
 
+@media screen and (max-width: 576px) {
+    .timeForm {
+        
+        width: 120px;
+       display: flex;
 
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .col-sm-7 {
+        position: relative;
+       width: 30%;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+}
+
+.car-box {
+    top: 710px;
+left: 216px;
+width: 95px;
+height: 60px;
+background: #F0F0F0 0% 0% no-repeat padding-box;
+border-radius: 4px;
+opacity: 1;
+margin-top: -35px;
+}
+
+/* @media screen and (max-width: 500px) {
+    .car-box 
+} */
 .card-columns {
     margin-top: 30px;
 } 

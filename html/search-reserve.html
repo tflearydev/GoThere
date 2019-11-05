@@ -72,12 +72,12 @@
                       
                     <div class="card-columns" style="padding-bottom: 50px">
                      
-                        <div class="card img-fluid shadow" style=" width: 480px; height: 317px">
+                        <div class="card img-fluid shadow animated bounceInDown" style=" width: 480px; height: 317px">
                         
                           <div class="card-body">
                               <div class="form-group" style="margin-bottom: 40px;">
                                   <label for="exampleFormControlSelect1">Pick up location <span style="color:#0092c0">*</span></label>
-                                  <select class="form-control" id="exampleFormControlSelect1" style="height: 40px">
+                                  <select class="form-control" id="exampleFormControlSelect1" style="height: 45px">
                                     <option>Atlanta, Ga</option>
                                     <option>Alpharetta, Ga</option>
                                     <option>Decatur, Ga</option>
@@ -87,7 +87,7 @@
 
                                 <div class="form-group">
                                     <label for="exampleFormControlSelect1">Drop off location <span style="color:#0092c0">*</span></label>
-                                    <select class="form-control" id="exampleFormControlSelect1" style="height: 40px">
+                                    <select class="form-control" id="exampleFormControlSelect1" style="height: 45px">
                                       <option>Atlanta, Ga</option>
                                       <option>Alpharetta, Ga</option>
                                       <option>Decatur, Ga</option>
@@ -96,8 +96,8 @@
                                   </div>
 
                                   <div class="form-check">
-                                      <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                                      <label class="form-check-label" for="defaultCheck1">
+                                      <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" style="height: 27px; width: 27px;">
+                                      <label class="form-check-label" for="defaultCheck1" style="margin-top: 6px; margin-left: 15px;">
                                         Same Drop-Off Location
                                       </label>
                                     </div>
@@ -108,48 +108,125 @@
                       <!-- </div> -->
 
                       
-                        <div class="card p-3 img-fluid shadow" style="height: 380px; width: 480px; ">
+                        <div class="card p-3 img-fluid shadow animated bounceInDown" id="carChoose" style="height: 380px; width: 480px; ">
                         
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-                          
-                              <small class="text-muted">
+                            <p>Vehicle Type</p>
+                            
+                         
+                            <div class="container-fluid" style="margin-left: 15px">
+                            <div class="row">
+                              
+                            <div style="display: inline-block">
+                            <a href="#carChoose"><img src="../assets/van2.png"  class="img-fluid" alt="" style="width: 100px; height: 66px;">
+                            
+                              <div class="car-box" class="img-fluid"></div>
+                            </a>
+
+                            
+                          </div>
+
+                          <div style="display: inline-block">
+                              <a href="#carChoose"><img src="../assets/van2.png"  class="img-fluid" alt="" style="width: 100px; height: 66px;">
+                              
+                                <div class="car-box" class="img-fluid"></div>
+                              </a>
+  
+                             
+                            </div>
+
+                            <div style="display: inline-block">
+                                <a href="#carChoose"><img src="../assets/van2.png"  class="img-fluid" alt="" style="width: 100px; height: 66px;">
+                                
+                                  <div class="car-box" class="img-fluid"></div>
+                                </a>
+    
+                               
+                               
+                              </div>
+                                  </div>
+                            </div>
+
+                              <div class="form-check" style="margin-top: 20px">
+                                  <input class="form-check-input" type="checkbox" value="" style="height: 27px; width: 27px;"id="defaultCheck1">
+                                  <label class="form-check-label" for="defaultCheck1" style="margin-left: 15px; margin-top: 6px">
+                                    Wheelchair Accessible Vehicle
+                                  </label>
+                                </div>
+
+                                <p style="margin-top: 30px;">Minimum Seats <span style="color:#0092c0">*</span></p>
+
+
+
+                                <div class="center text-center">
+                                    <!-- <p>
+                                      </p><div class="input-group">
+                                          <span class="input-group-btn">
+                                              <button type="button" class="btn btn-default btn-number" disabled="disabled" data-type="minus" data-field="quant[1]">
+                                                  <i class="fa fa-minus"></i>
+                                              </button>
+                                          </span>
+                                          <input type="text" name="quant[1]" class="form-control input-number" value="1" min="1" max="10">
+                                          <span class="input-group-btn">
+                                              <button type="button" class="btn btn-default btn-number" data-type="plus" data-field="quant[1]">
+                                                  <i class="fa fa-plus"></i>
+                                              </button>
+                                          </span>
+                                      </div>
+                                  <p></p> -->
+                                    <div class="input-group" style="align-items: center">
+                                          <span class="input-group-btn">
+                                              <button type="button" class="btn btn-danger btn-number btn-color" data-type="minus" data-field="quant[2]">
+                                                  <i class="fa fa-minus"></i>
+                                              </button>
+                                          </span>
+                                          <input type="text" name="quant[2]" class="form-control input-number" value="10" min="1" max="100" style="border-radius: .4rem; height: 38px; margin-left: 8px; margin-right: 8px">
+                                          <span class="input-group-btn">
+                                              <button type="button" class="btn btn-success btn-number btn-color" data-type="plus" data-field="quant[2]">
+                                                  <i class="fa fa-plus"></i>
+                                              </button>
+                                          </span>
+                                      </div>
+                                  
+                                </div>
+
+                              <!-- <small class="text-muted">
                                 Someone famous in <cite title="Source Title">Source Title</cite>
-                              </small>
+                              </small> -->
                           
                         </div>
                        
 
 
                         
-                        <div class="card img-fluid shadow" style="height: 622px; width: 480px;">
+                        <div class="card img-fluid shadow animated bounceInDown" style="height: 622px; width: 480px;">
                           <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
                           <div class="card-body">
                               <p style="font-size: 19px">Date & Time <span style="color:#0092c0">*</span></p>
 
-                              <div class="calendar" style="height: 360px">
+                              <div class="calendar" style="height: 349px">
                                
                                 
                               </div>
                               <hr>
 
-                              <form style="padding-left: 40px;">
+                              <form style="padding-left: 45px;">
                                   <div class="form-group row">
-                                    <label for="inputEmail3" class="col-sm-4 col-form-label">Start Time <span style="color:#0092c0">*</span></label>
-                                    <div class="col-sm-6">
-                                      <input type="text" class="form-control" id="inputEmail3" placeholder="Email" style="height: 40px">
+                                    <label for="inputEmail3" class="col-form-label seLabel">Start Time <span style="color:#0092c0">*</span></label>
+                                    <div class="col-sm-7">
+                                      <input type="text" class="form-control timeForm" id="inputStartTime" placeholder="Start" style="height: 40px; margin-left: 11px;">
                                     </div>
                                   </div>
                                   <div class="form-group row">
-                                    <label for="inputPassword3" class="col-sm-4 col-form-label">End Time <span style="color:#0092c0">*</span></label>
-                                    <div class="col-sm-6">
-                                      <input type="text" class="form-control" id="inputPassword3" placeholder="Password" style="height: 40px">
+                                    <label for="inputPassword3" class="col-form-label seLabel">End Time <span style="color:#0092c0">*</span></label>
+                                    <div class="col-sm-7">
+                                      <input type="text" class="form-control timeForm" id="inputEndTime" placeholder="End" style="height: 40px; margin-left: 20px;">
                                     </div>
                                   </div>
                                   </form>
 
-                                  <div class="form-check" style="padding-left: 60px;">
-                                      <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                                      <label class="form-check-label" for="defaultCheck1">
+                                  <div class="form-check" style="padding-left: 50px;">
+                                      <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" style="height: 27px; width: 27px;">
+                                      <label class="form-check-label" for="defaultCheck1" style="margin-top: 7px; margin-left: 15px;">
                                         Recurring Rental
                                       </label>
                                     </div>
@@ -158,7 +235,7 @@
                         </div>
                       
 
-                        <div class="card p-3 img-fluid shadow" style="width: 480px; height: 147px;">
+                        <div class="card p-3 img-fluid shadow animated bounceInDown" style="width: 480px; height: 147px;">
                            
                             
                             <!-- <form class="multi-range-field my-5 pb-5">
@@ -168,7 +245,7 @@
                         </div>
 
 
-                        <div class="card img-fluid shadow" style="width: 480px; height: 485px; ">
+                        <div class="card img-fluid shadow animated bounceInDown" style="width: 480px; height: 485px; ">
                           <div class="card-body">
                               <div class="form-group">
                                   <label for="exampleFormControlSelect1">Vehicle Make/ Model</label>
