@@ -18,8 +18,14 @@
     <link href="../lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
     <link href="../lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
 
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+
     <!-- external css file-->
     <link rel="stylesheet" href="../css/search.css" type="text/css" />
+
+    
 
      <!-- google font import-->
      <link href="https://fonts.googleapis.com/css?family=Titillium+Web&display=swap" rel="stylesheet">
@@ -108,7 +114,7 @@
                       <!-- </div> -->
 
                       
-                        <div class="card p-3 img-fluid shadow animated bounceInDown" id="carChoose" style="height: 380px; width: 480px; ">
+                        <div class="card p-3 img-fluid shadow animated bounceInDown" id="carChoose" style="height: 380px; width: 480px;">
                         
                             <p>Vehicle Type</p>
                             
@@ -238,6 +244,14 @@
                         <div class="card p-3 img-fluid shadow animated bounceInDown" style="width: 480px; height: 147px;">
                            
                             
+                            <p>
+                                <label for="amount">Price Range(per day)</label>
+                                <input type="text" id="amount" readonly style="border:0; color:#0092c0; font-weight:bold;">
+                              </p>
+                               
+                              <div id="slider-range"></div>
+                              
+                              
                             <!-- <form class="multi-range-field my-5 pb-5">
                                 <input id="multi" class="multi-range" type="range" />
                               </form> -->
@@ -246,9 +260,9 @@
 
 
                         <div class="card img-fluid shadow animated bounceInDown" style="width: 480px; height: 485px; ">
-                          <div class="card-body">
+                          <div class="card-body" style="padding-left: 30px;">
                               <div class="form-group">
-                                  <label for="exampleFormControlSelect1">Vehicle Make/ Model</label>
+                                  <label for="exampleFormControlSelect1" style="padding-top: 15px;">Vehicle Make/ Model</label>
                                   <select class="form-control" id="exampleFormControlSelect1" style="height: 46px">
                                       <option>Any</option>
                                       <option>Any</option>
@@ -302,7 +316,6 @@
                 
 </div>
 </div>
-
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
