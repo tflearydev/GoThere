@@ -14,7 +14,7 @@ function show(elementID) {
 
 //side navigation js
 function openNav() {
-    document.getElementById("mySidenav").style.width = "225px";
+    document.getElementById("mySidenav").style.width = "260px";
     // document.getElementById("main").style.marginLeft = "250px";
     // document.querySelector("body").style.backgroundColor = "rgba(0,0,0,0.4)";
 
