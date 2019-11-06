@@ -11,11 +11,12 @@ html {
     padding: 20px 0; */
   background-image: url("../assets/bg.svg");
   background-size: cover;
-  background-color: #0092c0;
+  background-color: #1F2222;
   background-position: -320px -325px;
   
   /* box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.3); */
 }
+
 
 .card-horizontal {
     display: flex;
@@ -39,6 +40,8 @@ html {
     /* box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.3); */
   }
 }
+
+
 
 .atlPic {
   
@@ -282,7 +285,7 @@ a {
   z-index: 1; /* Stay on top */
   top: 0; /* Stay at the top */
   left: 0;
-  background-color: #111; /* Black*/
+  background-color: #0092c0 ; /* Black*/
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 60px; /* Place content 60px from the top */
   transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
@@ -296,7 +299,7 @@ a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 22px;
-  color: #818181;
+  color: #F0F0F0;
   display: block;
   transition: 0.3s;
 }
@@ -315,6 +318,7 @@ a {
   margin-left: 50px;
 }
 
+
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
@@ -326,7 +330,7 @@ a {
   margin-left: 65px;
   margin-top: 55px;
   transition: transform 0.4s; 
-  color: white
+  color: white;
 
 }
 
@@ -334,12 +338,19 @@ a {
   .fa-bars {
   font-size: 25px;
   margin-left: 20px;
-  margin-top: -10px;
+  margin-top: 50px;
   transition: transform 0.4s; 
-  color: white;
+  color: #1F2222;
+  
   }
 }
 
+
+@media screen and (max-width: 700px) {
+    .card-uno {
+        margin-top: 30px;
+    }
+}
 /* @media screen and (min-width: 700px) {
   #navToggle, #mySidenav {
       display: none;
@@ -356,18 +367,96 @@ a {
     background-color: #111;
   } */
 
-.nav-link {
+
+@media screen and (min-width: 1201px) {
+
+  .nav-link {
     color: grey; 
     padding-left:60px;
     padding-right:60px;
 
 }
+}
 
-.nav-link:hover {
-    text-decoration: underline white;
-    color: white;
+@media screen and (min-width: 900px) and (max-width: 1200px) {
+    .nav-link {
+        color: grey;
+    padding-left:30px;
+    padding-right:30px;
+    }
+}
+
+
+@media screen and (max-width: 700px) {
+    
+    .nav-link {
+        margin-top: -35px;
+    }
+
+}
+
+
+@media screen and (min-width: 700px) and (max-width: 899px) {
+    
+        .nav-link {
+            color: grey;
+        padding-left:20px;
+        padding-right:20px;
+        font-size: 20px;
+        }
     
 }
+
+@media screen and (min-width: 530px) and (max-width: 699px) {
+    
+    .nav-link {
+        color: black;
+    padding-left:15px;
+    padding-right:15px;
+    font-size: 17px;
+    
+    }
+
+}
+
+@media screen and (max-width: 530px) {
+    
+    .nav-link {
+        color: black;
+    padding-left:5px;
+    padding-right:5px;
+    font-size: 15px;
+        
+    
+    }
+
+}
+
+@media screen and (max-width: 405px) {
+    
+    .nav-link {
+        color: black;
+    padding-left:4px;
+    padding-right:4px;
+    font-size: 14px;
+        
+    
+    }
+
+}
+
+
+
+
+
+
+@media screen and (max-width: 699px) {
+    .nav-link:hover {
+        text-decoration: underline #0092c0;
+    color: #0092c0;
+    }
+}
+
 
   @media screen and (min-width: 700px) {
 .nav {
@@ -376,6 +465,11 @@ a {
     color: white;
 }
   }
+
+  /* .nav {
+      margin-top: 30px;
+      font-size: 20px;
+  } */
 
 
 
