@@ -30,15 +30,30 @@ function openNav() {
      // planned to make entire page slide right but it compromised style on mobile
   }
 
-  //creating reusable web components
-//   const template = document.querySelector('template');
-// const node = document.importNode(template.content, true);
-// document.body.appendChild(node);
+  $(document).ready(function(){
+    $("#btn-1").click(function(){
+        $(".extra-filter").show(500);
+    });
+    $("#bar-1").click(function(){
+        $("#detail-1").toggle(500);
+        $("#arrow-1").toggleClass('rotation', 1000);
+    });
+    $("#bar-2").click(function(){
+        $("#detail-2").toggle(500);
+        $("#arrow-2").toggleClass('rotation', 1000);
+    });
+    $("#bar-3").click(function(){
+        $("#detail-3").toggle(500);
+        $("#arrow-3").toggleClass('rotation', 1000);
+    });
+});
+
+
+
+
 
 //
-//plugin bootstrap minus and plus
-//trying this jquery out for the plus/minus button.. too much time and moving on for this second
-
+//trying this jquery out for the plus/minus button.. not yet finished, moving on because of time
 
 // $('.btn-number').click(function(e){
 //     e.preventDefault();

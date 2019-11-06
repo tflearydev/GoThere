@@ -1,0 +1,631 @@
+body {
+    margin: 0;
+    /* margin-top: -20px; */
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.header {
+    height: 260px;
+    width: 100%;
+    background: #008CB8;
+    background-image: url(assets/bg.svg);
+    background-position: -320px -325px;
+}
+
+h1 {
+    text-align: center;
+    color: #fff;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    line-height: 230px;
+}
+
+#img-1 {
+    position: absolute;
+    top: 45px;
+    left: 4%;
+}
+
+.header-log {
+    position: absolute;
+    top: 30px;
+    right: 35px;
+    line-height: 35px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.header-check {
+    color: #fff;
+    top: 80px;
+    right: 35px;
+    line-height: 35px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    position: absolute;
+    display: flex;
+    align-items: center;
+}
+
+.info-tab {
+    margin-top: -60px;
+    text-align: center;
+}
+
+.nav {
+    width: max-content;
+    margin: 0 auto;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    color: #fff;
+    opacity: 0.75;
+    padding: .5rem 4rem;
+}
+
+.active {
+    color: #fff;
+    opacity: 1;
+    
+}
+
+.van-card-middle {
+    width: 60%;
+    height: 500px;
+    box-shadow: 0px 0px 20px #00000029;
+    border-radius: 10px;
+    background: #FFFFFF;
+    padding: 25px 40px 30px 40px;
+    margin: 0 auto;
+}
+
+.van-detail-middle {
+    height: 350px;
+    display: flex;
+    border-bottom: 1px solid #00000029;
+}
+
+.van-label {
+    width: 45%;
+}
+
+.detail-content {
+    margin-left: 5%;
+    width: 50%;
+}
+
+.label-group {
+    margin-top: 25px;
+}
+
+.icon-label {
+    height: 30px;
+    width: max-content;
+    padding: 0 10px;
+    background: #F0F0F0;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    line-height: 30px;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.button-group {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-primary {
+    background-color: #0092C0;
+    border-color: #0092C0;
+    border-radius: 100px;
+    width: 270px;
+}
+
+.light-bg {
+    background: #fff;
+    color: #0092C0;
+}
+
+.card-group {
+    display: flex;
+    justify-content: space-between;
+}
+.reserve-card {
+    display: flex;
+    background: #FFFFFF;
+    box-shadow: 0px -5px 20px #00000029;
+    height: 200px;
+    margin-bottom: 15px;
+    display: flex;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.reserve-img {
+    width: 45%;
+}
+
+.reserve-detail {
+    margin-left: 30px;
+    padding-top: 20px;
+    width: 30%;
+}
+
+.van-title {
+    font-size: 1.65rem;
+    font-weight: bold;
+    color: #0D0D0D;
+}
+
+.reserve-content {
+    font-size: 1.45rem;
+}
+
+.van-reservation {
+    margin-top: 20px;
+}
+
+.van-address {
+    text-decoration: underline;
+    font-size: 1.5rem;
+    color: #0092C0;
+}
+
+.btn {
+    border: 3px solid #0092C0;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background: #0092C0;
+}
+
+.reserve-button {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.more-height {
+    padding-top: .7rem;
+    padding-bottom: .7rem;
+}
+
+.content-header {
+    float: left;
+    display: flex;
+    padding-left: 4%;
+    margin-top: -60px;
+    width: 100%;
+    align-items: center;
+}
+
+.filter-location {
+    width: 20%;
+}
+
+.icon-style {
+    vertical-align: middle;
+    margin-left: 15px
+}
+
+#input-1 {
+    width: 250px;
+    padding-left: 50px;
+}
+
+.header-filter {
+    width: 60%;
+    display: flex;
+}
+
+.filter-selection {
+    color: #fff;
+    font-size: 1.15rem;
+    margin-left: 20px;
+}
+
+.input-3 {
+    width: 140px;
+    padding: 0 20px 0 20px;
+    margin-left: 15px;
+}
+
+#map-pin {
+    margin-left: -200px;
+}
+
+input {
+    text-decoration: none;
+    border: none;
+    width: 85px;
+    height: 45px;
+    font-size: 18px;
+    color: #222;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 0;
+}
+
+.main-content {
+    display: flex;
+    padding: 0 2%;
+}
+
+.van-list {
+    width: 55%;
+}
+
+.entire-card {
+    width: 100%;
+    background: #FFFFFF;
+    box-shadow: 0px -5px 20px #00000029;
+    border-radius: 10px 10px 0 0;
+    padding: 20px;
+}
+
+.van-list-card {
+    display: flex;
+}
+
+.van-detail {
+    width: 70%;
+}
+
+.more-detail {
+    display: none;
+    background: #fff;
+
+}
+.more-content {
+    margin-top: 15px;
+    padding-top: 15px;
+    border-top: 1px solid #00000029;
+    display: flex;
+}
+
+.img-label {
+    width: 30%;
+}
+
+#img-4 {
+    width: 100%;
+}
+
+.rotation {
+    transform: rotate(180deg);
+}
+
+.more-info {
+    width: 30%;
+    margin-left: 5%;
+}
+
+.more-features {
+    
+}
+
+.detail-bar {
+    width: 100%;
+    height: 45px;
+    border-radius: 0 0 10px 10px;
+    background: #F4F4F4;
+    color: #0092C0;
+    text-align: center;
+    line-height: 45px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+h4, h5 {
+    font-size: 22px!important;
+    color: #0D0D0D;
+    margin-block-start: 0;
+    margin-block-end: 0.8em;
+}
+
+h5 {
+    font-size: 16px;
+    display: inline-block;
+}
+
+#btn-2 {
+    width: 10em;
+    height: 2em;
+    background: #0092C0;
+    border-radius: 2em;
+    border: none;
+    color: #fff;
+}
+
+.van-image {
+    width: 30%;
+    /* margin: auto 0; */
+}
+
+.van-map {
+    margin-left: 2%;
+    height: 500px;
+    background-image: url(assets/bg.png);
+    background-size: 100% 100%;
+    width: 43%;
+}
+
+h2 {
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    font-weight: normal;
+}
+
+.header-log {
+    position: absolute;
+    top: 30px;
+    right: 35px;
+    line-height: 35px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.header-check {
+    color: #fff;
+    top: 80px;
+    right: 35px;
+    line-height: 35px;
+    font-size: 22px;
+    font-weight: bold;
+    position: absolute;
+    display: flex;
+    align-items: center;
+}
+
+.content {
+    background: #FFFFFF;
+    border-radius: 20px 20px 0 0;
+    margin-top: -20px;
+    padding-top: 70px;
+}
+
+.input-group {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#input-2 {
+    text-decoration: none;
+    border: none;
+    width: 300px;
+    height: 65px;
+    font-size: 20px;
+    color: #0D0D0D;
+    background: #F0F0F0; 
+    border-radius: 5px;
+    padding: 16px 0 16px 20px;
+    margin-bottom: 20px;
+}
+
+#input-2::placeholder {
+    color: #0D0D0D;
+    opacity: 0.5;
+}
+
+#btn-1 {
+    position: absolute;
+    right: 2%;
+    width: 225px;
+    height: 55px;
+    border: none;
+    padding: 0;
+    border-radius: 100px;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 55px;
+    box-shadow: 0px 0px 20px #00000029;
+}
+
+.van-card {
+    width: 35%;
+    height: 580px;
+    box-shadow: 0px 0px 20px #00000029;
+    border-radius: 10px;
+    background: #FFFFFF;
+    padding: 25px 40px 0 40px;
+}
+
+#img-2 {
+    width: 100%;
+}
+
+.account-creation {
+    width: 60%;
+    margin-left: 5%;
+}
+
+h5 {
+    font-size: 16px;
+    display: inline-block;
+}
+
+#btn-2 {
+    width: 10em;
+    height: 2em;
+    background: #0092C0;
+    border-radius: 2em;
+    border: none;
+    color: #fff;
+}
+
+.van-image {
+    width: 30%;
+    /* margin: auto 0; */
+}
+
+p {
+    font-size: 1.35rem;
+    font-weight: bold;
+    color: #0D0D0D;
+}
+
+.login-link {
+    font-size: 1.125rem;
+    color: #0092C0;
+    text-decoration: underline;
+    display: block;
+    margin-top: 25px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 35px;
+    font-weight: normal;
+    margin-top: 25px;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.header-log {
+    position: absolute;
+    top: 30px;
+    right: 35px;
+    line-height: 35px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.header-check {
+    color: #fff;
+    top: 80px;
+    right: 35px;
+    line-height: 35px;
+    font-size: 22px;
+    font-weight: bold;
+    position: absolute;
+    display: flex;
+    align-items: center;
+}
+
+.extra-padding {
+    margin-top: 70px;
+    padding-right: 5%;
+    padding-left: 3%;
+}
+
+h5 {
+    font-size: 16px;
+    display: inline-block;
+}
+
+#btn-2 {
+    width: 10em;
+    height: 2em;
+    background: #0092C0;
+    border-radius: 2em;
+    border: none;
+    color: #fff;
+}
+
+.van-image {
+    width: 30%;
+    /* margin: auto 0; */
+}
+
+.more-padding {
+    padding: 0 10%;
+}
+
+.h1-black {
+    color: #0D0D0D;
+    text-align: left;
+    line-height: 2.5rem;
+    font-weight: normal;
+}
+
+.title-1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.title-2 {
+    margin: 25px 0 12px 0;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#img-3 {
+    position: absolute;
+    left: calc(4% + 15px);
+    top: 160px;
+}
+
+.van-card-square {
+    margin-top: 65px;
+    box-shadow: 0px 0px 20px #00000029;
+    border-radius: 10px;
+    background: #FFFFFF;
+    padding: 90px 75px 90px 75px;
+}
+
+.light-padding {
+    padding: 0 3%;
+}
+
+.request-card {
+    width: 100%;
+    height: 580px;
+    box-shadow: 0px 0px 20px #00000029;
+    border-radius: 10px;
+    background: #FFFFFF;
+    padding: 40px 20px 40px 45px;
+    display: flex;
+}
+
+.request-info {
+    width: 25%;
+}
+
+.request-titile {
+    color: #0092C0;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.reserve-info {
+    margin-left: 4%;
+    width: 70%;
+    border-left: 1px solid #00000029;
+}
+
+.reserve-description {
+    padding: 0 0 5% 5%;
+    border-bottom: 1px solid #00000029;
+}
+
+.extra-filter {
+    width: 100%;
+    height: 50px;
+    border: 1px solid black;
+    display: none;
+}
