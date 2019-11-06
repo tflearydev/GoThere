@@ -330,11 +330,6 @@ h4, h5 {
     margin-block-end: 0.8em;
 }
 
-h5 {
-    font-size: 16px;
-    display: inline-block;
-}
-
 #btn-2 {
     width: 10em;
     height: 2em;
@@ -355,15 +350,6 @@ h5 {
     background-image: url(../assets/map.png);
     background-size: 100% 100%;
     width: 43%;
-}
-
-h2 {
-    text-align: center;
-    color: #fff;
-    font-size: 40px;
-    margin-block-start: 0;
-    margin-block-end: 0;
-    font-weight: normal;
 }
 
 .content {
@@ -410,6 +396,7 @@ h2 {
     font-size: 18px;
     font-weight: bold;
     line-height: 55px;
+    cursor: pointer;
     box-shadow: 0px 0px 20px #00000029;
 }
 
@@ -431,11 +418,6 @@ h2 {
     margin-left: 5%;
 }
 
-h5 {
-    font-size: 16px;
-    display: inline-block;
-}
-
 #btn-2 {
     width: 10em;
     height: 2em;
@@ -443,11 +425,6 @@ h5 {
     border-radius: 2em;
     border: none;
     color: #fff;
-}
-
-.van-image {
-    width: 30%;
-    /* margin: auto 0; */
 }
 
 p {
@@ -465,12 +442,6 @@ p {
     font-weight: bold;
 }
 
-h2 {
-    font-size: 35px;
-    font-weight: normal;
-    margin-top: 25px;
-}
-
 h3 {
     font-size: 1.5rem;
     font-weight: bold;
@@ -482,11 +453,6 @@ h3 {
     padding-left: 3%;
 }
 
-h5 {
-    font-size: 16px;
-    display: inline-block;
-}
-
 #btn-2 {
     width: 10em;
     height: 2em;
@@ -494,11 +460,6 @@ h5 {
     border-radius: 2em;
     border: none;
     color: #fff;
-}
-
-.van-image {
-    width: 30%;
-    /* margin: auto 0; */
 }
 
 .more-padding {
@@ -574,8 +535,51 @@ h5 {
 }
 
 .extra-filter {
+    float: left;
+    padding-left: 4%;
     width: 100%;
-    height: 50px;
-    border: 1px solid black;
+    align-items: center;
     display: none;
+}
+
+.filter-type {
+    width: 15%;
+}
+
+.filter-transmission {
+    width: 15%;
+}
+
+.filter-seats {
+    width: 20%;
+}
+
+.filter-price {
+    width: 15%;
+}
+
+.filter-fuel {
+    width: 10%;
+}
+
+.filter-model {
+    width: 10%;
+}
+
+.filter-space {
+    width: 10%;
+}
+
+.flex-filter {
+    display: flex;
+}
+
+.filter-title {
+    color: #222222;
+    opacity: 0.8;
+}
+
+select {
+    border: none;
+    background: none;
 }
