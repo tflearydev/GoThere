@@ -200,13 +200,13 @@ h1 {
     padding-bottom: .7rem;
 }
 
-.content-header {
+.filters {
     float: left;
     display: flex;
     padding-left: 4%;
-    margin-top: -60px;
     width: 100%;
     align-items: center;
+    margin-top: 10px;
 }
 
 .filter-location {
@@ -310,10 +310,6 @@ input {
     margin-left: 5%;
 }
 
-.more-features {
-    
-}
-
 .detail-bar {
     width: 100%;
     height: 45px;
@@ -356,7 +352,7 @@ h5 {
 .van-map {
     margin-left: 2%;
     height: 500px;
-    background-image: url(assets/bg.png);
+    background-image: url(../assets/map.png);
     background-size: 100% 100%;
     width: 43%;
 }
@@ -368,30 +364,6 @@ h2 {
     margin-block-start: 0;
     margin-block-end: 0;
     font-weight: normal;
-}
-
-.header-log {
-    position: absolute;
-    top: 30px;
-    right: 35px;
-    line-height: 35px;
-    font-size: 22px;
-    font-weight: bold;
-    color: #fff;
-    display: flex;
-    align-items: center;
-}
-
-.header-check {
-    color: #fff;
-    top: 80px;
-    right: 35px;
-    line-height: 35px;
-    font-size: 22px;
-    font-weight: bold;
-    position: absolute;
-    display: flex;
-    align-items: center;
 }
 
 .content {
@@ -432,6 +404,8 @@ h2 {
     height: 55px;
     border: none;
     padding: 0;
+    background: #fff;
+    text-align: center;
     border-radius: 100px;
     font-size: 18px;
     font-weight: bold;
@@ -500,30 +474,6 @@ h2 {
 h3 {
     font-size: 1.5rem;
     font-weight: bold;
-}
-
-.header-log {
-    position: absolute;
-    top: 30px;
-    right: 35px;
-    line-height: 35px;
-    font-size: 22px;
-    font-weight: bold;
-    color: #fff;
-    display: flex;
-    align-items: center;
-}
-
-.header-check {
-    color: #fff;
-    top: 80px;
-    right: 35px;
-    line-height: 35px;
-    font-size: 22px;
-    font-weight: bold;
-    position: absolute;
-    display: flex;
-    align-items: center;
 }
 
 .extra-padding {

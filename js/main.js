@@ -32,7 +32,7 @@ function openNav() {
 
   $(document).ready(function(){
     $("#btn-1").click(function(){
-        $(".extra-filter").show(500);
+        $(".extra-filter").toggle(500);
     });
     $("#bar-1").click(function(){
         $("#detail-1").toggle(500);
