@@ -6,7 +6,7 @@ function show(elementID) {
         return;
     }
     var pages = document.getElementsByClassName('page');
-    for(var i = 0; i < pages.length; i++) {
+    for (var i = 0; i < pages.length; i++) {
         pages[i].style.display = 'none';
     }
     ele.style.display = 'block';
@@ -18,31 +18,31 @@ function openNav() {
     // document.getElementById("main").style.marginLeft = "250px";
     // document.querySelector("body").style.backgroundColor = "rgba(0,0,0,0.4)";
 
-  
+
     // planned to make entire page slide right but it compromised style on mobile
-  }
-  
-  function closeNav() {
+}
+
+function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
     // document.getElementById("main").style.marginLeft= "0";
     // document.body.style.backgroundColor = "white";
- 
-     // planned to make entire page slide right but it compromised style on mobile
-  }
 
-  $(document).ready(function(){
-    $("#btn-1").click(function(){
+    // planned to make entire page slide right but it compromised style on mobile
+}
+
+$(document).ready(function () {
+    $("#btn-1").click(function () {
         $(".extra-filter").toggle(500);
     });
-    $("#bar-1").click(function(){
+    $("#bar-1").click(function () {
         $("#detail-1").toggle(500);
         $("#arrow-1").toggleClass('rotation', 1000);
     });
-    $("#bar-2").click(function(){
+    $("#bar-2").click(function () {
         $("#detail-2").toggle(500);
         $("#arrow-2").toggleClass('rotation', 1000);
     });
-    $("#bar-3").click(function(){
+    $("#bar-3").click(function () {
         $("#detail-3").toggle(500);
         $("#arrow-3").toggleClass('rotation', 1000);
     });
@@ -57,14 +57,14 @@ function openNav() {
 
 // $('.btn-number').click(function(e){
 //     e.preventDefault();
-    
+
 //     fieldName = $(this).attr('data-field');
 //     type      = $(this).attr('data-type');
 //     var input = $("input[name='"+fieldName+"']");
 //     var currentVal = parseInt(input.val());
 //     if (!isNaN(currentVal)) {
 //         if(type == 'minus') {
-            
+
 //             if(currentVal > input.attr('min')) {
 //                 input.val(currentVal - 1).change();
 //             } 
@@ -90,11 +90,11 @@ function openNav() {
 //    $(this).data('oldValue', $(this).val());
 // });
 // $('.input-number').change(function() {
-    
+
 //     minValue =  parseInt($(this).attr('min'));
 //     maxValue =  parseInt($(this).attr('max'));
 //     valueCurrent = parseInt($(this).val());
-    
+
 //     name = $(this).attr('name');
 //     if(valueCurrent >= minValue) {
 //         $(".btn-number[data-type='minus'][data-field='"+name+"']").removeAttr('disabled')
@@ -108,8 +108,8 @@ function openNav() {
 //         alert('Sorry, the maximum value was reached');
 //         $(this).val($(this).data('oldValue'));
 //     }
-    
-    
+
+
 // });
 // $(".input-number").keydown(function (e) {
 //         // Allow: backspace, delete, tab, escape, enter and .
@@ -129,4 +129,4 @@ function openNav() {
 
 
 
-  
+
