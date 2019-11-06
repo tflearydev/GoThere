@@ -356,7 +356,7 @@ h5 {
 .van-map {
     margin-left: 2%;
     height: 500px;
-    background-image: url(assets/bg.png);
+    background-image: url(../assets/map.png);
     background-size: 100% 100%;
     width: 43%;
 }
