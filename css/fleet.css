@@ -18,6 +18,52 @@ html {
   /* box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.3); */
 }
 
+.card-head {
+  font-size: 22px;
+}
+
+@media screen and (max-width: 456px) {
+  .card-head {
+    font-size: 15px;
+    font-weight: bold;
+  }
+}
+
+.card-head2 {
+  font-weight: bold; 
+  margin-top: -10px; 
+  font-size: 22px 
+}
+
+@media screen and (max-width: 456px) {
+  .card-head2 {
+    font-weight: bold; 
+  margin-top: -10px; 
+  font-size: 19px
+  }
+}
+
+
+  .specs {
+    margin-bottom: 2px; 
+    margin-top: 20px; 
+    float: right;
+  }
+
+  @media screen and (max-width: 456px) {
+    .specs {
+      margin-bottom: 2px; 
+      margin-top: 5px; 
+      float: left;
+      margin-left: -200px;
+    }
+  }
+
+
+.vehicles {
+  width: 200px; 
+  height: 135px;
+}
 
 .card-horizontal {
     display: flex;
@@ -182,12 +228,12 @@ body {
   transform: scale(0.90)
 }
 
-.center{
+.center {
     
      width: 150px;
      
       
-    }
+ }
 
     .btn-color {
         background-color: #0092c0;
@@ -299,19 +345,18 @@ a {
     position: fixed; 
 }
 
-
-
 .sticky {
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 1;
   }
 
-  @media screen and (max-width: 700px) {
+  /* @media screen and (max-width: 700px) {
       .sticky {
         display: none;
       }
-  }
+  } */
 
 /* The navigation menu links */
 .sidenav a {
@@ -357,9 +402,10 @@ a {
   .fa-bars {
   font-size: 25px;
   margin-left: 20px;
-  margin-top: 50px;
+  margin-top: 60px;
   transition: transform 0.4s; 
   color: #1F2222;
+  background-color: white;
   
   }
 }
@@ -367,7 +413,7 @@ a {
 
 @media screen and (max-width: 700px) {
     .card-uno {
-        margin-top: 30px;
+        margin-top: -30px;
     }
 }
 /* @media screen and (min-width: 700px) {
@@ -406,10 +452,11 @@ a {
 }
 
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 699px) {
     
     .nav-link {
-        margin-top: -35px;
+        margin-top: -30px;
+        background: white 100%;
     }
 
 }
