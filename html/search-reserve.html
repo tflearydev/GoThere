@@ -6,336 +6,487 @@
   <head>
     <meta charset="UTF-8" />
     <title>Van2Share</title>
-    <meta name="viewport" content="width=device-width, intial-scale=1.0, shrink-to-fit=no"/>
+    <meta
+      name="viewport"
+      content="width=device-width, intial-scale=1.0, shrink-to-fit=no"
+    />
     <meta name="description" content="live practice website" />
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"/>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
 
     <!-- Libraries CSS Files -->
-    <link href="../lib/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+    <link
+      href="../lib/font-awesome/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
     <link href="../lib/animate/animate.min.css" rel="stylesheet" />
     <link href="../lib/ionicons/css/ionicons.min.css" rel="stylesheet" />
-    <link href="../lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+    <link
+      href="../lib/owlcarousel/assets/owl.carousel.min.css"
+      rel="stylesheet"
+    />
     <link href="../lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
 
-
-    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-  <link rel="stylesheet" href="/resources/demos/style.css">
+    <link
+      rel="stylesheet"
+      href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"
+    />
+    <link rel="stylesheet" href="/resources/demos/style.css" />
 
     <!-- external css file-->
     <link rel="stylesheet" href="../css/search.css" type="text/css" />
 
-    
-
-     <!-- google font import-->
-     <link href="https://fonts.googleapis.com/css?family=Titillium+Web&display=swap" rel="stylesheet">
+    <!-- google font import-->
+    <link
+      href="https://fonts.googleapis.com/css?family=Titillium+Web&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+        >&times;</a
+      >
+      <div
+        class="logo"
+        style="margin-left: -30px; margin-top: -60px; margin-bottom: 60px"
+      >
+        <a href="login-welcome.html"
+          ><img src="../assets/logo.svg" alt="" class="atlPic"
+        /></a>
+      </div>
+      <a href="#" style="margin-top: -30px"
+        ><img
+          src="../assets/carLogo.svg"
+          alt=""
+          style="width: 34px; height: 35px; margin-top: -10px;"
+        /><span style="font-size: 30px; margin-left: 15px;">Fleet</span></a
+      >
+      <!-- <a href="search-reserve.html">Search Rentals</a> -->
 
-      <div id="mySidenav" class="sidenav">
-          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-          <div class="logo" style="margin-left: -30px; margin-top: -60px; margin-bottom: 60px">
-              <a href="login-welcome.html"><img src="../assets/logo.svg" alt="" class="atlPic" /></a>
-            </div>
-          <a href="#" style="margin-top: -30px"><img src="../assets/carLogo.svg" alt="" style="width: 34px; height: 35px; margin-top: -10px;"><span style="font-size: 30px; margin-left: 15px;">Fleet</span></a>
-          <!-- <a href="search-reserve.html">Search Rentals</a> -->
-        
-                <a href="login-welcome.html"><img src="../assets/carLogo.svg" alt="" style="width: 34px; height: 35px; margin-top: -10px;"><span style="font-size: 30px; margin-left: 15px;">Fleet</span></a>
-                <a href="login-welcome.html"><img src="../assets/carLogo.svg" alt="" style="width: 34px; height: 35px; margin-top: -10px;"><span style="font-size: 30px; margin-left: 15px;">Fleet</span></a>
-                <a href="login-welcome.html"><img src="../assets/carLogo.svg" alt="" style="width: 34px; height: 35px; margin-top: -10px;"><span style="font-size: 30px; margin-left: 15px;">Fleet</span></a>
-        </div>
+      <a href="login-welcome.html"
+        ><img
+          src="../assets/carLogo.svg"
+          alt=""
+          style="width: 34px; height: 35px; margin-top: -10px;"
+        /><span style="font-size: 30px; margin-left: 15px;">Fleet</span></a
+      >
+      <a href="login-welcome.html"
+        ><img
+          src="../assets/carLogo.svg"
+          alt=""
+          style="width: 34px; height: 35px; margin-top: -10px;"
+        /><span style="font-size: 30px; margin-left: 15px;">Fleet</span></a
+      >
+      <a href="login-welcome.html"
+        ><img
+          src="../assets/carLogo.svg"
+          alt=""
+          style="width: 34px; height: 35px; margin-top: -10px;"
+        /><span style="font-size: 30px; margin-left: 15px;">Fleet</span></a
+      >
+    </div>
 
+    <header id="header">
+      <div class="logo">
+        <a href="login-welcome.html"
+          ><img src="../assets/logo.svg" alt="" class="atlPic"
+        /></a>
+      </div>
 
-      <header id="header">
-        
-  
-          <div class="logo">
-            <a href="login-welcome.html"><img src="../assets/logo.svg" alt="" class="atlPic" /></a>
-          </div>
-  
-    
-          <div class='center-search'>Search Vehicles</div>
-  
-<div>
-                    <a href="login-welcome.html" class="header-check1"><img src="../assets/account_circle-24px.svg" class='cart' alt="">Login</a>
+      <div class="center-search">Search Vehicles</div>
 
-                    <a href="search-reserve.html" class="header-check"><img src="../assets/shopping_cart-24px.svg" class='cart' alt="">Check out</a>
-                    </div>
-                    
-                    
-       
-      </header>
+      <div>
+        <a href="login-welcome.html" class="header-check1"
+          ><img
+            src="../assets/account_circle-24px.svg"
+            class="cart"
+            alt=""
+          />Login</a
+        >
 
-      
-
+        <a href="search-reserve.html" class="header-check"
+          ><img
+            src="../assets/shopping_cart-24px.svg"
+            class="cart"
+            alt=""
+          />Check out</a
+        >
+      </div>
+    </header>
 
     <div class="content">
-            <div>
-               
+      <div>
+        <span
+          onclick="openNav()"
+          id="navToggle"
+          class="fa fa-bars"
+          aria-hidden="true"
+        ></span>
+        <div class="head-title">Search</div>
 
-                <span onclick="openNav()" id="navToggle" class="fa fa-bars" aria-hidden="true"></span>
-                <div class="head-title">Search</div>
+        <div class="container-fluid">
+          <div class="card-columns" style="padding-bottom: 50px">
+            <div
+              class="card img-fluid shadow animated bounceInDown"
+              style=" width: 480px; height: 317px"
+            >
+              <div class="card-body">
+                <div
+                  class="form-group has-feedback has-feedback-left"
+                  style="margin-bottom: 40px;"
+                >
+                  <label for="exampleFormControlSelect1"
+                    >Pick up location
+                    <span style="color:#0092c0">*</span></label
+                  >
 
-                <div class="container-fluid">
-                 
-    
-                      
-                    <div class="card-columns" style="padding-bottom: 50px">
-                     
-                        <div class="card img-fluid shadow animated bounceInDown" style=" width: 480px; height: 317px">
-                        
-                          <div class="card-body">
-                              <div class="form-group has-feedback has-feedback-left" style="margin-bottom: 40px;">
-                                  <label for="exampleFormControlSelect1">Pick up location <span style="color:#0092c0">*</span></label>
-                                  
-                                  <select class="form-control" id="exampleFormControlSelect1" style="height: 45px">
-                                    
-                                    <option>Atlanta, Ga</option>
-                                    <option>Alpharetta, Ga</option>
-                                    <option>Decatur, Ga</option>
-                                   <!--add more options as needed-->
-                                  </select>
+                  <select
+                    class="form-control"
+                    id="exampleFormControlSelect1"
+                    style="height: 45px"
+                  >
+                    <option>Atlanta, Ga</option>
+                    <option>Alpharetta, Ga</option>
+                    <option>Decatur, Ga</option>
+                    <!--add more options as needed-->
+                  </select>
+                </div>
 
-                                  
-                                </div>
+                <div class="form-group">
+                  <label for="exampleFormControlSelect1"
+                    >Drop off location
+                    <span style="color:#0092c0">*</span></label
+                  >
+                  <select
+                    class="form-control"
+                    id="exampleFormControlSelect1"
+                    style="height: 45px"
+                  >
+                    <option>Atlanta, Ga</option>
+                    <option>Alpharetta, Ga</option>
+                    <option>Decatur, Ga</option>
+                    <!--add more options as needed-->
+                  </select>
+                </div>
 
-                                <div class="form-group">
-                                    <label for="exampleFormControlSelect1">Drop off location <span style="color:#0092c0">*</span></label>
-                                    <select class="form-control" id="exampleFormControlSelect1" style="height: 45px">
-                                      <option>Atlanta, Ga</option>
-                                      <option>Alpharetta, Ga</option>
-                                      <option>Decatur, Ga</option>
-                                      <!--add more options as needed-->
-                                    </select>
-                                  </div>
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="defaultCheck1"
+                    style="height: 27px; width: 27px;"
+                  />
+                  <label
+                    class="form-check-label"
+                    for="defaultCheck1"
+                    style="margin-top: 6px; margin-left: 15px;"
+                  >
+                    Same Drop-Off Location
+                  </label>
+                </div>
+              </div>
+            </div>
 
-                                  <div class="form-check">
-                                      <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" style="height: 27px; width: 27px;">
-                                      <label class="form-check-label" for="defaultCheck1" style="margin-top: 6px; margin-left: 15px;">
-                                        Same Drop-Off Location
-                                      </label>
-                                    </div>
-                          </div>
-                        </div>
-                        
-                        <!-- </div> -->
-                      <!-- </div> -->
+            <div
+              class="card p-3 img-fluid shadow animated bounceInDown"
+              id="carChoose"
+            >
+              <p>Vehicle Type</p>
 
-                      
-                        <div class="card p-3 img-fluid shadow animated bounceInDown" id="carChoose">
-                        
-                            <p>Vehicle Type</p>
-                            
-                         
-                            <div class="container-fluid car-divs">
-                            <div class="row">
-                              
-                            <div style="display: inline-block">
-                            <a href="javascript:;" id="c1"><img src="../assets/whiteCar2x.png"  class="img-fluid small-car" alt="">
-                            
-                              <div class="car-box1" class="img-fluid">
-                                <p style="color: black; text-align: center; font-size: 10px; padding-top: 40px">Passenger Car</p>
-                              </div>
-                            </a>
+              <div class="container-fluid car-divs">
+                <div class="row">
+                  <div style="display: inline-block">
+                    <a href="javascript:;" id="c1"
+                      ><img
+                        src="../assets/whiteCar2x.png"
+                        class="img-fluid small-car"
+                        alt=""
+                      />
 
-                            
-                          </div>
-
-                          <div style="display: inline-block">
-                              <a href="javascript:;"  id="c2" ><img src="../assets/van2.png"  class="img-fluid small-car" alt="">
-                              
-                                <div class="car-box2" class="img-fluid">
-                                    <p style="color: black; text-align: center; font-size: 10px; padding-top: 40px">Passenger Van</p>
-                                </div>
-                              </a>
-  
-                             
-                            </div>
-
-                            <div style="display: inline-block">
-                                <a href="javascript:;" id="c3" ><img src="../assets/whiteVan.png"  class="img-fluid small-car" alt="">
-                                
-                                  <div class="car-box3" class="img-fluid">
-                                      <p style="color: black; text-align: center; font-size: 10px; padding-top: 40px">Cargo Van</p>
-                                  </div>
-                                </a>
-    
-                               
-                               
-                              </div>
-                                  </div>
-                            </div>
-
-                              <div class="form-check" style="margin-top: 20px">
-                                  <input class="form-check-input" type="checkbox" value="" style="height: 27px; width: 27px;"id="defaultCheck1">
-                                  <label class="form-check-label" for="defaultCheck1" style="margin-left: 15px; margin-top: 6px">
-                                    Wheelchair Accessible Vehicle
-                                  </label>
-                                </div>
-
-                                <p style="margin-top: 30px;">Minimum Seats <span style="color:#0092c0">*</span></p>
-
-
-
-                                <div class="center text-center">
-                                    <!-- <p>
-                                      </p><div class="input-group">
-                                          <span class="input-group-btn">
-                                              <button type="button" class="btn btn-default btn-number" disabled="disabled" data-type="minus" data-field="quant[1]">
-                                                  <i class="fa fa-minus"></i>
-                                              </button>
-                                          </span>
-                                          <input type="text" name="quant[1]" class="form-control input-number" value="1" min="1" max="10">
-                                          <span class="input-group-btn">
-                                              <button type="button" class="btn btn-default btn-number" data-type="plus" data-field="quant[1]">
-                                                  <i class="fa fa-plus"></i>
-                                              </button>
-                                          </span>
-                                      </div>
-                                  <p></p> -->
-                                    <div class="input-group" style="align-items: center">
-                                          <span class="input-group-btn">
-                                              <button type="button" class="btn btn-danger btn-number btn-color" data-type="minus" data-field="quant[2]">
-                                                  <i class="fa fa-minus"></i>
-                                              </button>
-                                          </span>
-                                          <input type="text" name="quant[2]" class="form-control input-number" value="10" min="1" max="100" style="border-radius: .4rem; height: 38px; margin-left: 8px; margin-right: 8px">
-                                          <span class="input-group-btn">
-                                              <button type="button" class="btn btn-success btn-number btn-color" data-type="plus" data-field="quant[2]">
-                                                  <i class="fa fa-plus"></i>
-                                              </button>
-                                          </span>
-                                      </div>
-                                  
-                                </div>
-
-                              <!-- <small class="text-muted">
-                                Someone famous in <cite title="Source Title">Source Title</cite>
-                              </small> -->
-                          
-                        </div>
-                       
-
-
-                        
-                        <div class="card img-fluid shadow animated bounceInDown" style="height: 622px; width: 480px;">
-                          <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
-                          <div class="card-body">
-                              <p style="font-size: 19px">Date & Time <span style="color:#0092c0">*</span></p>
-
-                              <div class="calendar" style="height: 349px">
-                               
-                                
-                              </div>
-                              <hr>
-
-                              <form style="padding-left: 45px;">
-                                  <div class="form-group row">
-                                    <label for="inputEmail3" class="col-form-label seLabel">Start Time <span style="color:#0092c0">*</span></label>
-                                    <div class="col-sm-7">
-                                      <input type="text" class="form-control timeForm" id="inputStartTime" placeholder="Start" style="height: 40px; margin-left: 11px;">
-                                    </div>
-                                  </div>
-                                  <div class="form-group row">
-                                    <label for="inputPassword3" class="col-form-label seLabel">End Time <span style="color:#0092c0">*</span></label>
-                                    <div class="col-sm-7">
-                                      <input type="text" class="form-control timeForm" id="inputEndTime" placeholder="End" style="height: 40px; margin-left: 20px;">
-                                    </div>
-                                  </div>
-                                  </form>
-
-                                  <div class="form-check" style="padding-left: 50px;">
-                                      <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" style="height: 27px; width: 27px;">
-                                      <label class="form-check-label" for="defaultCheck1" style="margin-top: 7px; margin-left: 15px;">
-                                        Recurring Rental
-                                      </label>
-                                    </div>
-
-                          </div>
-                        </div>
-                      
-
-                        <div class="card p-3 img-fluid shadow animated bounceInDown" style="width: 480px; height: 147px;">
-                           
-                            
-                            <p>
-                                <label for="amount">Price Range(per day)</label>
-                                <input type="text" id="amount" readonly style="border:0; color:#0092c0; font-weight:bold;">
-                              </p>
-                               
-                              <div id="slider-range"></div>
-                              
-                              
-                            <!-- <form class="multi-range-field my-5 pb-5">
-                                <input id="multi" class="multi-range" type="range" />
-                              </form> -->
-                        
-                        </div>
-
-
-                        <div class="card img-fluid shadow animated bounceInDown" style="width: 480px; height: 485px; ">
-                          <div class="card-body" style="padding-left: 30px;">
-                              <div class="form-group">
-                                  <label for="exampleFormControlSelect1" style="padding-top: 15px;">Vehicle Make/ Model</label>
-                                  <select class="form-control" id="exampleFormControlSelect1" style="height: 46px">
-                                      <option>Any</option>
-                                      <option>Any</option>
-                                      <option>Any</option>
-                                   <!--add more options as needed-->
-                                  </select>
-                                </div>
-
-                                <div class="form-group">
-                                    <label for="exampleFormControlSelect1">Cargo Space</label>
-                                    <select class="form-control" id="exampleFormControlSelect1" style="height: 46px">
-                                        <option>Any</option>
-                                        <option>Any</option>
-                                        <option>Any</option>
-                                      <!--add more options as needed-->
-                                    </select>
-                                  </div>
-
-                                  <div class="form-group">
-                                      <label for="exampleFormControlSelect1">Transmission</label>
-                                      <select class="form-control" id="exampleFormControlSelect1" style="height: 46px">
-                                        <option>Any</option>
-                                        <option>Any</option>
-                                        <option>Any</option>
-                                       <!--add more options as needed-->
-                                      </select>
-                                    </div>
-    
-                                    <div class="form-group">
-                                        <label for="exampleFormControlSelect1">Fuel Type</label>
-                                        <select class="form-control" id="exampleFormControlSelect1" style="height: 46px">
-                                          <option>Any</option>
-                                          <option>Any</option>
-                                          <option>Any</option>
-                                          <!--add more options as needed-->
-                                        </select>
-                                      </div>       
-  
-                          </div>
-                        </div>
-                        <div class="text-center">
-                        <button type="submit" class="btn btn-primary btn-default custom">Login</button>
-                        <p style="color: #0092c0">Required fields donated with *</p>
+                      <div class="car-box1" class="img-fluid">
+                        <p
+                          style="color: black; text-align: center; font-size: 10px; padding-top: 40px"
+                        >
+                          Passenger Car
+                        </p>
                       </div>
+                    </a>
+                  </div>
 
+                  <div style="display: inline-block">
+                    <a href="javascript:;" id="c2"
+                      ><img
+                        src="../assets/van2.png"
+                        class="img-fluid small-car"
+                        alt=""
+                      />
 
+                      <div class="car-box2" class="img-fluid">
+                        <p
+                          style="color: black; text-align: center; font-size: 10px; padding-top: 40px"
+                        >
+                          Passenger Van
+                        </p>
                       </div>
+                    </a>
+                  </div>
+
+                  <div style="display: inline-block">
+                    <a href="javascript:;" id="c3"
+                      ><img
+                        src="../assets/whiteVan.png"
+                        class="img-fluid small-car"
+                        alt=""
+                      />
+
+                      <div class="car-box3" class="img-fluid">
+                        <p
+                          style="color: black; text-align: center; font-size: 10px; padding-top: 40px"
+                        >
+                          Cargo Van
+                        </p>
                       </div>
-                  
- 
-                
-</div>
-</div>
+                    </a>
+                  </div>
+                </div>
+              </div>
 
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+              <div class="form-check" style="margin-top: 20px">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  style="height: 27px; width: 27px;"
+                  id="defaultCheck1"
+                />
+                <label
+                  class="form-check-label"
+                  for="defaultCheck1"
+                  style="margin-left: 15px; margin-top: 6px"
+                >
+                  Wheelchair Accessible Vehicle
+                </label>
+              </div>
 
-<script src='../js/main.js'></script>
-</body>
+              <p style="margin-top: 30px;">
+                Minimum Seats <span style="color:#0092c0">*</span>
+              </p>
+
+              <div class="center text-center">
+                <div class="input-group" style="align-items: center">
+                  <span class="input-group-btn">
+                    <button
+                      type="button"
+                      class="btn btn-danger btn-number btn-color"
+                      data-type="minus"
+                      data-field="quant[2]"
+                    >
+                      <i class="fa fa-minus"></i>
+                    </button>
+                  </span>
+                  <input
+                    type="text"
+                    name="quant[2]"
+                    class="form-control input-number"
+                    value="10"
+                    min="1"
+                    max="100"
+                    style="border-radius: .4rem; height: 38px; margin-left: 8px; margin-right: 8px"
+                  />
+                  <span class="input-group-btn">
+                    <button
+                      type="button"
+                      class="btn btn-success btn-number btn-color"
+                      data-type="plus"
+                      data-field="quant[2]"
+                    >
+                      <i class="fa fa-plus"></i>
+                    </button>
+                  </span>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="card img-fluid shadow animated bounceInDown"
+              style="height: 622px; width: 480px;"
+            >
+              <div class="card-body">
+                <p style="font-size: 19px">
+                  Date & Time <span style="color:#0092c0">*</span>
+                </p>
+
+                <div class="calendar" style="height: 349px"></div>
+                <hr />
+
+                <form style="padding-left: 45px;">
+                  <div class="form-group row">
+                    <label for="inputEmail3" class="col-form-label seLabel"
+                      >Start Time <span style="color:#0092c0">*</span></label
+                    >
+                    <div class="col-sm-7">
+                      <input
+                        type="text"
+                        class="form-control timeForm"
+                        id="inputStartTime"
+                        placeholder="Start"
+                        style="height: 40px; margin-left: 11px;"
+                      />
+                    </div>
+                  </div>
+                  <div class="form-group row">
+                    <label for="inputPassword3" class="col-form-label seLabel"
+                      >End Time <span style="color:#0092c0">*</span></label
+                    >
+                    <div class="col-sm-7">
+                      <input
+                        type="text"
+                        class="form-control timeForm"
+                        id="inputEndTime"
+                        placeholder="End"
+                        style="height: 40px; margin-left: 20px;"
+                      />
+                    </div>
+                  </div>
+                </form>
+
+                <div class="form-check" style="padding-left: 50px;">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="defaultCheck1"
+                    style="height: 27px; width: 27px;"
+                  />
+                  <label
+                    class="form-check-label"
+                    for="defaultCheck1"
+                    style="margin-top: 7px; margin-left: 15px;"
+                  >
+                    Recurring Rental
+                  </label>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="card p-3 img-fluid shadow animated bounceInDown"
+              style="width: 480px; height: 147px;"
+            >
+              <p>
+                <label for="amount">Price Range(per day)</label>
+                <input
+                  type="text"
+                  id="amount"
+                  readonly
+                  style="border:0; color:#0092c0; font-weight:bold;"
+                />
+              </p>
+
+              <div id="slider-range"></div>
+            </div>
+
+            <div
+              class="card img-fluid shadow animated bounceInDown"
+              style="width: 480px; height: 485px; "
+            >
+              <div class="card-body" style="padding-left: 30px;">
+                <div class="form-group">
+                  <label
+                    for="exampleFormControlSelect1"
+                    style="padding-top: 15px;"
+                    >Vehicle Make/ Model</label
+                  >
+                  <select
+                    class="form-control"
+                    id="exampleFormControlSelect1"
+                    style="height: 46px"
+                  >
+                    <option>Any</option>
+                    <option>Any</option>
+                    <option>Any</option>
+                    <!--add more options as needed-->
+                  </select>
+                </div>
+
+                <div class="form-group">
+                  <label for="exampleFormControlSelect1">Cargo Space</label>
+                  <select
+                    class="form-control"
+                    id="exampleFormControlSelect1"
+                    style="height: 46px"
+                  >
+                    <option>Any</option>
+                    <option>Any</option>
+                    <option>Any</option>
+                    <!--add more options as needed-->
+                  </select>
+                </div>
+
+                <div class="form-group">
+                  <label for="exampleFormControlSelect1">Transmission</label>
+                  <select
+                    class="form-control"
+                    id="exampleFormControlSelect1"
+                    style="height: 46px"
+                  >
+                    <option>Any</option>
+                    <option>Any</option>
+                    <option>Any</option>
+                    <!--add more options as needed-->
+                  </select>
+                </div>
+
+                <div class="form-group">
+                  <label for="exampleFormControlSelect1">Fuel Type</label>
+                  <select
+                    class="form-control"
+                    id="exampleFormControlSelect1"
+                    style="height: 46px"
+                  >
+                    <option>Any</option>
+                    <option>Any</option>
+                    <option>Any</option>
+                    <!--add more options as needed-->
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div class="text-center">
+              <button type="submit" class="btn btn-primary btn-default custom">
+                Login
+              </button>
+              <p style="color: #0092c0">Required fields donated with *</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="../js/main.js"></script>
+  </body>
 </html>

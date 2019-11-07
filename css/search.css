@@ -5,55 +5,36 @@ html {
 
 #header {
   height: 150px;
-  /* transition: all 0.5s;
-    z-index: 997;
-    transition: all 0.5s;
-    padding: 20px 0; */
   background-image: url("../assets/bg.svg");
   background-size: cover;
   background-color: #0092c0;
   background-position: -320px -325px;
-  
-  /* box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.3); */
 }
 
 @media screen and (min-width: 700px) {
   #header {
     height: 200px;
-    /* transition: all 0.5s;
-      z-index: 997;
-      transition: all 0.5s;
-      padding: 20px 0; */
     background-image: url("../assets/bg.svg");
     background-size: cover;
     background-color: #0092c0;
     background-position: -320px -325px;
-    
-  
-    /* box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.3); */
   }
 }
 
 .atlPic {
   
-  /* width: 220px; */
   height: 105px;
-  /* width:35%; */
      margin:0 auto;
      display: block;
      padding-top: 50px;
      font-weight: 600;
-     /* float:none !important; */
   
 }
 
 @media screen and (min-width: 700px) {
-    .atlPic {
-      /* float: left; */
-      margin-left: 60px;
-      /* width: 220px; */
-      height:  110px;
-     
+    .atlPic {   
+      margin-left: 60px;     
+      height:  110px; 
     }
   }
 
@@ -88,7 +69,6 @@ html {
 @media screen and (max-width: 425px) {
   .content {
     background: #ffffff;
-  /* border-radius: 10px 10px 0 0; */
   margin-top: -20px;
   padding-top: 35px;
   opacity: 1;
@@ -106,12 +86,9 @@ body {
   color: #fff;
   top: 150px;
   right: 10px;
-  /* line-height: 46px; */
   font-size: 18px;
   font-weight: bold;
   position: absolute;
-  /* display: flex; */
-  /* align-items: center; */
   margin-right: 40px;
   margin-top: -65px;
  
@@ -162,7 +139,6 @@ a:hover {
 
 .btn-primary {
   background-color: #0092c0;
-  /* border: #0092c0; */
   margin-bottom: 20px;
   font-size: 22px;
   margin-top: 15px;
@@ -172,11 +148,8 @@ a:hover {
   transform: scale(0.90)
 }
 
-.center{
-    
-     width: 150px;
-     
-      
+.center{    
+     width: 150px; 
     }
 
     .btn-color {
@@ -185,14 +158,10 @@ a:hover {
     }
 
 .btn-default {
- 
   letter-spacing: 1px;
-  
   width: 230px;
-
   border: 2px solid #0092c0;
   border-radius: 40px;
-  /* background: transparent; */
   transition: all 0.3s ease 0s;
 }
 
@@ -272,18 +241,13 @@ margin-top: -35px;
     height: 58px;
   }
 }
-
-
-
 img.cart {
     width: 30px;
     height: 30px;
 }
-
 .cart {
   margin-right: 10px;
 }
-
 .col-5 {
   margin: 0 auto;
   margin-bottom: 10px;
@@ -293,7 +257,6 @@ img.cart {
 a.btn.newAc {
   color: #0092c0;
   text-decoration: underline;
-  /* margin-bottom: -50px; */
 }
 
 
@@ -376,7 +339,6 @@ a {
   margin-top: -10px;
   transition: transform 0.4s; 
   }
-
 }
 
 @media screen and (min-width: 700px) {
@@ -385,7 +347,6 @@ a {
       
   }
 }
-
 
 #navToggle:hover {
   color: #0092c0;
@@ -413,10 +374,8 @@ a {
 
 .card {
     font-family: 'Titillium Web', sans-serif;
-    /* font-weight: 600; */
     letter-spacing: 0.36px;
     color: #1D1D1D; 
-    /* width: 50px; */
 }
 
 @media screen and (max-width: 1200px) {
@@ -434,13 +393,6 @@ a {
     }
 }
 
-
-
-
-
-
-
-
 @media screen and (max-width: 576px) {
     .col-sm-7 {
         position: relative;
@@ -451,9 +403,6 @@ a {
 }
 
 
-/* @media screen and (max-width: 500px) {
-    .car-box 
-} */
 .card-columns {
     margin-top: 30px;
 } 
