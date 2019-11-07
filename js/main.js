@@ -71,7 +71,37 @@ function myFunction() {
   }
 }
 
+// let carBox = document.getElementsByClassName('car-box');
+// let vanFunc = function() {
+//     return carBox.style.bgColor = "#0092c0";
+// }
+// carBox.addEventListener('click', vanFunc())
 
+// let carBox = document.getElementsByClassName('car-box');
+// function change() {
+// for (var i = 0; i < carBox.length; i++) {
+//     carBox[i].style.backgroundColor = '#0092c0';
+    
+// }
+// } 
+
+$('#c1').click(function() {
+    $('.car-box1').addClass('new');
+    $('.car-box2').removeClass('new');
+    $('.car-box3').removeClass('new');
+  });
+
+  $('#c2').click(function() {
+    $('.car-box2').addClass('new');
+    $('.car-box1').removeClass('new');
+    $('.car-box3').removeClass('new');
+  });
+
+  $('#c3').click(function() {
+    $('.car-box3').addClass('new');
+    $('.car-box1').removeClass('new');
+    $('.car-box2').removeClass('new');
+  });
 
 
 //

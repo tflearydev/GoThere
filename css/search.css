@@ -229,6 +229,51 @@ a:hover {
   margin-bottom: 40px;
 }
 
+.small-car {
+  width: 121px; 
+  height: 81px;
+}
+
+@media screen and (max-width: 1347px) {
+  .small-car {
+    width: 100px; 
+    height: 66px;
+  }
+}
+
+.car-box1, .car-box2, .car-box3 {
+  top: 710px;
+left: 216px;
+width: 112px;
+height: 66px;
+background: #F0F0F0 0% 0% no-repeat padding-box;
+border-radius: 4px;
+opacity: 1;
+margin-top: -35px;
+}
+
+.new {
+  background-color: #0092c0;
+}
+
+.car-divs {
+  margin-left: 22px;
+}
+
+@media screen and (max-width: 430px) {
+  .car-divs {
+    margin-left: 10px;
+  }
+}
+
+@media screen and (max-width: 1347px) {
+  .car-box1, .car-box2, .car-box3 {
+    width: 90px; 
+    height: 58px;
+  }
+}
+
+
 
 img.cart {
     width: 30px;
@@ -405,16 +450,6 @@ a {
     }
 }
 
-.car-box {
-    top: 710px;
-left: 216px;
-width: 112px;
-height: 66px;
-background: #F0F0F0 0% 0% no-repeat padding-box;
-border-radius: 4px;
-opacity: 1;
-margin-top: -35px;
-}
 
 /* @media screen and (max-width: 500px) {
     .car-box 
