@@ -210,6 +210,117 @@ a:hover {
   }
 }
 
+@media screen and (min-width: 1000px) and (max-width: 1130px) {
+  .small-car {
+    width: 80px;
+    height: 53px;
+  }
+}
+
+
+
+
+@media screen and (min-width: 1000px) and (max-width: 1130px) {
+  .car-box1, .u1 {
+    margin-left: -15px;
+
+  }
+}
+
+
+
+@media screen and (min-width: 1000px) and (max-width: 1130px) {
+  .car-box2, .u2 {
+    margin-left: 5px;
+
+  }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1130px) {
+  .car-box3, .u3 {
+    margin-left: 5px;
+
+  }
+}
+
+@media screen and (min-width: 1450px) and (max-width: 1600px) {
+  .car-box1, .u1 {
+    margin-left: 20px;
+
+  }
+}
+
+@media screen and (min-width: 1625px) and (max-width: 1850px) {
+  .car-box1, .u1 {
+    margin-left: 40px;
+
+  }
+}
+
+@media screen and (min-width: 1851px) and (max-width: 2000px) {
+  .car-box1, .u1 {
+    margin-left: 60px;
+
+  }
+}
+
+@media screen and (min-width: 2001px) and (max-width: 2200px) {
+  .car-box1, .u1 {
+    margin-left: 90px;
+
+  }
+}
+
+@media screen and (min-width: 2201px) and (max-width: 2400px) {
+  .car-box1, .u1 {
+    margin-left: 100px;
+
+  }
+}
+
+@media screen and (min-width: 2401px) {
+  .car-box1, .u1 {
+    margin-left: 130px;
+
+  }
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1346px) {
+  .car-box1, .u1 {
+    margin-left: 7px;
+
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .car-box2, .u2 {
+    margin-left: 20px;
+
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .car-box3, .u3 {
+    margin-left: 20px;
+
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#c1:hover .car-box1, #c2:hover .car-box2, #c3:hover .car-box3 {
+  background-color: #0092c0;
+}
+
 .car-box1, .car-box2, .car-box3 {
   top: 710px;
 left: 216px;
@@ -376,6 +487,24 @@ a {
     font-family: 'Titillium Web', sans-serif;
     letter-spacing: 0.36px;
     color: #1D1D1D; 
+    width: 500px;
+
+}
+
+.card1 {
+  height: 317px
+}
+.card2 {
+  height: 360px;
+}
+.card3 {
+  height: 622px;
+}
+.card4 {
+  height: 145px;
+}
+.card5 {
+  height: 485px;
 }
 
 @media screen and (max-width: 1200px) {

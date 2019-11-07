@@ -44,7 +44,7 @@ $(document).ready(function () {
 
 
 
-// make fractio 
+// make fraction utilization header sticky/fixed
 window.onscroll = function() {myFunction()};
 
 var header = document.getElementById("header");
