@@ -51,6 +51,28 @@ $(document).ready(function () {
 
 
 
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("header");
+var sticky = header.offsetTop;
+var map = document.getElementById('map')
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+   
+    map.classList.add("fixed");
+  
+
+  } else {
+    header.classList.remove("sticky");
+    
+    map.classList.remove("fixed");
+  }
+}
+
+
+
 
 //
 //trying this jquery out for the plus/minus button.. not yet finished, moving on because of time
