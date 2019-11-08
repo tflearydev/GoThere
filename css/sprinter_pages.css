@@ -727,3 +727,7 @@ select {
     margin-top: -180px;
     text-align: center;
 }
+
+.disable {
+    opacity: 0.5;
+}
