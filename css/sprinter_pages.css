@@ -641,3 +641,9 @@ select {
 .certain-margin {
     margin-left: 5%;
 }
+
+.info-content {
+    width: 650px;
+    font-size: 22px;
+    margin-top: 20px;
+}
