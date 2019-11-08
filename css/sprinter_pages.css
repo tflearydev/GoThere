@@ -22,6 +22,12 @@ body {
     }
 }
 
+@media screen and (max-width: 755px) {
+    .head-search2 {
+        height: 150px !important;
+    }
+}
+
 
 h1 {
     text-align: center;
@@ -133,7 +139,7 @@ h1 {
     margin-bottom: 5px;
 }
 
-@media screen and (max-width: 860px) {
+@media screen and (max-width: 890px) {
     .icon-label {
         font-size: 0.4em;
     }
@@ -151,7 +157,11 @@ h1 {
     }
 }
 
-
+@media screen and (max-width: 755px) {
+    .filters, .extra-filter {
+        display: none;
+    }
+}
 
 
 .search2icon {
@@ -264,6 +274,17 @@ h1 {
     align-items: center;
     margin-top: 10px;
 }
+
+.search2filter {
+    margin-top: 70px;
+}
+
+@media screen and (max-width: 755px) {
+    .search2filter {
+        display: none;
+    }
+}
+
 
 .filter-location {
     width: 20%;
@@ -541,6 +562,15 @@ input {
     }
 }
 
+@media screen and (max-width: 375px) {
+    .ce-title {
+        font-size: 11px;
+        margin-left: -20px;
+        font-weight: bold;
+    }
+}
+
+
 .search2price {
     font-weight: 900;
 }
@@ -551,12 +581,13 @@ font-weight: 900;
     }
 }
 
-@media screen and (max-width: 570px) {
-    .search2badge {
-margin-top: 50px;
-
+@media screen and (max-width: 375px) {
+    .search2price {
+        font-size: 13px;
+        
     }
 }
+
 
 @media screen and (max-width: 570px) {
     .search2badge {
@@ -566,11 +597,21 @@ margin-left: -120px;
     }
 }
 
-.search-labels {
-    float: right;
+@media screen and (min-width: 840px) and (max-width: 1320px) {
+    .search2badge {
+        margin-top: 30px;
+        margin-left: -10px;
+    }
 }
 
-@media screen and (max-width: 860px) {
+.search-labels {
+    float: right;
+    margin-top: 40px;
+}
+
+
+
+@media screen and (max-width: 890px) {
     .search-labels {
     float: left;
     margin-top: 30px;
@@ -618,7 +659,7 @@ margin-left: -120px;
     height: 135px;
 }
 
-@media screen and (max-width: 860px) {
+@media screen and (max-width: 890px) {
     .search2van {
         height:  120px;
     }
