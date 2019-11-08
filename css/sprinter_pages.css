@@ -410,6 +410,18 @@ input {
     }
 }
 
+.start-end, .left-inputs {
+    margin-right: 15px;
+}
+
+.right-input1 {
+    margin-right: 40px;
+}
+
+.date-time {
+    width: 140px;
+}
+
 @media screen and (max-width: 424px) {
     .title-1 {
         font-size: 2em;;
