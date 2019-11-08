@@ -647,3 +647,15 @@ select {
     font-size: 22px;
     margin-top: 20px;
 }
+
+.survey-form {
+    width: 650px;
+    height: 150px;
+    border: 1px solid #0088B3;
+    padding: 15px
+}
+
+.btn-survey {
+    float: right;
+    width: 375px;
+}
