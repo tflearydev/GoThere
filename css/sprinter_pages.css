@@ -133,6 +133,39 @@ h1 {
     margin-bottom: 5px;
 }
 
+@media screen and (max-width: 860px) {
+    .icon-label {
+        font-size: 0.4em;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .icon-label {
+        font-size: 7px;
+    }
+}
+
+@media screen and (max-width: 340px) {
+    .icon-label {
+        font-size: 5px;
+    }
+}
+
+
+
+
+.search2icon {
+    margin-right: 8px;
+    width: 16px;
+}
+
+@media screen and (max-width: 860px) {
+    .search2icon {
+        width: 12px;
+    }
+}
+
+
 .button-group {
     display: flex;
     margin-left: 5%;
@@ -257,13 +290,20 @@ h1 {
 
 #input-1 {
     width: 250px;
-    padding-left: 50px;
+    padding-left: 25px;
 }
 
 @media screen and (max-width: 1238px) {
     #input-1 {
         width: 150px;
-        padding-left: 50px;
+        padding-left: 25px;
+    }
+}
+
+@media screen and (max-width: 860px) {
+    #input-1 {
+        width: 100px;
+        padding-left: 5px;
     }
 }
 
@@ -310,6 +350,18 @@ input {
 .van-list {
     width: 55%;
 }
+ @media screen and (max-width: 800px) {
+     .van-list {
+     width: 100%;
+ }
+}
+
+@media screen and (max-width: 700px) {
+    .van-list {
+   margin-top: 30px;
+}
+}
+
 
 .entire-card {
     width: 100%;
@@ -402,7 +454,7 @@ input {
     width: 43%;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 800px) {
     .van-map {
         display: none;
     }
@@ -469,6 +521,110 @@ input {
     margin-right: 15px;
 }
 
+@media screen and (max-width: 860px) {
+    .start-end1, .start-end2, .left-inputs {
+        margin-right: 10px;
+    }
+}
+
+@media screen and (max-width: 1010px) {
+    .ce-title {
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .ce-title {
+        font-size: 13px;
+        margin-left: -20px;
+        font-weight: bold;
+    }
+}
+
+.search2price {
+    font-weight: 900;
+}
+@media screen and (max-width: 530px) {
+    .search2price {
+font-size: 16px;
+font-weight: 900;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    .search2badge {
+margin-top: 50px;
+
+    }
+}
+
+@media screen and (max-width: 570px) {
+    .search2badge {
+margin-top: 50px;
+clear: both;
+margin-left: -120px;
+    }
+}
+
+.search-labels {
+    float: right;
+}
+
+@media screen and (max-width: 860px) {
+    .search-labels {
+    float: left;
+    margin-top: 30px;
+    /* margin-bottom: -20px; */
+
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .search-labels {
+    float: left;
+    margin-top: 60px;
+    /* margin-bottom: -20px; */
+
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .search-labels {
+    float: left;
+    margin-top: 80px;
+    /* margin-bottom: -20px; */
+
+    }
+}
+@media screen and (max-width: 480px) {
+    .search-labels {
+    float: left;
+    margin-top: 70px;
+    /* margin-bottom: -20px; */
+
+    }
+}
+
+
+
+@media screen and (max-width: 860px) {
+    .first-icon {
+   margin-left: -180px;
+    
+    }
+}
+
+.search2van {
+    height: 135px;
+}
+
+@media screen and (max-width: 860px) {
+    .search2van {
+        height:  120px;
+    }
+}
+
+
 
 
 @media screen and (min-width: 2500px) {
@@ -483,11 +639,22 @@ input {
     }
 }
 
-@media screen and (min-width: 2500px) {
+@media screen and (max-width: 860px) {
+    .start-end1 {
+        margin-left: -30px;
+    }
+}
+@media screen and (max-width: 860px) {
+    .start-end2 {
+        margin-left: -30px;
+    }
+}
+
+/* @media screen and (min-width: 2500px) {
     .start-end1 {
         margin-left: 375px;
     }
-}
+} */
 
 @media screen and (min-width: 1700px) and (max-width: 1800px) {
     .start-end1 {
@@ -552,6 +719,13 @@ input {
 @media screen and (max-width: 1505px) {
     .date-time {
         width: 100px;
+        height: 35px
+    }
+}
+
+@media screen and (max-width: 1010px) {
+    .date-time {
+        width: 70px;
         height: 35px
     }
 }
@@ -633,6 +807,12 @@ input {
     }
 }
 
+@media screen and (max-width: 1000px) {
+    #btn-1 {
+       
+        margin-left: 40px;
+    }
+}
 
 @media screen and (min-width: 1150px) and (max-width: 1200px) {
     #btn-1 {
@@ -640,6 +820,7 @@ input {
         margin-left: 120px;
     }
 }
+
 
 @media screen and (min-width: 1201px) and (max-width: 1300px) {
     #btn-1 {
