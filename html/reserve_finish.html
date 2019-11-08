@@ -18,6 +18,7 @@
 
     <link rel="stylesheet" type="text/css" href="../css/sprinter_pages.css">
     <link rel="stylesheet" href="../css/search.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../css/reserve_finish.css">
 
     <title>Van2Share</title>
 </head>
@@ -33,7 +34,7 @@
         <div class="logo">
             <a href="login-welcome.html"><img src="../assets/logo.svg" alt="" class="atlPic" /></a>
         </div>
-        <div class='center-search'>Search Vehicles</div>
+        <div class='center-search'>Your Rentals</div>
         <div>
             <a href="login-welcome.html" class="header-check1"><img src="../assets/account_circle.svg" class='cart'
                     alt="">Login</a>
@@ -45,16 +46,14 @@
     <div class="content">
         <span onclick="openNav()" id="navToggle" class="fa fa-bars" aria-hidden="true"></span>
         <div class="head-title">Search</div>
-        <div style="top: 280px; right: 80px;" class="reserve-alert">
-            <img style="margin-right: 10px" src="../assets/info-normal.svg">Your Reservation starts in 2 hours
+        <div class="reserve-alert alert-pos">
+            <img class="margin-10" src="../assets/info-normal.svg">Your Reservation starts in 2 hours
         </div>
-        <div style="margin-bottom: 32px"><a class="go-back" href="#"><img
-                    src="../assets/keyboard_backspace.svg">Back</a></div>
+        <div class="back-icon"><a class="go-back" href="#"><img src="../assets/keyboard_backspace.svg">Back</a></div>
         <div class="main-content light-padding">
             <div class="request-card">
                 <div class="request-info">
                     <div class="request-titile">Request #22938</div>
-                    <!-- <img id="img-2" src="../assets/van.png"> -->
                     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
@@ -90,10 +89,10 @@
                 </div>
                 <div class="reserve-info">
                     <div class="reserve-description">
-                        <div class="reserve-content"><strong>Reservation</strong></div>
+                        <div class="reserve-title">Reservation</div>
                         <div class="reserve-content">Start: <strong>10.15.19 — 4PM</strong></div>
                         <div class="reserve-content">End: <strong>10.17.19 — 2PM</strong></div>
-                        <div style="margin-top: 25px" class="reserve-content">Pick-up & Drop Off: </div>
+                        <div class="reserve-content margin-25">Pick-up & Drop Off: </div>
                         <div class="van-address">1120 Atlanta Rd</div>
                         <div class="van-address">Atlanta GA, 30303</div>
                         <div class="extra-info">

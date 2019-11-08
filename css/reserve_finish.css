@@ -1,0 +1,95 @@
+.margin-10 {
+    margin-right: 10px;
+}
+
+.back-icon {
+    margin-bottom: 30px;
+}
+
+.alert-pos {
+    top: 260px;
+    right: 5%;
+}
+
+.reserve-title {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.request-titile {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 1280px) {
+    .reserve-title {
+        font-size: 27px;
+    }
+
+    .reserve-content {
+        font-size: 20px;
+    }
+
+    .van-address {
+        font-size: 20px;
+    }
+
+    .request-titile {
+        font-size: 27px;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .reserve-title {
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    .reserve-content {
+        font-size: 18px;
+    }
+
+    .van-address {
+        font-size: 18px;
+    }
+
+    .request-titile {
+        font-size: 24px;
+    }
+
+    .reserve-alert {
+        height: 45px;
+        line-height: 45px;
+        padding: 0 15px 0 15px
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .reserve-title {
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .reserve-content {
+        font-size: 14px;
+    }
+
+    .van-address {
+        font-size: 14px;
+    }
+
+    .request-titile {
+        font-size: 18px;
+    }
+}
+
+.margin-25 {
+    margin-top: 25px;
+}
+
+
+
+
+
+
+
