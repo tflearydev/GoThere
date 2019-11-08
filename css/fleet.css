@@ -24,7 +24,7 @@ html {
 
 @media screen and (max-width: 456px) {
   .card-head {
-    font-size: 15px;
+    font-size: 12px;
     font-weight: bold;
   }
 }
@@ -404,8 +404,8 @@ a {
   margin-left: 20px;
   margin-top: 60px;
   transition: transform 0.4s; 
-  color: #1F2222;
-  background-color: white;
+  color: white;
+  background-color: #0092c0;
   
   }
 }
@@ -413,7 +413,7 @@ a {
 
 @media screen and (max-width: 700px) {
     .card-uno {
-        margin-top: -30px;
+        margin-top: -10px;
     }
 }
 /* @media screen and (min-width: 700px) {
@@ -488,8 +488,9 @@ a {
 @media screen and (max-width: 530px) {
     
     .nav-link {
-        color: black;
-    padding-left:5px;
+        color: grey ;
+        font-weight: bold;;
+    
     padding-right:5px;
     font-size: 15px;
         
@@ -501,8 +502,9 @@ a {
 @media screen and (max-width: 405px) {
     
     .nav-link {
-        color: black;
-    padding-left:4px;
+        color: grey; 
+        font-weight: bold;;
+    
     padding-right:4px;
     font-size: 14px;
         
