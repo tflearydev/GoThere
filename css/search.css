@@ -218,6 +218,23 @@ a:hover {
   }
 }
 
+@media screen and (max-width: 370px) {
+  .small-car { 
+    width: 70px;
+    height: 46px;
+    margin-left: 10px;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .car-box1, .car-box2, .car-box3 {
+    width: 80px;
+    height: 51px;
+  }
+}
+
+
+
 
 
 
