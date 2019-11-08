@@ -123,14 +123,21 @@ h1 {
 }
 
 .button-group {
-    margin-top: 40px;
     display: flex;
+    margin-left: 5%;
     justify-content: space-between;
 }
 
 .btn-primary {
     background-color: #0092C0;
     border-color: #0092C0;
+    border-radius: 100px;
+    width: 270px;
+}
+
+.btn-danger {
+    background-color: #CF4F3F;
+    border-color: #CF4F3F;
     border-radius: 100px;
     width: 270px;
 }
@@ -172,7 +179,7 @@ h1 {
 }
 
 .reserve-content {
-    font-size: 1.45rem;
+    font-size: 22px;
 }
 
 .van-reservation {
@@ -596,6 +603,7 @@ h3 {
 .reserve-info {
     margin-left: 4%;
     width: 70%;
+    height: 500px;
     border-left: 1px solid #00000029;
 }
 
@@ -672,3 +680,50 @@ select {
     opacity: 1;
 }
 
+.reserve-alert {
+    position: absolute;
+    height: 70px;
+    font-size: 16px;
+    line-height: 70px;
+    padding: 0 25px 0 25px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px #00000029;
+    border-radius: 10px;
+}
+
+.go-back {
+    padding-left: 6%;
+    font-size: 25px;
+    font-weight: bold;
+    color: #1399C4;
+    text-decoration: none;
+}
+
+.certain-margin {
+    margin-left: 5%;
+}
+
+.info-content {
+    width: 650px;
+    font-size: 22px;
+    margin-top: 20px;
+}
+
+.survey-form {
+    width: 650px;
+    height: 150px;
+    border: 1px solid #0088B3;
+    padding: 15px
+}
+
+.btn-survey {
+    float: right;
+    width: 375px;
+}
+
+.extra-info {
+    float: right;
+    width: 275px;
+    margin-top: -180px;
+    text-align: center;
+}
