@@ -1218,7 +1218,7 @@ select {
 }
 
 .survey-form {
-    width: 650px;
+    width: 90%;
     height: 150px;
     border: 1px solid #0088B3;
     padding: 15px
@@ -1226,7 +1226,7 @@ select {
 
 .btn-survey {
     float: right;
-    width: 375px;
+    width: 35%;
 }
 
 .extra-info {
@@ -1234,4 +1234,8 @@ select {
     width: 275px;
     margin-top: -180px;
     text-align: center;
+}
+
+.disable {
+    opacity: 0.5;
 }

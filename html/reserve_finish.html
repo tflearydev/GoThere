@@ -18,7 +18,7 @@
 
     <link rel="stylesheet" type="text/css" href="../css/sprinter_pages.css">
     <link rel="stylesheet" href="../css/search.css" type="text/css" />
-    <link rel="stylesheet" href="../css/review_survey.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../css/reserve_finish.css">
 
     <title>Van2Share</title>
 </head>
@@ -34,29 +34,28 @@
         <div class="logo">
             <a href="login-welcome.html"><img src="../assets/logo.svg" alt="" class="atlPic" /></a>
         </div>
-        <div class='center-search'>Search Vehicles</div>
+        <div class='center-search'>Your Rentals</div>
         <div>
-            <a href="login-welcome.html" class="header-check1"><img src="../assets/accnt.svg" class='cart'
+            <a href="login-welcome.html" class="header-check1"><img src="../assets/account_circle.svg" class='cart'
                     alt="">Login</a>
-            <a href="search-reserve.html" class="header-check"><img src="../assets/shopping_cart-24px.svg" class='cart'
+            <a href="search-reserve.html" class="header-check"><img src="../assets/shopping_cart.svg" class='cart'
                     alt="">Check out</a>
         </div>
     </header>
 
     <div class="content">
         <span onclick="openNav()" id="navToggle" class="fa fa-bars" aria-hidden="true"></span>
-        <div class="head-title">Your Rentals</div>
+        <div class="head-title">Search</div>
         <div class="reserve-alert alert-pos">
-            <img style="margin-right: 10px" src="../assets/info-normal.svg">Your Reservation has ended
+            <img class="margin-10" src="../assets/info-normal.svg">This Reservation has ended
         </div>
-        <div style="margin-bottom: 32px"><a class="go-back" href="#"><img
-                    src="../assets/keyboard_backspace.svg">Back</a></div>
+        <div class="back-icon"><a class="go-back" href="#"><img src="../assets/keyboard_backspace.svg">Back</a></div>
         <div class="main-content light-padding">
             <div class="request-card">
                 <div class="request-info">
                     <div class="request-titile">Request #22938</div>
                     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                        <div class="carousel-inner shadow rounded">
+                        <div class="carousel-inner">
                             <div class="carousel-item active">
                                 <img id="img-2" src="../assets/van.png" class="d-block w-100" alt="...">
                             </div>
@@ -87,28 +86,38 @@
                             <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
                         </ol>
                     </div>
-                    <div class="van-title">Mercedes-Benz Sprinter Van</div>
-                    <div class="reserve-content"><strong>$110</strong> ($21/day)</div>
-                    <div class="label-group">
-                        <div class="icon-label"><img style="margin-right: 8px" width="16"
-                                src="../assets/luggage.svg">Some
-                            Luggage</div>
-                        <div class="icon-label"><img style="margin-right: 8px" width="16" src="../assets/seat.png">6
-                            Seats
-                        </div>
-                        <div class="icon-label"><img style="margin-right: 8px" width="16"
-                                src="../assets/diesel.svg">Diesel
-                        </div>
-                        <div class="icon-label"><img style="margin-right: 8px" width="16"
-                                src="../assets/auto.svg">Automatic</div>
-                    </div>
                 </div>
-                <div style="padding-left: 5%" class="reserve-info">
-                    <div style="margin-top: 30px" class="reserve-title">Thank you!</div>
-                    <div class="info-content"><strong>Your reservation has now ended.</strong> You will receive your final bill within 24 hours. If you have any feedback we would love to hear it.</div>
-                    <div style="margin-top: 30px" class="info-content"><strong>Let us know how you enjoyed your experience.</strong></div>
-                    <textarea class="survey-form" id="exampleFormControlTextarea1" rows="3"></textarea>
-                    <a class="btn btn-primary btn-survey" href="#" role="button">Submit & Review Summary</a>
+                <div class="reserve-info">
+                    <div class="reserve-description">
+                        <div class="reserve-title">Reservation</div>
+                        <div class="reserve-content">Start: <strong>10.15.19 — 4PM</strong></div>
+                        <div class="reserve-content">End: <strong>10.17.19 — 2PM</strong></div>
+                        <div class="reserve-content margin-25">Pick-up & Drop Off: </div>
+                        <div class="van-address">1120 Atlanta Rd</div>
+                        <div class="van-address">Atlanta GA, 30303</div>
+                        <div class="extra-info">
+                            <div class="van-title">Mercedes-Benz Sprinter Van</div>
+                            <div class="reserve-content"><strong>$110</strong> ($21/day)</div>
+                            <div class="label-group">
+                                <div class="icon-label"><img style="margin-right: 8px" width="16"
+                                        src="../assets/luggage.svg">Some
+                                    Luggage</div>
+                                <div class="icon-label"><img style="margin-right: 8px" width="16"
+                                        src="../assets/seat.png">6
+                                    Seats
+                                </div>
+                                <div class="icon-label"><img style="margin-right: 8px" width="16"
+                                        src="../assets/diesel.svg">Diesel
+                                </div>
+                                <div class="icon-label"><img style="margin-right: 8px" width="16"
+                                        src="../assets/auto.svg">Automatic</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="certain-margin">
+                        <a class="btn btn-primary light-bg margin-10" href="#" role="button">Invoice</a>
+                        <a class="btn btn-primary light-bg" href="#" role="button">Contact Renter</a>
+                    </div>
                 </div>
             </div>
         </div>
