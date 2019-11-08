@@ -12,6 +12,17 @@ body {
     background-position: -320px -325px;
 }
 
+.head-search2 {
+    height: 275px !important;
+}
+
+@media screen and (max-width: 450px) {
+    .head-search2 {
+        height: 160px !important; 
+    }
+}
+
+
 h1 {
     text-align: center;
     color: #fff;
@@ -227,12 +238,33 @@ h1 {
 
 .icon-style {
     vertical-align: middle;
-    margin-left: 15px
+    
+    margin-left: 5px; 
+   
 }
+
+@media screen and (max-width: 1050px) {
+    .icon-style {
+        height: 25px;
+        width: 20px;
+        
+    }
+}
+
+/* .more {
+    margin: 0 auto;
+} */
 
 #input-1 {
     width: 250px;
     padding-left: 50px;
+}
+
+@media screen and (max-width: 1238px) {
+    #input-1 {
+        width: 150px;
+        padding-left: 50px;
+    }
 }
 
 .header-filter {
@@ -267,6 +299,8 @@ input {
     border-radius: 5px;
     padding: 0;
 }
+
+
 
 .main-content {
     display: flex;
@@ -368,6 +402,20 @@ input {
     width: 43%;
 }
 
+@media screen and (max-width: 450px) {
+    .van-map {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .filters { 
+       display: none;
+    }
+}
+
+
+
 .content {
     background: #FFFFFF;
     border-radius: 20px 20px 0 0;
@@ -417,9 +465,81 @@ input {
     }
 }
 
-.start-end, .left-inputs {
+.start-end1, .start-end2, .left-inputs {
     margin-right: 15px;
 }
+
+
+
+@media screen and (min-width: 2500px) {
+    .start-end1 {
+        margin-left: 250px;
+    }
+}
+
+@media screen and (min-width: 2750px) {
+    .start-end1 {
+        margin-left: 300px;
+    }
+}
+
+@media screen and (min-width: 2500px) {
+    .start-end1 {
+        margin-left: 375px;
+    }
+}
+
+@media screen and (min-width: 1700px) and (max-width: 1800px) {
+    .start-end1 {
+        margin-left: 50px;
+    }
+}
+@media screen and (min-width: 1801px) and (max-width: 1900px) {
+    .start-end1 {
+        margin-left: 80px;
+    }
+}
+@media screen and (min-width: 1901px) and (max-width: 2000px) {
+    .start-end1 {
+        margin-left: 110px;
+    }
+}
+@media screen and (min-width: 2001px) and (max-width: 2100px) {
+    .start-end1 {
+        margin-left: 140px;
+    }
+}
+@media screen and (min-width: 2101px) and (max-width: 2200px) {
+    .start-end1 {
+        margin-left: 170px;
+    }
+}
+@media screen and (min-width: 2201px) and (max-width: 2300px) {
+    .start-end1 {
+        margin-left: 200px;
+    }
+}
+@media screen and (min-width: 2301px) and (max-width: 2400px) {
+    .start-end1 {
+        margin-left: 230px;
+    }
+}
+@media screen and (min-width: 2401px) and (max-width: 2499px) {
+    .start-end1 {
+        margin-left: 200px;
+    }
+}
+@media screen and (min-width: 1250px) and (max-width: 1430px) {
+    .start-end1 {
+        margin-left: 40px;
+    }
+}
+@media screen and (min-width: 1000px) and (max-width: 1250px) {
+    .start-end1 {
+        margin-left: -25px;
+    }
+}
+
 
 .right-input1 {
     margin-right: 40px;
@@ -428,6 +548,17 @@ input {
 .date-time {
     width: 140px;
 }
+
+@media screen and (max-width: 1505px) {
+    .date-time {
+        width: 100px;
+        height: 35px
+    }
+}
+
+
+
+
 
 @media screen and (max-width: 424px) {
     .title-1 {
@@ -472,9 +603,9 @@ input {
 }
 
 #btn-1 {
-    position: absolute;
+    position: relative;
     right: 2%;
-    width: 225px;
+    width: 185px;
     height: 55px;
     border: none;
     padding: 0;
@@ -485,8 +616,162 @@ input {
     font-weight: bold;
     line-height: 55px;
     cursor: pointer;
-    box-shadow: 0px 0px 20px #00000029;
+    margin-top: -30px;
+    margin-left: 60px;
+    padding: 10px;
+    margin-right: 5px;
 }
+
+
+
+@media screen and (max-width: 1050px) {
+    #btn-1 {
+        width: 120px;
+        height: 40px;
+        font-size: 12px;
+        margin-top: -20px;
+    }
+}
+
+
+@media screen and (min-width: 1150px) and (max-width: 1200px) {
+    #btn-1 {
+       
+        margin-left: 120px;
+    }
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1300px) {
+    #btn-1 {
+       
+        margin-left: 150px;
+    }
+}
+
+@media screen and (min-width: 1301px) and (max-width: 1400px) {
+    #btn-1 {
+       
+        margin-left: 180px;
+    }
+}
+
+@media screen and (min-width: 1401px) and (max-width: 1500px) {
+    #btn-1 {
+       
+        margin-left: 210px;
+    }
+}
+@media screen and (min-width: 1501px) and (max-width: 1600px) {
+    #btn-1 {
+       
+        margin-left: 220px;
+    }
+}
+
+@media screen and (min-width: 1601px) and (max-width: 1700px) {
+    #btn-1 {
+       
+        margin-left: 270px;
+    }
+}
+@media screen and (min-width: 1701px) and (max-width: 1800px) {
+    #btn-1 {
+       
+        margin-left: 300px;
+    }
+}
+
+@media screen and (min-width: 1801px) and (max-width: 1900px) {
+    #btn-1 {
+       
+        margin-left: 330px;
+    }
+}
+
+@media screen and (min-width: 1901px) and (max-width: 2000px) {
+    #btn-1 {
+       
+        margin-left: 360px;
+    }
+}
+
+@media screen and (min-width: 2001px) and (max-width: 2100px) {
+    #btn-1 {
+       
+        margin-left: 390px;
+    }
+}
+
+@media screen and (min-width: 2101px) and (max-width: 2200px) {
+    #btn-1 {
+       
+        margin-left: 420px;
+    }
+}
+
+@media screen and (min-width: 2201px) and (max-width: 2300px) {
+    #btn-1 {
+       
+        margin-left: 450px;
+    }
+}
+
+@media screen and (min-width: 2301px) and (max-width: 2400px) {
+    #btn-1 {
+       
+        margin-left: 480px;
+    }
+}
+
+@media screen and (min-width: 2401px) and (max-width: 2500px) {
+    #btn-1 {
+       
+        margin-left: 510px;
+    }
+}
+
+@media screen and (min-width: 2501px) and (max-width: 2600px) {
+    #btn-1 {
+       
+        margin-left: 540px;
+    }
+}
+
+@media screen and (min-width: 2601px) and (max-width: 2700px) {
+    #btn-1 {
+       
+        margin-left: 570px;
+    }
+}
+
+@media screen and (min-width: 2701px) and (max-width: 2800px) {
+    #btn-1 {
+       
+        margin-left: 600px;
+    }
+}
+@media screen and (min-width: 2801px) and (max-width: 2900px) {
+    #btn-1 {
+       
+        margin-left: 630px;
+    }
+}
+
+@media screen and (min-width: 2901px) {
+    #btn-1 {
+       
+        margin-left: 670px;
+    }
+}
+
+
+
+
+
+
+
+
+
 
 .van-card {
     width: 35%;
