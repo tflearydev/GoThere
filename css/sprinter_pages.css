@@ -179,7 +179,7 @@ h1 {
 }
 
 .reserve-content {
-    font-size: 30px;
+    font-size: 22px;
 }
 
 .van-reservation {
@@ -658,4 +658,11 @@ select {
 .btn-survey {
     float: right;
     width: 375px;
+}
+
+.extra-info {
+    float: right;
+    width: 275px;
+    margin-top: -180px;
+    text-align: center;
 }
