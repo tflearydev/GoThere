@@ -21,6 +21,12 @@
     font-weight: bold;
 }
 
+.extra-info {
+    width: 320px;
+    margin: -180px 15% 0 0;
+    text-align: left;
+}
+
 @media screen and (max-width: 1280px) {
     .reserve-title {
         font-size: 27px;
@@ -36,6 +42,10 @@
 
     .request-titile {
         font-size: 27px;
+    }
+
+    .extra-info {
+        margin: -180px 12% 0 0;
     }
 }
 
@@ -62,6 +72,10 @@
         line-height: 45px;
         padding: 0 15px 0 15px
     }
+
+    .extra-info {
+        margin: -180px 10% 0 0;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -81,13 +95,27 @@
     .request-titile {
         font-size: 18px;
     }
+
+    .extra-info {
+        margin: -180px 5% 0 0;
+    }
 }
 
 .margin-25 {
     margin-top: 25px;
 }
 
+.certain-margin {
+    margin-top: 40px;
+}
 
+.request-card {
+    height: max-content;
+}
+
+.reserve-info {
+    height: max-content;
+}
 
 
 
