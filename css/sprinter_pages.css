@@ -123,8 +123,8 @@ h1 {
 }
 
 .button-group {
-    margin-top: 40px;
     display: flex;
+    margin-left: 5%;
     justify-content: space-between;
 }
 
@@ -542,6 +542,7 @@ h3 {
 .reserve-info {
     margin-left: 4%;
     width: 70%;
+    height: 500px;
     border-left: 1px solid #00000029;
 }
 
@@ -635,4 +636,8 @@ select {
     font-weight: bold;
     color: #1399C4;
     text-decoration: none;
+}
+
+.certain-margin {
+    margin-left: 5%;
 }
