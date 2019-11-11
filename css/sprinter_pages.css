@@ -280,9 +280,18 @@ h1 {
     }
 }
 
+@media screen and (min-width: 340px) and (max-width: 400px) {
+    .reserve-card {
+        height: 150px;
+    }
+}
+
 .reserve-img {
     width: 45%;
 }
+
+
+
 
 .reserve-detail {
     margin-left: 30px;
