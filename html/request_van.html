@@ -23,12 +23,21 @@
 </head>
 
 <body>
-    <div id="mySidenav" class="sidenav">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <a href="#">About us</a>
-        <a href="login-welcome.html">Login</a>
-        <a href="login-welcome.html">Check out</a>
-    </div>
+        <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <div class="logo" style="margin-left: -30px; margin-top: -60px; margin-bottom: 60px">
+                    <a href="login-welcome.html"><img src="../assets/logo.svg" alt="" class="atlPic" /></a>
+                  </div>
+                  <div style="margin-bottom: 10px"><a class="go-back" href="#"><img
+                    src="../assets/keyboard_backspace.svg">Back</a></div>
+                  <br>
+                  <br>
+                <a href="#" style="margin-top: -30px;"><img src="../assets/accnt.svg" alt="" style="width: 24px; height: 25px; margin-top: -10px;"><span style="font-size: 20px; margin-left: 15px;">Login</span></a>
+                <a href="search-reserve.html"><img src="../assets/shopping_cart-24px.svg" alt="" style="width: 24px; height: 25px; margin-top: -10px;"><span style="font-size: 20px; margin-left: 15px;">Check Out</span></a>
+                
+            
+              </div>
+
     <header id="header">
         <div class="logo">
             <a href="login-welcome.html"><img src="../assets/logo.svg" alt="" class="atlPic" /></a>
@@ -46,8 +55,8 @@
         <span onclick="openNav()" id="navToggle" class="fa fa-bars" aria-hidden="true"></span>
         <div class="head-title">Search</div>
 
-        <div style="margin-bottom: 32px"><a class="go-back" href="#"><img
-            src="../assets/keyboard_backspace.svg">Back</a></div>
+        <div class="back-div"><a class="go-back" href="#"><img
+            src="../assets/keyboard_backspace.svg" alt="" class="back-img">Back</a></div>
 
         <div style="display: block" class="main-content">
             <div class="van-card-middle">
@@ -79,8 +88,8 @@
                     </div>
                 </div>
                 <div class="button-group" style="margin-top: 20px;">
-                    <a class="btn btn-primary light-bg" href="#" role="button">Remove Vehicle</a>
-                    <a class="btn btn-primary" href="#" role="button">Submit Request</a>
+                    <a class="btn btn-primary light-bg" href="#" role="button"><span class="req-btn-txt">Remove Vehicle</span></a>
+                    <a class="btn btn-primary" href="#" role="button"><span class="req-btn-txt">Submit Request</span></a>
                 </div>
             </div>
 
@@ -113,9 +122,9 @@
                     </div>
                 </div>
                 <div class="button-group" style="margin-top: 20px;">
-                    <a class="btn btn-primary light-bg request-btn" href="#" role="button">Remove Vehicle</a>
-                    <a class="btn btn-primary request-btn" href="#" role="button">Submit Request</a>
-                </div>
+                        <a class="btn btn-primary light-bg" href="#" role="button"><span class="req-btn-txt">Remove Vehicle</span></a>
+                        <a class="btn btn-primary" href="#" role="button"><span class="req-btn-txt">Submit Request</span></a>
+                    </div>
             </div>
         </div>
     </div>
