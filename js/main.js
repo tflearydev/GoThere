@@ -63,8 +63,7 @@ function myFunction() {
   if (window.pageYOffset > sticky) {
     header.classList.add("sticky");
     // ec1.classList.add('tops');
-   
-   
+  
     map.classList.add("sticky", "map-height");
 
     // map2.classList.add("sticky", "map-height2");
@@ -72,14 +71,14 @@ function myFunction() {
   } else {
     header.classList.remove("sticky");
     // ec1.classList.remove('tops');
-   
     
     map.classList.remove("sticky", "map-height");
-
 
     // map2.classList.remove("sticky", "map-height2");
   }
 }
+
+//
 
 
 $('#c1').click(function() {
@@ -101,11 +100,8 @@ $('#c1').click(function() {
   });
 
 
-  // making more filters button update to 'apply & search' on click
+  // making the 'more filters' button update to 'apply & search' on click (search-details2 page)
   function btnFunc() {
     document.getElementById("btn-1").innerHTML = '<div id="btn-text" style="margin-top: -6px"> <span style="font-weight: bold">Apply & Search</span></div>';
 
-
-
-    // document.getElementById("btn-text").style.marginTop = -"-6px";
   }
