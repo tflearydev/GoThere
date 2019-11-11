@@ -45,10 +45,17 @@
     <div class="content">
         <span onclick="openNav()" id="navToggle" class="fa fa-bars" aria-hidden="true"></span>
         <div class="head-title">Search</div>
-        <div class="main-content more-padding">
-            <div class="van-card">
-                <!-- <img id="img-2" src="../assets/van.png"> -->
-                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <div style="top: 280px; right: 80px;" class="reserve-alert">
+            <img style="margin-right: 10px" src="../assets/rest_time-24px.svg">Your Reservation ends in 1 hour
+        </div>
+        <div style="margin-bottom: 32px"><a class="go-back" href="#"><img
+                    src="../assets/keyboard_backspace.svg">Back</a></div>
+        <div class="main-content light-padding">
+            <div class="request-card">
+                <div class="request-info">
+                    <div class="request-titile">Request #22938</div>
+                    <!-- <img id="img-2" src="../assets/van.png"> -->
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
                                 <img id="img-2" src="../assets/van.png" class="d-block w-100" alt="...">
@@ -63,11 +70,13 @@
                                 <img id="img-2" src="../assets/van.png" class="d-block w-100" alt="...">
                             </div>
                         </div>
-                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
+                            data-slide="prev">
                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                             <span class="sr-only">Previous</span>
                         </a>
-                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button"
+                            data-slide="next">
                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                             <span class="sr-only">Next</span>
                         </a>
@@ -78,26 +87,56 @@
                             <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
                         </ol>
                     </div>
-                <div class="van-title">Mercedes-Benz Sprinter Van</div>
-                <div class="reserve-content"><strong>$110</strong> ($21/day)</div>
-                <div class="label-group">
-                    <div class="icon-label"><img style="margin-right: 8px" width="16" src="../assets/luggage.svg">Some Luggage
-                    </div>
-                    <div class="icon-label"><img style="margin-right: 8px" width="16" src="../assets/seat.png">6 Seats
-                    </div>
-                    <div class="icon-label"><img style="margin-right: 8px" width="16" src="../assets/diesel.svg">Diesel
-                    </div>
-                    <div class="icon-label"><img style="margin-right: 8px" width="16" src="../assets/auto.svg">Automatic
+                    <div class="van-title">Mercedes-Benz Sprinter Van</div>
+                    <div class="reserve-content"><strong>$110</strong> ($21/day)</div>
+                    <div class="label-group">
+                        <div class="icon-label"><img style="margin-right: 8px" width="16"
+                                src="../assets/luggage.svg">Some
+                            Luggage</div>
+                        <div class="icon-label"><img style="margin-right: 8px" width="16" src="../assets/seat.png">6
+                            Seats
+                        </div>
+                        <div class="icon-label"><img style="margin-right: 8px" width="16"
+                                src="../assets/diesel.svg">Diesel
+                        </div>
+                        <div class="icon-label"><img style="margin-right: 8px" width="16"
+                                src="../assets/auto.svg">Automatic</div>
                     </div>
                 </div>
-            </div>
-            <div class="account-creation extra-padding">
-                <div class="title-1">Thank You, Haley!</div>
-                <div class="title-2">Your request has been sent.</div>
-                <p>The rental party will contact you shortly for<br>rental approval & payment information.</p>
-                <div class="button-group">
-                    <a class="btn btn-primary" href="#" role="button">View Reservation</a>
-                    <a class="btn btn-primary light-bg" href="#" role="button">Back to Search</a>
+                <div class="reserve-info">
+
+                    <p style="font-weight: bold; font-size: 25px; margin-left: 40px; margin-top: 50px;">Pre-Trip Vehicle Photos</p>
+                    <button class="text-center">
+
+                    </button>
+                    <div class="text-center">
+<img src="../assets/van-vert2x.png" alt="" class="mx-auto" style="height: 275px; width: 100px; margin-top: 80px;">
+                    </div>
+
+                    <!-- <div class="reserve-description">
+                        <div class="reserve-content"><strong>Reservation</strong></div>
+                        <div class="reserve-content">Start: <strong>10.15.19 — 4PM</strong></div>
+                        <div class="reserve-content">End: <strong>10.17.19 — 2PM</strong></div>
+                        <div style="margin-top: 25px" class="reserve-content">Pick-up & Drop Off: </div>
+                        <div class="van-address">1120 Atlanta Rd</div>
+                        <div class="van-address">Atlanta GA, 30303</div>
+                        <div class="extra-info">
+                            <div><a style="background: #959595; border-color: #959595" class="btn btn-primary" href="#" role="button">Pre-Trip Photos</a></div>
+                            <div><a class="btn btn-primary" href="#" role="button">Pick Up Directions</a></div>
+                        </div>
+                        
+                    </div>
+                    <div class="certain-margin">
+                        <a class="btn btn-primary light-bg" href="#" role="button">Invoice</a></div>
+                    <div class="certain-margin">
+                        <a class="btn btn-primary light-bg" href="#" role="button">Contact Renter</a>
+                    </div>
+                    <div class="extra-info">You must complete the Post-Trip Photos to end your reservation.</div>
+                    <div class="button-group">
+                        <a class="btn btn-primary light-bg" href="#" role="button">Share Reservation</a>
+                        <a style="background: #CF4F3F; border-color: #CF4F3F" class="btn btn-primary disable" href="#"
+                            role="button">End Reservation</a>
+                    </div> -->
                 </div>
             </div>
         </div>
