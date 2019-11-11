@@ -13,7 +13,7 @@ html {
   background-size: cover;
   background-color: #0092c0;
   background-position: -320px -325px;
-  
+
   /* box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.3); */
 }
 
@@ -28,33 +28,27 @@ html {
     background-size: cover;
     background-color: #0092c0;
     background-position: -320px -325px;
-    
-  
+
     /* box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.3); */
   }
 }
 
 .atlPic {
-  
   height: 105px;
-     margin:0 auto;
-     display:block;
-     padding-top: 50px;
-     font-weight: 600;
-    
-  
+  margin: 0 auto;
+  display: block;
+  padding-top: 50px;
+  font-weight: 600;
 }
 
 @media screen and (min-width: 700px) {
-    .atlPic {
-      float: left;
-      margin-left: 60px;
-      
-      height:  120px;
-      
-    }
-  }
+  .atlPic {
+    float: left;
+    margin-left: 60px;
 
+    height: 120px;
+  }
+}
 
 .content {
   background: #ffffff;
@@ -67,18 +61,15 @@ html {
 @media screen and (max-width: 425px) {
   .content {
     background: #ffffff;
-  margin-top: -20px;
-  padding-top: 35px;
-  opacity: 1;
+    margin-top: -20px;
+    padding-top: 35px;
+    opacity: 1;
   }
 }
 
-
 body {
   margin: 0;
-
 }
-
 
 .header-check {
   color: #fff;
@@ -88,17 +79,14 @@ body {
   font-size: 22px;
   font-weight: bold;
   position: absolute;
-  
+
   margin-right: 40px;
   margin-top: -65px;
- 
- }
-
+}
 
 .header-check a {
   color: #fff;
   text-decoration: none;
-
 }
 
 @media screen and (max-width: 700px) {
@@ -107,10 +95,8 @@ body {
   }
 }
 
-
 a:hover {
   color: #0089b4;
-
 }
 
 .btn-primary {
@@ -119,10 +105,10 @@ a:hover {
   margin-bottom: 20px;
   font-size: 22px;
   margin-top: 15px;
- transition: transform 0.4s; 
+  transition: transform 0.4s;
 }
 .btn-primary:hover {
-  transform: scale(0.90)
+  transform: scale(0.9);
 }
 
 .card-body {
@@ -132,16 +118,8 @@ a:hover {
 @media screen and (max-width: 450px) {
   .card-body {
     padding: 35px 20px 0px 20px;
-    
   }
 }
-
-
-
-
-
-
-
 
 .btn-default {
   letter-spacing: 1px;
@@ -152,26 +130,24 @@ a:hover {
 }
 
 .card-title {
-  font-size: 40px; 
+  font-size: 40px;
   font-weight: SemiBold;
-  font-family: 'Titillium Web', sans-serif;
+  font-family: "Titillium Web", sans-serif;
 }
 
 @media screen and (max-width: 420px) {
   .card-title {
     font-size: 23px;
     font-weight: 900;
-    font-family: 'Titillium Web', sans-serif;
+    font-family: "Titillium Web", sans-serif;
   }
 }
-
-
 
 .login-text {
   margin-bottom: 45px;
   margin-top: -10px;
   font-size: 22px;
-  font-family: 'Titillium Web', sans-serif;
+  font-family: "Titillium Web", sans-serif;
 }
 
 @media screen and (max-width: 450px) {
@@ -197,12 +173,12 @@ a:hover {
 }
 .form-control {
   font-size: 23px;
-  font-family: 'Titillium Web', sans-serif;
+  font-family: "Titillium Web", sans-serif;
 }
 @media screen and (max-width: 420px) {
   .form-control {
     font-size: 18px;
-    font-family: 'Titillium Web', sans-serif;
+    font-family: "Titillium Web", sans-serif;
   }
 }
 
@@ -218,10 +194,8 @@ a:hover {
   margin-bottom: 40px;
 }
 
-
 .cart {
   margin-right: 10px;
-  
 }
 
 .col-5 {
@@ -233,9 +207,7 @@ a:hover {
 a.btn.newAc {
   color: #0092c0;
   text-decoration: underline;
-  
 }
-
 
 @media screen and (max-width: 420px) {
   a.btn.newAc {
@@ -248,11 +220,12 @@ a.btn.newAc {
 }
 
 a {
-  font-family: 'Titillium Web', sans-serif;
+  font-family: "Titillium Web", sans-serif;
 }
 
-.form-control, .form-input {
-  font-family: 'Titillium Web', sans-serif;
+.form-control,
+.form-input {
+  font-family: "Titillium Web", sans-serif;
 }
 
 .sidenav {
@@ -266,10 +239,7 @@ a {
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 60px; /* Place content 60px from the top */
   transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
-  
 }
-
-
 
 /* The navigation menu links */
 .sidenav a {
@@ -297,58 +267,59 @@ a {
 
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
 @media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
 }
 
-.fa-bars{
+.fa-bars {
   font-size: 36px;
   margin-left: 20px;
   margin-top: 20px;
-  transition: transform 0.4s; 
-
+  transition: transform 0.4s;
 }
 
 @media screen and (max-width: 700px) {
   .fa-bars {
-  font-size: 25px;
-  margin-left: 20px;
-  margin-top: -10px;
-  transition: transform 0.4s; 
+    font-size: 25px;
+    margin-left: 20px;
+    margin-top: -10px;
+    transition: transform 0.4s;
   }
-
 }
 
 @media screen and (min-width: 700px) {
-  #navToggle, #mySidenav {
-      display: none;
-      
+  #navToggle,
+  #mySidenav {
+    display: none;
   }
 }
-
 
 #navToggle:hover {
   color: #0092c0;
   cursor: pointer;
-  transform: scale(0.90); 
+  transform: scale(0.9);
 }
 
 .head-title {
   font-size: 20px;
   text-align: center;
   margin-top: -32px;
-  font-family: 'Titillium Web', sans-serif;
+  font-family: "Titillium Web", sans-serif;
   font-weight: bold;
 }
 
 @media screen and (min-width: 700px) {
   .head-title {
-      display: none;
+    display: none;
   }
 }
 
 .form-control {
-  background-color: #F0F0F0;
+  background-color: #f0f0f0;
 }
 
 .wel-email {
@@ -357,6 +328,5 @@ a {
 @media screen and (max-width: 450px) {
   .wel-email {
     width: 10.5rem;
+  }
 }
-}
-
