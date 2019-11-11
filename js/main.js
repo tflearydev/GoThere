@@ -50,6 +50,7 @@ $(document).ready(function () {
 
 
 // make fraction utilization header sticky/fixed
+// add this into search.js file for van2share bitbucket account when you are ready to add in the fraction pages
 window.onscroll = function() {myFunction()};
 
 var header = document.getElementById("header");
@@ -100,7 +101,11 @@ $('#c1').click(function() {
   });
 
 
-  // function btnFunc() {
-  //   document.getElementById("btn-1").innerHTML = "Apply & Search";
-  //   document.getElementById("btn-text").style.marginTop = "-30px";
-  // }
+  // making more filters button update to 'apply & search' on click
+  function btnFunc() {
+    document.getElementById("btn-1").innerHTML = '<div id="btn-text" style="margin-top: -6px"> <span style="font-weight: bold">Apply & Search</span></div>';
+
+
+
+    // document.getElementById("btn-text").style.marginTop = -"-6px";
+  }
