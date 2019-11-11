@@ -23,7 +23,7 @@ function closeNav() {
     // planned to make entire page slide right but it compromised style on mobile
 }
 
-//dropdown
+//dropdown for filters and show details, hard coded for mvp
 $(document).ready(function () {
     $("#btn-1").click(function () {
         $(".extra-filter").toggle(500);
@@ -40,7 +40,12 @@ $(document).ready(function () {
         $("#detail-3").toggle(500);
         $("#arrow-3").toggleClass('rotation', 1000);
     });
+    $("#bar-4").click(function () {
+      $("#detail-4").toggle(500);
+      $("#arrow-4").toggleClass('rotation', 1000);
+  });
 
+    
 });
 
 
@@ -97,3 +102,7 @@ $('#c1').click(function() {
   });
 
 
+  // function btnFunc() {
+  //   document.getElementById("btn-1").innerHTML = "Apply & Search";
+  //   document.getElementById("btn-text").style.marginTop = "-30px";
+  // }
