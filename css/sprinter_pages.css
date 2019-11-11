@@ -119,6 +119,12 @@ h1 {
     margin: 0 auto;
 }
 
+@media screen and (max-width: 900px) {
+    .van-card-middle {
+        width: 100%;
+    }
+}
+
 .van-detail-middle {
     height: 350px;
     display: flex;
@@ -127,6 +133,12 @@ h1 {
 
 .van-label {
     width: 45%;
+}
+
+@media screen and (max-width: 550px) {
+    .request-btn {
+        font-size: 20px;
+    }
 }
 
 .detail-content {
@@ -245,8 +257,34 @@ h1 {
     color: #0D0D0D;
 }
 
+
+.van-title1 {
+    font-size: 1.65rem;
+    font-weight: 900;
+    color: #0D0D0D;
+}
+
+@media screen and (max-width: 550px) {
+    .van-title1 {
+        font-size: 1rem;
+        font-weight: 900;
+        color: #0D0D0D;
+    }
+}
+ 
 .reserve-content {
     font-size: 22px;
+}
+
+
+.reserve-content1 {
+    font-size: 22px;
+}
+
+@media screen and (max-width: 550px) {
+    .reserve-content1 {
+        font-size: 15px;
+    }
 }
 
 .van-reservation {
@@ -257,6 +295,18 @@ h1 {
     text-decoration: underline;
     font-size: 1.5rem;
     color: #0092C0;
+}
+.van-address1 {
+    text-decoration: underline;
+    font-size: 1.5rem;
+    color: #0092C0;
+}
+@media screen and (max-width: 550px) {
+    .van-address1 {
+        text-decoration: underline;
+    font-size: 1rem;
+    color: #0092C0;
+    }
 }
 
 .btn {
@@ -1081,6 +1131,28 @@ margin-left: -120px;
 
 #img-2 {
     width: 100%;
+}
+
+#request-img {
+    width: 100%;
+}
+
+@media screen and (min-width: 1800px) {
+    #request-img {
+        width: 70%
+    }
+}
+
+@media screen and (min-width: 2500px) {
+    #request-img {
+        width: 60%
+    }
+}
+
+@media screen and (min-width: 3000px) {
+    #request-img {
+        width: 50%
+    }
 }
 
 .account-creation {
