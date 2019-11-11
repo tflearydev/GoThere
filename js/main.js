@@ -41,17 +41,8 @@ $(document).ready(function () {
         $("#arrow-3").toggleClass('rotation', 1000);
     });
 
-
-// if ((screen.width<800)) {
-//   // if screen size is 1025px wide or larger
-//   $(".filter-title").css('display', 'none'); // you can also use $(".yourClass").hide();
-// }
-
 });
 
-
-
-// document.getElementById("btn-1").value="Apply & Search";
 
 
 
