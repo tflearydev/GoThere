@@ -49,8 +49,6 @@ $(document).ready(function () {
 });
 
 
-
-
 // make fraction utilization header sticky/fixed
 window.onscroll = function() {myFunction()};
 

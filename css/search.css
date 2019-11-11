@@ -31,7 +31,7 @@ html {
   
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 800px) {
     .atlPic {   
       margin-left: 60px;     
       height:  110px; 
@@ -51,7 +51,7 @@ html {
       
   }
 
-  @media screen and (max-width: 700px) {
+  @media screen and (max-width: 800px) {
       .center-search {
           display: none;
       }
@@ -102,7 +102,7 @@ body {
 
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
   .header-check {
     display: none;
   }
@@ -127,7 +127,7 @@ body {
   
   }
   
-  @media screen and (max-width: 700px) {
+  @media screen and (max-width: 800px) {
     .header-check1 {
       display: none;
     }
@@ -461,7 +461,7 @@ a {
 
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
   .fa-bars {
   font-size: 25px;
   margin-left: 20px;
@@ -470,7 +470,7 @@ a {
   }
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 800px) {
   #navToggle, #mySidenav {
       display: none;
       
@@ -491,7 +491,7 @@ a {
   font-weight: bold;
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 800px) {
   .head-title {
       display: none;
   }
