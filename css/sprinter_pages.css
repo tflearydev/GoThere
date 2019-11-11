@@ -35,13 +35,10 @@ body {
 } */
 
 
-  
-
 
     .tops {
         margin-top: 200px;
     }
-
 
 
 h1 {
@@ -404,7 +401,7 @@ input {
 .van-list {
     width: 55%;
 }
- @media screen and (max-width: 800px) {
+ @media screen and (max-width: 1100px) {
      .van-list {
      width: 100%;
  }
@@ -511,20 +508,20 @@ input {
     width: 43%;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1100px) {
     .van-map {
         display: none;
     }
 }
 
-@media screen and (min-width: 801px) {
+@media screen and (min-width: 1100px) {
 
 .van-map-mobile {
     display: none;
 }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1100px) {
 .van-map-mobile {
     
     height: 300px;
