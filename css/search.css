@@ -21,6 +21,23 @@ html {
   }
 }
 
+#header3 {
+  height: 200px;
+  background-image: url("../assets/bg.svg");
+  background-size: cover;
+  background-color: #0092c0;
+  background-position: -320px -325px;
+}
+
+@media screen and (min-width: 700px) {
+  #header3 {
+    background-image: url("../assets/bg.svg");
+    background-size: cover;
+    background-color: #0092c0;
+    background-position: -320px -325px;
+  }
+}
+
 .atlPic {
   
   height: 105px;
@@ -137,6 +154,7 @@ a:hover {
   color: #0089b4;
 
 }
+
 
 .btn-primary {
   background-color: #0092c0;

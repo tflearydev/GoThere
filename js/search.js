@@ -105,3 +105,5 @@ $('#c1').click(function() {
     document.getElementById("btn-1").innerHTML = '<div id="btn-text" style="margin-top: -6px"> <span style="font-weight: bold">Apply & Search</span></div>';
 
   }
+
+ 

@@ -98,6 +98,25 @@ h1 {
     padding: .5rem 4rem;
 }
 
+
+@media screen and (max-width: 570px) {
+    .n1 {
+       font-size: 1rem;
+       color: #fff;
+       opacity: 0.75;
+       padding: .4rem 3rem;
+    }
+}
+
+@media screen and (max-width: 465px) {
+    .n1 {
+       font-size: .85rem;
+       color: #fff;
+       opacity: 0.75;
+       padding: .3rem 2rem;
+    }
+}
+
 .active {
     color: #fff;
     opacity: 1;
@@ -207,6 +226,20 @@ h1 {
     justify-content: space-between;
 }
 
+.n1:hover {
+    text-decoration: underline;
+    color: white;
+    font-weight: 900;
+  } 
+  
+@media screen and (max-width: 800px) {  
+.reserve-space {
+    margin-top: 30px;
+}
+}
+
+
+
 .btn-primary {
     background-color: #0092C0;
     border-color: #0092C0;
@@ -241,6 +274,12 @@ h1 {
     border-radius: 10px;
 }
 
+@media screen and (max-width: 455px) {
+    .reserve-card {
+        height: 165px;
+    }
+}
+
 .reserve-img {
     width: 45%;
 }
@@ -250,6 +289,32 @@ h1 {
     padding-top: 20px;
     width: 30%;
 }
+
+
+@media screen and (min-width: 766px) and (max-width: 990px) {
+    .reserve-date {
+        font-size: 15px
+    }
+}
+@media screen and (min-width: 766px) and (max-width: 990px) {
+    .reserve-vehicle {
+        font-size: 17px
+    }
+}
+
+
+@media screen and (max-width: 455px) {
+    .reserve-date {
+        font-size: 13px
+    }
+}
+@media screen and (max-width: 455px) {
+    .reserve-vehicle {
+        font-size: 15px
+    }
+}
+
+
 
 .van-title {
     font-size: 1.65rem;
