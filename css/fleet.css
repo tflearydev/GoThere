@@ -228,6 +228,13 @@ body {
   transform: scale(0.90)
 }
 
+.map-height {
+  margin-top: 250px;
+ 
+}
+
+
+
 .center {
     
      width: 150px;
@@ -341,9 +348,9 @@ a {
  
 }
 
-.fixed {
+/* .fixed {
     position: fixed; 
-}
+} */
 
 .sticky {
     position: fixed;
@@ -368,6 +375,9 @@ a {
   transition: 0.3s;
 }
 
+/* .more {
+  margin-top: -10px;
+} */
 /* When you mouse over the navigation links, change their color */
 .sidenav a:hover {
   color: #0092c0;

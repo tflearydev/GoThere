@@ -40,7 +40,7 @@
                 <a href="#">Contact</a> -->
               </div>
 
-    <header id="header" class="head-search2">
+    <header id="header" class="headSearch2">
         <div class="logo">
             <a href="login-welcome.html"><img src="../assets/logo.svg" alt="" class="atlPic" /></a>
         </div>
@@ -61,10 +61,12 @@
             </div>
             
             <div>
-            <buttion id="btn-1" class="shadow-lg">
-                <span class="more">More Filters</span>
+            <button id="btn-1" type="button" class="btn btn-primary shadow-lg" style="margin-top: 20px; height: 40px;">
+                <div style="margin-top: -6px">
+                   <span>More Filters</span>
                 <img class="icon-style" src="../assets/filter_list.svg">
-            </buttion>
+            </div> 
+            </button>
             </div>
         </div>
     </header>
@@ -123,7 +125,7 @@
         
         <div class="main-content">
             <div class="van-list">
-                <div class="entire-card">
+                <div class="entire-card ec1">
                     <div class="van-list-card">
                         <img src="../assets/rightVan2x.png" class="search2van">
                         <div class="van-detail">
@@ -159,6 +161,48 @@
                 </div>
                 <div id="bar-1" class="detail-bar">Show Details<img id="arrow-1" class="arrow" style="margin-left: 10px"
                         src="../assets/arrow.svg"></div>
+
+
+                        <div class="entire-card">
+                                <div class="van-list-card">
+                                    <img src="../assets/rightVan2x.png" class="search2van">
+                                    <div class="van-detail">
+                                        <h4 class="ce-title">Mercedes-Benz Sprinter Van
+                                            <a style="float: right; padding: 10px; background-color: #0092C0" href="#"
+                                                class="badge badge-info search2badge">Add to Reservation</a></h4>
+                                        <h4 class="search2price">$110 ($21/day)</h4>
+                                        <div class="search-labels" class="label-group">
+                                            <div class="icon-label first-icon"><img class ="search2icon"
+                                                    src="../assets/luggage.svg">Some Luggage</div>
+                                            <div class="icon-label"><img class ="search2icon"
+                                                    src="../assets/seat.png">6 Seats</div>
+                                            <div class="icon-label"><img class ="search2icon"
+                                                    src="../assets/diesel.svg">Diesel</div>
+                                            <div class="icon-label"><img class ="search2icon"
+                                                    src="../assets/auto.svg">Automatic</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="detail-1" class="more-detail">
+                                    <div class="more-content">
+                                        <div class=img-label>
+                                            <img id="img-4" src="../assets/rightVan2x.png">
+                                        </div>
+                                        <div class="more-info">
+                                            <div class="reserve-content">Pick-up & Drop Off: </div>
+                                            <div class="van-address">1120 Atlanta Rd</div>
+                                            <div class="van-address">Atlanta GA, 30303</div>
+                                        </div>
+                                        <div class="more-features"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="bar-1" class="detail-bar">Show Details<img id="arrow-1" class="arrow" style="margin-left: 10px"
+                                    src="../assets/arrow.svg"></div>
+            
+
+
+
                         <div class="entire-card">
                                 <div class="van-list-card">
                                     <img src="../assets/rightVan2x.png" class="search2van">
@@ -231,9 +275,12 @@
                                         </div>
                                         <div id="bar-1" class="detail-bar">Show Details<img id="arrow-1" class="arrow" style="margin-left: 10px"
                                                 src="../assets/arrow.svg"></div>
+
+                                                
             </div>
             <div class="van-map"></div>
         </div>
+
     </div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
