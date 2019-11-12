@@ -1558,3 +1558,16 @@ select {
 .disable {
     opacity: 0.5;
 }
+
+
+.ra {
+    top: 280px; 
+    right: 80px; 
+    z-index: 1;
+}
+
+@media screen and (max-width: 940px) {
+    .rc, .va {
+        font-size: 14px;
+    }
+}
