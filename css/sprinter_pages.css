@@ -350,6 +350,29 @@ h1 {
     font-size: 22px;
 }
 
+@media screen and (max-width: 940px) {
+    .btn4 {
+        font-size: 17px !important;
+        width: 170px !important;
+    }
+}
+
+@media screen and (max-width: 940px) {
+    .btn5 {
+        font-size: 17px !important;
+        width: 200px !important;
+    }
+}
+
+
+@media screen and (max-width: 940px) {
+    .extra {
+        font-size: 13px;
+        width: 190px !important;
+        margin-top: -40px !important;
+        
+    }
+}
 
 .reserve-content1 {
     font-size: 22px;
@@ -1209,6 +1232,37 @@ margin-left: -120px;
 
 #request-img {
     width: 100%;
+
+}
+
+@media screen and (max-width: 420px) {
+    #request-img {
+        height: 120px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    #request-img {
+        height: 160px;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    #request-img {
+        height: 190px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    #request-img {
+        height: 210px;
+    }
+}
+
+@media screen and (min-width: 900px) and (max-width: 1300px) {
+    #request-img {
+        height: 210px;
+    }
 }
 
 @media screen and (min-width: 1800px) {
