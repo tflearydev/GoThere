@@ -1,6 +1,7 @@
 body,
 html {
   height: 100%;
+  
 }
 
 #header {
@@ -132,14 +133,14 @@ a:hover {
 .card-title {
   font-size: 40px;
   font-weight: SemiBold;
-  font-family: "Titillium Web", sans-serif;
+  /* font-family: "Titillium Web", sans-serif; */
 }
 
 @media screen and (max-width: 420px) {
   .card-title {
     font-size: 23px;
     font-weight: 900;
-    font-family: "Titillium Web", sans-serif;
+    /* font-family: "Titillium Web", sans-serif; */
   }
 }
 
@@ -147,7 +148,7 @@ a:hover {
   margin-bottom: 45px;
   margin-top: -10px;
   font-size: 22px;
-  font-family: "Titillium Web", sans-serif;
+  /* font-family: "Titillium Web", sans-serif; */
 }
 
 @media screen and (max-width: 450px) {
@@ -173,12 +174,12 @@ a:hover {
 }
 .form-control {
   font-size: 23px;
-  font-family: "Titillium Web", sans-serif;
+  /* font-family: "Titillium Web", sans-serif; */
 }
 @media screen and (max-width: 420px) {
   .form-control {
     font-size: 18px;
-    font-family: "Titillium Web", sans-serif;
+    /* font-family: "Titillium Web", sans-serif; */
   }
 }
 
@@ -220,12 +221,12 @@ a.btn.newAc {
 }
 
 a {
-  font-family: "Titillium Web", sans-serif;
+  /* font-family: "Titillium Web", sans-serif; */
 }
 
 .form-control,
 .form-input {
-  font-family: "Titillium Web", sans-serif;
+  /* font-family: "Titillium Web", sans-serif; */
 }
 
 .sidenav {
@@ -308,7 +309,7 @@ a {
   font-size: 20px;
   text-align: center;
   margin-top: -32px;
-  font-family: "Titillium Web", sans-serif;
+  /* font-family: "Titillium Web", sans-serif; */
   font-weight: bold;
 }
 

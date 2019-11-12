@@ -1,4 +1,4 @@
-body {
+body, html {
     margin: 0;
     /* margin-top: -20px; */
     font-family: 'Titillium Web', sans-serif;
@@ -247,6 +247,7 @@ h1 {
     width: 270px;
 }
 
+
 .btn-danger {
     background-color: #CF4F3F;
     border-color: #CF4F3F;
@@ -327,7 +328,7 @@ h1 {
 
 .van-title {
     font-size: 1.65rem;
-    font-weight: bold;
+    font-weight: 900;
     color: #0D0D0D;
 }
 
@@ -364,8 +365,33 @@ h1 {
     }
 }
 
+@media screen and (min-width: 1200px) {
+    #btn5 {
+    margin-top: -40px !important;
+    margin-bottom: 60px;
+}
+}
 
-@media screen and (max-width: 940px) {
+
+
+@media screen and (min-width: 1925px) {
+    .ra-e {
+        height: 250px;
+        width: 80%;
+    }
+}
+
+
+/* @media screen and (max-width: 940px) {
+    .extra {
+        font-size: 13px;
+        width: 190px !important;
+        margin-top: -40px !important;
+        
+    }
+} */
+
+@media screen and (max-width: 1200px) {
     .extra {
         font-size: 13px;
         width: 190px !important;
@@ -373,6 +399,8 @@ h1 {
         
     }
 }
+
+
 
 .reserve-content1 {
     font-size: 22px;

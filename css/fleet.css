@@ -1,6 +1,7 @@
 body,
 html {
   height: 100%;
+  font-family: 'Titillium Web';
 }
 
 #header {
@@ -110,7 +111,7 @@ html {
   text-align: center;
   font-weight: 900;
   font-size: 36px;
-  font-family: "Titillium Web", sans-serif;
+  /* font-family: "Titillium Web", sans-serif; */
   letter-spacing: 0;
   color: #ffffff;
   opacity: 1;
@@ -236,17 +237,17 @@ body {
   margin-bottom: 45px;
   margin-top: -10px;
   font-size: 22px;
-  font-family: "Titillium Web", sans-serif;
+  /* font-family: "Titillium Web", sans-serif; */
 }
 
 .form-control {
   font-size: 23px;
-  font-family: "Titillium Web", sans-serif;
+  /* font-family: "Titillium Web", sans-serif; */
 }
 @media screen and (max-width: 420px) {
   .form-control {
     font-size: 18px;
-    font-family: "Titillium Web", sans-serif;
+    /* font-family: "Titillium Web", sans-serif; */
   }
 }
 
@@ -292,7 +293,7 @@ a.btn.newAc {
     margin-top: -40px;
   }
 }
-
+/* 
 a {
   font-family: "Titillium Web", sans-serif;
 }
@@ -300,7 +301,7 @@ a {
 .form-control,
 .form-input {
   font-family: "Titillium Web", sans-serif;
-}
+} */
 
 .sidenav {
   height: 100%; /* 100% Full-height */
@@ -502,7 +503,7 @@ a {
   font-size: 20px;
   text-align: center;
   margin-top: -30px;
-  font-family: "Titillium Web", sans-serif;
+  /* font-family: "Titillium Web", sans-serif; */
   font-weight: bold;
 }
 
