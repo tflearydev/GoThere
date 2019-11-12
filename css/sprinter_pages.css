@@ -1275,7 +1275,7 @@ margin-left: -120px;
     }
 }
 
-@media screen and (max-width: 620px) {
+/* @media screen and (max-width: 620px) {
     #request-img {
         height: 190px;
     }
@@ -1285,7 +1285,7 @@ margin-left: -120px;
     #request-img {
         height: 210px;
     }
-}
+} */
 
 @media screen and (min-width: 900px) and (max-width: 1300px) {
     #request-img {
