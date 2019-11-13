@@ -6,32 +6,28 @@ html {
 
 #header {
   height: 150px;
-  /* transition: all 0.5s;
-    z-index: 997;
-    transition: all 0.5s;
-    padding: 20px 0; */
   background-image: url("../assets/bg.svg");
   background-size: cover;
   background-color: black;
   background-position: -320px -325px;
 
-  /* box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.3); */
 }
 
 @media screen and (min-width: 700px) {
   #header {
     height: 180px;
-    /* transition: all 0.5s;
-      z-index: 997;
-      transition: all 0.5s;
-      padding: 20px 0; */
     background-image: url("../assets/bg.svg");
     background-size: cover;
     background-color: black;
     background-position: -320px -325px;
 
-    /* box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.3); */
+  
   }
+}
+
+.custom:hover {
+  background-color: #0089b4;
+  border: #0089b4;
 }
 
 .atlPic {
@@ -102,7 +98,6 @@ a:hover {
 
 .btn-primary {
   background-color: black;
-  /* border: #0092c0; */
   margin-bottom: 20px;
   font-size: 22px;
   margin-top: 15px;
@@ -132,7 +127,7 @@ a:hover {
 
 .card-title {
   font-size: 40px;
-  font-weight: SemiBold;
+  font-weight: bold;
   
 }
 

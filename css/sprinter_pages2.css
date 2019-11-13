@@ -507,23 +507,6 @@ h1 {
     z-index: 1;
   }
    
-
-  .map-container{
-    overflow: hidden;
-    padding-bottom:56.25%;
-    position:relative;
-    height:0;
-   
-    }
-    .map-container iframe{
-       
-    left:0;
-    top:0;
-    height:100%;
-    width:100%;
-    position:absolute;
-    }
-
 @media screen and (max-width: 1050px) {
     .icon-style {
         height: 25px;
@@ -588,13 +571,6 @@ input {
     padding: 0;
 }
 
-
-
-.main-content {
-    display: flex;
-    padding: 0 2%;
-}
-
 .van-list {
     width: 55%;
 }
@@ -604,32 +580,136 @@ input {
  }
 }
 
-@media screen and (max-width: 700px) {
+/* @media screen and (max-width: 700px) {
     .van-list {
    margin-top: 30px;
 }
+} */
+
+
+
+
+
+
+
+.main-content {
+    display: flex;
+    padding: 0 2%;
+    margin-top: 60px;
 }
+
+@media screen and (max-width: 600px) {
+    .main-content {
+        display: flex;
+        padding: 0;
+        margin-top: -230px; 
+    }
+}
+
+
+#map-container-google-1 {
+    z-index: 0;
+}
+
+.map-container{
+    overflow: hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+    z-index: 0;
+    }
+
+    .map-container iframe{
+       
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+    z-index: 0;
+    }
+
+    @media screen and (min-width: 600px) {
+        .map-container {
+            display: none;
+        }
+    }
 
 
 .entire-card {
     width: 100%;
     background: #FFFFFF;
-    box-shadow: 0px -5px 20px #00000029;
+    /* box-shadow: 0px -5px 20px #00000029; */
     border-radius: 10px 10px 0 0;
     padding: 20px;
-}
+    z-index: 1;
+   
 
+}
 @media screen and (max-width: 600px) {
     .entire-card {
        
-        z-index: 10;
-        margin-top: -375px;
+        z-index: 2;
+        /* margin-top: -375px; */
         border-radius: 0 0 0 0;
-        width: 375px;
+        width: 95%;
         margin-left: auto;
-        margin-right: auto;
+        margin-right: auto;  
+        height: 190px;
+        margin-top: -95px; /*dont think i need this as i put a margin on main content*/
+    
+        
+        
     }
 }
+
+.slider {
+	/* font-family: sans-serif; */
+	scroll-snap-type: x mandatory;	 /*this makes it jump from card to card*/
+	display: flex;
+	/* white-space: nowrap; */
+   overflow-x: scroll;
+   
+    z-index: 2;
+  
+    /* height: 200px; */
+}
+section {
+	/* border-right: 1px solid white; */
+	/* padding: 1rem; */
+    min-width: 100%;
+    z-index: 2;
+	/* height: 100vh; */
+    scroll-snap-align: start;
+    border-right: 6px solid transparent;
+    border-left: 6px solid transparent;
+	
+    
+    margin-top: 100px;
+	/* text-align: center; */
+	/* position: relative; */
+}
+
+
+
+
+
+
+
+/* h1	{
+	 */
+	/* top: 50%; */
+	/* transform: translateY(-50%); */
+	/* text-align: center;
+	color: black;
+	width: 100%;
+	left: 0; */
+	/* font-size: calc(1rem + 3vw); */
+/* } */
+
+
+
+
 
 @media screen and (max-width: 600px) {
 #bar-1 {
@@ -639,6 +719,7 @@ input {
 
 .van-list-card {
     display: flex;
+    
 }
 
 .van-detail {

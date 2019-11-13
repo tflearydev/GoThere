@@ -1,9 +1,4 @@
-<!-- Login/Welcome back, and Register pages.
-High fidelity page #s: 22, 24 -->
-<!-- My thought process was to put all html pages into one document,
-as me a Jason discussed prior.
-But as development enlarges, I feel that it will become 'messy',
-especially with many different attributes and style selectors -->
+<!-- Login and Register pages. -->
 
 
 <!DOCTYPE html>
@@ -65,89 +60,11 @@ especially with many different attributes and style selectors -->
      
     </header>
 
-    <!-- Navbar-->
-<!-- <nav class="navbar navbar-light light-blue lighten-4 pull-left"> -->
-
-    <!-- Navbar brand -->
-    <!-- <a class="navbar-brand" href="#"><img src='../assets/account_circle-24px.svg' alt=''></a> -->
-  
-    <!-- Collapse button -->
-    <!-- <button class="navbar-toggler toggler-example" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1"
-      aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"><span class="dark-blue-text"><i
-          class="fas fa-bars fa-1x"></i></span></button> -->
-  
-    <!-- Collapsible content -->
-    <!-- <div class="collapse navbar-collapse" id="navbarSupportedContent1"> -->
-  
-      <!-- Links -->
-      <!-- <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Features</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Pricing</a>
-        </li>
-      </ul> -->
-      <!-- Links -->
-  
-    <!-- </div> -->
-    <!-- Collapsible content -->
-  
-  <!-- </nav> -->
-  <!--/.Navbar -->
-
-  <!-- <h1 style="margin-top: -50px; text-align: center">Login</h1> -->
-
-  <!-- <section style="float: left; margin-left: 20px;">
-      <a href="#main-menu"
-      id="main-menu-toggle"
-      class="menu-toggle"
-      aria-label="Open main menu">
-     <span class="sr-only">Open main menu</span>
-     <span class="fa fa-bars" aria-hidden="true"></span>
-   </a>
-    -->
-   <!-- <h1 class="logo">hamburgers</h1> -->
-   
-   <!-- <nav id="main-menu" class="main-menu" aria-label="Main menu">
-     <a href="#"
-        id="main-menu-close"
-        class="menu-close"
-        aria-label="Close main menu">
-       <span class="sr-only">Close main menu</span>
-       <span class="fa fa-close" aria-hidden="true"></span>
-     </a>
-     <ul>
-       <li><a href="#">Products</a></li>
-       <li><a href="#">About</a></li>
-       <li><a href="#">Contact</a></li>
-     </ul>
-   </nav>
-   <a href="#main-menu-toggle"
-      class="backdrop"
-      tabindex="-1"
-      aria-hidden="true" hidden></a>
-  </section> -->
-
-
-  
-
-
-    
-    <!-- Initially wanted to push all page content to the side upon side navigation pop out
-    but the design was not pleasing.. still can do so if we place all page content inside
-  of these divs below -->
-    <!-- <div id="main">
-      ...
-    </div> -->
 
     <!--THE LOGIN PAGE FOR RETURNING USERS STARTS HERE,  REPRESENTED BY THE loginPage ID-->
     <!-- BOTH THE LOGIN AND REGISTER PAGE(WHICH IS NEXT IN THE CODE) HAVE THE EXACT SAME HEADERS WHICH IS ABOVE THES COMMENTS,
     BETWEEN THE <header></header> tags-->
-    <!--EACH SEQUENTIAL PAGE WILL HAVE ITS OWN HEADER DIFFERENT THAN THE ONE ABOVE-->
+   
 
     <section id='loginPage' class='page'>
       <div class="content">
@@ -229,18 +146,14 @@ especially with many different attributes and style selectors -->
                       <div style="display: flex">
                     <div class="form-group">
                     <div class="input-group">
-                        <!-- <div class="input-group-prepend">
-                            <span class="input-group-text"> <i class="fa fa-user"></i> </span>
-                         </div> -->
+                        
                         <input name="" class="form-control form-input" placeholder="First name" type="text">
                     </div> <!-- input-group.// -->
                     </div> <!-- form-group// -->
 
                     <div class="form-group">
                         <div class="input-group" style="margin-left: 10px">
-                          <!-- <div class="input-group-prepend">
-                              <span class="input-group-text"> <i class="fa fa-lock"></i> </span>
-                           </div> -->
+                          
                           <input class="form-control form-input" placeholder="Phone Number" type="password">
                       </div> <!-- input-group.// -->
                       </div> <!-- form-group// -->
@@ -251,18 +164,14 @@ especially with many different attributes and style selectors -->
                       <div style="display: flex">
                     <div class="form-group">
                     <div class="input-group">
-                        <!-- <div class="input-group-prepend">
-                            <span class="input-group-text"> <i class="fa fa-lock"></i> </span>
-                         </div> -->
+                        
                         <input class="form-control form-input" placeholder="Last name" type="password">
                     </div> <!-- input-group.// -->
                     </div> <!-- form-group// -->
 
                     <div class="form-group">
                         <div class="input-group" style="margin-left: 10px">
-                          <!-- <div class="input-group-prepend">
-                              <span class="input-group-text"> <i class="fa fa-lock"></i> </span>
-                           </div> -->
+                          
                           <input class="form-control form-input" placeholder="Password" type="password">
                       </div> <!-- input-group.// -->
                       </div> <!-- form-group// -->
@@ -272,30 +181,22 @@ especially with many different attributes and style selectors -->
                     <div style="display: flex">
                     <div class="form-group">
                     <div class="input-group">
-                      <!-- <div class="input-group-prepend">
-                          <span class="input-group-text"> <i class="fa fa-lock"></i> </span>
-                       </div> -->
+                     
                       <input class="form-control form-input" placeholder="Address" type="text">
                   </div> <!-- input-group.// -->
                   </div> <!-- form-group// -->
 
                   <div class="form-group">
                       <div class="input-group" style="margin-left: 10px">
-                        <!-- <div class="input-group-prepend">
-                            <span class="input-group-text"> <i class="fa fa-lock"></i> </span>
-                         </div> -->
+                        
                         <input class="form-control form-input" placeholder="Re-enter Password" type="password">
                     </div> <!-- input-group.// -->
                     </div> <!-- form-group// -->
                   </div>
 
-
-
                   <div class="form-group">
                   <div class="input-group wel-email">
-                    <!-- <div class="input-group-prepend">
-                        <span class="input-group-text"> <i class="fa fa-lock"></i> </span>
-                     </div> -->
+                    
                     <input class="form-control form-input" placeholder="Email" type="email">
                 </div> <!-- input-group.// -->
                 </div> <!-- form-group// -->
@@ -316,41 +217,7 @@ especially with many different attributes and style selectors -->
       </div>
     </section>
 
-    <!-- REGISTER PAGE ENDS HERE-->
-
-    <!--SEARCH RENTALS PAGE STARTS HERE-->
-    <!-- commented out because I am going to put it on a separate html Files
-    files will become too large moving forward.
-    aiming for ease of development -->
-
-<!-- <section id='search-page'>
-    <header id="search-header">
-        
-        <div class="container">
-          <div class="logo float-left">
-            <a href="#header" class="scrollto"><img src="../assets/logo.svg" alt="" class="img-fluid" /></a>
-          </div>
   
-                <div class="header-check">
-                    <a href="#"><img src="../assets/shopping_cart-24px.svg" class='cart' alt="">Search Rentals</a>
-                  </div>
-        </div>
-      </header>
-      </section> -->
-
-
-
-    <!-- <script src="../lib/jquery/jquery.min.js"></script>
-    <script src="../lib/jquery/jquery-migrate.min.js"></script>
-    <script src="../lib/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="../lib/easing/easing.min.js"></script>
-    <script src="../lib/mobile-nav/mobile-nav.js"></script>
-    <script src="../lib/wow/wow.min.js"></script>
-    <script src="../lib/waypoints/waypoints.min.js"></script>
-    <script src="../lib/counterup/counterup.min.js"></script>
-    <script src="../lib/owlcarousel/owl.carousel.min.js"></script>
-    <script src="../lib/isotope/isotope.pkgd.min.js"></script>
-    <script src="../lib/lightbox/js/lightbox.min.js"></script> -->
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>

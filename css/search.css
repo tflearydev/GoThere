@@ -408,15 +408,37 @@ a.btn.newAc {
   width: 0; /* 0 width - change this with JavaScript */
   position: fixed; /* Stay in place */
   z-index: 1; /* Stay on top */
+  border-radius: 0 10px 10px 0;
   top: 0; /* Stay at the top */
   left: 0;
-  background-color: #111; /* Black*/
+  background-color: black; /* Black*/
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 60px; /* Place content 60px from the top */
   transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  z-index: 10;
  
 }
 
+.content1 {
+  background: #FFFFFF;
+  border-radius: 20px 20px 0 0;
+  margin-top: 40px;
+  /* padding-top: 0px;
+  /*padding-bottom: 120px; */
+}
+
+
+@media screen and (max-width: 800px) {
+
+.content1 {
+  background: #FFFFFF;
+  border-radius: none;
+  margin-top: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  
+}
+}
 
 
 /* The navigation menu links */
@@ -462,7 +484,7 @@ a.btn.newAc {
   .fa-bars {
   font-size: 25px;
   margin-left: 20px;
-  margin-top: 25px;
+  margin-top: 34px;
   transition: transform 0.4s; 
   color: white;
  
