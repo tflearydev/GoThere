@@ -16,8 +16,8 @@
 
     <link href="https://fonts.googleapis.com/css?family=Titillium+Web&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" type="text/css" href="../css/sprinter_pages.css">
-    <link rel="stylesheet" href="../css/search.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../css/sprinter_pages2.css">
+    <link rel="stylesheet" href="../css/search2.css" type="text/css" />
 
     <title>Van2Share</title>
 </head>
@@ -123,9 +123,18 @@
             </div>
         </div>
 
-        <div class="van-map-mobile shadow-sm animated bounceInDown"></div>
+        <!-- <div class="van-map-mobile shadow-sm animated bounceInDown" id="map"></div> -->
+
         
+        <div id="map-container-google-1" class="z-depth-1-half map-container" style="height: 800px">
+                <iframe id = "map" src="https://maps.google.com/maps?q=manhatan&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
+                  style="border:0" allowfullscreen></iframe>
+              </div>
+              
         <div class="main-content" style="margin-top: 60px;">
+
+            
+
             <div class="van-list animated bounceInDown">
                 <div class="entire-card ec1">
                     <div class="van-list-card">
@@ -196,7 +205,7 @@
                 <div id="bar-1" class="detail-bar">Show Details<img id="arrow-1" class="arrow" style="margin-left: 10px"
                         src="../assets/arrow.svg"></div>
 
-
+<!-- 
                         <div class="entire-card">
                                 <div class="van-list-card">
                                     <img src="../assets/rightVan2x.png" class="search2van">
@@ -396,9 +405,7 @@
                                                             </div>
 
 
-                                                    <!-- <div class=img-label>
-                                                        <img id="img-4" src="../assets/van.png">
-                                                    </div> -->
+                                                   
                                                     <div class="more-info">
                                                         <div class="reserve-content">Pick-up & Drop Off: </div>
                                                         <div class="van-address">1120 Atlanta Rd</div>
@@ -411,7 +418,7 @@
                                         <div id="bar-4" class="detail-bar">Show Details<img id="arrow-1" class="arrow" style="margin-left: 10px"
                                                 src="../assets/arrow.svg"></div>
 
-                                                
+                                                 -->
             </div>
             <div class="van-map rounded shadow-lg animated bounceInDown"></div>
         </div>
@@ -426,8 +433,8 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
-    <script src='../js/search.js'></script>
-   
+    <script src='../js/search2.js'></script>
+    
 </body>
 
 </html>

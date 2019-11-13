@@ -49,8 +49,8 @@ $(document).ready(function () {
 });
 
 
-// // make fraction utilization header sticky/fixed
-// // add this into search.js file for van2share bitbucket account when you are ready to add in the fraction pages
+// make fraction utilization header sticky/fixed
+// add this into search.js file for van2share bitbucket account when you are ready to add in the fraction pages
 // window.onscroll = function() {myFunction()};
 
 // var header = document.getElementById("header");
@@ -64,7 +64,8 @@ $(document).ready(function () {
 //     header.classList.add("sticky");
 //     // ec1.classList.add('tops');
   
-//     map.classList.add("sticky", "map-height");
+//     map.classList.add("sticky");
+//     // map.style.marginTop = "150px";
 
 //     // map2.classList.add("sticky", "map-height2");
 
@@ -72,7 +73,8 @@ $(document).ready(function () {
 //     header.classList.remove("sticky");
 //     // ec1.classList.remove('tops');
     
-//     map.classList.remove("sticky", "map-height");
+//     map.classList.remove("sticky");
+//     // map.style.remove('marginTop')
 
 //     // map2.classList.remove("sticky", "map-height2");
 //   }

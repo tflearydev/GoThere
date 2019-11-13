@@ -12,7 +12,7 @@ html {
     padding: 20px 0; */
   background-image: url("../assets/bg.svg");
   background-size: cover;
-  background-color: #0092c0;
+  background-color: black;
   background-position: -320px -325px;
 
   /* box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.3); */
@@ -27,7 +27,7 @@ html {
       padding: 20px 0; */
     background-image: url("../assets/bg.svg");
     background-size: cover;
-    background-color: #0092c0;
+    background-color: black;
     background-position: -320px -325px;
 
     /* box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.3); */
@@ -101,7 +101,7 @@ a:hover {
 }
 
 .btn-primary {
-  background-color: #0092c0;
+  background-color: black;
   /* border: #0092c0; */
   margin-bottom: 20px;
   font-size: 22px;
@@ -236,7 +236,7 @@ a {
   z-index: 1; /* Stay on top */
   top: 0; /* Stay at the top */
   left: 0;
-  background-color: #111; /* Black*/
+  background-color: #0092c0; /* Black*/
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 60px; /* Place content 60px from the top */
   transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */

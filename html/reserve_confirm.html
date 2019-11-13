@@ -33,7 +33,7 @@
         <div class="logo">
             <a href="login-welcome.html"><img src="../assets/logo.svg" alt="" class="atlPic" /></a>
         </div>
-        <div class='center-search'>Search Vehicles</div>
+        <div class='center-search' style="font-weight: 900; font-size: 40px;">Your Rentals</div>
         <div>
             <a href="login-welcome.html" class="header-check1"><img src="../assets/accnt.svg" class='cart'
                     alt="">Login</a>
@@ -45,29 +45,34 @@
     <div class="content">
         <span onclick="openNav()" id="navToggle" class="fa fa-bars" aria-hidden="true"></span>
         <div class="head-title">Search</div>
-        <div style="top: 280px; right: 80px; z-index: 1" class="reserve-alert">
-            <img style="margin-right: 10px;" src="../assets/access_time-24px.svg">Your Reservation starts in 2 hours
+
+        <div class="reserve-alert ra animated bounceInRight">
+            <img style="margin-right: 10px" src="../assets/rest_time-24px.svg"><span style="font-weight: 900; font-size: 22px;">Your Reservation starts in 2 days</span>
         </div>
+
+
         <div style="margin-bottom: 32px"><a class="go-back" href="#"><img
                     src="../assets/keyboard_backspace.svg">Back</a></div>
+
+
         <div class="main-content light-padding">
             <div class="request-card animated bounceInRight">
                 <div class="request-info">
                     <div class="request-titile">Request #22938</div>
                     <!-- <img id="img-2" src="../assets/van.png"> -->
                     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                        <div class="carousel-inner shadow rounded">
+                        <div class="carousel-inner rounded shadow">
                             <div class="carousel-item active">
-                                <img id="img-2" src="../assets/van.png" class="d-block w-100" alt="...">
+                                <img id="img-2" src="../assets/van.png" class="d-block ra-e w-100" alt="...">
                             </div>
                             <div class="carousel-item">
-                                <img id="img-2" src="../assets/van.png" class="d-block w-100" alt="...">
+                                <img id="img-2" src="../assets/van.png" class="d-block ra-e w-100" alt="...">
                             </div>
                             <div class="carousel-item">
-                                <img id="img-2" src="../assets/van.png" class="d-block w-100" alt="...">
+                                <img id="img-2" src="../assets/van.png" class="d-block ra-e w-100" alt="...">
                             </div>
                             <div class="carousel-item">
-                                <img id="img-2" src="../assets/van.png" class="d-block w-100" alt="...">
+                                <img id="img-2" src="../assets/van.png" class="d-block ra-e w-100" alt="...">
                             </div>
                         </div>
                         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
@@ -87,7 +92,7 @@
                             <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
                         </ol>
                     </div>
-                    <div class="van-title">Mercedes-Benz Sprinter Van</div>
+                    <div class="van-title" style="font-weight: 900; font-size: 26px;">Mercedes-Benz Sprinter Van</div>
                     <div class="reserve-content"><strong>$110</strong> ($21/day)</div>
                     <div class="label-group">
                         <div class="icon-label"><img style="margin-right: 8px" width="16"
@@ -104,26 +109,33 @@
                     </div>
                 </div>
                 <div class="reserve-info">
-                    <div style="top: 375px; right: 80px;" class="reserve-alert">
-                        <img style="margin-right: 10px" src="../assets/check_circle-24px.svg">Approved
-                    </div>
+
+                        <div style="top: 375px; right: 80px;" class="reserve-alert">
+                                <img style="margin-right: 10px" src="../assets/check_circle-24px.svg">Approved
+                            </div>
                     <div class="reserve-description">
-                        <div class="reserve-content"><strong>Reservation</strong></div>
-                        <div class="reserve-content">Start: <strong>10.15.19 — 4PM</strong></div>
-                        <div class="reserve-content">End: <strong>10.17.19 — 2PM</strong></div>
-                        <div style="margin-top: 25px" class="reserve-content">Pick-up & Drop Off: </div>
-                        <div class="van-address">1120 Atlanta Rd</div>
-                        <div class="van-address">Atlanta GA, 30303</div>
+                        <div class="" style="font-family: Titillium Web; font-weight: 900; font-size: 30px">Reservation</div>
+                        <div class="reserve-content rc">Start: <span style="font-weight: 900; font-size: 22px; margin-left: 20px;">10.15.19 — 4PM</span></div>
+                        <div class="reserve-content rc">End: <span style="font-weight: 900; font-size: 22px; margin-left: 30px;">10.17.19 — 2PM</span></div>
+                        <div style="margin-top: 25px" class="reserve-content rc">Pick-up & Drop Off: </div>
+                        <div class="van-address va">1120 Atlanta Rd</div>
+                        <div class="van-address va">Atlanta GA, 30303</div>
+                        <!-- <div class="extra-info">
+                                <div><a class="btn btn-primary btn4 shadow" style="margin-top: 70px; margin-bottom: 10px;" href="#" role="button">Post-Trip Photos</a></div>
+                            <div><a class="btn btn-primary btn4 shadow" href="#" role="button">Drop Off Directions</a></div>
+                        </div> -->
+                        
                     </div>
                     <div class="certain-margin">
-                        <a class="btn btn-primary light-bg" href="#" role="button">Invoice</a></div>
+                        <a class="btn btn-primary btn4 light-bg shadow" style="margin-top:15px" href="#" role="button">Invoice</a></div>
                     <div class="certain-margin">
-                        <a class="btn btn-primary light-bg" href="#" role="button">Contact Renter</a>
+                        <a class="btn btn-primary btn4 light-bg shadow" style="margin-top: 0px" href="#" role="button">Contact Renter</a>
                     </div>
+                    <!-- <div class="extra-info extra" style="margin-top: -100px;">You must complete the Post-Trip Photos to end your reservation.</div> -->
                     <div class="button-group">
-                        <a class="btn btn-primary light-bg" href="#" role="button">Share Reservation</a>
-                        <a style="background: #CF4F3F; border-color: #CF4F3F" class="btn btn-primary" href="#"
-                            role="button">Cancel Reservation</a>
+                        <a class="btn btn-primary btn4 light-bg shadow"href="#" style="margin-top: 0px; height: 51px" role="button">Share Reservation</a>
+                        <a style="background: #CF4F3F; border-color: #CF4F3F;" id="btn5" class="btn btn4 btn-primary disable" href="#"
+                            role="button">End Reservation</a>
                     </div>
                 </div>
             </div>

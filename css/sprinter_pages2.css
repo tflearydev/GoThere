@@ -7,7 +7,7 @@ body, html {
 .header {
     height: 260px;
     width: 100%;
-    background: #008CB8;
+    background: black;
     background-image: url(assets/bg.svg);
     background-position: -320px -325px;
 }
@@ -500,13 +500,29 @@ h1 {
    
   }
   */
-  /* .sticky {
+  .sticky {
     position: fixed;
     top: 0;
     width: 100%;
     z-index: 1;
   }
-    */
+   
+
+  .map-container{
+    overflow: hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+   
+    }
+    .map-container iframe{
+       
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+    }
 
 @media screen and (max-width: 1050px) {
     .icon-style {
@@ -601,6 +617,24 @@ input {
     box-shadow: 0px -5px 20px #00000029;
     border-radius: 10px 10px 0 0;
     padding: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    .entire-card {
+       
+        z-index: 10;
+        margin-top: -375px;
+        border-radius: 0 0 0 0;
+        width: 375px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (max-width: 600px) {
+#bar-1 {
+    display: none;
+}
 }
 
 .van-list-card {
@@ -735,6 +769,20 @@ input {
     padding-top: 70px;
     padding-bottom: 120px;
 }
+
+@media screen and (max-width: 600px) {
+    .content {
+        padding-bottom: 0px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .content {
+        display: block;
+    }
+}
+
+
 
 .title-1 {
     font-size: 3rem;
