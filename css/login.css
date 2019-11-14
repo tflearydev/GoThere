@@ -25,27 +25,49 @@ html {
   }
 }
 
+
+@media screen and (max-width: 450px) {
+  #header {
+      height: 60px !important; 
+  }
+}
+
+@media screen and (max-width: 800px) {
+  #header {
+      height: 80px !important;
+  }
+}
+
 .custom:hover {
   background-color: #0089b4;
   border: #0089b4;
 }
 
-.atlPic {
-  height: 105px;
-  margin: 0 auto;
-  display: block;
-  padding-top: 50px;
-  font-weight: 600;
-}
+@media screen and (max-width: 800px) {
 
-@media screen and (min-width: 700px) {
   .atlPic {
-    float: left;
-    margin-left: 60px;
-
-    height: 120px;
+   height: 28px;
+   margin-top: -30px;
+  float: right; 
+   font-weight: 600;
+   padding-right: 10px;
+ 
   }
-}
+ }
+
+
+
+@media screen and (min-width: 800px) {
+    .atlPic {   
+      margin-left: 60px;     
+      height:  110px; 
+     
+      display: block;
+      padding-top: 50px;
+      font-weight: 600;
+    }
+  }
+
 
 .content {
   background: #ffffff;
@@ -114,8 +136,10 @@ a:hover {
 @media screen and (max-width: 450px) {
   .card-body {
     padding: 35px 20px 0px 20px;
+    
   }
 }
+
 
 .btn-default {
   letter-spacing: 1px;
@@ -127,7 +151,7 @@ a:hover {
 
 .card-title {
   font-size: 40px;
-  font-weight: bold;
+  font-weight: 900;
   
 }
 
@@ -142,7 +166,7 @@ a:hover {
 .login-text {
   margin-bottom: 45px;
   margin-top: -10px;
-  font-size: 22px;
+  font-size: 19px;
   
 }
 
@@ -158,11 +182,12 @@ a:hover {
   width: 35rem;
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 450px) {
   .card {
-    margin-top: -20px;
+    margin-top: -40px !important;
   }
 }
+
 
 #registerPage .card {
   width: 45rem;
@@ -223,7 +248,7 @@ a.btn.newAc {
   z-index: 1; /* Stay on top */
   top: 0; /* Stay at the top */
   left: 0;
-  background-color: #0092c0; /* Black*/
+  background-color: black; /* Black*/
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 60px; /* Place content 60px from the top */
   transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
@@ -234,7 +259,7 @@ a.btn.newAc {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 22px;
-  color: #818181;
+  color: white;
   display: block;
   transition: 0.3s;
 }
@@ -263,23 +288,26 @@ a.btn.newAc {
   }
 }
 
-.fa-bars {
+.fa-bars{
+  display: inline-block;
   font-size: 36px;
   margin-left: 20px;
-  margin-top: 20px;
-  transition: transform 0.4s;
+  margin-top: 0px;
+  transition: transform 0.4s; 
+
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
   .fa-bars {
-    font-size: 25px;
-    margin-left: 20px;
-    margin-top: -10px;
-    transition: transform 0.4s;
+  font-size: 25px;
+  margin-left: 20px;
+  margin-top: 25px;
+  transition: transform 0.4s; 
+  color: white;
+ 
   }
 }
-
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 800px) {
   #navToggle,
   #mySidenav {
     display: none;
@@ -292,15 +320,17 @@ a.btn.newAc {
   transform: scale(0.9);
 }
 
+
 .head-title {
   font-size: 20px;
   text-align: center;
   margin-top: -32px;
- 
+  
+ color: white;
   font-weight: bold;
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 800px) {
   .head-title {
     display: none;
   }

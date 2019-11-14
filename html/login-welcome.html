@@ -33,15 +33,16 @@
   <body>
       <div id="mySidenav" class="sidenav">
           <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-          <div class="logo" style="margin-left: -30px; margin-top: -60px; margin-bottom: 60px">
+          <!-- <div class="logo" style="margin-left: -30px; margin-top: -60px; margin-bottom: 60px">
               <a href="login-welcome.html"><img src="../assets/logo.svg" alt="" class="atlPic" /></a>
-            </div>
+            </div> -->
             <div style="margin-bottom: 10px"><a class="go-back" href="#"><img
               src="../assets/keyboard_backspace.svg">Back</a></div>
             <br>
             <br>
           <a href="#" style="margin-top: -30px;"><img src="../assets/accnt.svg" alt="" style="width: 24px; height: 25px; margin-top: -10px;"><span style="font-size: 20px; margin-left: 15px;">Login</span></a>
-          <a href="search-reserve.html"><img src="../assets/shopping_cart-24px.svg" alt="" style="width: 24px; height: 25px; margin-top: -10px;"><span style="font-size: 20px; margin-left: 15px;">Check Out</span></a>
+          <a href="search-reserve.html"><img src="../assets/shopping_cart-24px.svg" alt="" style="width: 24px; height: 25px; margin-top: -10px;"><span style="font-size: 20px; margin-left: 15px;">Search Rentals</span></a>
+          <!-- <a href="search-reserve.html"><img src="../assets/shopping_cart-24px.svg" alt="" style="width: 24px; height: 25px; margin-top: -10px;"><span style="font-size: 20px; margin-left: 15px;">Check Out</span></a> -->
           
       
         </div>
@@ -49,10 +50,13 @@
   <!-- <div id='main'> -->
     <header id="header">
         
-  
-        <div class="logo">
+        <span onclick="openNav()" id="navToggle" class="fa fa-bars" aria-hidden="true"></span>
+        <div class="head-title">Login</div>
+
+
+        
           <a href="#header"><img src="../assets/logo.svg" alt="" class="atlPic" /></a>
-        </div>
+       
 
               <div class="header-check">
                   <a href="search-reserve.html"><img src="../assets/shopping_cart-24px.svg" class='cart' alt="">Search Rentals</a>
@@ -73,8 +77,8 @@
           
               <!-- Use any element to open the sidenav -->
               
-              <span onclick="openNav()" id="navToggle" class="fa fa-bars" aria-hidden="true"></span>
-              <div class="head-title">Login</div>
+              <!-- <span onclick="openNav()" id="navToggle" class="fa fa-bars" aria-hidden="true"></span>
+              <div class="head-title">Login</div> -->
               
 
           <div class='container-fluid mb-5 mt-5'>
@@ -131,13 +135,13 @@
             <span onclick="openNav()" id="navToggle" class="fa fa-bars" aria-hidden="true"></span>
             <div class="head-title">Login</div>
 
-          <div class='container-fluid mb-5 mt-5'>
+          <div class='container-fluid mb-5 mt-0'>
               <div class='row justify-content-center'>
               
 
           <div class="card shadow-lg mx-auto animated bounceInDown">
                 <div class="card-body">
-                    <h4 class="card-title mb-3 mt-3">Welcome!</h4>
+                    <h4 class="card-title mb-3 mt-1">Welcome!</h4>
                     
                     <p class="login-text">Register below to get started.</p>
                     <form>

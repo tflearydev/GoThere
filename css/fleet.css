@@ -12,7 +12,7 @@ html {
     padding: 20px 0; */
   background-image: url("../assets/bg.svg");
   background-size: cover;
-  background-color: #1f2222;
+  background-color: black;
   background-position: -320px -325px;
   /* z-index: 1; */
 
@@ -79,7 +79,7 @@ html {
       padding: 20px 0; */
     background-image: url("../assets/bg.svg");
     background-size: cover;
-    background-color: #1f2222;
+    background-color: black;
     background-position: -320px -325px;
     z-index: 1;
 

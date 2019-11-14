@@ -614,6 +614,7 @@ input {
 
 #map-container-google-1 {
     z-index: 0;
+    height: 90vh;
 }
 
 .map-container{

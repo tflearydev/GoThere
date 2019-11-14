@@ -47,58 +47,37 @@
   </head>
 
   <body>
-    <div id="mySidenav" class="sidenav">
-      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
-        >&times;</a
-      >
-      <div
-        class="logo"
-        style="margin-left: -30px; margin-top: -60px; margin-bottom: 60px"
-      >
-        <a href="login-welcome.html"
-          ><img src="../assets/logo.svg" alt="" class="atlPic"
-        /></a>
-      </div>
-      <a href="#" style="margin-top: -30px"
-        ><img
-          src="../assets/carLogo.svg"
-          alt=""
-          style="width: 34px; height: 35px; margin-top: -10px;"
-        /><span style="font-size: 30px; margin-left: 15px;">Fleet</span></a
-      >
-      <!-- <a href="search-reserve.html">Search Rentals</a> -->
-
-      <a href="login-welcome.html"
-        ><img
-          src="../assets/carLogo.svg"
-          alt=""
-          style="width: 34px; height: 35px; margin-top: -10px;"
-        /><span style="font-size: 30px; margin-left: 15px;">Fleet</span></a
-      >
-      <a href="login-welcome.html"
-        ><img
-          src="../assets/carLogo.svg"
-          alt=""
-          style="width: 34px; height: 35px; margin-top: -10px;"
-        /><span style="font-size: 30px; margin-left: 15px;">Fleet</span></a
-      >
-      <a href="login-welcome.html"
-        ><img
-          src="../assets/carLogo.svg"
-          alt=""
-          style="width: 34px; height: 35px; margin-top: -10px;"
-        /><span style="font-size: 30px; margin-left: 15px;">Fleet</span></a
-      >
-    </div>
+      <div id="mySidenav" class="sidenav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <!-- <div class="logo" style="margin-left: -30px; margin-top: -60px; margin-bottom: 60px">
+              <a href="login-welcome.html"><img src="../assets/logo.svg" alt="" class="atlPic" /></a>
+            </div> -->
+            <div style="margin-bottom: 10px"><a class="go-back" href="#"><img
+              src="../assets/keyboard_backspace.svg">Back</a></div>
+            <br>
+            <br>
+          <a href="#" style="margin-top: -30px;"><img src="../assets/accnt.svg" alt="" style="width: 24px; height: 25px; margin-top: -10px;"><span style="font-size: 20px; margin-left: 15px;">Login</span></a>
+          <a href="search-reserve.html"><img src="../assets/shopping_cart-24px.svg" alt="" style="width: 24px; height: 25px; margin-top: -10px;"><span style="font-size: 20px; margin-left: 15px;">Check Out</span></a>
+          <!-- <a href="search-reserve.html"><img src="../assets/shopping_cart-24px.svg" alt="" style="width: 24px; height: 25px; margin-top: -10px;"><span style="font-size: 20px; margin-left: 15px;">Check Out</span></a> -->
+          
+      
+        </div>
 
     <header id="header">
-      <div class="logo">
-        <a href="login-welcome.html"
-          ><img src="../assets/logo.svg" alt="" class="atlPic"
-        /></a>
-      </div>
+      
 
-      <div class="center-search">Search Vehicles</div>
+     
+
+      <span onclick="openNav()" id="navToggle" class="fa fa-bars" aria-hidden="true"></span>
+      <div class="head-title1">Search</div>
+
+      <div class="logo">
+          <a href="login-welcome.html"
+            ><img src="../assets/logo.svg" alt="" class="atlPic"
+          /></a>
+        </div>
+        <div class="center-search">Search Vehicles</div>
+
 
       <div>
         <a href="login-welcome.html" class="header-check1"
@@ -142,7 +121,7 @@
                   class="form-group has-feedback has-feedback-left"
                   style="margin-bottom: 40px;"
                 >
-                  <label for="exampleFormControlSelect1"
+                  <label for="exampleFormControlSelect1" style="font-size: 20px;"
                     >Pick up location
                     <span style="color:#0092c0">*</span></label
                   >
@@ -160,7 +139,7 @@
                 </div>
 
                 <div class="form-group">
-                  <label for="exampleFormControlSelect1"
+                  <label for="exampleFormControlSelect1" style="font-size: 20px;"
                     >Drop off location
                     <span style="color:#0092c0">*</span></label
                   >
@@ -203,9 +182,9 @@
               id="carChoose"
              
             >
-              <p>Vehicle Type<span style="color:#0092c0"> -select</span></p>
+              <p style="font-size: 20px;">Vehicle Type<span style="color:#0092c0"> -select</span></p>
 
-              <div class="container-fluid car-divs">
+              <div class="car-divs">
                 <div class="row">
                   <div style="display: inline-block">
                     <a href="javascript:;" id="c1"
@@ -280,7 +259,7 @@
                 </label>
               </div>
 
-              <p style="margin-top: 30px;">
+              <p style="margin-top: 30px; font-size: 15px;">
                 Minimum Seats <span style="color:#0092c0">*</span>
               </p>
 
@@ -324,7 +303,7 @@
             
             >
               <div class="card-body">
-                <p style="font-size: 19px">
+                <p style="font-size: 20px;">
                   Date & Time <span style="color:#0092c0">*</span>
                 </p>
 
@@ -333,7 +312,7 @@
                 </div>
                 <hr />
 
-                <form style="padding-left: 45px;">
+                <form style="padding-left: 30px;">
                   <div class="form-group row">
                     <label for="inputEmail3" class="col-form-label seLabel"
                       >Start Time <span style="color:#0092c0">*</span></label
@@ -373,7 +352,7 @@
                     style="height: 27px; width: 27px;"
                   />
                   <label
-                    class="form-check-label"
+                    class="form-check-label aa"
                     for="defaultCheck1"
                     style="margin-top: 7px; margin-left: 15px;"
                   >
@@ -388,7 +367,7 @@
             
             >
               <p>
-                <label for="amount">Price Range(per day)</label>
+                <label for="amount" style="font-size: 20px;">Price Range(per day)</label>
                 <input
                   type="text"
                   id="amount"
@@ -408,7 +387,7 @@
                 <div class="form-group">
                   <label
                     for="exampleFormControlSelect1"
-                    style="padding-top: 15px;"
+                    style="padding-top: 15px; font-size: 20px;"
                     >Vehicle Make/ Model</label
                   >
                   <select
@@ -424,7 +403,7 @@
                 </div>
 
                 <div class="form-group">
-                  <label for="exampleFormControlSelect1">Cargo Space</label>
+                  <label for="exampleFormControlSelect1" style="font-size: 20px;">Cargo Space</label>
                   <select
                     class="form-control"
                     id="exampleFormControlSelect1"
@@ -438,7 +417,7 @@
                 </div>
 
                 <div class="form-group">
-                  <label for="exampleFormControlSelect1">Transmission</label>
+                  <label for="exampleFormControlSelect1" style="font-size: 20px;">Transmission</label>
                   <select
                     class="form-control"
                     id="exampleFormControlSelect1"
@@ -452,7 +431,7 @@
                 </div>
 
                 <div class="form-group">
-                  <label for="exampleFormControlSelect1">Fuel Type</label>
+                  <label for="exampleFormControlSelect1" style="font-size: 20px;">Fuel Type</label>
                   <select
                     class="form-control"
                     id="exampleFormControlSelect1"
