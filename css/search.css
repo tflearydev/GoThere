@@ -209,7 +209,7 @@ a:hover {
   margin-bottom: 40px;
 }
 
-.small-car {
+/* .small-car {
   width: 121px; 
   height: 81px;
 }
@@ -235,16 +235,16 @@ a:hover {
     margin-left: 10px;
   }
 }
+*/
 
-@media screen and (max-width: 370px) {
-  .car-box1, .car-box2, .car-box3 {
-    width: 80px;
-    height: 51px;
+  /* .car-box1, .car-box2, .car-box3 {
+    width: 200px;
+    height: 70px;
   }
-}
 
+ */
 
-
+/*
 @media screen and (min-width: 1000px) and (max-width: 1130px) {
   .car-box1, .u1 {
     margin-left: -15px;
@@ -334,7 +334,7 @@ a:hover {
 
 
 
-
+ */
 
 
 
@@ -349,7 +349,7 @@ a:hover {
 .car-box1, .car-box2, .car-box3 {
   top: 710px;
 left: 216px;
-width: 112px;
+width: 200px;
 height: 66px;
 background: #F0F0F0 0% 0% no-repeat padding-box;
 border-radius: 4px;
@@ -361,7 +361,7 @@ margin-top: -35px;
   background-color: #0092c0;
 }
 
-.car-divs {
+/* .car-divs {
   margin-left: 22px;
 }
 
@@ -369,14 +369,14 @@ margin-top: -35px;
   .car-divs {
     margin-left: 10px;
   }
-}
+} */
 
-@media screen and (max-width: 1347px) {
+/* @media screen and (max-width: 1347px) {
   .car-box1, .car-box2, .car-box3 {
     width: 90px; 
     height: 58px;
   }
-}
+} */
 img.cart {
     width: 30px;
     height: 30px;
@@ -638,6 +638,60 @@ margin-top: -63px;
 
     }
 }
+
+
+
+
+
+
+
+.slider1 {
+	/* font-family: sans-serif; */
+	/* scroll-snap-type: x mandatory;	 this makes it jump from card to card */
+  display: flex;
+  flex-direction: row;
+	/* white-space: nowrap; */
+   overflow-x: scroll;
+   
+   margin-top: -17px;
+   
+    z-index: 2;
+  
+    height: 160px;
+    margin-bottom: -10px;
+}
+.section1 {
+	/* border-right: 1px solid white; */
+  /* padding: 1rem; */
+
+   /* min-width: 60%; */
+    z-index: 2;
+/* display: inline; */
+	/* height: 100vh; */
+    scroll-snap-align: start;
+    border-right: 6px solid transparent;
+    border-left: 6px solid transparent;
+	
+    
+    /* margin-top: 100px; */
+	/* text-align: center; */
+	/* position: relative; */
+}
+
+/* 
+.car-divs {
+  margin-left: 22px;
+  display: flex;
+}
+
+@media screen and (max-width: 430px) {
+  .car-divs {
+    margin-left: 10px;
+    display: flex;
+  }
+} */
+
+
 
 @media screen and (max-width: 800px) {
   .seLabel {
