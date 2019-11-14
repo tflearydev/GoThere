@@ -652,6 +652,7 @@ margin-top: -63px;
   flex-direction: row;
 	/* white-space: nowrap; */
    overflow-x: scroll;
+   overflow-y: hidden;
    
    margin-top: -17px;
    
