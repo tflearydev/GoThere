@@ -25,30 +25,36 @@
 
 <body>
     
-    <div id="mySidenav" class="sidenav">
-            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-            <div class="logo" style="margin-left: -30px; margin-top: -60px; margin-bottom: 60px">
-                <a href="login-welcome.html"><img src="../assets/logo.svg" alt="" class="atlPic" /></a>
-              </div>
-              <div style="margin-bottom: 10px"><a class="go-back" href="#"><img
-                src="../assets/keyboard_backspace.svg">Back</a></div>
-              <br>
-              <br>
-            <a href="#" style="margin-top: -30px;"><img src="../assets/accnt.svg" alt="" style="width: 24px; height: 25px; margin-top: -10px;"><span style="font-size: 20px; margin-left: 15px;">Login</span></a>
-            <a href="search-reserve.html"><img src="../assets/shopping_cart-24px.svg" alt="" style="width: 24px; height: 25px; margin-top: -10px;"><span style="font-size: 20px; margin-left: 15px;">Check Out</span></a>
+        <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <!-- <div class="logo" style="margin-left: -30px; margin-top: -60px; margin-bottom: 60px">
+                    <a href="login-welcome.html"><img src="../assets/logo.svg" alt="" class="atlPic" /></a>
+                  </div> -->
+                  <div style="margin-bottom: 10px"><a class="go-back" href="#"><img
+                    src="../assets/keyboard_backspace.svg">Back</a></div>
+                  <br>
+                  <br>
+                <a href="login-welcome.html" style="margin-top: -30px;"><img src="../assets/accnt.svg" alt="" style="width: 24px; height: 25px; margin-top: -10px;"><span style="font-size: 20px; margin-left: 15px;">Haley R.</span></a>
+                <a href="search-reserve.html"><img src="../assets/shopping_cart-24px.svg" alt="" style="width: 24px; height: 25px; margin-top: -10px;"><span style="font-size: 20px; margin-left: 15px;">Search Rentals</span></a>
+                
             
-        
-          </div>
+              </div>
+
     <header id="header3">
-        <div class="logo">
-            <a href="login-welcome.html"><img src="../assets/logo.svg" alt="" class="atlPic" /></a>
-        </div>
-        <div class='center-search'>Search Vehicles</div>
+
+            <span onclick="openNav()" id="navToggle" class="fa fa-bars" aria-hidden="true"></span>
+            <div class="head-title1">Login</div>
+    
+    
+        
+            <a href="#"><img src="../assets/logo.svg" alt="" class="atlPic" /></a>
+        
+        <div class='center-search'>Your Rentals</div>
         <div>
-            <a href="login-welcome.html" class="header-check1"><img src="../assets/accnt.svg" class='cart'
-                    alt="">Login</a>
+            <a href="#" class="header-check1"><img src="../assets/accnt.svg" class='cart'
+                    alt="">Haley R.</a>
             <a href="search-reserve.html" class="header-check"><img src="../assets/shopping_cart-24px.svg" class='cart'
-                    alt="">Check out</a>
+                    alt="">Search Rentals</a>
         </div>
         <div class="info-tab">
             <ul class="nav">
@@ -70,8 +76,8 @@
         <div class="reserve-space"></div>
         <div class="container animated rubberBand">
             <div class="row">
-                    <div class="col-md-6">
-                            <div class="reserve-card">
+                    <div class="col-md-6 cw">
+                            <div class="reserve-card rc1">
                                 <div class="reserve-img"><img id="img-2" class="rounded shadow" src="../assets/van.png"></div>
                                 <div class="reserve-detail">
                                     <h4 class="reserve-date">Oct 15 - 17</h4>
@@ -79,7 +85,7 @@
                                 </div>
                             </div>
                         </div>
-                <div class="col-md-6">
+                <div class="col-md-6 cw">
                     <div class="reserve-card">
                         <div class="reserve-img"><img id="img-2" class="rounded shadow" src="../assets/van.png"></div>
                         <div class="reserve-detail">
@@ -88,7 +94,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6 cw">
                     <div class="reserve-card">
                         <div class="reserve-img"><img id="img-2" class="rounded shadow" src="../assets/van.png"></div>
                         <div class="reserve-detail">

@@ -28,9 +28,10 @@ $(document).ready(function () {
     $("#btn-1").click(function () {
         $(".extra-filter").toggle(500);
     });
-    $("#bar-1").click(function () {
-        $("#detail-1").toggle(500);
-        $("#arrow-1").toggleClass('rotation', 1000);
+
+    $("#bar-5").click(function () {
+        $("#detail-5").toggle(500);
+        $("#arrow-5").toggleClass('rotation', 1000);
     });
     $("#bar-2").click(function () {
         $("#detail-2").toggle(500);

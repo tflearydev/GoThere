@@ -28,6 +28,22 @@ body, html {
     }
 }
 
+#header3 {
+    height: 215px !important;
+}
+
+@media screen and (max-width: 450px) {
+    #header3 {
+        height: 60px !important; 
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #header3 {
+        height: 137px !important;
+    }
+}
+
 /* @media screen and (min-width: 755px) and (max-width: 1540px) {
     .headSearch2 {
         height: 130px !important;
@@ -84,12 +100,22 @@ h1 {
 .info-tab {
     margin-top: 20px;
     text-align: center;
+    margin-left: -10px;
 }
 
+@media screen and (max-width: 800px) {
+
+    .info-tab {
+        margin-top: 20px;
+        text-align: center;
+        margin-left: -30px;
+    }
+}    
 .nav {
     width: max-content;
     margin: 0 auto;
 }
+
 
 .nav-link {
     font-size: 1.2rem;
@@ -183,19 +209,23 @@ h1 {
 }
 
 
-@media screen and (max-width: 890px) {
+
+
+@media screen and (min-width: 600px) {
     .icon-label {
-        font-size: 0.4em;
+        font-size: 0.8em;
     }
 }
 
-@media screen and (max-width: 400px) {
+
+
+@media screen and (max-width: 501px) {
     .icon-label {
         font-size: 7px;
     }
 }
 
-@media screen and (max-width: 340px) {
+@media screen and (max-width: 350px) {
     .icon-label {
         font-size: 5px;
     }
@@ -287,6 +317,13 @@ h1 {
     }
 }
 
+@media screen and (max-width: 801px) {
+    .reserve-card {
+        height: 150px;
+        width: 100%
+    }
+}
+
 .reserve-img {
     width: 45%;
 }
@@ -307,19 +344,35 @@ h1 {
 
 @media screen and (min-width: 766px) and (max-width: 990px) {
     .reserve-date {
-        font-size: 15px
+        font-size: 15px;
+        font-weight: 900;
     }
 }
 @media screen and (min-width: 766px) and (max-width: 990px) {
     .reserve-vehicle {
-        font-size: 17px
+        font-size: 17px;
+        font-weight: 900;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .rc1 {
+        margin-top: -95px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .cw {
+        max-width: 100%;
+        padding-left: 0px;
+        padding-right: 0px;
     }
 }
 
 
 @media screen and (max-width: 455px) {
     .reserve-date {
-        font-size: 13px
+        font-size: 15px
     }
 }
 @media screen and (max-width: 455px) {
@@ -532,9 +585,9 @@ h1 {
     }
 }
 
-@media screen and (max-width: 860px) {
+@media screen and (max-width: 880px) {
     #input-1 {
-        width: 100px;
+        width: 110px;
         padding-left: 5px;
     }
 }
@@ -547,7 +600,7 @@ h1 {
 .filter-selection {
     color: #fff;
     font-size: 1.15rem;
-    margin-left: 20px;
+    margin-left: 10px;
 }
 
 .input-3 {
@@ -679,13 +732,13 @@ input {
     margin-top: -1070px;
 }
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 800px) {
     .van-map {
         display: none;
     }
 }
 
-@media screen and (min-width: 1100px) {
+@media screen and (min-width: 800px) {
     .van-map {
         margin-top: 0px;
     }
@@ -730,17 +783,6 @@ section {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 .van-list {
     width: 55%;
 }
@@ -768,7 +810,6 @@ section {
 .more-detail {
     display: none;
     background: #fff;
-
 }
 .more-content {
     margin-top: 15px;
@@ -962,23 +1003,28 @@ input {
 @media screen and (max-width: 1010px) {
     .ce-title {
         font-size: 17px;
+        font-weight: 900;
     }
 }
 
 @media screen and (max-width: 500px) {
     .ce-title {
-        font-size: 13px;
+        font-size: 17px;
         margin-left: -20px;
-        font-weight: bold;
+        font-weight: 900;
     }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 400px) {
     .ce-title {
-        font-size: 11px;
+        font-size: 17px;
         margin-left: -20px;
-        font-weight: bold;
+        font-weight: 900;;
     }
+}
+
+.ce-title {
+    font-weight: 900;
 }
 
 
@@ -989,6 +1035,7 @@ input {
     .search2price {
 font-size: 16px;
 font-weight: 900;
+margin-left: -20px;
     }
 }
 
@@ -1002,7 +1049,7 @@ font-weight: 900;
 
 @media screen and (max-width: 570px) {
     .search2badge {
-margin-top: 50px;
+margin-top: 60px;
 clear: both;
 margin-left: -120px;
     }
@@ -1024,7 +1071,7 @@ margin-left: -120px;
 
 @media screen and (max-width: 890px) {
     .search-labels {
-    float: left;
+    float: right;
     margin-top: 30px;
     /* margin-bottom: -20px; */
 
@@ -1033,14 +1080,14 @@ margin-left: -120px;
 
 @media screen and (max-width: 800px) {
     .search-labels {
-    float: left;
+    float: right;
     margin-top: 60px;
     /* margin-bottom: -20px; */
 
     }
 }
 
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 530px) {
     .search-labels {
     float: left;
     margin-top: 80px;
@@ -1050,8 +1097,55 @@ margin-left: -120px;
 }
 @media screen and (max-width: 480px) {
     .search-labels {
-    float: left;
+    float: right;
     margin-top: 70px;
+    /* margin-bottom: -20px; */
+
+    }
+}
+
+@media screen and (max-width: 452px) {
+    .search-labels {
+    float: right;
+    margin-top: 55px;
+    /* margin-bottom: -20px; */
+
+    }
+}
+
+@media screen and (min-width: 412px) and (max-width: 430px) {
+    .search-labels {
+    float: right;
+    margin-top: 45px;
+    /* margin-bottom: -20px; */
+
+    }
+}
+
+
+@media screen and (max-width: 385px) {
+    .search-labels {
+    float: right;
+    margin-top: 15px;
+    /* margin-bottom: -20px; */
+
+    }
+}
+
+
+/* @media screen and (min-width: 345px) and (max-width: 350px) {
+    .search-labels {
+    float: right;
+    margin-top: 100px;
+    /* margin-bottom: -20px; */
+
+
+
+@media screen and (max-width: 370px) {
+    .search-labels {
+    float: right;
+    margin-top: 20px;
+
     /* margin-bottom: -20px; */
 
     }
