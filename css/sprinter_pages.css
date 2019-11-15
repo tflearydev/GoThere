@@ -474,6 +474,7 @@ h1 {
     }
 }
 
+
 .van-reservation {
     margin-top: 20px;
 }
@@ -991,7 +992,7 @@ input {
 
 @media screen and (max-width: 424px) {
     .title-3 {
-        font-size: 20px;
+        font-size: 17px;
         font-weight: 100;
     }
 }
@@ -1317,12 +1318,36 @@ margin-left: -120px;
 
 
 
-@media screen and (max-width: 770px) {
+@media screen and (min-width: 800px) {
+
+.ready-btn {
+    width: 320px;
+    margin-left: -25px;
+}
+}
+
+@media screen and (max-width: 800px) {
+
     .ready-btn {
+        width: 320px;
         margin: 0 auto;
+    }
+    }
+
+
+/* @media screen and (max-width: 800px) {
+    .ready-btn {
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+        width: 320px;
     }
 }
 
+@media screen and (min-width: 415px) and (max-width: 475px) {
+    .ready-btn {
+        margin-left: 30px !important;
+    }
+} */
 
 .input-group {
     margin-top: 30px;
@@ -1552,6 +1577,14 @@ margin-left: -120px;
     height: 100%
 }
 
+@media screen and (max-width: 800px) {
+
+.readyimg {
+    width: 70% !important;
+    height: 70% !important;
+    margin-left: 45px;
+}
+}
 
 #request-img {
     width: 100%;
@@ -1678,6 +1711,50 @@ h3 {
     border-radius: 10px;
     background: #FFFFFF;
     padding: 90px 75px 90px 75px;
+}
+
+@media screen and (max-width: 700px) {
+    .van-card-square {
+       padding-top: 40px;
+    }
+}
+
+@media screen and (max-width: 475px) {
+    .van-card-square {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+@media screen and (max-width: 350px) {
+    .van-card-square {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
+
+
+@media screen and (max-width: 800px) {
+    .t1 {
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .t2 {
+        margin-top: 15px;
+    }
+}
+
+
+@media screen and (max-width: 800px) {
+    .col-md-5 {
+        max-width: 100%;
+        padding-right: 0px;
+        margin-top: -120px;
+        padding-left: 0px;
+
+    }
 }
 
 .light-padding {
@@ -1891,5 +1968,23 @@ select {
 @media screen and (max-width: 940px) {
     .rc, .va {
         font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .readynot {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .readynt {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .readyrow {
+        display: block;
     }
 }

@@ -32,15 +32,27 @@
 
     <div id="mySidenav" class="sidenav">
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-            <div class="logo" style="margin-left: -30px; margin-top: -60px; margin-bottom: 60px">
+            <!-- <div class="logo" style="margin-left: -30px; margin-top: -60px; margin-bottom: 60px">
                 <a href="login-welcome.html"><img src="../assets/logo.svg" alt="" class="atlPic" /></a>
-              </div>
-            <a href="#" style="margin-top: -30px;"><img src="../assets/accnt.svg" alt="" style="width: 24px; height: 25px; margin-top: -10px;"><span style="font-size: 20px; margin-left: 15px;">Login</span></a>
-            <a href="search-reserve.html"><img src="../assets/shopping_cart-24px.svg" alt="" style="width: 24px; height: 25px; margin-top: -10px;"><span style="font-size: 20px; margin-left: 15px;">Search Rentals</span></a>>
-            <!-- <a href="#">Clients</a>
-            <a href="#">Contact</a> -->
+              </div> -->
+              <div style="margin-bottom: 10px"><a class="go-back" href="#"><img
+                src="../assets/keyboard_backspace.svg">Back</a></div>
+              <br>
+              <br>
+            <a href="login-welcome.html" style="margin-top: -30px;"><img src="../assets/accnt.svg" alt="" style="width: 24px; height: 25px; margin-top: -10px;"><span style="font-size: 20px; margin-left: 15px;">Login</span></a>
+            <a href="search-reserve.html"><img src="../assets/shopping_cart-24px.svg" alt="" style="width: 24px; height: 25px; margin-top: -10px;"><span style="font-size: 20px; margin-left: 15px;">Check Out</span></a>
+            <!-- <a href="search-reserve.html"><img src="../assets/shopping_cart-24px.svg" alt="" style="width: 24px; height: 25px; margin-top: -10px;"><span style="font-size: 20px; margin-left: 15px;">Check Out</span></a> -->
+            
+        
           </div>
+
+
+
     <header id="header">
+
+            <span onclick="openNav()" id="navToggle" class="fa fa-bars" aria-hidden="true"></span>
+            <div class="head-title1">Search</div>
+
         <div class="logo">
             <a href="login-welcome.html"><img src="../assets/logo.svg" alt="" class="atlPic" /></a>
         </div>
@@ -58,20 +70,32 @@
             <span onclick="openNav()" id="navToggle" class="fa fa-bars" aria-hidden="true"></span>
             <div class="head-title">Search</div>
             <div class="container">
-                <div class="row">
+                <div class="row readyrow">
                     <div class="col-md-5">
                         <div class="van-card-square animated shake">
-                            <img id="img-2" src="../assets/ready.svg">
+                            <img id="img-2" class="readyimg" src="../assets/ready.svg">
+                            <div class="readynot">
+
+                                    <div class="title-1 t1" >You are ready to go!</div>
+                                    <div class="title-2 t2">Your vehicle has been unlocked.</div>
+                                    <p class="title-3">Enjoy the ride, and let us know if you have any questions before your rental period is over.
+                                    </p>
+                                    <div class="button-group">
+                                        <a class="btn btn-primary ready-btn" href="#" role="button">Back to Reservation Info</a>
+                                    </div>
+
+
+                            </div>
                         </div>
                     </div>
                     <div class="col-md-1"></div>
-                    <div class="col-md-6 animated shake" style="margin-top: -30px">
+                    <div class="col-md-6 animated shake readynt" style="margin-top: -30px">
                         <div class="title-1" >You are ready to go!</div>
                         <div class="title-2">Your vehicle has been unlocked.</div>
                         <p class="title-3">Enjoy the ride, and let us know if you have any questions before your rental period is over.
                         </p>
-                        <div class="button-group">
-                            <a class="btn btn-primary ready-btn" href="#" style="margin-left: -25px;"role="button">Back to Reservation Info</a>
+                        <div class="button-group rdybtn">
+                            <a class="btn btn-primary ready-btn" href="#" role="button">Back to Reservation Info</a>
                         </div>
                     </div>
                 </div>
