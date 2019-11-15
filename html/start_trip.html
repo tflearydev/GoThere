@@ -23,13 +23,28 @@
 </head>
 
 <body>
-    <div id="mySidenav" class="sidenav">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <a href="#">About us</a>
-        <a href="login-welcome.html">Login</a>
-        <a href="login-welcome.html">Check out</a>
-    </div>
+        <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <!-- <div class="logo" style="margin-left: -30px; margin-top: -60px; margin-bottom: 60px">
+                    <a href="login-welcome.html"><img src="../assets/logo.svg" alt="" class="atlPic" /></a>
+                  </div> -->
+                  <div style="margin-bottom: 10px"><a class="go-back" href="#"><img
+                    src="../assets/keyboard_backspace.svg">Back</a></div>
+                  <br>
+                  <br>
+                <a href="login-welcome.html" style="margin-top: -30px;"><img src="../assets/accnt.svg" alt="" style="width: 24px; height: 25px; margin-top: -10px;"><span style="font-size: 20px; margin-left: 15px;">Login</span></a>
+                <a href="search-reserve.html"><img src="../assets/shopping_cart-24px.svg" alt="" style="width: 24px; height: 25px; margin-top: -10px;"><span style="font-size: 20px; margin-left: 15px;">Check Out</span></a>
+                <!-- <a href="search-reserve.html"><img src="../assets/shopping_cart-24px.svg" alt="" style="width: 24px; height: 25px; margin-top: -10px;"><span style="font-size: 20px; margin-left: 15px;">Check Out</span></a> -->
+                
+            
+              </div>
+
+
     <header id="header">
+
+            <span onclick="openNav()" id="navToggle" class="fa fa-bars" aria-hidden="true"></span>
+            <div class="head-title1">Your Rentals</div>
+
         <div class="logo">
             <a href="login-welcome.html"><img src="../assets/logo.svg" alt="" class="atlPic" /></a>
         </div>
@@ -44,16 +59,18 @@
 
     <div class="content">
         <span onclick="openNav()" id="navToggle" class="fa fa-bars" aria-hidden="true"></span>
-        <div class="head-title">Search</div>
-        <div style="top: 280px; right: 80px; z-index: 1" class="reserve-alert">
+        <div class="head-title">Your Rentals</div>
+
+        <div class="dnone">
+        <div style="top: 230px; right: 80px; z-index: 1" class="reserve-alert ra1">
             <img style="margin-right: 10px" src="../assets/rest_time-24px.svg">Your Reservation ends in 3 days
         </div>
-        <div style="margin-bottom: 32px"><a class="go-back" href="#"><img
+        <div style="margin-bottom: 32px"><a class="go-back gb" href="#"><img
                     src="../assets/keyboard_backspace.svg">Back</a></div>
         <div class="main-content light-padding">
             <div class="request-card animated shake">
                 <div class="request-info">
-                    <div class="request-titile">Request #22938</div>
+                    <div class="request-titile rt1">Request #22938</div>
                     <!-- <img id="img-2" src="../assets/van.png"> -->
                     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                         <div class="carousel-inner rounded shadow">
@@ -105,14 +122,52 @@
                 </div>
                 <div style="padding-left: 5%; margin-top: 20px" class="reserve-info">
                     <div style="margin-top: 60px" class="reserve-content"><span style="font-size: 30px; font-weight: 900">Start your Trip</span></div>
-                    <div class="info-content">Thank you for submitting your pre-trip photos!</div>
-                    <div class="info-content" style="margin-bottom: 20px;"><strong>It’s time to start your trip.</strong> Unlock your rental vehicle
+                    <div class="info-content ic1">Thank you for submitting your pre-trip photos!</div>
+                    <div class="info-content ic1" style="margin-bottom: 20px;"><strong>It’s time to start your trip.</strong> Unlock your rental vehicle
                         by tapping the button below. You will find the keys in the vehicle’s glove box in front of the
                         passenger seat.</div>
                     <a class="btn btn-primary" href="#" role="button">Unlock Vehicle</a>
                 </div>
             </div>
         </div>
+        </div>
+
+
+        <div class="dnone2">
+        <div class="container">
+                <div class="row readyrow">
+                    <div class="col-md-5">
+                        <div class="van-card-square animated shake">
+                            <img id="img-2" class="readyimg" src="../assets/ready.svg">
+                            <div class="readynot">
+
+                                    <div class="title-1 t1" >Unlock your vehicle</div>
+                                    <div class="title-2 t2">It's time to start your trip!</div>
+                                    <p class="title-3">You will find the keys in the vehicle's glove box in front of the passenger's seat.
+                                    </p>
+                                    <div class="button-group">
+                                        <a class="btn btn-primary ready-btn" href="#" role="button">Unlock Vehicle</a>
+                                    </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="col-md-1"></div>
+                    <div class="col-md-6 animated shake readynt" style="margin-top: -30px">
+                        <div class="title-1" >Unlock your vehicle</div>
+                        <div class="title-2">It's time to start your trip!</div>
+                        <p class="title-3">You will find the keys in the vehicle's glove box in front of the passenger's seat.
+                        </p>
+                        <div class="button-group rdybtn">
+                            <a class="btn btn-primary ready-btn" href="#" role="button">Unlock Vehicle</a>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+            </div>
+
+
     </div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
