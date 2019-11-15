@@ -596,11 +596,16 @@ margin-top: -63px;
 .card3 {
   height: 622px;
 }
+@media screen and (max-width: 850px) {
+  .card3 {
+    height: 725px;
+  }
+}
 .card4 {
   height: 145px;
 }
 .card5 {
-  height: 485px;
+  height: 385px;
 }
 
 @media screen and (max-width: 800px) {

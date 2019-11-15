@@ -1137,7 +1137,7 @@ margin-left: -120px;
 @media screen and (max-width: 385px) {
     .search-labels {
     float: right;
-    margin-top: 15px;
+    margin-top: 50px;
     /* margin-bottom: -20px; */
 
     }
@@ -1155,7 +1155,7 @@ margin-left: -120px;
 @media screen and (max-width: 370px) {
     .search-labels {
     float: right;
-    margin-top: 20px;
+    margin-top: 30px;
 
     /* margin-bottom: -20px; */
 
@@ -1177,7 +1177,8 @@ margin-left: -120px;
 
 @media screen and (max-width: 890px) {
     .search2van {
-        height:  120px;
+        height:  100px;
+        margin-right: 40px;
     }
 }
 
