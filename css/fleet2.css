@@ -1,0 +1,620 @@
+body, html {
+    height: 100%;
+    font-family: 'Titillium Web';
+  }
+  
+  #header {
+    height: 150px;
+    /* transition: all 0.5s;
+      z-index: 997;
+      transition: all 0.5s;
+      padding: 20px 0; */
+    background-image: url("../assets/bg.svg");
+    background-size: cover;
+    background-color: #1f2222;
+    background-position: -320px -325px;
+    /* z-index: 1; */
+    /* box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.3); */
+  }
+  
+  .card-head {
+    font-size: 22px;
+  }
+  
+  @media screen and (max-width: 456px) {
+    .card-head {
+      font-size: 12px;
+      font-weight: bold;
+    }
+  }
+  
+  .card-head2 {
+    font-weight: bold;
+    margin-top: -10px;
+    font-size: 22px;
+  }
+  
+  @media screen and (max-width: 456px) {
+    .card-head2 {
+      font-weight: bold;
+      margin-top: -10px;
+      font-size: 19px;
+    }
+  }
+  
+  .specs {
+    margin-bottom: 2px;
+    margin-top: 20px;
+    float: right;
+  }
+  
+  @media screen and (max-width: 456px) {
+    .specs {
+      margin-bottom: 2px;
+      margin-top: 5px;
+      float: left;
+      margin-left: -200px;
+    }
+  }
+  
+  .vehicles {
+    width: 200px;
+    height: 135px;
+  }
+  
+  .card-horizontal {
+    display: flex;
+    flex: 1 1 auto;
+    float: left;
+  }
+  
+  @media screen and (min-width: 700px) {
+    #header {
+      height: 250px;
+      /* transition: all 0.5s;
+        z-index: 997;
+        transition: all 0.5s;
+        padding: 20px 0; */
+      background-image: url("../assets/bg.svg");
+      background-size: cover;
+      background-color: #1f2222;
+      background-position: -320px -325px;
+      z-index: 1;
+      /* box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.3); */
+    }
+  }
+  
+  .atlPic {
+    /* width: 220px; */
+    height: 105px;
+    /* width:35%; */
+    margin: 0 auto;
+    display: block;
+    padding-top: 50px;
+    font-weight: 600;
+    /* float:none !important; */
+  }
+  
+  @media screen and (min-width: 700px) {
+    .atlPic {
+      /* float: left; */
+      margin-left: 60px;
+      /* width: 220px; */
+      height: 110px;
+    }
+  }
+  
+  .center-search {
+    text-align: center;
+    font-weight: 900;
+    font-size: 36px;
+    /* font-family: "Titillium Web", sans-serif; */
+    letter-spacing: 0;
+    color: #ffffff;
+    opacity: 1;
+    margin-top: -50px;
+  }
+  
+  @media screen and (max-width: 700px) {
+    .center-search {
+      display: none;
+    }
+  }
+  
+  .content {
+    background: #ffffff;
+    border-radius: 20px 20px 0 0;
+    margin-top: -20px;
+    padding-top: 35px;
+    opacity: 1;
+  }
+  
+  @media screen and (max-width: 425px) {
+    .content {
+      background: #ffffff;
+      /* border-radius: 10px 10px 0 0; */
+      margin-top: -20px;
+      padding-top: 35px;
+      opacity: 1;
+    }
+  }
+  
+  body {
+    margin: 0;
+  }
+  
+  .header-check {
+    color: #fff;
+    top: 150px;
+    right: 10px;
+    /* line-height: 46px; */
+    font-size: 18px;
+    font-weight: bold;
+    position: absolute;
+    /* display: flex; */
+    /* align-items: center; */
+    margin-right: 40px;
+    margin-top: -65px;
+  }
+  
+  .header-check a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  @media screen and (max-width: 700px) {
+    .header-check {
+      display: none;
+    }
+  }
+  
+  .header-check1 {
+    color: #fff;
+    top: 110px;
+    right: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    position: absolute;
+    margin-right: 40px;
+    margin-top: -65px;
+  }
+  
+  .header-check1 a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  @media screen and (max-width: 700px) {
+    .header-check1 {
+      display: none;
+    }
+  }
+  
+  .header-check1:hover {
+    color: black;
+  }
+  
+  .btn-primary {
+    background-color: #0092c0;
+    /* border: #0092c0; */
+    margin-bottom: 20px;
+    font-size: 22px;
+    margin-top: 15px;
+    transition: transform 0.4s;
+  }
+  
+  .btn-primary:hover {
+    transform: scale(0.9);
+  }
+  
+  .map-height {
+    margin-top: 250px;
+  }
+  
+  .center {
+    width: 150px;
+  }
+  
+  .btn-color {
+    background-color: #0092c0;
+    border: #0092c0;
+  }
+  
+  .btn-default {
+    letter-spacing: 1px;
+    width: 230px;
+    border: 2px solid #0092c0;
+    border-radius: 40px;
+    /* background: transparent; */
+    transition: all 0.3s ease 0s;
+  }
+  
+  .login-text {
+    margin-bottom: 45px;
+    margin-top: -10px;
+    font-size: 22px;
+    /* font-family: "Titillium Web", sans-serif; */
+  }
+  
+  .form-control {
+    font-size: 23px;
+    /* font-family: "Titillium Web", sans-serif; */
+  }
+  
+  @media screen and (max-width: 420px) {
+    .form-control {
+      font-size: 18px;
+      /* font-family: "Titillium Web", sans-serif; */
+    }
+  }
+  
+  .form-input {
+    font-size: 23px;
+  }
+  
+  @media screen and (max-width: 585px) {
+    .form-input {
+      font-size: 16px;
+    }
+  }
+  
+  .passw {
+    margin-bottom: 40px;
+  }
+  
+  img.cart {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .cart {
+    margin-right: 10px;
+  }
+  
+  .col-5 {
+    margin: 0 auto;
+    margin-bottom: 10px;
+    float: none;
+  }
+  
+  a.btn.newAc {
+    color: #0092c0;
+    text-decoration: underline;
+    /* margin-bottom: -50px; */
+  }
+  
+  @media screen and (max-width: 420px) {
+    a.btn.newAc {
+      color: #0092c0;
+      text-decoration: underline;
+      font-size: 15px;
+      margin-bottom: -90px;
+      margin-top: -40px;
+    }
+  }
+  
+  /* 
+  a {
+    font-family: "Titillium Web", sans-serif;
+  }
+  .form-control,
+  .form-input {
+    font-family: "Titillium Web", sans-serif;
+  } */
+  
+  .sidenav {
+    height: 100%;
+    /* 100% Full-height */
+    width: 0;
+    /* 0 width - change this with JavaScript */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Stay on top */
+    top: 0;
+    /* Stay at the top */
+    left: 0;
+    background-color: #0092c0;
+    /* Black*/
+    overflow-x: hidden;
+    /* Disable horizontal scroll */
+    padding-top: 60px;
+    /* Place content 60px from the top */
+    transition: 0.5s;
+    /* 0.5 second transition effect to slide in the sidenav */
+    z-index: 2;
+  }
+  
+  /* .fixed {
+      position: fixed; 
+  } */
+  
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+  }
+  
+  /* @media screen and (max-width: 700px) {
+        .sticky {
+          display: none;
+        }
+    } */
+  
+  /* The navigation menu links */
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 22px;
+    color: #f0f0f0;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  /* .more {
+    margin-top: -10px;
+  } */
+  
+  /* When you mouse over the navigation links, change their color */
+  
+  .sidenav a:hover {
+    color: #0092c0;
+  }
+  
+  /* Position and style the close button (top right corner) */
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {
+      padding-top: 15px;
+    }
+    .sidenav a {
+      font-size: 18px;
+    }
+  }
+  
+  .fa-bars {
+    font-size: 36px;
+    margin-left: 65px;
+    margin-top: 55px;
+    transition: transform 0.4s;
+    color: white;
+  }
+  
+  @media screen and (max-width: 700px) {
+    .fa-bars {
+      font-size: 25px;
+      margin-left: 20px;
+      margin-top: 60px;
+      transition: transform 0.4s;
+      color: white;
+      background-color: #0092c0;
+    }
+  }
+  
+  @media screen and (max-width: 700px) {
+    .card-uno {
+      margin-top: -10px;
+    }
+  }
+  
+  /* @media screen and (min-width: 700px) {
+    #navToggle, #mySidenav {
+        display: none;
+        
+    }
+  } */
+  
+  /* Change the link color to #111 (black) on hover */
+  
+  /* li a:hover {
+      background-color: #111;
+    } */
+  
+  @media screen and (min-width: 1201px) {
+    .nav-link {
+      color: grey;
+      padding-left: 60px;
+      padding-right: 60px;
+    }
+  }
+  
+  @media screen and (min-width: 900px) and (max-width: 1200px) {
+    .nav-link {
+      color: grey;
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+  }
+  
+  @media screen and (max-width: 699px) {
+    .nav-link {
+      margin-top: -30px;
+      background: white 100%;
+    }
+  }
+  
+  @media screen and (min-width: 700px) and (max-width: 899px) {
+    .nav-link {
+      color: grey;
+      padding-left: 20px;
+      padding-right: 20px;
+      font-size: 20px;
+    }
+  }
+  
+  @media screen and (min-width: 530px) and (max-width: 699px) {
+    .nav-link {
+      color: black;
+      padding-left: 15px;
+      padding-right: 15px;
+      font-size: 17px;
+    }
+  }
+  
+  @media screen and (max-width: 530px) {
+    .nav-link {
+      color: grey;
+      font-weight: bold;
+      padding-right: 5px;
+      font-size: 15px;
+    }
+  }
+  
+  @media screen and (max-width: 405px) {
+    .nav-link {
+      color: grey;
+      font-weight: bold;
+      padding-right: 4px;
+      font-size: 14px;
+    }
+  }
+  
+  .nav-link:hover {
+    text-decoration: underline #0092c0;
+    color: #0092c0;
+  }
+  
+  @media screen and (max-width: 699px) {
+    .nav-link:hover {
+      text-decoration: underline #0092c0;
+      color: #0092c0;
+    }
+  }
+  
+  @media screen and (min-width: 700px) {
+    .nav {
+      margin-top: -45px;
+      font-size: 30px;
+      color: white;
+    }
+  }
+  
+  /* .nav {
+        margin-top: 30px;
+        font-size: 20px;
+    } */
+  
+  #navToggle:hover {
+    color: black;
+    cursor: pointer;
+    transform: scale(0.9);
+  }
+  
+  .head-title {
+    font-size: 20px;
+    text-align: center;
+    margin-top: -30px;
+    /* font-family: "Titillium Web", sans-serif; */
+    font-weight: bold;
+  }
+  
+  /* @media screen and (min-width: 700px) {
+    .head-title {
+        display: none;
+    }
+  } */
+  
+  .form-control {
+    background-color: #f0f0f0;
+  }
+  
+  /* .card {
+      font-family: 'Titillium Web', sans-serif;
+      font-weight: 600;
+      letter-spacing: 0.36px;
+      color: #1D1D1D; 
+      width: 50px;
+  } */
+  
+  @media screen and (max-width: 1200px) {
+    .seLabel {
+      font-size: 15px;
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    .timeForm {
+      width: 120px;
+      display: flex;
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    .col-sm-7 {
+      position: relative;
+      width: 30%;
+      padding-right: 15px;
+      padding-left: 15px;
+    }
+  }
+  
+  .car-box {
+    top: 710px;
+    left: 216px;
+    width: 95px;
+    height: 60px;
+    background: #f0f0f0 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+    opacity: 1;
+    margin-top: -35px;
+  }
+  
+  .active {
+      color: #fff;
+  }
+  
+  .active::after {
+      content: "";
+      margin-left: -10%;
+      width: 120%;
+      height: 3px;
+      display: block;
+      background: #fff;
+  }
+  
+  .nav-link:hover {
+      text-decoration: none;
+      color: #fff;
+  }
+  
+  .nav-link:hover::after {
+      content: "";
+      margin-left: -10%;
+      width: 120%;
+      height: 3px;
+      display: block;
+      background: #fff;
+  }
+  
+  .container-fluid {
+      padding: 0 50px 0 70px;
+  }
+  
+  .reserve-info {
+      width: 30%;
+      border-right: 1px solid #00000029;
+  }
+  
+  .reserve-description {
+      border: none;
+  }
+  
+  .reserve-description {
+      padding: 0 0 10% 10%;
+  }
+  
+  .ra {
+      top: 300px;
+  }
