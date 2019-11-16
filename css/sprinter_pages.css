@@ -420,7 +420,7 @@ h1 {
 }
 
 @media screen and (max-width: 940px) {
-    .btn5 {
+    #btn5 {
         font-size: 17px !important;
         width: 200px !important;
     }
@@ -432,6 +432,15 @@ h1 {
     margin-bottom: 60px;
 }
 }
+
+@media screen and (max-width: 1600px) {
+    #btn5 {
+    margin-top: 5px !important;
+    /* margin-bottom: 60px; */
+    margin-right: 0px;
+}
+}
+
 
 
 
@@ -455,12 +464,82 @@ h1 {
 @media screen and (max-width: 1600px) {
     .extra {
         font-size: 13px;
-        width: 190px !important;
+        /* width: 200px !important; */
         margin-top: -40px !important;
         
     }
 }
 
+@media screen and (max-width: 940px) {
+    .rd1 {
+     
+  
+        margin-bottom: 50px;
+        
+    }
+}
+
+@media screen and (max-width: 940px) {
+    .re {
+     
+  
+        font-size: 20px !important;
+        
+    }
+}
+
+@media screen and (min-width: 1780px) {
+    .ci {
+     
+  
+        height: 270px !important;
+        /* width: 400px !important; */
+        
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .onesix {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .oneseven {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 940px) {
+    .b4 {
+       width: 200px !important;
+        /* width: 200px !important; */
+       
+        
+    }
+}
+
+@media screen and (max-width: 940px) {
+    .b5 {
+       width: 200px !important;
+       height: 45px !important;
+        /* width: 200px !important; */
+       
+        
+    }
+}
+
+
+@media screen and (max-width: 1000px) {
+    .extra {
+        font-size: 13px;
+        width: 215px !important;
+        /* width: 200px !important; */
+        margin-top: -40px !important;
+        
+    }
+}
 
 
 
@@ -709,6 +788,28 @@ input {
         
     }
 }
+
+@media screen and (max-width: 800px) {
+    .main-content2 {
+        display: flex;
+        padding: 0px !important;
+        /* margin-top: -230px;  */
+    }
+}
+.main-content2 {
+    display: flex;
+    padding: 0 2%;
+    margin-top: 0px;
+}
+
+@media screen and (max-width: 801px) {
+    .oneseven {
+        display: none !important;
+        
+    }
+}
+
+
 
 
 #map-container-google-1 {
@@ -1752,6 +1853,9 @@ h3 {
     }
 }
 
+
+
+
 @media screen and (max-width: 475px) {
     .van-card-square {
         padding-left: 10px;
@@ -1991,11 +2095,37 @@ select {
     opacity: 0.5;
 }
 
+@media screen and (max-width: 800px) {
+.gob {
+    display: none;
+}
+}
 
 .ra {
     top: 280px; 
     right: 80px; 
     z-index: 1;
+}
+
+.ra11 {
+    top: 280px; 
+    right: 20px; 
+    z-index: 1;
+    
+}
+
+
+@media screen and (min-width: 800px) {
+    .ra11 {
+        display: none;
+    }
+    }
+
+
+@media screen and (max-width: 800px) {
+.ra {
+    display: none;
+}
 }
 
 @media screen and (max-width: 940px) {
