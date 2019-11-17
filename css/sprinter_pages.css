@@ -2101,6 +2101,12 @@ select {
 }
 }
 
+@media screen and (max-width: 1035px) {
+    .bhg {
+        font-size: 16px !important;
+    }
+}
+
 .ra {
     top: 280px; 
     right: 80px; 
