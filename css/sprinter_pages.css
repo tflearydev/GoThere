@@ -126,7 +126,7 @@ h1 {
 }
 
 
-@media screen and (max-width: 570px) {
+@media screen and (max-width: 800px) {
     .n1 {
        font-size: 1rem;
        color: #fff;

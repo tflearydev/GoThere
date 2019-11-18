@@ -53,10 +53,22 @@
         
         @media screen and (max-width: 600px) {
             .btn-primary {
-               font-size: 12px !important;
+               font-size: 13px !important;
+               width: 110px !important;
+               height: 40px !important;
+            }
+        }
+
+        @media screen and (max-width: 350px) {
+            .btn-primary {
+               font-size: 11px !important;
                width: 100px !important;
                height: 40px !important;
             }
+        }
+
+        input[type="file"] {
+        display: none;
         }
         
 
@@ -180,46 +192,85 @@
                         left: 789px !important;
                         height: 47px; font-size: 20px; margin-bottom: -20px" class="btn btn-primary" href="#" role="button">Front Photo</a> -->
     
+                       
+
                         <div class="text-center">
-                                <a style="background: black; border-color: #0092C0; width: 200px; top: 464px;
+                                <label for="file-upload" class="btn btn-primary" style="background: black; border-color: #0092C0; width: 200px; top: 464px;
                                 left: 789px !important;
-                                height: 47px; font-size: 20px; margin-bottom: -20px" class="btn btn-primary" href="#" role="button">Front Photo</a>
-                        </div>
+                                height: 47px; font-size: 20px; margin-bottom: -20px;">
+                                    Front Photo
+                                    </label>
+                                    <input id="file-upload" type="file"/>
+                                </div>
+
 
                         <div class="text-center">
 
-                                <a style="background: black; border-color: #0092C0; width: 200px; top: 464px;
+                                <!-- <a style="background: black; border-color: #0092C0; width: 200px; top: 464px;
                                 left: 789px !important;
-                                height: 47px; font-size: 20px; margin-bottom: -20px" class="btn btn-primary" href="#" role="button">Left Photo</a>
+                                height: 47px; font-size: 20px; margin-bottom: -20px" class="btn btn-primary" href="#" role="button">Left Photo</a> -->
+
+                                
+                                        <label for="file-upload" class="btn btn-primary" style="background: black; border-color: #0092C0; width: 200px; top: 464px;
+                                        left: 789px !important;
+                                        height: 47px; font-size: 20px; margin-bottom: -20px;">
+                                            Left Photo
+                                            </label>
+                                            <input id="file-upload" type="file"/>
+                                       
+        
+
+
+
 
     <img src="../assets/van-vert2x.png" alt="" class="mx-auto" style="height: 275px; width: 100px; margin-top: 20px;">
 
-    <a style="background: black; border-color: #0092C0; width: 200px; top: 464px;
+    <!-- <a style="background: black; border-color: #0092C0; width: 200px; top: 464px;
     left: 789px !important;
-    height: 47px; font-size: 20px; margin-bottom: -20px" class="btn btn-primary" href="#" role="button">Right Photo</a>
+    height: 47px; font-size: 20px; margin-bottom: -20px" class="btn btn-primary" href="#" role="button">Right Photo</a> -->
+
+
+
+        <label for="file-upload" class="btn btn-primary" style="background: black; border-color: #0092C0; width: 200px; top: 464px;
+        left: 789px !important;
+        height: 47px; font-size: 20px; margin-bottom: -20px;">
+            Right Photo
+            </label>
+            <input id="file-upload" type="file"/>
+        
+
 
 
                         </div>     
                         
+                        
+
+                      
                         <div class="text-center" style="margin-top:-90px; z-index: 2">
-                                <a style="background: black; border-color: #0092C0; width: 200px; top: 464px;
+                                <label for="file-upload" class="btn btn-primary" style="background: black; border-color: #0092C0; width: 200px; top: 464px;
                                 left: 789px !important;
-                                height: 47px; font-size: 20px; margin-bottom: -20px" class="btn btn-primary" href="#" role="button">Roof Photo</a>
+                                height: 47px; font-size: 20px; margin-bottom: -20px;">
+                                    Roof Photo
+                                    </label>
+                                    <input id="file-upload" type="file"/>
+                                </div>
 
-                                
-                        </div>
 
+
+                        
                         <div class="text-center" style="margin-top:40px; z-index: 2">
-                                <a style="background: black; border-color: #0092C0; width: 200px; top: 464px;
+                                <label for="file-upload" class="btn btn-primary" style="background: black; border-color: #0092C0; width: 200px; top: 464px;
                                 left: 789px !important;
-                                height: 47px; font-size: 20px; margin-bottom: -20px" class="btn btn-primary" href="#" role="button">Back Photo</a>
+                                height: 47px; font-size: 20px; margin-bottom: -20px; margin-top: 30px !important;">
+                                    Back Photo
+                                    </label>
+                                    <input id="file-upload" type="file"/>
+                                </div>
 
 
-                        </div>
-
-                        <a style="background: #0092C0; border-color: #0092C0; width: 150px; top: 464px; float: right;
-height: 47px; font-size: 20px; margin-bottom: -20px" class="btn btn-primary" href="#" role="button">Submit</a>
-
+                        <a style="background: #0092C0; border-color: #0092C0; width: 125px; top: 464px; float: right; 
+height: 47px; font-size: 20px; margin-bottom: -20px; margin-top: -25px !important" class="btn btn-primary" href="#" role="button">Submit</a>
+      
 
                     </div>
             </div>
@@ -250,13 +301,22 @@ height: 47px; font-size: 20px; margin-bottom: -20px" class="btn btn-primary" hre
               <div class="van-card-square animated shake" style="width: 100vw; height: 570px; padding-top: 40px; margin-left: 15px;">
                 
                  
-                    <div class="text-center">
+                    <!-- <div class="text-center">
                             <a style="background: black; border-color: #0092C0; width: 200px; top: 464px;
                             left: 789px !important;
                             height: 47px; font-size: 20px; margin-bottom: -20px" class="btn btn-primary" href="#" role="button">Front Photo</a>
-                    </div>
+                    </div> -->
 
-                    <div class="text-center">
+
+                    <div class="text-center" style="z-index: 2">
+                            <label for="file-upload" class="btn btn-primary" style="background: black; border-color: #0092C0; width: 200px; top: 464px;
+                            left: 789px !important;
+                            height: 47px; font-size: 20px; margin-bottom: -20px">
+                                Front Photo
+                                </label>
+                                <input id="file-upload" type="file" accept="image/*" capture="camera"/>
+                            </div>
+                    <!-- <div class="text-center">
 
                             <a style="background: black; border-color: #0092C0; width: 200px; top: 464px;
                             left: 789px !important;
@@ -269,23 +329,68 @@ left: 789px !important;
 height: 47px; font-size: 20px; margin-bottom: -20px" class="btn btn-primary" href="#" role="button">Right Photo</a>
 
 
-                    </div>     
+                    </div>      -->
+
+                    <div class="text-center">
+
+
+                            <label for="file-upload" class="btn btn-primary" style="background: black; border-color: #0092C0; width: 200px; top: 464px;
+                            left: 789px !important;
+                            height: 47px; font-size: 20px; margin-bottom: -20px">
+                                Left Photo
+                                </label>
+                                <input id="file-upload" type="file"/>
+
+
+
+                                <img src="../assets/van-vert2x.png" alt="" class="mx-auto" style="height: 275px; width: 100px; margin-top: 20px;">
+
+
+
+                                <label for="file-upload" class="btn btn-primary" style="background: black; border-color: #0092C0; width: 200px; top: 464px;
+                            left: 789px !important;
+                            height: 47px; font-size: 20px; margin-bottom: -20px">
+                                Right Photo
+                                </label>
+                                <input id="file-upload" type="file"/>
+
+                            </div>
                     
-                    <div class="text-center" style="margin-top:-90px; z-index: 2">
+                    <!-- <div class="text-center" style="margin-top:-90px; z-index: 2">
                             <a style="background: black; border-color: #0092C0; width: 200px; top: 464px;
                             left: 789px !important;
                             height: 47px; font-size: 20px; margin-bottom: -20px" class="btn btn-primary" href="#" role="button">Roof Photo</a>
 
                             
-                    </div>
+                    </div> -->
 
-                    <div class="text-center" style="margin-top:40px; z-index: 2">
+                    <!-- <div class="text-center" style="margin-top:40px; z-index: 2">
                             <a style="background: black; border-color: #0092C0; width: 200px; top: 464px;
                             left: 789px !important;
                             height: 47px; font-size: 20px; margin-bottom: -20px" class="btn btn-primary" href="#" role="button">Back Photo</a>
 
 
+                    </div> -->
+
+                    <div class="text-center" style="margin-top:-90px; z-index: 2">
+                            <label for="file-upload" class="btn btn-primary" style="background: black; border-color: #0092C0; width: 200px; top: 464px;
+                            left: 789px !important;
+                            height: 47px; font-size: 20px; margin-bottom: -20px; margin-top: -10px;">
+                                Roof Photo
+                                </label>
+                                <input id="file-upload" type="file"/>
+                            </div>
+
+
+                    <div class="text-center" style="margin-top:40px; z-index: 2">
+                    <label for="file-upload" class="btn btn-primary" style="background: black; border-color: #0092C0; width: 200px; top: 464px;
+                    left: 789px !important;
+                    height: 47px; font-size: 20px; margin-bottom: -20px; margin-top: 40px !important;">
+                        Back Photo
+                        </label>
+                        <input id="file-upload" type="file"/>
                     </div>
+
 
                     <div class="text-center" style="margin-top:40px; z-index: 2; font-weight: 900">
                             Post-Trip Vehicle Photos
