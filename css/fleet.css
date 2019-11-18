@@ -19,13 +19,27 @@ html {
   /* box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.3); */
 }
 
+.detail-bar {
+  width: 100%;
+  height: 45px;
+  border-radius: 0 0 10px 10px;
+  background: #F4F4F4;
+  color: #0092C0;
+  text-align: center;
+  line-height: 45px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 0px;
+}
+
 .card-head {
-  font-size: 22px;
+  font-size: 26px;
+  font-weight: 900;
 }
 
 @media screen and (max-width: 456px) {
   .card-head {
-    font-size: 12px;
+    font-size: 14px;
     font-weight: bold;
   }
 }
@@ -72,7 +86,7 @@ html {
 
 @media screen and (min-width: 700px) {
   #header {
-    height: 250px;
+    height: 230px;
     /* transition: all 0.5s;
       z-index: 997;
       transition: all 0.5s;
@@ -89,11 +103,11 @@ html {
 
 .atlPic {
   /* width: 220px; */
-  height: 105px;
+  height: 75px;
   /* width:35%; */
   margin: 0 auto;
   display: block;
-  padding-top: 50px;
+  padding-top: 30px;
   font-weight: 600;
   /* float:none !important; */
 }
@@ -102,15 +116,16 @@ html {
   .atlPic {
     /* float: left; */
     margin-left: 60px;
+    
     /* width: 220px; */
-    height: 110px;
+    height: 90px;
   }
 }
 
 .center-search {
   text-align: center;
   font-weight: 900;
-  font-size: 36px;
+  font-size: 40px;
  
   letter-spacing: 0;
   color: #ffffff;
@@ -175,7 +190,7 @@ body {
   color: #fff;
   top: 110px;
   right: 10px;
-  font-size: 18px;
+  font-size: 24px;
   font-weight: bold;
   position: absolute;
   margin-right: 40px;
@@ -362,7 +377,7 @@ a.btn.newAc {
 .fa-bars {
   font-size: 36px;
   margin-left: 65px;
-  margin-top: 55px;
+  margin-top: 60px;
   transition: transform 0.4s;
   color: white;
 }
@@ -371,12 +386,15 @@ a.btn.newAc {
   .fa-bars {
     font-size: 25px;
     margin-left: 20px;
-    margin-top: 60px;
+    margin-top: 20px;
+ 
     transition: transform 0.4s;
     color: white;
-    background-color: #0092c0;
+    /* background-color: #0092c0; */
   }
 }
+
+
 
 @media screen and (max-width: 700px) {
   .card-uno {
@@ -403,7 +421,7 @@ a.btn.newAc {
   }
 }
 
-@media screen and (min-width: 900px) and (max-width: 1200px) {
+@media screen and (min-width: 940px) and (max-width: 1200px) {
   .nav-link {
     color: grey;
     padding-left: 30px;
@@ -413,23 +431,24 @@ a.btn.newAc {
 
 @media screen and (max-width: 699px) {
   .nav-link {
-    margin-top: -30px;
-    background: white 100%;
+    margin-top: -40px;
+    /* background: white 100%; */
   }
 }
 
-@media screen and (min-width: 700px) and (max-width: 899px) {
+@media screen and (min-width: 700px) and (max-width: 940px) {
   .nav-link {
     color: grey;
     padding-left: 20px;
     padding-right: 20px;
     font-size: 20px;
+    margin-top: 10px;
   }
 }
 
 @media screen and (min-width: 530px) and (max-width: 699px) {
   .nav-link {
-    color: black;
+    color: grey;
     padding-left: 15px;
     padding-right: 15px;
     font-size: 17px;
@@ -442,7 +461,8 @@ a.btn.newAc {
     font-weight: bold;
 
     padding-right: 5px;
-    font-size: 15px;
+    font-size: 14px;
+    
   }
 }
 
@@ -451,14 +471,30 @@ a.btn.newAc {
     color: grey;
     font-weight: bold;
 
-    padding-right: 4px;
-    font-size: 14px;
+    padding-right: 2px;
+    font-size: 11px;
+    margin-top: -32px;
+    
+  
   }
 }
 
+@media screen and (max-width: 405px) {
+  .item1 {
+    color: grey;
+    font-weight: bold;
+    margin-left: 15px;
+    padding-right: 4px;
+    font-size: 12px;
+  
+  }
+}
+
+
+
 .nav-link:hover {
-  text-decoration: underline #0092c0;
-  color: #0092c0;
+  text-decoration: underline white;
+  color: white;
 }
 
 @media screen and (max-width: 699px) {
@@ -470,11 +506,13 @@ a.btn.newAc {
 
 @media screen and (min-width: 700px) {
   .nav {
-    margin-top: -45px;
+    margin-top: -55px;
     font-size: 30px;
     color: white;
   }
 }
+
+
 
 
 #navToggle:hover {

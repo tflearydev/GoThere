@@ -20,17 +20,86 @@
     <link rel="stylesheet" href="../css/search.css" type="text/css" />
 
     <title>Van2Share</title>
+
+    <style>
+
+@media screen and (max-width: 1250px) {
+    #input-2 {
+        width: 180px;
+        font-size: 15px
+    }
+}
+
+
+
+@media screen and (max-width: 400px) {
+    .ig {
+        width: 180px;
+        font-size: 15px
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .card {
+       padding-left: 5px
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .card {
+       
+        display: none;
+     
+    }
+}
+
+
+@media screen and (min-width: 585px) and (max-width: 800px) {
+    .ig {
+       
+        font-size: 30px;
+     
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #header {
+       
+        height: 90px !important;
+     
+    }
+}
+
+
+    </style>
 </head>
 
 <body>
-    <div id="mySidenav" class="sidenav">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <a href="#">About us</a>
-        <a href="login-welcome.html">Login</a>
-        <a href="login-welcome.html">Check out</a>
-    </div>
-    <header id="header">
-        <div class="logo">
+        <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <!-- <div class="logo" style="margin-left: -30px; margin-top: -60px; margin-bottom: 60px">
+                    <a href="login-welcome.html"><img src="../assets/logo.svg" alt="" class="atlPic" /></a>
+                  </div> -->
+                  <div style="margin-bottom: 10px"><a class="go-back" href="#"><img
+                    src="../assets/keyboard_backspace.svg">Back</a></div>
+                  <br>
+                  <br>
+                <a href="login-welcome.html" style="margin-top: -30px;"><img src="../assets/accnt.svg" alt="" style="width: 24px; height: 25px; margin-top: -10px;"><span style="font-size: 20px; margin-left: 15px;">Haley R.</span></a>
+                <a href="search-reserve.html"><img src="../assets/shopping_cart-24px.svg" alt="" style="width: 24px; height: 25px; margin-top: -10px;"><span style="font-size: 20px; margin-left: 15px;">Check out</span></a>
+                <!-- <a href="search-reserve.html"><img src="../assets/shopping_cart-24px.svg" alt="" style="width: 24px; height: 25px; margin-top: -10px;"><span style="font-size: 20px; margin-left: 15px;">Check Out</span></a> -->
+                
+            
+              </div>
+    
+
+
+    <header id="header" style="height: 160px">
+
+
+            <span onclick="openNav()" id="navToggle" class="fa fa-bars" aria-hidden="true"></span>
+            <div class="head-title1" style="font-size: 25px;">Your Rentals</div>
+
+        <div class="logo" style="margin-top: -5px">
             <a href="login-welcome.html"><img src="../assets/logo.svg" alt="" class="atlPic" /></a>
         </div>
         <div class='center-search'>ATL Sprinters Rentals</div>
@@ -41,9 +110,17 @@
                     alt="">Check out</a>
         </div>
     </header>
+
+    
+
     <div class="content" style="margin-top: 30px;">
-        <span onclick="openNav()" id="navToggle" class="fa fa-bars" aria-hidden="true"></span>
-        <div class="head-title">Search</div>
+
+
+            <span onclick="openNav()" id="navToggle" class="fa fa-bars" aria-hidden="true"></span>
+            <div class="head-title">Your Rentals</div>
+
+
+
         <div class="main-content more-padding">
             <div class="van-card animated bounceInDown">
                 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -93,23 +170,246 @@
             <div class="account-creation">
                 <h1 class="h1-black">Create an account to reserve.</h1>
                 <form action="" class="input-group">
-                    <input id="input-2" type="text" placeholder="First name" value="Haley">
-                    <input id="input-2" type="text" placeholder="Phone number">
-                    <input id="input-2" type="text" placeholder="Last name">
-                    <input id="input-2" type="text" placeholder="Password">
-                    <input id="input-2" type="text" placeholder="Address">
-                    <input id="input-2" type="text" placeholder="Re-enter password">
-                    <input id="input-2" type="text" placeholder="Email">
+                    <input id="input-2" class="ii" type="text" placeholder="First name" value="Haley">
+                    <input id="input-2" class="ii" type="text" placeholder="Phone number">
+                    <input id="input-2" class="ii" type="text" placeholder="Last name">
+                    <input id="input-2" class="ii" type="text" placeholder="Password">
+                    <input id="input-2" class="ii" type="text" placeholder="Address">
+                    <input id="input-2" class="ii" type="text" placeholder="Re-enter password">
+                    <input id="input-2" class="ii" type="text" placeholder="Email">
                 </form>
-                <p>Registering will send your reservation information to the rental company. After reviewing your
+                <p style="font-size: 20px">Registering will send your reservation information to the rental company. After reviewing your
                     request, the rental company will contact you for insurance & payment information.</p>
                 <div class="reserve-button">
-                    <a class="btn btn-primary more-height" href="#" role="button">Registration & Reserve</a>
+                    <a class="btn btn-primary more-height" href="#" role="button" style="width: 320px">Registration & Reserve</a>
                     <a class="login-link" href="#">Already have an account? Login</a>
                 </div>
             </div>
         </div>
     </div>
+
+    
+    
+        
+      
+                <div class="card shadow-lg mx-auto animated bounceInDown" style="width: 100%; padding-left: 5px; padding-top: 20px; margin-top: -190px">
+                      <div class="card-body">
+                          <h4 class="card-title mb-3 mt-2" style="font-size: 50px; font-weight: 900;">Welcome!</h4>
+                          
+                          <h1 class="h1-black" style="font-size: 30px;">Create an account to reserve.</h1>
+                          <form>
+      
+                            
+                            <div style="display: flex">
+                          <div class="form-group">
+                          <div class="input-group">
+                              
+                              <input name="" class="form-control form-input ig" placeholder="First name" type="text">
+                          </div> <!-- input-group.// -->
+                          </div> <!-- form-group// -->
+      
+                          <div class="form-group">
+                              <div class="input-group" style="margin-left: 10px">
+                                
+                                <input class="form-control form-input ig" placeholder="Phone Number" type="password">
+                            </div> <!-- input-group.// -->
+                            </div> <!-- form-group// -->
+                            </div>
+                            
+              
+      
+                            <div style="display: flex">
+                          <div class="form-group">
+                          <div class="input-group">
+                              
+                              <input class="form-control form-input ig" placeholder="Last name" type="password">
+                          </div> <!-- input-group.// -->
+                          </div> <!-- form-group// -->
+      
+                          <div class="form-group">
+                              <div class="input-group" style="margin-left: 10px">
+                                
+                                <input class="form-control form-input ig" placeholder="Password" type="password">
+                            </div> <!-- input-group.// -->
+                            </div> <!-- form-group// -->
+                          </div>
+      
+      
+                          <div style="display: flex">
+                          <div class="form-group">
+                          <div class="input-group">
+                           
+                            <input class="form-control form-input ig" placeholder="Address" type="text">
+                        </div> <!-- input-group.// -->
+                        </div> <!-- form-group// -->
+      
+                        <div class="form-group">
+                            <div class="input-group" style="margin-left: 10px">
+                              
+                              <input class="form-control form-input ig" placeholder="Re-enter Password" type="password">
+                          </div> <!-- input-group.// -->
+                          </div> <!-- form-group// -->
+                        </div>
+      
+                        <div class="form-group">
+                        <div class="input-group wel-email" style="margin-top: 40px; margin-bottom: 50px;">
+                          
+                          <input class="form-control form-input ig" placeholder="Email" type="email">
+                      </div> <!-- input-group.// -->
+                      </div> <!-- form-group// -->
+        
+      
+                          <div class="form-group text-center">
+                          <button type="submit" class="btn btn-primary btn-default custom" style="width: 300px">Register & Reserve</button>
+                          </div> <!-- form-group// -->
+                          <!-- <p class="text-center"><a href="#" onclick="show('loginPage')" class="btn newAc">Already have an account? Login</a></p> -->
+                          </form>
+                      </div>
+                      </div> <!-- card.// -->
+      
+                      </div>
+                      </div>
+                      </div>
+
+                      <div class="onesix" style="margin-top: 80px;">
+                            <div class="row readyrow">
+                              <div class="col-md-5">
+                                <div class="van-card-square animated shake" style="width: 100vw; height: 518px; padding-top: 30px; margin-left: 15px">
+            
+            
+                                        <div class="request-info mx-auto" style="width: 75% !important;">
+                                               
+                                                <!-- <img id="img-2" src="../assets/van.png"> -->
+                                                <div
+                                                  id="carouselExampleIndicators"
+                                                  class="carousel slide"
+                                                  data-ride="carousel"
+                                                >
+                                                  <div class="carousel-inner rounded shadow">
+                                                    <div class="carousel-item ci active">
+                                                      <img
+                                                        id="img-2"
+                                                        src="../assets/van.png"
+                                                        class="d-block ra-e w-100"
+                                                        alt="..."
+                                                      />
+                                                    </div>
+                                                    <div class="carousel-item ci">
+                                                      <img
+                                                        id="img-2"
+                                                        src="../assets/van.png"
+                                                        class="d-block ra-e w-100"
+                                                        alt="..."
+                                                      />
+                                                    </div>
+                                                    <div class="carousel-item ci">
+                                                      <img
+                                                        id="img-2"
+                                                        src="../assets/van.png"
+                                                        class="d-block ra-e w-100"
+                                                        alt="..."
+                                                      />
+                                                    </div>
+                                                    <div class="carousel-item ci">
+                                                      <img
+                                                        id="img-2"
+                                                        src="../assets/van.png"
+                                                        class="d-block ra-e w-100"
+                                                        alt="..."
+                                                      />
+                                                    </div>
+                                                  </div>
+                                                  <a
+                                                    class="carousel-control-prev"
+                                                    href="#carouselExampleIndicators"
+                                                    role="button"
+                                                    data-slide="prev"
+                                                  >
+                                                    <span
+                                                      class="carousel-control-prev-icon"
+                                                      aria-hidden="true"
+                                                    ></span>
+                                                    <span class="sr-only">Previous</span>
+                                                  </a>
+                                                  <a
+                                                    class="carousel-control-next"
+                                                    href="#carouselExampleIndicators"
+                                                    role="button"
+                                                    data-slide="next"
+                                                  >
+                                                    <span
+                                                      class="carousel-control-next-icon"
+                                                      aria-hidden="true"
+                                                    ></span>
+                                                    <span class="sr-only">Next</span>
+                                                  </a>
+                                                  <ol class="carousel-indicators">
+                                                    <li
+                                                      data-target="#carouselExampleIndicators"
+                                                      data-slide-to="0"
+                                                      class="active"
+                                                    ></li>
+                                                    <li
+                                                      data-target="#carouselExampleIndicators"
+                                                      data-slide-to="1"
+                                                    ></li>
+                                                    <li
+                                                      data-target="#carouselExampleIndicators"
+                                                      data-slide-to="2"
+                                                    ></li>
+                                                    <li
+                                                      data-target="#carouselExampleIndicators"
+                                                      data-slide-to="3"
+                                                    ></li>
+                                                  </ol>
+                                                </div>
+                                                <div class="van-title" style="font-weight: 900; font-size: 26px;">
+                                                  Mercedes-Benz Sprinter Van
+                                                </div>
+                                                <div class="reserve-content"><strong>$110</strong> ($21/day)</div>
+                                                <div class="label-group">
+                                                  <div class="icon-label">
+                                                    <img
+                                                      style="margin-right: 8px"
+                                                      width="16"
+                                                      src="../assets/luggage.svg"
+                                                    />Some Luggage
+                                                  </div>
+                                                  <div class="icon-label">
+                                                    <img
+                                                      style="margin-right: 8px"
+                                                      width="16"
+                                                      src="../assets/seat.png"
+                                                    />6 Seats
+                                                  </div>
+                                                  <div class="icon-label">
+                                                    <img
+                                                      style="margin-right: 8px"
+                                                      width="16"
+                                                      src="../assets/diesel.svg"
+                                                    />Diesel
+                                                  </div>
+                                                  <div class="icon-label">
+                                                    <img
+                                                      style="margin-right: 8px"
+                                                      width="16"
+                                                      src="../assets/auto.svg"
+                                                    />Automatic
+                                                  </div>
+                                                </div>
+                                              </div>
+                                    </div>
+                                    </div>
+                                    </div>
+                                    </div>
+            
+            
+          
+      
+        
+      
+
+    
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>

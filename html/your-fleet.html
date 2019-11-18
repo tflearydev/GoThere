@@ -1,330 +1,539 @@
 <!DOCTYPE html>
-<html lang='en'>
-<head>
-        <meta charset="UTF-8" />
-        <title>Van2Share</title>
-        <meta name="viewport" content="width=device-width, intial-scale=1.0, shrink-to-fit=no"/>
-        <meta name="description" content="live practice website" />
-    
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"/>
-    
-        <!-- Libraries CSS Files -->
-        <link href="../lib/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
-        <link href="../lib/animate/animate.min.css" rel="stylesheet" />
-        <link href="../lib/ionicons/css/ionicons.min.css" rel="stylesheet" />
-        <link href="../lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
-        <link href="../lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
-    
-    
-        <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-      <link rel="stylesheet" href="/resources/demos/style.css">
-    
-        <!-- external css file-->
-        <link rel="stylesheet" href="../css/fleet.css" type="text/css" />
-    
-        
-    
-         <!-- google font import-->
-         <link href="https://fonts.googleapis.com/css?family=Work+Sans&display=swap" rel="stylesheet">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Van2Share</title>
+    <meta
+      name="viewport"
+      content="width=device-width, intial-scale=1.0, shrink-to-fit=no"
+    />
+    <meta name="description" content="live practice website" />
 
-</head>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
 
-<body>
+    <!-- Libraries CSS Files -->
+    <link
+      href="../lib/font-awesome/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+    <link href="../lib/animate/animate.min.css" rel="stylesheet" />
+    <link href="../lib/ionicons/css/ionicons.min.css" rel="stylesheet" />
+    <link
+      href="../lib/owlcarousel/assets/owl.carousel.min.css"
+      rel="stylesheet"
+    />
+    <link href="../lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
 
-        <div id="mySidenav" class="sidenav">
-                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                <div class="logo" style="margin-left: -30px; margin-top: -60px; margin-bottom: 60px">
-                        <a href="login-welcome.html"><img src="../assets/logo.svg" alt="" class="atlPic" /></a>
-                      </div>
-                
-                <!-- <a href="search-reserve.html">Search Rentals</a> -->
-                <a href="login-welcome.html"><img src="../assets/carLogo.svg" alt="" style="width: 34px; height: 35px; margin-top: -10px;"><span style="font-size: 30px; margin-left: 15px;">Fleet</span></a>
-                <a href="login-welcome.html"><img src="../assets/profileLogo.svg" alt="" style="width: 34px; height: 35px; margin-top: -10px;"><span style="font-size: 30px; margin-left: 15px;">Clients</span></a>
-                <a href="login-welcome.html"><img src="../assets/driverLogo.svg" alt="" style="width: 34px; height: 35px; margin-top: -10px;"><span style="font-size: 30px; margin-left: 15px;">Drivers</span></a>
-                <a href="login-welcome.html"><img src="../assets/settingsLogo.svg" alt="" style="width: 34px; height: 35px; margin-top: -10px;"><span style="font-size: 30px; margin-left: 15px;">Settings</span></a>
-              </div>
-      
-      
-              <div class="nav-wrapper" style="height:250px;">
-            <header id="header">
-              
-        
-                <div class="logo">
-                  <a href="login-welcome.html"><img src="../assets/logo.svg" alt="" class="atlPic" /></a>
-                </div>
-        
-          
-                <div class='center-search'>Your Fleet</div>
-        
-      <div>
-                          <a href="login-welcome.html" class="header-check1"><img src="../assets/account_circle-24px.svg" class='cart' alt="">ATL Sprinters</a>
-      
-                          <!-- <a href="search-reserve.html" class="header-check"><img src="../assets/shopping_cart-24px.svg" class='cart' alt="">Check out</a> -->
-                          </div>
-                          
-                       
-                          
-                          <span onclick="openNav()" id="navToggle" class="fa fa-bars" aria-hidden="true"></span>
-                          
-                        <!-- <div class="head-title">
-                            </div> -->
-                         
+    <link
+      rel="stylesheet"
+      href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"
+    />
+    <link rel="stylesheet" href="/resources/demos/style.css" />
 
-                            
-                            <ul class="nav justify-content-center">
-                                    <li class="nav-item item1">
-                                      <a class="nav-link active" href="#">Vacant</a>
-                                    </li>
-                                    <li class="nav-item">
-                                      <a class="nav-link" href="#">Requests</a>
-                                    </li>
-                                    <li class="nav-item">
-                                      <a class="nav-link" href="#">Reservations</a>
-                                    </li>
-                                    <li class="nav-item">
-                                      <a class="nav-link" href="#">In Service</a>
-                                    </li>
-                                  </ul>
-                        
-             
-            </header>
+    <!-- external css file-->
+    <link rel="stylesheet" href="../css/fleet.css" type="text/css" />
 
-            <div>
-                <p class="text-center" style="margin-top: 60px; font-weight: 650; color: #0092c0;">Your Fleet</p>
-            </div>
+    <!-- google font import-->
+    <link
+      href="https://fonts.googleapis.com/css?family=Work+Sans&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      @media screen and (max-width: 1030px) {
+        #map {
+          display: none;
+        }
+      }
+
+      @media screen and (max-width: 1030px) {
+        .card-uno {
+          margin-top: 10px;
+        }
+      }
+
+     
+
+      .active {
+        color: white;
+      }
+
+      .active::after {
+        content: "";
+        margin-left: -10%;
+        width: 120%;
+        height: 3px;
+        display: block;
+        background: #fff;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+        >&times;</a
+      >
+      <div
+        class="logo"
+        style="margin-left: -30px; margin-top: -60px; margin-bottom: 60px"
+      >
+        <a href="login-welcome.html"
+          ><img src="../assets/logo.svg" alt="" class="atlPic"
+        /></a>
+      </div>
+
+      <!-- <a href="search-reserve.html">Search Rentals</a> -->
+      <a href="login-welcome.html"
+        ><img
+          src="../assets/carLogo.svg"
+          alt=""
+          style="width: 34px; height: 35px; margin-top: -10px;"
+        /><span style="font-size: 30px; margin-left: 15px;">Fleet</span></a
+      >
+      <a href="login-welcome.html"
+        ><img
+          src="../assets/profileLogo.svg"
+          alt=""
+          style="width: 34px; height: 35px; margin-top: -10px;"
+        /><span style="font-size: 30px; margin-left: 15px;">Clients</span></a
+      >
+      <a href="login-welcome.html"
+        ><img
+          src="../assets/driverLogo.svg"
+          alt=""
+          style="width: 34px; height: 35px; margin-top: -10px;"
+        /><span style="font-size: 30px; margin-left: 15px;">Drivers</span></a
+      >
+      <a href="login-welcome.html"
+        ><img
+          src="../assets/settingsLogo.svg"
+          alt=""
+          style="width: 34px; height: 35px; margin-top: -10px;"
+        /><span style="font-size: 30px; margin-left: 15px;">Settings</span></a
+      >
+    </div>
+
+    <div class="nav-wrapper">
+      <header id="header">
+        <div class="logo">
+          <a href="login-welcome.html"
+            ><img src="../assets/logo.svg" alt="" class="atlPic"
+          /></a>
         </div>
-      
-            
-            <div class="content" style="padding-bottom: 60px">
-                
-                    <div class="container-fluid">
-                             <div class="row">
-                                
 
-                                
-                               <div class="mt-1 animated bounceInDown" style="width: 769px; margin-right: 20px; margin-left: 20px;">
-                                    
-                                    
-                                    
-                                    
-                                    <div class="card shadow card-uno">
-                                        <div class="card-horizontal">
-                                            <div class="img-square-wrapper">
-                                                <img class="" src="../assets/rightVan2x.png" alt="Card image cap" style="width: 200px; height: 135px;">
-                                            </div>
-                                            <div class="card-body">
-                                                <p class="card-head">Mercedes Benz Sprinter Van</p>
-                                                <p class="card-head2">$110 ($21/day)</p>
-                                                
+        <div class="center-search">Your Fleet</div>
 
-                                                <div class="specs">
+        <div>
+          <a href="#" class="header-check1"
+            ><img
+              src="../assets/account_circle-24px.svg"
+              class="cart"
+              alt=""
+            />ATL Sprinters</a
+          >
 
-                                                        <span style="background-color: #F0F0F0; display: inline-block; font-size: 10px; font-weight: bold">
-                                                                <p style="margin: 4px;"><img src="../assets/luggage.svg" style="margin-right: 5px; width: 17px; height: 17px;" alt="">Some Luggage</p>
-                                                               
-                                                            </span>
-                        
-                                                                        <span style="background-color: #F0F0F0; display: inline-block; font-size: 10px; font-weight: bold">
-                                                                                <p style="margin: 4px;"><img src="../assets/seat.png" style="width: 16px; height: 16px; margin-right: 5px;" alt="">6 Seats</p>
-                                                                               
-                                                                            </span>
-                        
-                                                                            <span style="background-color: #F0F0F0; display: inline-block; font-size: 10px; font-weight: bold">
-                                                                                    <p style="margin: 4px;"><img src="../assets/diesel.svg" style="width: 16px; height: 16px; margin-right: 5px;" alt="">Diesel</p>
-                                                                                   
-                                                                                </span>
-                        
-                                                                                <span style="background-color: #F0F0F0; display: inline-block; font-size: 10px; font-weight: bold">
-                                                                                        <p style="margin: 4px;"><img src="../assets/auto.svg" style="width: 16px; height: 16px; margin-right: 5px;"alt="">Automatic</p>
-                                                                                       
-                                                                                    </span>
+          <!-- <a href="search-reserve.html" class="header-check"><img src="../assets/shopping_cart-24px.svg" class='cart' alt="">Check out</a> -->
+        </div>
 
-                                                            </div>
+        <span
+          onclick="openNav()"
+          id="navToggle"
+          class="fa fa-bars"
+          aria-hidden="true"
+        ></span>
 
-                                                            
-                                            </div>
-                                        </div>
+        <!-- <div class="head-title">
+                            </div> -->
 
-                                        <a href="#" class="text-center" style="font-weight: 900; font-size: 18px; color: #0092c0">
-                                        <div class="card-footer">
-                                            <small>Show Details</small>
-                                        </div>
-                                        </a>
+        <ul class="nav justify-content-center">
+          <li class="nav-item item1">
+            <a class="nav-link active" href="#">Vacant</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Requests</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Reservations</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">In Service</a>
+          </li>
+        </ul>
+      </header>
 
+      <!-- <div>
+                <p class="text-center" style="margin-top: 60px; font-weight: 650; color: #0092c0;">Your Fleet</p>
+            </div> -->
+    </div>
 
-                                    </div>
+    <div class="content" style="padding-bottom: 60px">
+      <div class="container-fluid">
+        <div class="row">
+          <div
+            class="mt-1 animated bounceInDown"
+            style="width: 769px; margin-right: 20px; margin-left: 20px;"
+          >
+            <div class="card shadow card-uno">
+              <div class="card-horizontal">
+                <div class="img-square-wrapper">
+                  <img
+                    class=""
+                    src="../assets/rightVan2x.png"
+                    alt="Card image cap"
+                    style="width: 200px; height: 135px;"
+                  />
+                </div>
+                <div class="card-body">
+                  <p class="card-head">Mercedes Benz Sprinter Van</p>
+                  <p class="card-head2">$110 ($21/day)</p>
 
+                  <div class="specs">
+                    <span
+                      style="background-color: #F0F0F0; display: inline-block; font-size: 10px; font-weight: bold"
+                    >
+                      <p style="margin: 4px;">
+                        <img
+                          src="../assets/luggage.svg"
+                          style="margin-right: 5px; width: 17px; height: 17px;"
+                          alt=""
+                        />Some Luggage
+                      </p>
+                    </span>
 
+                    <span
+                      style="background-color: #F0F0F0; display: inline-block; font-size: 10px; font-weight: bold"
+                    >
+                      <p style="margin: 4px;">
+                        <img
+                          src="../assets/seat.png"
+                          style="width: 16px; height: 16px; margin-right: 5px;"
+                          alt=""
+                        />6 Seats
+                      </p>
+                    </span>
 
-                                    <div class="card shadow mt-2">
-                                            <div class="card-horizontal">
-                                                <div class="img-square-wrapper">
-                                                    <img class="" src="../assets/rightVan2x.png" alt="Card image cap" style="width: 200px; height: 135px;">
-                                                </div>
-                                                <div class="card-body">
-                                                    <p class="card-head">Mercedes Benz Sprinter Van</p>
-                                                    <p class="card-head2">$110 ($21/day)</p>
-                             
-                                                    <div class="specs">
+                    <span
+                      style="background-color: #F0F0F0; display: inline-block; font-size: 10px; font-weight: bold"
+                    >
+                      <p style="margin: 4px;">
+                        <img
+                          src="../assets/diesel.svg"
+                          style="width: 16px; height: 16px; margin-right: 5px;"
+                          alt=""
+                        />Diesel
+                      </p>
+                    </span>
 
-                                                            <span style="background-color: #F0F0F0; display: inline-block; font-size: 10px; font-weight: bold">
-                                                                    <p style="margin: 4px;"><img src="../assets/luggage.svg" style="margin-right: 5px; width: 17px; height: 17px;" alt="">Some Luggage</p>
-                                                                   
-                                                                </span>
-                            
-                                                                            <span style="background-color: #F0F0F0; display: inline-block; font-size: 10px; font-weight: bold">
-                                                                                    <p style="margin: 4px;"><img src="../assets/seat.png" style="width: 16px; height: 16px; margin-right: 5px;" alt="">6 Seats</p>
-                                                                                   
-                                                                                </span>
-                            
-                                                                                <span style="background-color: #F0F0F0; display: inline-block; font-size: 10px; font-weight: bold">
-                                                                                        <p style="margin: 4px;"><img src="../assets/diesel.svg" style="width: 16px; height: 16px; margin-right: 5px;" alt="">Diesel</p>
-                                                                                       
-                                                                                    </span>
-                            
-                                                                                    <span style="background-color: #F0F0F0; display: inline-block; font-size: 10px; font-weight: bold">
-                                                                                            <p style="margin: 4px;"><img src="../assets/auto.svg" style="width: 16px; height: 16px; margin-right: 5px;"alt="">Automatic</p>
-                                                                                           
-                                                                                        </span>
-    
-                                                                </div>
-    
-                                                                
-                                                </div>
-                                            </div>
-                                            <a href="#" class="text-center" style="font-weight: 900; font-size: 18px; color: #0092c0">
-                                                    <div class="card-footer">
-                                                        <small>Show Details</small>
-                                                    </div>
-                                                    </a>
-                                        </div>
-
-
-                                        <div class="card shadow mt-2">
-                                                <div class="card-horizontal">
-                                                    <div class="img-square-wrapper">
-                                                        <img class="vehicles" src="../assets/rightVan2x.png" alt="Card image cap">
-                                                    </div>
-                                                    <div class="card-body">
-                                                        <p class="card-head">Mercedes Benz Sprinter Van</p>
-                                                        <p class="card-head2">$110 ($21/day)</p>
-                                                        
-        
-                                                        <div class="specs">
-
-                                                                <span style="background-color: #F0F0F0; display: inline-block; font-size: 10px; font-weight: bold">
-                                                                        <p style="margin: 4px;"><img src="../assets/luggage.svg" style="margin-right: 5px; width: 17px; height: 17px;" alt="">Some Luggage</p>
-                                                                       
-                                                                    </span>
-                                
-                                                                                <span style="background-color: #F0F0F0; display: inline-block; font-size: 10px; font-weight: bold">
-                                                                                        <p style="margin: 4px;"><img src="../assets/seat.png" style="width: 16px; height: 16px; margin-right: 5px;" alt="">6 Seats</p>
-                                                                                       
-                                                                                    </span>
-                                
-                                                                                    <span style="background-color: #F0F0F0; display: inline-block; font-size: 10px; font-weight: bold">
-                                                                                            <p style="margin: 4px;"><img src="../assets/diesel.svg" style="width: 16px; height: 16px; margin-right: 5px;" alt="">Diesel</p>
-                                                                                           
-                                                                                        </span>
-                                
-                                                                                        <span style="background-color: #F0F0F0; display: inline-block; font-size: 10px; font-weight: bold">
-                                                                                                <p style="margin: 4px;"><img src="../assets/auto.svg" style="width: 16px; height: 16px; margin-right: 5px;"alt="">Automatic</p>
-                                                                                               
-                                                                                            </span>
-        
-                                                                    </div>
-        
-                                                                    
-                                                    </div>
-                                                </div>
-                                                <a href="#" class="text-center" style="font-weight: 900; font-size: 18px; color: #0092c0">
-                                                        <div class="card-footer">
-                                                            <small>Show Details</small>
-                                                        </div>
-                                                        </a>
-                                            </div>
-
-                                            <!-- <a href="javascript:;"> -->
-                                                <!-- Link the entire card or only the show details button -->
-                                            <div class="card shadow mt-2">
-                                                    <div class="card-horizontal">
-                                                        <div class="img-square-wrapper">
-                                                            <img class="" src="../assets/rightVan2x.png" alt="Card image cap" style="width: 200px; height: 135px;">
-                                                        </div>
-                                                        <div class="card-body">
-                                                            <p class="card-head">Mercedes Benz Sprinter Van</p>
-                                                            <p class="card-head2">$110 ($21/day)</p>
-                                                            
-            
-                                                            <div class="specs">
-
-                                                             <span style="background-color: #F0F0F0; display: inline-block; font-size: 10px; font-weight: bold">
-                                                    <p style="margin: 4px;"><img src="../assets/luggage.svg" style="margin-right: 5px; width: 17px; height: 17px;" alt="">Some Luggage</p>
-                                                   
-                                                </span>
-            
-                                                            <span style="background-color: #F0F0F0; display: inline-block; font-size: 10px; font-weight: bold">
-                                                                    <p style="margin: 4px;"><img src="../assets/seat.png" style="width: 16px; height: 16px; margin-right: 5px;" alt="">6 Seats</p>
-                                                                   
-                                                                </span>
-            
-                                                                <span style="background-color: #F0F0F0; display: inline-block; font-size: 10px; font-weight: bold">
-                                                                        <p style="margin: 4px;"><img src="../assets/diesel.svg" style="width: 16px; height: 16px; margin-right: 5px;" alt="">Diesel</p>
-                                                                       
-                                                                    </span>
-            
-                                                                    <span style="background-color: #F0F0F0; display: inline-block; font-size: 10px; font-weight: bold">
-                                                                            <p style="margin: 4px;"><img src="../assets/auto.svg" style="width: 16px; height: 16px; margin-right: 5px;"alt="">Automatic</p>
-                                                                           
-                                                                        </span>
-            
-                                                                        </div>
-            
-                                                                        
-                                                        </div>
-                                                    </div>
-                                                    <a href="#" class="text-center" style="font-weight: 900; font-size: 18px; color: #0092c0">
-                                                            <div class="card-footer">
-                                                                <small>Show Details</small>
-                                                            </div>
-                                                            </a>
-
-                                                            
-                                                </div>
-                                                
-                                               
-        
-                                                
-
-                               
-                             </div>
-                                <div class="col-lg">
-                                        <img src="../assets/map.png" id='map' alt="" class="rounded shadow-lg img-fluid w-100 animated bounceInDown" style="height: 641px">
-                                        </div>
-                                
-                                
-                            </div>
-                           
-                        </div>
-
-                
-                    
-                    
-            
-                       
-        
-                    
+                    <span
+                      style="background-color: #F0F0F0; display: inline-block; font-size: 10px; font-weight: bold"
+                    >
+                      <p style="margin: 4px;">
+                        <img
+                          src="../assets/auto.svg"
+                          style="width: 16px; height: 16px; margin-right: 5px;"
+                          alt=""
+                        />Automatic
+                      </p>
+                    </span>
+                  </div>
+                </div>
               </div>
 
+              <a
+                href="#"
+                class="text-center"
+                style="font-weight: 900; font-size: 18px; color: #0092c0"
+              >
+                <div id="bar-1" class="detail-bar">
+                  Show Details<img
+                    id="arrow-1"
+                    class="arrow"
+                    style="margin-left: 10px"
+                    src="../assets/arrow.svg"
+                  />
+                </div>
+              </a>
+            </div>
 
+            <div class="card shadow mt-2">
+              <div class="card-horizontal">
+                <div class="img-square-wrapper">
+                  <img
+                    class=""
+                    src="../assets/rightVan2x.png"
+                    alt="Card image cap"
+                    style="width: 200px; height: 135px;"
+                  />
+                </div>
+                <div class="card-body">
+                  <p class="card-head">Mercedes Benz Sprinter Van</p>
+                  <p class="card-head2">$110 ($21/day)</p>
 
+                  <div class="specs">
+                    <span
+                      style="background-color: #F0F0F0; display: inline-block; font-size: 10px; font-weight: bold"
+                    >
+                      <p style="margin: 4px;">
+                        <img
+                          src="../assets/luggage.svg"
+                          style="margin-right: 5px; width: 17px; height: 17px;"
+                          alt=""
+                        />Some Luggage
+                      </p>
+                    </span>
 
+                    <span
+                      style="background-color: #F0F0F0; display: inline-block; font-size: 10px; font-weight: bold"
+                    >
+                      <p style="margin: 4px;">
+                        <img
+                          src="../assets/seat.png"
+                          style="width: 16px; height: 16px; margin-right: 5px;"
+                          alt=""
+                        />6 Seats
+                      </p>
+                    </span>
 
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-        
-        <script src='../js/search.js'></script>
-</body>
+                    <span
+                      style="background-color: #F0F0F0; display: inline-block; font-size: 10px; font-weight: bold"
+                    >
+                      <p style="margin: 4px;">
+                        <img
+                          src="../assets/diesel.svg"
+                          style="width: 16px; height: 16px; margin-right: 5px;"
+                          alt=""
+                        />Diesel
+                      </p>
+                    </span>
 
+                    <span
+                      style="background-color: #F0F0F0; display: inline-block; font-size: 10px; font-weight: bold"
+                    >
+                      <p style="margin: 4px;">
+                        <img
+                          src="../assets/auto.svg"
+                          style="width: 16px; height: 16px; margin-right: 5px;"
+                          alt=""
+                        />Automatic
+                      </p>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <a
+                href="#"
+                class="text-center"
+                style="font-weight: 900; font-size: 18px; color: #0092c0"
+              >
+                <div id="bar-1" class="detail-bar">
+                  Show Details<img
+                    id="arrow-1"
+                    class="arrow"
+                    style="margin-left: 10px"
+                    src="../assets/arrow.svg"
+                  />
+                </div>
+              </a>
+            </div>
+
+            <div class="card shadow mt-2">
+              <div class="card-horizontal">
+                <div class="img-square-wrapper">
+                  <img
+                    class="vehicles"
+                    src="../assets/rightVan2x.png"
+                    alt="Card image cap"
+                  />
+                </div>
+                <div class="card-body">
+                  <p class="card-head">Mercedes Benz Sprinter Van</p>
+                  <p class="card-head2">$110 ($21/day)</p>
+
+                  <div class="specs">
+                    <span
+                      style="background-color: #F0F0F0; display: inline-block; font-size: 10px; font-weight: bold"
+                    >
+                      <p style="margin: 4px;">
+                        <img
+                          src="../assets/luggage.svg"
+                          style="margin-right: 5px; width: 17px; height: 17px;"
+                          alt=""
+                        />Some Luggage
+                      </p>
+                    </span>
+
+                    <span
+                      style="background-color: #F0F0F0; display: inline-block; font-size: 10px; font-weight: bold"
+                    >
+                      <p style="margin: 4px;">
+                        <img
+                          src="../assets/seat.png"
+                          style="width: 16px; height: 16px; margin-right: 5px;"
+                          alt=""
+                        />6 Seats
+                      </p>
+                    </span>
+
+                    <span
+                      style="background-color: #F0F0F0; display: inline-block; font-size: 10px; font-weight: bold"
+                    >
+                      <p style="margin: 4px;">
+                        <img
+                          src="../assets/diesel.svg"
+                          style="width: 16px; height: 16px; margin-right: 5px;"
+                          alt=""
+                        />Diesel
+                      </p>
+                    </span>
+
+                    <span
+                      style="background-color: #F0F0F0; display: inline-block; font-size: 10px; font-weight: bold"
+                    >
+                      <p style="margin: 4px;">
+                        <img
+                          src="../assets/auto.svg"
+                          style="width: 16px; height: 16px; margin-right: 5px;"
+                          alt=""
+                        />Automatic
+                      </p>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <a
+                href="#"
+                class="text-center"
+                style="font-weight: 900; font-size: 18px; color: #0092c0"
+              >
+                <div id="bar-1" class="detail-bar">
+                  Show Details<img
+                    id="arrow-1"
+                    class="arrow"
+                    style="margin-left: 10px"
+                    src="../assets/arrow.svg"
+                  />
+                </div>
+              </a>
+            </div>
+
+            <!-- <a href="javascript:;"> -->
+            <!-- Link the entire card or only the show details button -->
+            <div class="card shadow mt-2">
+              <div class="card-horizontal">
+                <div class="img-square-wrapper">
+                  <img
+                    class=""
+                    src="../assets/rightVan2x.png"
+                    alt="Card image cap"
+                    style="width: 200px; height: 135px;"
+                  />
+                </div>
+                <div class="card-body">
+                  <p class="card-head">Mercedes Benz Sprinter Van</p>
+                  <p class="card-head2">$110 ($21/day)</p>
+
+                  <div class="specs">
+                    <span
+                      style="background-color: #F0F0F0; display: inline-block; font-size: 10px; font-weight: bold"
+                    >
+                      <p style="margin: 4px;">
+                        <img
+                          src="../assets/luggage.svg"
+                          style="margin-right: 5px; width: 17px; height: 17px;"
+                          alt=""
+                        />Some Luggage
+                      </p>
+                    </span>
+
+                    <span
+                      style="background-color: #F0F0F0; display: inline-block; font-size: 10px; font-weight: bold"
+                    >
+                      <p style="margin: 4px;">
+                        <img
+                          src="../assets/seat.png"
+                          style="width: 16px; height: 16px; margin-right: 5px;"
+                          alt=""
+                        />6 Seats
+                      </p>
+                    </span>
+
+                    <span
+                      style="background-color: #F0F0F0; display: inline-block; font-size: 10px; font-weight: bold"
+                    >
+                      <p style="margin: 4px;">
+                        <img
+                          src="../assets/diesel.svg"
+                          style="width: 16px; height: 16px; margin-right: 5px;"
+                          alt=""
+                        />Diesel
+                      </p>
+                    </span>
+
+                    <span
+                      style="background-color: #F0F0F0; display: inline-block; font-size: 10px; font-weight: bold"
+                    >
+                      <p style="margin: 4px;">
+                        <img
+                          src="../assets/auto.svg"
+                          style="width: 16px; height: 16px; margin-right: 5px;"
+                          alt=""
+                        />Automatic
+                      </p>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <a
+                href="#"
+                class="text-center"
+                style="font-weight: 900; font-size: 18px; color: #0092c0"
+              >
+                <div id="bar-1" class="detail-bar">
+                  Show Details<img
+                    id="arrow-1"
+                    class="arrow"
+                    style="margin-left: 10px"
+                    src="../assets/arrow.svg"
+                  />
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg">
+            <img
+              src="../assets/map.png"
+              id="map"
+              alt=""
+              class="rounded shadow-lg img-fluid w-100 animated bounceInDown"
+              style="height: 641px"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="../js/search.js"></script>
+  </body>
 </html>
