@@ -346,6 +346,27 @@ h1 {
 
 }
 
+
+@media screen and (max-width: 755px) {
+    .reserve-date {
+       margin-top: -10px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .reserve-date {
+       margin-top: -13px;
+       width: 150px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .reserve-date {
+        font-size: 22px !important;
+        font-weight: 900;
+    }
+}
+
 @media screen and (min-width: 766px) and (max-width: 990px) {
     .reserve-date {
         font-size: 15px;
