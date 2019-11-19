@@ -45,11 +45,33 @@
     />
 
     <style>
-      @media screen and (max-width: 1030px) {
+      /* @media screen and (max-width: 1030px) {
         #map {
           display: none;
         }
+      } */
+
+      .card {
+        margin-bottom: 30px;
       }
+
+      @media screen and (min-width: 1600px) and (max-width: 3000px) {
+          .mt-1 {
+            width: 40% !important;
+            margin-left: auto !important;
+            margin-right: auto !important;
+          }
+      }
+
+      @media screen and (min-width: 800px) and (max-width: 1600px) {
+          .mt-1 {
+            width: 60% !important;
+            margin-left: auto !important;
+            margin-right: auto !important;
+          }
+      }
+
+
 
       @media screen and (max-width: 1030px) {
         .card-uno {
@@ -69,8 +91,25 @@
         width: 120%;
         height: 3px;
         display: block;
-        background: #fff;
+        background: white;
+      } 
+
+      @media screen and (max-width: 700px) {
+        
+      .active {
+        color: #0092C0;
       }
+
+      .active::after {
+        content: "";
+        margin-left: -10%;
+        width: 120%;
+        height: 3px;
+        display: block;
+        background: #0092C0;
+      } 
+      }
+
     </style>
   </head>
 
@@ -121,6 +160,10 @@
 
     <div class="nav-wrapper">
       <header id="header">
+
+        
+
+
         <div class="logo">
           <a href="login-welcome.html"
             ><img src="../assets/logo.svg" alt="" class="atlPic"
@@ -173,7 +216,7 @@
     </div>
 
     <div class="content" style="padding-bottom: 60px">
-      <div class="container-fluid">
+      <div class="container-fluid ct1">
         <div class="row">
           <div
             class="mt-1 animated bounceInDown"
@@ -183,7 +226,7 @@
               <div class="card-horizontal">
                 <div class="img-square-wrapper">
                   <img
-                    class=""
+                    class="rv"
                     src="../assets/rightVan2x.png"
                     alt="Card image cap"
                     style="width: 200px; height: 135px;"
@@ -230,7 +273,7 @@
                       </p>
                     </span>
 
-                    <span
+                    <!-- <span
                       style="background-color: #F0F0F0; display: inline-block; font-size: 10px; font-weight: bold"
                     >
                       <p style="margin: 4px;">
@@ -240,12 +283,12 @@
                           alt=""
                         />Automatic
                       </p>
-                    </span>
+                    </span> -->
                   </div>
                 </div>
               </div>
 
-              <a
+              <!-- <a
                 href="#"
                 class="text-center"
                 style="font-weight: 900; font-size: 18px; color: #0092c0"
@@ -258,14 +301,14 @@
                     src="../assets/arrow.svg"
                   />
                 </div>
-              </a>
+              </a> -->
             </div>
 
             <div class="card shadow mt-2">
               <div class="card-horizontal">
                 <div class="img-square-wrapper">
                   <img
-                    class=""
+                    class="rv"
                     src="../assets/rightVan2x.png"
                     alt="Card image cap"
                     style="width: 200px; height: 135px;"
@@ -312,7 +355,7 @@
                       </p>
                     </span>
 
-                    <span
+                    <!-- <span
                       style="background-color: #F0F0F0; display: inline-block; font-size: 10px; font-weight: bold"
                     >
                       <p style="margin: 4px;">
@@ -322,11 +365,11 @@
                           alt=""
                         />Automatic
                       </p>
-                    </span>
+                    </span> -->
                   </div>
                 </div>
               </div>
-              <a
+              <!-- <a
                 href="#"
                 class="text-center"
                 style="font-weight: 900; font-size: 18px; color: #0092c0"
@@ -339,14 +382,14 @@
                     src="../assets/arrow.svg"
                   />
                 </div>
-              </a>
+              </a> -->
             </div>
 
             <div class="card shadow mt-2">
               <div class="card-horizontal">
                 <div class="img-square-wrapper">
                   <img
-                    class="vehicles"
+                    class="vehicles rv"
                     src="../assets/rightVan2x.png"
                     alt="Card image cap"
                   />
@@ -392,7 +435,7 @@
                       </p>
                     </span>
 
-                    <span
+                    <!-- <span
                       style="background-color: #F0F0F0; display: inline-block; font-size: 10px; font-weight: bold"
                     >
                       <p style="margin: 4px;">
@@ -402,11 +445,11 @@
                           alt=""
                         />Automatic
                       </p>
-                    </span>
+                    </span> -->
                   </div>
                 </div>
               </div>
-              <a
+              <!-- <a
                 href="#"
                 class="text-center"
                 style="font-weight: 900; font-size: 18px; color: #0092c0"
@@ -419,7 +462,7 @@
                     src="../assets/arrow.svg"
                   />
                 </div>
-              </a>
+              </a> -->
             </div>
 
             <!-- <a href="javascript:;"> -->
@@ -475,7 +518,7 @@
                       </p>
                     </span>
 
-                    <span
+                    <!-- <span
                       style="background-color: #F0F0F0; display: inline-block; font-size: 10px; font-weight: bold"
                     >
                       <p style="margin: 4px;">
@@ -485,11 +528,11 @@
                           alt=""
                         />Automatic
                       </p>
-                    </span>
+                    </span> -->
                   </div>
                 </div>
               </div>
-              <a
+              <!-- <a
                 href="#"
                 class="text-center"
                 style="font-weight: 900; font-size: 18px; color: #0092c0"
@@ -502,10 +545,12 @@
                     src="../assets/arrow.svg"
                   />
                 </div>
-              </a>
+              </a> -->
             </div>
           </div>
-          <div class="col-lg">
+
+          <!-- took out the map, as we have not concluded a need for single location businesses -->
+          <!-- <div class="col-lg">
             <img
               src="../assets/map.png"
               id="map"
@@ -513,7 +558,10 @@
               class="rounded shadow-lg img-fluid w-100 animated bounceInDown"
               style="height: 641px"
             />
-          </div>
+            
+          </div> -->
+
+
         </div>
       </div>
     </div>

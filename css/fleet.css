@@ -4,6 +4,8 @@ html {
   font-family: 'Work Sans', sans-serif;
 }
 
+* {-webkit-font-smoothing: antialiased;}
+
 #header {
   height: 150px;
   /* transition: all 0.5s;
@@ -62,15 +64,96 @@ html {
   margin-bottom: 2px;
   margin-top: 20px;
   float: right;
+  margin-left: -20px
 }
 
-@media screen and (max-width: 456px) {
+@media screen and (max-width: 500px) {
   .specs {
     margin-bottom: 2px;
     margin-top: 5px;
-    float: left;
-    margin-left: -200px;
+    margin-left: -170px !important;
+    /* display: flex;
+    text-align: center;
+    justify-content: center; */
+
+   
+    
+    /* margin-left: -200px; */
   }
+}
+
+
+/* code below is for functional detail bars */
+/* .more-detail {
+  display: none;
+  background: #fff;
+}
+.more-content {
+  margin-top: 15px;
+  padding-top: 15px;
+  border-top: 1px solid #00000029;
+  display: flex;
+}
+
+.img-label {
+  width: 30%;
+}
+
+#img-4 {
+  width: 100%;
+}
+
+.rotation {
+  transform: rotate(180deg);
+}
+
+.more-info {
+  width: 30%;
+  margin-left: 5%;
+}
+
+.reserve-content {
+  font-size: 22px;
+}
+
+.van-address {
+  text-decoration: underline;
+  font-size: 1.5rem;
+  color: #0092C0;
+}
+
+.detail-bar {
+  width: 100%;
+  height: 45px;
+  border-radius: 0 0 10px 10px;
+  background: #F4F4F4;
+  color: #0092C0;
+  text-align: center;
+  line-height: 45px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 10px;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.img-square-wrapper {
+  width: 200px;
+  height: 140px;
 }
 
 .vehicles {
@@ -98,6 +181,12 @@ html {
     z-index: 1;
 
     /* box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.3); */
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .rv {
+    width: 160px !important; height: 110px !important;
   }
 }
 
@@ -386,7 +475,7 @@ a.btn.newAc {
   .fa-bars {
     font-size: 25px;
     margin-left: 20px;
-    margin-top: 20px;
+ margin-top: -20px;
  
     transition: transform 0.4s;
     color: white;
@@ -418,6 +507,7 @@ a.btn.newAc {
     color: grey;
     padding-left: 60px;
     padding-right: 60px;
+    font-weight: 800;
   }
 }
 
@@ -426,12 +516,14 @@ a.btn.newAc {
     color: grey;
     padding-left: 30px;
     padding-right: 30px;
+    font-weight: 800;
   }
 }
 
 @media screen and (max-width: 699px) {
   .nav-link {
     margin-top: -40px;
+    font-weight: 800;
     /* background: white 100%; */
   }
 }
@@ -443,6 +535,7 @@ a.btn.newAc {
     padding-right: 20px;
     font-size: 20px;
     margin-top: 10px;
+    font-weight: 800;
   }
 }
 
@@ -451,7 +544,9 @@ a.btn.newAc {
     color: grey;
     padding-left: 15px;
     padding-right: 15px;
-    font-size: 17px;
+    font-size: 20px;
+    margin-top: 40px;
+    font-weight: 800;
   }
 }
 
@@ -459,9 +554,24 @@ a.btn.newAc {
   .nav-link {
     color: grey;
     font-weight: bold;
-
+    margin-top: 40px !important;
     padding-right: 5px;
-    font-size: 14px;
+    font-size: 17px !important;
+    font-weight: 800;
+    
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .ct1 {
+    margin-top: 40px !important;
+    
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .ct1 {
+    margin-top: 20px !important;
     
   }
 }
@@ -472,8 +582,9 @@ a.btn.newAc {
     font-weight: bold;
 
     padding-right: 2px;
-    font-size: 11px;
+    font-size: 13px !important;
     margin-top: -32px;
+    
     
   
   }
@@ -483,7 +594,7 @@ a.btn.newAc {
   .item1 {
     color: grey;
     font-weight: bold;
-    margin-left: 15px;
+    margin-left: 0px;
     padding-right: 4px;
     font-size: 12px;
   
@@ -568,6 +679,8 @@ a.btn.newAc {
   opacity: 1;
   margin-top: -35px;
 }
+
+
 
 /* @media screen and (max-width: 500px) {
     .car-box 

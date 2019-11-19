@@ -46,6 +46,7 @@ $(document).ready(function () {
       $("#arrow-4").toggleClass('rotation', 1000);
   });
 
+
     
 });
 
@@ -169,8 +170,6 @@ $('#c1').click(function() {
    }
     photo7.addEventListener('click', photoFunc7);
    
-
-    
     let photo8= document.getElementById('photo8');
    let photoFunc8 = function() {
        photo8.innerHTML = "<img src='../assets/photo-24px.svg'>"
