@@ -1,0 +1,201 @@
+<!-- Login and Register pages. -->
+
+
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Van2Share</title>
+    <meta name="viewport" content="width=device-width, intial-scale=1.0, maximum-scale=1, user-scalable=no"/>
+    <!-- take maximum scale and user scalable out if it interferes with user experience-->
+    <!-- I added this so that a user cannot zoom on mobile, which makes it feel more like a native application-->
+    <meta name="description" content="live practice website" />
+
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"/>
+
+    <!-- Libraries CSS Files -->
+    <link href="../lib/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="../lib/animate/animate.min.css" rel="stylesheet" />
+    <link href="../lib/ionicons/css/ionicons.min.css" rel="stylesheet" />
+    <link href="../lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+    <link href="../lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="../css/welcome_fractional.css" type="text/css" />
+
+    <!-- google font import-->
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans&display=swap" rel="stylesheet">
+
+    <style>
+
+        @media screen and (max-width: 390px) {
+            .ig {
+                
+                font-size: 14px
+            }
+        }
+
+        @media screen and (min-width: 450px) and (max-width: 800px) {
+            .card {
+                margin-top: -35px !important;
+            }
+        }
+        
+        
+            </style>
+
+  </head>
+
+  
+  <body>
+      <!-- <div id="mySidenav" class="sidenav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> -->
+          <!-- <div class="logo" style="margin-left: -30px; margin-top: -60px; margin-bottom: 60px">
+              <a href="login-welcome.html"><img src="../assets/logo.svg" alt="" class="atlPic" /></a>
+            </div> -->
+            <!-- <div style="margin-bottom: 10px"><a class="go-back" href="#"><img
+              src="../assets/keyboard_backspace.svg">Back</a></div>
+            <br>
+            <br>
+          <a href="login-welcome.html" style="margin-top: -30px;"><img src="../assets/accnt.svg" alt="" style="width: 24px; height: 25px; margin-top: -10px;"><span style="font-size: 20px; margin-left: 15px;">Login</span></a>
+          <a href="search-reserve.html"><img src="../assets/shopping_cart-24px.svg" alt="" style="width: 24px; height: 25px; margin-top: -10px;"><span style="font-size: 20px; margin-left: 15px;">Search Rentals</span></a> -->
+          <!-- <a href="search-reserve.html"><img src="../assets/shopping_cart-24px.svg" alt="" style="width: 24px; height: 25px; margin-top: -10px;"><span style="font-size: 20px; margin-left: 15px;">Check Out</span></a> -->
+          
+      
+        </div>
+        
+  <!-- <div id='main'> -->
+    <header id="header">
+        
+        
+        <div class="head-title">Signup</div>
+
+
+        
+          <a href="#header"><img src="../assets/logo.svg" alt="" class="atlPic" /></a>
+       
+
+              
+     
+    </header>
+
+
+    <!--THE LOGIN PAGE FOR RETURNING USERS STARTS HERE,  REPRESENTED BY THE loginPage ID-->
+    <!-- BOTH THE LOGIN AND REGISTER PAGE(WHICH IS NEXT IN THE CODE) HAVE THE EXACT SAME HEADERS WHICH IS ABOVE THES COMMENTS,
+    BETWEEN THE <header></header> tags-->
+   
+
+
+   
+
+
+
+
+<!--THE REGISTER PAGE FOR NEW USERS STARTS HERE -->
+    <section id='registerPage' class="page">
+      <div class="content">
+        <div class="content-header">
+
+            <span onclick="openNav()" id="navToggle" class="fa fa-bars" aria-hidden="true"></span>
+            <div class="head-title">Login</div>
+
+          <div class='container-fluid mb-5 mt-0'>
+              <div class='row justify-content-center'>
+              
+
+          <div class="card shadow-lg mx-auto animated bounceInDown" style="margin-top: 30px">
+                <div class="card-body">
+                    <h4 class="card-title mb-4 mt-1 text-center">Welcome!</h4>
+                    
+                    <p class="login-text text-center">You have been invited to join the <br> Fraction Utilization Platform.</p>
+                    <form>
+
+                      
+                      <div style="display: flex">
+                    <div class="form-group">
+                    <div class="input-group">
+                        
+                        <input name="" class="form-control form-input ig" placeholder="First name" type="text">
+                    </div> <!-- input-group.// -->
+                    </div> <!-- form-group// -->
+
+                    <div class="form-group">
+                        <div class="input-group" style="margin-left: 10px">
+                          
+                          <input class="form-control form-input ig" placeholder="Phone Number" type="password">
+                      </div> <!-- input-group.// -->
+                      </div> <!-- form-group// -->
+                      </div>
+                      
+        
+
+                      <div style="display: flex">
+                    <div class="form-group">
+                    <div class="input-group">
+                        
+                        <input class="form-control form-input ig" placeholder="Last name" type="password">
+                    </div> <!-- input-group.// -->
+                    </div> <!-- form-group// -->
+
+                    <div class="form-group">
+                        <div class="input-group" style="margin-left: 10px">
+                          
+                          <input class="form-control form-input ig" placeholder="Password" type="password">
+                      </div> <!-- input-group.// -->
+                      </div> <!-- form-group// -->
+                    </div>
+
+
+                    <div style="display: flex">
+                    <div class="form-group">
+                    <div class="input-group">
+                     
+                      <input class="form-control form-input ig" placeholder="Address" type="text">
+                  </div> <!-- input-group.// -->
+                  </div> <!-- form-group// -->
+
+                  <div class="form-group">
+                      <div class="input-group" style="margin-left: 10px">
+                        
+                        <input class="form-control form-input ig" placeholder="Re-enter Password" type="password">
+                    </div> <!-- input-group.// -->
+                    </div> <!-- form-group// -->
+                  </div>
+
+                  <div class="form-group">
+                  <div class="input-group wel-email">
+                    
+                    <input class="form-control form-input ig" placeholder="Email" type="email">
+                </div> <!-- input-group.// -->
+                </div> <!-- form-group// -->
+  
+
+                    <div class="form-group text-center">
+                    <button type="submit" class="btn btn-primary btn-default custom">Register w/ Company Name</button>
+                    </div> <!-- form-group// -->
+                    <!-- <p class="text-center"><a href="#" onclick="show('loginPage')" class="btn newAc">Already have an account? Login</a></p> -->
+                    </form>
+                </div>
+                </div> <!-- card.// -->
+
+                </div>
+                </div>
+                </div>
+        </div>
+      </div>
+    </section>
+
+  
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <script src='../js/search.js'></script>
+    
+    
+  </body>
+
+
+</html>
