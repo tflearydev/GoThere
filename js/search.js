@@ -113,4 +113,44 @@ $('#c1').click(function() {
 
   }
 
+
+
+
+  //hard coded the change of photo icons once clicked on here, was not sure how you wanted to do them on backend
+  //so here is just something quick
+ let photo1 = document.getElementById('photo1');
+let photoFunc = function() {
+    photo1.innerHTML = "<img src='../assets/photo-24px.svg'>"
+    photo1.style.backgroundColor = 'white';
+}
+ photo1.addEventListener('click', photoFunc);
+
+ 
+ let photo2 = document.getElementById('photo2');
+let photoFunc2 = function() {
+    photo2.innerHTML = "<img src='../assets/photo-24px.svg'>"
+    photo2.style.backgroundColor = 'white';
+}
+ photo2.addEventListener('click', photoFunc2);
+
+ let photo3 = document.getElementById('photo3');
+let photoFunc3 = function() {
+    photo3.innerHTML = "<img src='../assets/photo-24px.svg'>"
+    photo3.style.backgroundColor = 'white';
+}
+ photo3.addEventListener('click', photoFunc3)
+
+ let photo4 = document.getElementById('photo4');
+let photoFunc4 = function() {
+    photo4.innerHTML = "<img src='../assets/photo-24px.svg'>"
+    photo4.style.backgroundColor = 'white';
+}
+ photo4.addEventListener('click', photoFunc4)
+
+ let photo5 = document.getElementById('photo5');
+let photoFunc5 = function() {
+    photo5.innerHTML = "<img src='../assets/photo-24px.svg'>"
+    photo5.style.backgroundColor = 'white';
+}
+ photo5.addEventListener('click', photoFunc5)
  

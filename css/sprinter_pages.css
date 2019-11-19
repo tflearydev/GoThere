@@ -4,6 +4,8 @@ body, html {
     font-family: 'Work Sans', sans-serif;
 }
 
+* {-webkit-font-smoothing: antialiased;}
+
 .header {
     height: 260px;
     width: 100%;

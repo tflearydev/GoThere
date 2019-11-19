@@ -4,6 +4,9 @@ html {
   font-family: 'Work Sans', sans-serif;
 }
 
+
+* {-webkit-font-smoothing: antialiased;}
+
 #header {
   height: 100px;
   background-image: url("../assets/bg.svg");
@@ -145,7 +148,7 @@ a:hover {
 
 
 .btn-primary {
-  background-color: black;
+  background-color: #0092c0;
   margin-bottom: 20px;
   font-size: 22px;
   margin-top: 15px;

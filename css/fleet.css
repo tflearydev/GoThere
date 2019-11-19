@@ -352,7 +352,7 @@ a.btn.newAc {
 } */
 /* When you mouse over the navigation links, change their color */
 .sidenav a:hover {
-  color: #0092c0;
+  color: black;
 }
 
 /* Position and style the close button (top right corner) */
