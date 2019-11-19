@@ -114,43 +114,84 @@ $('#c1').click(function() {
   }
 
 
+  
 
-
-  //hard coded the change of photo icons once clicked on here, was not sure how you wanted to do them on backend
+  //hard coded the change of photo icons once clicked, was not sure how you wanted to do them on backend.. this is just a quick fix/ example
   //so here is just something quick
- let photo1 = document.getElementById('photo1');
-let photoFunc = function() {
-    photo1.innerHTML = "<img src='../assets/photo-24px.svg'>"
-    photo1.style.backgroundColor = 'white';
-}
- photo1.addEventListener('click', photoFunc);
+  let photo1 = document.getElementById('photo1');
+  let photoFunc = function() {
+      photo1.innerHTML = "<img src='../assets/photo-24px.svg'>";
+      photo1.style.backgroundColor = 'white';
+  }
+   photo1.addEventListener('click', photoFunc);
+  
 
- 
- let photo2 = document.getElementById('photo2');
-let photoFunc2 = function() {
-    photo2.innerHTML = "<img src='../assets/photo-24px.svg'>"
-    photo2.style.backgroundColor = 'white';
-}
- photo2.addEventListener('click', photoFunc2);
+   let photo2 = document.getElementById('photo2');
+  let photoFunc2 = function() {
+      photo2.innerHTML = "<img src='../assets/photo-24px.svg'>"
+      photo2.style.backgroundColor = 'white';
+  }
+   photo2.addEventListener('click', photoFunc2);
+  
+   let photo3 = document.getElementById('photo3');
+  let photoFunc3 = function() {
+      photo3.innerHTML = "<img src='../assets/photo-24px.svg'>"
+      photo3.style.backgroundColor = 'white';
+  }
+   photo3.addEventListener('click', photoFunc3);
+  
+   let photo4 = document.getElementById('photo4');
+  let photoFunc4 = function() {
+      photo4.innerHTML = "<img src='../assets/photo-24px.svg'>"
+      photo4.style.backgroundColor = 'white';
+  }
+   photo4.addEventListener('click', photoFunc4);
+  
+   let photo5 = document.getElementById('photo5');
+  let photoFunc5 = function() {
+      photo5.innerHTML = "<img src='../assets/photo-24px.svg'>"
+      photo5.style.backgroundColor = 'white';
+  }
+   photo5.addEventListener('click', photoFunc5);
 
- let photo3 = document.getElementById('photo3');
-let photoFunc3 = function() {
-    photo3.innerHTML = "<img src='../assets/photo-24px.svg'>"
-    photo3.style.backgroundColor = 'white';
-}
- photo3.addEventListener('click', photoFunc3)
+   let photo6 = document.getElementById('photo6');
+   let photoFunc6 = function() {
+       photo6.innerHTML = "<img src='../assets/photo-24px.svg'>"
+       photo6.style.backgroundColor = 'white';
+   }
+    photo6.addEventListener('click', photoFunc6);
+   
 
- let photo4 = document.getElementById('photo4');
-let photoFunc4 = function() {
-    photo4.innerHTML = "<img src='../assets/photo-24px.svg'>"
-    photo4.style.backgroundColor = 'white';
-}
- photo4.addEventListener('click', photoFunc4)
+    let photo7= document.getElementById('photo7');
+   let photoFunc7 = function() {
+       photo7.innerHTML = "<img src='../assets/photo-24px.svg'>"
+       photo7.style.backgroundColor = 'white';
+   }
+    photo7.addEventListener('click', photoFunc7);
+   
 
- let photo5 = document.getElementById('photo5');
-let photoFunc5 = function() {
-    photo5.innerHTML = "<img src='../assets/photo-24px.svg'>"
-    photo5.style.backgroundColor = 'white';
-}
- photo5.addEventListener('click', photoFunc5)
- 
+    
+    let photo8= document.getElementById('photo8');
+   let photoFunc8 = function() {
+       photo8.innerHTML = "<img src='../assets/photo-24px.svg'>"
+       photo8.style.backgroundColor = 'white';
+   }
+    photo8.addEventListener('click', photoFunc8);
+   
+    
+    let photo9= document.getElementById('photo9');
+   let photoFunc9 = function() {
+       photo9.innerHTML = "<img src='../assets/photo-24px.svg'>"
+       photo9.style.backgroundColor = 'white';
+   }
+    photo9.addEventListener('click', photoFunc9);
+   
+   
+    let photo10= document.getElementById('photo10');
+   let photoFunc10 = function() {
+       photo10.innerHTML = "<img src='../assets/photo-24px.svg'>"
+       photo10.style.backgroundColor = 'white';
+   }
+    photo10.addEventListener('click', photoFunc10);
+   
+   
