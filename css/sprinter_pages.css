@@ -937,7 +937,8 @@ section {
     scroll-snap-align: start;
     border-right: 6px solid transparent;
     border-left: 6px solid transparent;
-	
+    
+  
     
     margin-top: 100px;
 	/* text-align: center; */
@@ -1295,7 +1296,7 @@ margin-left: -120px;
 @media screen and (max-width: 385px) {
     .search-labels {
     float: right;
-    margin-top: 15px;
+    margin-top: 0px;
     margin-right: 15px;
     /* margin-bottom: -20px; */
 
