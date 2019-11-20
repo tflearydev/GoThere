@@ -69,8 +69,16 @@
 
         input[type="file"] {
         display: none;
-        }
+        } 
         
+        /* .inputfile {
+	        width: 0.1px;
+	        height: 0.1px;
+	        opacity: 0;
+	        overflow: hidden;
+	        position: absolute;
+	        z-index: -1;
+} */
 
 
     </style>
@@ -103,7 +111,7 @@
         <div>
             <a href="login-welcome.html" class="header-check1"><img src="../assets/accnt.svg" class='cart'
                     alt="">Login</a>
-            <a href="search-reserve.html" class="header-check"><img src="../assets/shopping_cart-24px.svg" class='cart'
+            <a href="request_van.html" class="header-check"><img src="../assets/shopping_cart-24px.svg" class='cart'
                     alt="">Check out</a>
         </div>
     </header>
@@ -191,7 +199,8 @@
                                 height: 47px; font-size: 20px; margin-bottom: -20px;">
                                     Front Photo
                                     </label>
-                                    <input id="file-upload" type="file"/>
+                                    <input id="file-upload"  class="inputfile" type="file"/>
+                                  </label>
                                 </div>
 
 
@@ -203,7 +212,7 @@
                                         height: 47px; font-size: 20px; margin-bottom: -20px;">
                                             Left Photo
                                             </label>
-                                            <input id="file-upload" type="file"/>
+                                            <input id="file-upload" class="inputfile" type="file"/>
                                        
         
 
@@ -218,7 +227,7 @@
         height: 47px; font-size: 20px; margin-bottom: -20px;">
             Right Photo
             </label>
-            <input id="file-upload" type="file"/>
+            <input id="file-upload" type="file" class="inputfile"/>
         
                         </div>     
                         
@@ -229,7 +238,7 @@
                                 height: 47px; font-size: 20px; margin-bottom: -20px;">
                                     Roof Photo
                                     </label>
-                                    <input id="file-upload" type="file"/>
+                                    <input id="file-upload" type="file" class="inputfile"/>
                                 </div>
 
 
@@ -241,12 +250,12 @@
                                 height: 47px; font-size: 20px; margin-bottom: -20px; margin-top: 30px !important;">
                                     Back Photo
                                     </label>
-                                    <input id="file-upload" type="file"/>
+                                    <input id="file-upload" type="file" class="inputfile"/>
                                 </div>
 
 
                         <a style="background: #0092C0; border-color: #0092C0; width: 125px; top: 464px; float: right; 
-height: 47px; font-size: 20px; margin-bottom: -20px; margin-top: -25px !important" class="btn btn-primary disable" href="#" role="button">Submit</a>
+height: 47px; font-size: 20px; margin-bottom: -20px; margin-top: -25px !important" class="btn btn-primary disable" href="start_trip.html" role="button">Submit</a>
       
 
                     </div>
@@ -285,7 +294,8 @@ height: 47px; font-size: 20px; margin-bottom: -20px; margin-top: -25px !importan
                             height: 47px; font-size: 20px; margin-bottom: -20px">
                                 Front Photo
                                 </label>
-                                <input id="file-upload" type="file" accept="image/*" capture="camera"/>
+                                <!-- <input id="file-upload" type="file" accept="image/*" capture="camera"/> -->
+                                <input id="file-upload" type="file" accept="image/*" capture="camera" class="inputfile"/>
                             </div>
                     
 
@@ -310,7 +320,7 @@ height: 47px; font-size: 20px; margin-bottom: -20px; margin-top: -25px !importan
                             height: 47px; font-size: 20px; margin-bottom: -20px">
                                 Right Photo
                                 </label>
-                                <input id="file-upload" type="file"/>
+                                <input id="file-upload" type="file" class="inputfile"/>
 
                             </div>
                     
@@ -322,7 +332,7 @@ height: 47px; font-size: 20px; margin-bottom: -20px; margin-top: -25px !importan
                             height: 47px; font-size: 20px; margin-bottom: -20px; margin-top: -10px;">
                                 Roof Photo
                                 </label>
-                                <input id="file-upload" type="file"/>
+                                <input id="file-upload" type="file" class="inputfile"/>
                             </div>
 
 
@@ -332,12 +342,12 @@ height: 47px; font-size: 20px; margin-bottom: -20px; margin-top: -25px !importan
                     height: 47px; font-size: 20px; margin-bottom: -20px; margin-top: 40px !important;">
                         Back Photo
                         </label>
-                        <input id="file-upload" type="file"/>
+                        <input id="file-upload" type="file" class="inputfile"/>
                     </div>
 
 
                     <div class="text-center" style="margin-top:40px; z-index: 2; font-weight: 900">
-                            Post-Trip Vehicle Photos
+                            Pre-Trip Vehicle Photos
                                 
     
                         </div>
@@ -345,7 +355,7 @@ height: 47px; font-size: 20px; margin-bottom: -20px; margin-top: -25px !importan
                       
                             <a style="background: #0092C0; border-color: #0092C0; width: 200px !important; top: 464px;
                             left: 789px !important;
-                            height: 47px; font-size: 15px !important; margin-bottom: -20px" class="btn btn-primary disable" href="#" role="button">Submit Photos</a>
+                            height: 47px; font-size: 15px !important; margin-bottom: -20px" class="btn btn-primary" href="start_trip.html" role="button">Submit Photos</a>
 
 
                     </div>
