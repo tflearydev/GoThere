@@ -2075,12 +2075,12 @@ select {
 }
 
 .back-div {
-    margin-bottom: 32px;
+  margin-bottom: 20px;
 }
 @media screen and (max-width: 800px) {
     .back-div {
-    /* padding-left: 6%; */
-   display: none;
+        margin-bottom: 140px;
+        margin-top: -80px;
     }
 }
 
