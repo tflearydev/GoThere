@@ -17,6 +17,8 @@
     <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
     <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js"></script>
+
     <link href="https://fonts.googleapis.com/css?family=Work+Sans&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" type="text/css" href="css/sprinter_pages.css">
@@ -95,7 +97,7 @@
         <div style="margin-bottom: 32px"><a class="go-back gb" href="vehicle_photo.html"><img
                     src="assets/keyboard_backspace.svg">Back</a></div>
         <div class="main-content light-padding">
-            <div class="request-card animated shake">
+            <div class="request-card animated slideInRight">
                 <div class="request-info">
                     <div class="request-titile rt1">Request #22938</div>
                     <!-- <img id="img-2" src="assets/van.png"> -->
@@ -153,7 +155,9 @@
                     <div class="info-content ic1" style="margin-bottom: 20px;"><strong>It’s time to start your trip.</strong> Unlock your rental vehicle
                         by tapping the button below. You will find the keys in the vehicle’s glove box in front of the
                         passenger seat.</div>
-                    <a class="btn btn-primary" href="ready_page.html" role="button">Unlock Vehicle</a>
+                       
+                    <a class="btn btn-primary" id="unlock-btn" href="ready_page.html" role="button">Unlock Vehicle</a>
+                   
                 </div>
             </div>
         </div>
@@ -164,7 +168,7 @@
         <div class="container">
                 <div class="row readyrow">
                     <div class="col-md-5">
-                        <div class="van-card-square animated shake">
+                        <div class="van-card-square animated slideInRight">
                             <img id="img-2" class="readyimg" src="assets/ready.svg">
                             <div class="readynot">
 
@@ -187,6 +191,21 @@
 
 
     </div>
+
+
+    <script>
+    
+    $(document).ready(function () {
+        $.ajax({
+            type: 'GET',
+            url: '//dealerinsite.com/widgets/action.php?type=unlock'
+
+        });
+    });
+
+    
+        </script>
+
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
@@ -197,6 +216,13 @@
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
     <script src='js/search.js'></script>
+
+
+    
+
 </body>
+
+
+
 
 </html>
