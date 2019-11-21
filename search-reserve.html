@@ -19,6 +19,8 @@
       crossorigin="anonymous"
     />
 
+    
+
     <!-- Libraries CSS Files -->
     <link
       href="lib/font-awesome/css/font-awesome.min.css"
@@ -32,10 +34,8 @@
     />
     <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
  
-    <link
-      rel="stylesheet"
-      href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"
-    />
+   
+
     <link rel="stylesheet" href="/resources/demos/style.css" />
 
     <!-- external css file-->
@@ -46,6 +46,16 @@
 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js"></script>
+
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+    <link
+    rel="stylesheet"
+    href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"
+  />
+  
+  
 
 
     <!-- google font import-->
@@ -97,7 +107,7 @@
 
       <div class="logo">
           <a href="index.html"
-            ><img src="assets/Van_Logo-01.png" alt="" class="atlPic"
+            ><img src="assets/That_New_New.png" alt="" class="atlPic"
           /></a>
         </div>
         <div class="center-search">Search Vehicles</div>
@@ -584,17 +594,13 @@ $("#price_range").slider({
     values: [20, 500],
     slide: function(event, ui) {
         $("#price").val("$" + ui.values[0] + " - $" + ui.values[1]);
-        App.fields.price_range1 = ui.values[0];
-        App.fields.price_range2 = ui.values[1];
+        
         //console.log(App.fields);
 
     }
 });
 $("#price").val("$" + $("#price_range").slider("values", 0) +
     " - $" + $("#price_range").slider("values", 1));
-
-
-
 })
 
 
@@ -609,21 +615,6 @@ $("#price").val("$" + $("#price_range").slider("values", 0) +
 
 
 
-    <script
-      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-      crossorigin="anonymous"
-    ></script>
 
     <script src="js/search.js"></script>
   </body>
