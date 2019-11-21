@@ -42,7 +42,43 @@
                 display: none;
             }
         }
+
+        @media screen and (max-width: 920px) {
+            .btn-primary {
+               font-size: 16px !important;
+               width: 150px !important;
+               height: 40px !important;
+            }
+        }
         
+        @media screen and (max-width: 600px) {
+            .btn-primary {
+               font-size: 13px !important;
+               width: 110px !important;
+               height: 40px !important;
+            }
+        }
+
+        @media screen and (max-width: 350px) {
+            .btn-primary {
+               font-size: 11px !important;
+               width: 100px !important;
+               height: 40px !important;
+            }
+        }
+
+        input[type="file"] {
+        display: none;
+        } 
+        
+        /* .inputfile {
+	        width: 0.1px;
+	        height: 0.1px;
+	        opacity: 0;
+	        overflow: hidden;
+	        position: absolute;
+	        z-index: -1;
+} */
 
 
     </style>
@@ -51,18 +87,14 @@
 <body>
         <div id="mySidenav" class="sidenav">
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                <!-- <div class="logo" style="margin-left: -30px; margin-top: -60px; margin-bottom: 60px">
-                    <a href="login-welcome.html"><img src="assets/logo.svg" alt="" class="atlPic" /></a>
-                  </div> -->
-                  <div style="margin-bottom: 10px"><a class="go-back" href="post_photos.html"><img
+                
+                  <div style="margin-bottom: 10px"><a class="go-back" href="control_center.html"><img
                     src="assets/keyboard_backspace.svg">Back</a></div>
                   <br>
                   <br>
                 <a href="index.html" style="margin-top: -30px;"><img src="assets/accnt.svg" alt="" style="width: 24px; height: 25px; margin-top: -10px;"><span style="font-size: 20px; margin-left: 15px;">Haley R.</span></a>
                 <a href="search-reserve.html"><img src="assets/shopping_cart-24px.svg" alt="" style="width: 24px; height: 25px; margin-top: -10px;"><span style="font-size: 20px; margin-left: 15px;">Check out</span></a>
-                <!-- <a href="search-reserve.html"><img src="assets/shopping_cart-24px.svg" alt="" style="width: 24px; height: 25px; margin-top: -10px;"><span style="font-size: 20px; margin-left: 15px;">Check Out</span></a> -->
-                
-            
+               
               </div>
 
 
@@ -90,22 +122,22 @@
 
 
         <div
-        class="reserve-alert ra animated bounceInRight"
+        class="reserve-alert ra animated fadeInDown"
         style="margin-top: -50px"
       >
         <img
           style="margin-right: 10px"
-          src="assets/check_circle-24px.svg"
+          src="assets/rest_time-24px.svg"
         /><span style="font-weight: 900; font-size: 17px;"
-          >Your Reservation Has Ended</span
+          >Your Reservation has ended</span
         >
       </div>
 
 
-        <div style="margin-bottom: 32px"><a class="go-back" href="post_photos.html"><img
+        <div style="margin-bottom: 32px"><a class="go-back" href="control_center.html"><img
                     src="assets/keyboard_backspace.svg">Back</a></div>
         <div class="main-content light-padding">
-            <div class="request-card animated bounceInRight">
+            <div class="request-card animated fadeInDown">
                 <div class="request-info">
                     <div class="request-titile rte" style="margin-top: -10px; margin-bottom: 20px;">Request #22938</div>
                     <!-- <img id="img-2" src="assets/van.png"> -->
@@ -158,18 +190,75 @@
                     </div>
                 </div>
                 <div style="padding-left: 5%" class="reserve-info">
-                    <div style="margin-top: 50px" class="reserve-content"><span style="font-weight: 900; font-size: 30px">Thank You!</span></div>
-                    <div style="font-size: 18px;" class="rend">
-                    <div style="margin-top: 15px; margin-bottom: 30px"><span style="font-weight: 900">Your reservation has now ended.</span> You will receive your final <br>bill within 24 hours. If you have any feedback we would love to hear it.</div>
-                   
-                    <div><span style="font-weight: 900">Let us know how you enjoyed your reservation.</span></div>
-                    
-                    <textarea class="survey-form" id="exampleFormControlTextarea1" rows="3" style="margin-bottom: 20px"></textarea>
+                        <p style="font-weight: bold; font-size: 25px; margin-top: 20px !important;">Post-Trip Vehicle Photos</p>
 
+
+                        <div class="text-center">
+                                <label id="photo1" for="file-upload" class="btn btn-primary" style="background: #0092c0; border-color: #0092C0; width: 200px; top: 464px;
+                                left: 789px !important;
+                                height: 47px; font-size: 20px; margin-bottom: -20px;">
+                                    Front Photo
+                                    </label>
+                                    <input id="file-upload"  class="inputfile" type="file"/>
+                                  </label>
+                                </div>
+
+
+                        <div class="text-center">
+
+                                
+                                        <label id="photo2" for="file-upload" class="btn btn-primary" style="background: #0092c0; border-color: #0092C0; width: 200px; top: 464px;
+                                        left: 789px !important;
+                                        height: 47px; font-size: 20px; margin-bottom: -20px;">
+                                            Left Photo
+                                            </label>
+                                            <input id="file-upload" class="inputfile" type="file"/>
+                                       
+        
+
+
+
+
+    <img src="assets/van-vert2x.png" alt="" class="mx-auto" style="height: 275px; width: 100px; margin-top: 20px;">
+
+
+        <label id="photo3" for="file-upload" class="btn btn-primary" style="background: #0092c0; border-color: #0092C0; width: 200px; top: 464px;
+        left: 789px !important;
+        height: 47px; font-size: 20px; margin-bottom: -20px;">
+            Right Photo
+            </label>
+            <input id="file-upload" type="file" class="inputfile"/>
+        
+                        </div>     
+                        
+                                  
+                        <div class="text-center" style="margin-top:-90px; z-index: 2">
+                                <label id="photo4" for="file-upload" class="btn btn-primary" style="background: #0092c0; border-color: #0092C0; width: 200px; top: 464px;
+                                left: 789px !important;
+                                height: 47px; font-size: 20px; margin-bottom: -20px;">
+                                    Roof Photo
+                                    </label>
+                                    <input id="file-upload" type="file" class="inputfile"/>
+                                </div>
+
+
+
+                        
+                        <div class="text-center" style="margin-top:40px; z-index: 2">
+                                <label id="photo5" for="file-upload" class="btn btn-primary" style="background: #0092c0; border-color: #0092C0; width: 200px; top: 464px;
+                                left: 789px !important;
+                                height: 47px; font-size: 20px; margin-bottom: -20px; margin-top: 30px !important;">
+                                    Back Photo
+                                    </label>
+                                    <input id="file-upload" type="file" class="inputfile"/>
+                                </div>
+
+
+                        <a style="background: #CF4F3F; border-color: #CF4F3F; width: 125px; top: 464px; float: right; 
+height: 47px; font-size: 20px; margin-bottom: -20px; margin-top: -25px !important" class="btn btn-primary" href="review_survey.html" role="button">End Trip</a>
+      
 
                     </div>
-                    <a style="background-color: #0092C0; border-color: #0092C0; width: 300px" class="btn btn-primary" href="reserve_finish.html" role="button">Submit & Review</a>
-                </div>
             </div>
 
 
@@ -181,57 +270,95 @@
         <div class="onesix" style="margin-top: -130px;">
 
                 <div
-                class="reserve-alert ra11 animated bounceInRight"
+                class="reserve-alert ra11 animated fadeInDown"
                 style="margin-top: -175px;"
               >
                 <img
                   style="margin-right: 10px; margin-top: -5px; z-index: 2;"
-                  src="assets/check_circle-24px.svg"
+                  src="assets/rest_time-24px.svg"
                 /><span style="font-weight: 900; font-size: 15px;"
-                  >Your Reservation Has Ended</span
+                  >Your Reservation has ended</span
                 >
               </div>
               
 
           <div class="row readyrow">
             <div class="col-md-5">
-              <div class="van-card-square animated shake" style="width: 100vw; height: 770px; padding-top: 80px; margin-left: 15px;">
+              <div class="van-card-square animated fadeInDown" style="width: 100vw; height: 570px; padding-top: 40px; margin-left: 15px;">
                 
                  
-                <div class="request-titile re" style="margin-top: -20px; margin-bottom: 15px; font-size: 30px !important; font-weight: 900; text-align: left; margin-left: 20px">Request #22938</div>
 
-                
-                <div style="font-size: 23px; text-align: left; font-weight: 900; width: 300px;
-                height: 33px; margin-bottom: 20px;  margin-left: 20px">Thank You!</div>
-
-                <div style="text-align: left; margin-bottom: 20px; font-size: 17px; font-weight: 900; width: 220px;
-                 padding-left: 20px">Your Reservation Has Now Ended.</div>
-                
-               <hr style="width: 100; margin-top: 35px">
-               
-               <div style="margin-top: 35px; padding-left: 20px; width: 250px; font-size: 15px; ">You will receive your final bill within 24 hours. <br>If you have any feedback we would love to hear it.</div>
-
-               <hr style="width: 100; margin-top: 35px">
-
-               <div style="margin-top: 22px; margin-bottom: 20px; padding-left: 20px; font-size: 15px; width: 300px; font-weight: 900" class="info-content">Let us know how you enjoyed your experience.</div>
-        <textarea class="survey-form" id="exampleFormControlTextarea1" rows="3" style="margin-bottom: 20px; margin-left: 20px"></textarea>
-
-
-
-              
-              
-              <div style="text-align: center;">
+                    <div class="text-center" style="z-index: 2">
+                            <label id="photo6" for="file-upload" class="btn btn-primary" style="background: #0092c0; border-color: #0092C0; width: 200px; top: 464px;
+                            left: 789px !important;
+                            height: 47px; font-size: 20px; margin-bottom: -20px">
+                                Front Photo
+                                </label>
+                                <!-- <input id="file-upload" type="file" accept="image/*" capture="camera"/> -->
+                                <input id="file-upload" type="file" accept="image/*" capture="camera" class="inputfile"/>
+                            </div>
                     
-                                    <div>
-                                        <a
-                                          style="background: #0092C0; border-color: #0092C0; width: 200px !important; margin-bottom: -40px; float: left; margin-left: 20px"
-                                          id="btn5"
-                                          class="btn btn4 btn-primary"
-                                          href="reserve_finish.html"
-                                          role="button"
-                                          >Submit & Review</a
-                                        >
-                                      </div>
+
+                    <div class="text-center">
+
+
+                            <label id="photo7" for="file-upload" class="btn btn-primary" style="background: #0092c0; border-color: #0092C0; width: 200px; top: 464px;
+                            left: 789px !important;
+                            height: 47px; font-size: 20px; margin-bottom: -20px">
+                                Left Photo
+                                </label>
+                                <input id="file-upload" type="file"/>
+
+
+
+                                <img src="assets/van-vert2x.png" alt="" class="mx-auto" style="height: 275px; width: 100px; margin-top: 20px;">
+
+
+
+                                <label id="photo8" for="file-upload" class="btn btn-primary" style="background: #0092c0; border-color: #0092C0; width: 200px; top: 464px;
+                            left: 789px !important;
+                            height: 47px; font-size: 20px; margin-bottom: -20px">
+                                Right Photo
+                                </label>
+                                <input id="file-upload" type="file" class="inputfile"/>
+
+                            </div>
+                    
+            
+
+                    <div class="text-center" style="margin-top:-90px; z-index: 2">
+                            <label id="photo9" for="file-upload" class="btn btn-primary" style="background: #0092c0; border-color: #0092C0; width: 200px; top: 464px;
+                            left: 789px !important;
+                            height: 47px; font-size: 20px; margin-bottom: -20px; margin-top: -10px;">
+                                Roof Photo
+                                </label>
+                                <input id="file-upload" type="file" class="inputfile"/>
+                            </div>
+
+
+                    <div class="text-center" style="margin-top:40px; z-index: 2">
+                    <label id="photo10" for="file-upload" class="btn btn-primary" style="background: #0092c0; border-color: #0092C0; width: 200px; top: 464px;
+                    left: 789px !important;
+                    height: 47px; font-size: 20px; margin-bottom: -20px; margin-top: 40px !important;">
+                        Back Photo
+                        </label>
+                        <input id="file-upload" type="file" class="inputfile"/>
+                    </div>
+
+
+                    <div class="text-center" style="margin-top:40px; z-index: 2; font-weight: 900">
+                            Post-Trip Vehicle Photos
+                                
+    
+                        </div>
+                    <div class="text-center" style="margin-top: 10px; z-index: 2">
+                      
+                            <a style="background: #CF4F3F; border-color: #CF4F3F; width: 200px !important; top: 464px;
+                            left: 789px !important;
+                            height: 47px; font-size: 15px !important; margin-bottom: -20px" class="btn btn-primary" href="review_survey.html" role="button">End Trip</a>
+
+
+                    </div>
             </div>
            
         </div>
@@ -250,7 +377,7 @@
         <div class="onesix" style="margin-top: 80px;">
                 <div class="row readyrow">
                   <div class="col-md-5">
-                    <div class="van-card-square animated shake" style="width: 100vw; height: 550px; padding-top: 30px; margin-left: 15px">
+                    <div class="van-card-square animated fadeInDown" style="width: 100vw; height: 550px; padding-top: 30px; margin-left: 15px">
 
 
                             <div class="request-info mx-auto" style="width: 75% !important;">
@@ -399,3 +526,5 @@
 
 
    
+
+
