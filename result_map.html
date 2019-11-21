@@ -27,6 +27,15 @@
                 margin-bottom: 20px !important;
             }
         }
+
+        #map {
+            margin:0 auto;
+            width:500px;
+            max-width:800px;
+            height:600px;
+            min-height:250px;
+         
+        }
         
     </style>
 </head>
@@ -813,7 +822,12 @@
 
                                                 
             </div>
-            <div class="van-map rounded shadow-lg animated bounceInDown"></div>
+
+
+            <div id="map"></div>
+            
+
+
         </div>
 
     </div>
@@ -831,3 +845,38 @@
 </body>
 
 </html>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBiYyh2rymPrxUtQYz7A1508WBv8irOSpA&callback=initMap"
+        async defer></script>
+<script>
+
+        var map;
+        var lat = 33.792023;
+        var lon = -84.388947;
+        function initMap() {
+    
+             //console.log(vehicle_array);
+            map = new google.maps.Map(document.getElementById('map'), {
+                center: {lat: lat, lng: lon},
+                zoom: 9
+    
+            });
+            
+            var marker = new google.maps.Marker({
+                position: {lat: lat, lng: lon},
+                map: map
+
+            });
+
+            var contentString = '<p id="firstHeading" class="firstHeading"></p>' +
+                        '<div id="bodyContent">' +
+                        '<p><b>Mercedes Sprinter</b></p>';
+            var infowindow = new google.maps.InfoWindow({
+                content: contentString
+            });
+
+            infowindow.open(map, marker);
+
+
+    
+        }
+    </script>
