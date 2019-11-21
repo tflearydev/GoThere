@@ -40,6 +40,13 @@
 
     <!-- external css file-->
     <link rel="stylesheet" href="css/search.css" type="text/css" />
+    <link rel="stylesheet" href="css/flatpickr.css" type="text/css"/>
+
+    <script defer src="js/flatpickr.js"></script>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js"></script>
+
 
     <!-- google font import-->
     <link href="https://fonts.googleapis.com/css?family=Work+Sans&display=swap" rel="stylesheet">
@@ -72,7 +79,7 @@
 
       <div class="logo">
           <a href="index.html"
-            ><img src="assets/logo.svg" alt="" class="atlPic"
+            ><img src="assets/Van_Logo-01.png" alt="" class="atlPic"
           /></a>
         </div>
         <div class="center-search">Search Vehicles</div>
@@ -330,8 +337,9 @@
                   Date & Time <span style="color:#0092c0">*</span>
                 </p>
 
-                <div class="calendar" style="height: 349px">
-                
+                <div class="calendar" style="height: 349px;text-align: -webkit-center; width: 100% !important">
+                    <input style = "display:none" id="datetimes" class="flatpickr flatpickr-input active form-control" type="text" placeholder="Select Date.." data-id="range" readonly="readonly">
+
                 </div>
                 <hr />
 
@@ -389,18 +397,22 @@
               class="card card4 p-3 img-fluid shadow animated bounceInDown"
             
             >
-              <p>
-                <label for="amount" style="font-size: 20px; font-weight: 700">Price Range(per day)</label>
+            <p>
+                <label for="amount" style="font-size: 20px;">Price Range(per day)</label>
                 <input
-                  type="text"
-                  id="amount"
-                  readonly
-                  style="border:0; color:#0092c0; font-weight:bold;"
+                    type="text"
+                    name="price" id="price"
+                    readonly
+                    style="border:0; color:#0092c0; font-weight:bold;"
                 />
-              </p>
+            </p>
+           
+           <div id="price_range"></div>
+            <div id="slider-range"></div>
 
-              <div id="slider-range"></div>
-            </div>
+            
+        </div>
+
 
             <div
               class="card card5 img-fluid shadow animated bounceInDown"
@@ -466,6 +478,73 @@
         </div>
       </div>
     </div>
+
+    <script>
+    
+
+$(function() {
+
+   
+
+  $("#datetimes").flatpickr({
+    inline: true,
+    mode: 'range',
+    minDate: "today",
+    maxDate: new Date().fp_incr(35), // 35 days from now
+    onChange: function(selectedDates, dateStr, instance) {
+        App.fields.pickup_date = null;
+        App.fields.return_date = null;
+        if(selectedDates.length > 0){
+            var date_str = String(selectedDates[0]);
+            var date_sections = date_str.split(" ");
+            var month = moment().month(date_sections[1]).format("MM");
+            App.fields.pickup_date = String(date_sections[3]+'-'+month+'-'+date_sections[2]);
+
+        }
+
+        if(selectedDates.length > 1){
+            var date_str2 = String(selectedDates[1]);
+            var date_sections2 = date_str2.split(" ");
+            var month2 = moment().month(date_sections2[1]).format("MM");
+            App.fields.return_date = String(date_sections2[3]+'-'+month2+'-'+date_sections2[2]);
+        }
+
+
+    },
+    
+});
+
+$("#price_range").slider({
+    range: true,
+    min: 20,
+    max: 500,
+    values: [20, 500],
+    slide: function(event, ui) {
+        $("#price").val("$" + ui.values[0] + " - $" + ui.values[1]);
+        App.fields.price_range1 = ui.values[0];
+        App.fields.price_range2 = ui.values[1];
+        //console.log(App.fields);
+
+    }
+});
+$("#price").val("$" + $("#price_range").slider("values", 0) +
+    " - $" + $("#price_range").slider("values", 1));
+
+
+
+})
+
+
+
+
+
+  
+    </script>
+
+
+
+
+
 
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
