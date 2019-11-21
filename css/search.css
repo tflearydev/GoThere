@@ -599,11 +599,12 @@ margin-top: -63px;
 .card3 {
   height: 622px;
 }
-@media screen and (max-width: 850px) {
+/* taken out for mobile */
+/* @media screen and (max-width: 850px) {
   .card3 {
     height: 725px;
   }
-}
+} */
 .card4 {
   height: 145px;
 }

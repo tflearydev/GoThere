@@ -51,6 +51,24 @@
     <!-- google font import-->
     <link href="https://fonts.googleapis.com/css?family=Work+Sans&display=swap" rel="stylesheet">
 
+    <style>
+    
+    @media screen and (max-width: 800px) {
+      .fci {
+        padding-left: 60px !important;
+        
+      }
+    }
+
+    @media screen and (max-width: 800px) {
+      .aa {
+        margin-left: 30px !important;
+        
+      }
+    }
+
+    </style>
+
   </head>
 
   <body>
@@ -355,6 +373,8 @@
                         id="inputStartTime"
                         placeholder="Start"
                         style="height: 40px; margin-left: 11px;"
+
+                        
                       />
                     </div>
                   </div>
@@ -376,7 +396,7 @@
 
                 <div class="form-check" style="padding-left: 50px;">
                   <input
-                    class="form-check-input"
+                    class="form-check-input fci"
                     type="checkbox"
                     value=""
                     id="defaultCheck1"
@@ -410,7 +430,7 @@
            <div id="price_range"></div>
             <div id="slider-range"></div>
 
-            
+
         </div>
 
 
@@ -430,9 +450,10 @@
                     id="exampleFormControlSelect1"
                     style="height: 46px"
                   >
-                    <option>Any</option>
-                    <option>Any</option>
-                    <option>Any</option>
+                  <option>Any</option>
+                    <option>Mercedes Sprinter 2500 Passenger</option>
+                    <option>Mercedes Sprinter 2500 Crew</option>
+                    <option>Mercedes GLA 250</option>
                     <!--add more options as needed-->
                   </select>
                 </div>
@@ -445,8 +466,10 @@
                     style="height: 46px"
                   >
                     <option>Any</option>
-                    <option>Any</option>
-                    <option>Any</option>
+                    <option>5 Speed Automatic</option>
+                    <option>7 Speed Automatic</option>
+                    <option>9 Speed Automatic</option>
+                    
                     <!--add more options as needed-->
                   </select>
                 </div>
@@ -459,8 +482,8 @@
                     style="height: 46px"
                   >
                     <option>Any</option>
-                    <option>Any</option>
-                    <option>Any</option>
+                    <option>Gas</option>
+                    <option>Diesal</option>
                     <!-- add more options as needed -->
                   </select>
                 </div>
