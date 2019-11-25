@@ -633,21 +633,6 @@ margin-top: -63px;
 }
 
 
-@media screen and (max-width: 1200px) {
-    .seLabel {
-        font-size: 15px;
-    }
-}
-
-@media screen and (max-width: 800px) {
-    .timeForm {
-        
-        width: 100px;
-       display: flex;
-
-    }
-}
-
 
 
 
@@ -700,17 +685,6 @@ margin-top: -63px;
 
 
 
-@media screen and (max-width: 800px) {
-  .seLabel {
-    margin-left: 30px;
-  }
-}
-
-/* @media screen and (max-width: 800px) {
-  .seLabel {
-    margin-left: 10px;
-  }
-} */
 @media screen and (max-width: 576px) {
     .col-sm-7 {
         position: relative;

@@ -63,12 +63,12 @@
 
     <style>
     
-    @media screen and (max-width: 800px) {
+    /* @media screen and (max-width: 800px) {
       .fci {
         padding-left: 60px !important;
         
       }
-    }
+    } */
 
     @media screen and (max-width: 800px) {
       .aa {
@@ -76,6 +76,49 @@
         
       }
     }
+
+
+@media screen and (max-width: 800px) {
+  .seLabel1 {
+    margin-left: 15px;
+  }
+}
+
+
+@media screen and (max-width: 800px) {
+  .seLabel2 {
+    margin-left: 50px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .tf2 {
+    margin-left: 30px !important;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .seLabel1, .seLabel2 {
+      font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+    .timeForm {
+        
+        width: 110px;
+       display: flex;
+       padding-right: 0px;
+
+    }
+}
+
+
+/* @media screen and (max-width: 800px) {
+  .seLabel {
+    margin-left: 10px;
+  }
+} */
 
     </style>
 
@@ -373,7 +416,7 @@
 
                 <form style="padding-left: 30px;">
                   <div class="form-group row">
-                    <label for="inputEmail3" class="col-form-label seLabel"
+                    <label for="inputEmail3" class="col-form-label seLabel1"
                       >Start Time <span style="color:#0092c0">*</span></label
                     >
                     <div class="col-sm-7">
@@ -415,12 +458,12 @@
                     </div>
                   </div>
                   <div class="form-group row">
-                    <label for="inputPassword3" class="col-form-label seLabel"
+                    <label for="inputPassword3" class="col-form-label seLabel2"
                       >End Time <span style="color:#0092c0">*</span></label
                     >
                     <div class="col-sm-7">
                         <select
-                        class="form-control timeForm"
+                        class="form-control timeForm tf2"
                         id="exampleFormControlSelect1"
                         style="height: 45px; margin-left: 8px;"
                       >
