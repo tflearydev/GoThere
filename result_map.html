@@ -28,36 +28,12 @@
             }
         }
 
-
-        @media screen and (min-width: 800px) {
-        .entire-card, .detail-bar {
-margin-left: 30px;
-        }
-    }
-
-    @media screen and (min-width: 800px) {
-        .entire-card {
-margin-top: -20px;
-
-        }
-    }
-
-    @media screen and (min-width: 800px) {
-        .detail-bar {
-margin-bottom: 40px;
-
-        }
-    }
-
         #map {
             margin:0 auto;
-            width:650px;
-            max-width:1000px;
+            width:100%;
+            max-width:800px;
             height:600px;
             min-height:250px;
-            float: right;
-            margin-right: 50px;
-         
         }
         
     </style>
@@ -80,7 +56,6 @@ margin-bottom: 40px;
               </div>
 
               
-
     <header id="header" class="headSearch2">
             <span onclick="openNav()" id="navToggle" class="fa fa-bars" aria-hidden="true"></span>
 
@@ -174,8 +149,6 @@ margin-bottom: 40px;
                 </div>
             </div>
         </div>
-
-        <div id="map"></div>
 
         <!-- <div class="van-map-mobile shadow-sm animated bounceInDown"></div> -->
         
@@ -500,8 +473,7 @@ margin-bottom: 40px;
                                             </div>
                                             <div id="detail-1" class="more-detail">
                                                 <div class="more-content">
-                        
-                        
+                                               
                                                     
                                                         <div id="carouselExampleIndicators" class="carousel slide img-label" data-ride="carousel">
                                                                 <div class="carousel-inner rounded shadow">
@@ -549,20 +521,11 @@ margin-bottom: 40px;
                             </section>
                         </div>
                 
-    
-                
-    
                 </div>
                 
             </div>
 
-
-            
-
-        <div class="main-content" style="display: initial">
-
-              
-
+        <div class="main-content">
             <div class="van-list animated bounceInDown">
                 <div class="entire-card ec1">
                     <div class="van-list-card">
@@ -633,8 +596,6 @@ margin-bottom: 40px;
                 <div id="bar-5" class="detail-bar">Show Details<img id="arrow-5" class="arrow" style="margin-left: 10px"
                         src="assets/arrow.svg"></div>
 
-
-                    
 
                         <div class="entire-card">
                                 <div class="van-list-card">
@@ -777,8 +738,6 @@ margin-bottom: 40px;
                             <div id="bar-3" class="detail-bar">Show Details<img id="arrow-3" class="arrow" style="margin-left: 10px"
                                     src="assets/arrow.svg"></div>
 
-
-
                                     <div class="entire-card">
                                             <div class="van-list-card">
                                                 <img src="assets/rightVan2x.png" class="search2van">
@@ -852,19 +811,10 @@ margin-bottom: 40px;
 
                                                 
             </div>
-
-
-            
-            
-
-
+            <div class="van-map rounded shadow-lg animated bounceInDown"></div>
         </div>
 
-       
-
     </div>
-
-
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
@@ -879,38 +829,3 @@ margin-bottom: 40px;
 </body>
 
 </html>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBiYyh2rymPrxUtQYz7A1508WBv8irOSpA&callback=initMap"
-        async defer></script>
-<script>
-
-        var map;
-        var lat = 33.792023;
-        var lon = -84.388947;
-        function initMap() {
-    
-             //console.log(vehicle_array);
-            map = new google.maps.Map(document.getElementById('map'), {
-                center: {lat: lat, lng: lon},
-                zoom: 15
-    
-            });
-            
-            var marker = new google.maps.Marker({
-                position: {lat: lat, lng: lon},
-                map: map
-
-            });
-
-            var contentString = '<p id="firstHeading" class="firstHeading"></p>' +
-                        '<div id="bodyContent">' +
-                        '<p><b>Mercedes Sprinter</b></p>';
-            var infowindow = new google.maps.InfoWindow({
-                content: contentString
-            });
-
-            infowindow.open(map, marker);
-
-
-    
-        }
-    </script>
