@@ -31,21 +31,32 @@ body, html {
     }
 }
 
-#header3 {
+/* #header3 {
     height: 215px !important;
-}
+} */
 
-@media screen and (max-width: 450px) {
+/* @media screen and (max-width: 450px) {
     #header3 {
         height: 120px !important; 
     }
-}
+} */
 
-@media screen and (min-width: 450px) and (max-width: 800px) {
+@media screen and (max-width: 755px) {
     #header3 {
-        height: 137px !important;
+        height: 170px !important;
     }
 }
+
+
+
+@media screen and (min-width: 755px) {
+    #header3 {
+        height: 200px !important;
+    }
+}
+
+
+
 
 /* @media screen and (min-width: 755px) and (max-width: 1540px) {
     .headSearch2 {

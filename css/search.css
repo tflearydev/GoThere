@@ -25,12 +25,14 @@ html {
   }
 }
 
+@media screen and (max-width: 700px) {
 #header3 {
-  height: 200px;
+  
   background-image: url("../assets/bg.svg");
   background-size: cover;
   background-color: black;
   background-position: -320px -325px;
+}
 }
 
 @media screen and (min-width: 700px) {
