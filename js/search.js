@@ -141,12 +141,12 @@ $('#c1').click(function() {
   }
    photo3.addEventListener('click', photoFunc3);
   
-   let photo4 = document.getElementById('photo4');
-  let photoFunc4 = function() {
-      photo4.innerHTML = "<img src='assets/photo-24px.svg'> <span style='color: #0092c0'>Retake</span>"
-      photo4.style.backgroundColor = 'white';
-  }
-   photo4.addEventListener('click', photoFunc4);
+//    let photo4 = document.getElementById('photo4');
+//   let photoFunc4 = function() {
+//       photo4.innerHTML = "<img src='assets/photo-24px.svg'> <span style='color: #0092c0'>Retake</span>"
+//       photo4.style.backgroundColor = 'white';
+//   }
+//    photo4.addEventListener('click', photoFunc4);
   
    let photo5 = document.getElementById('photo5');
   let photoFunc5 = function() {
@@ -178,12 +178,12 @@ $('#c1').click(function() {
     photo8.addEventListener('click', photoFunc8);
    
     
-    let photo9= document.getElementById('photo9');
-   let photoFunc9 = function() {
-       photo9.innerHTML = "<img src='assets/photo-24px.svg'> <span style='color: #0092c0'>Retake</span>"
-       photo9.style.backgroundColor = 'white';
-   }
-    photo9.addEventListener('click', photoFunc9);
+//     let photo9= document.getElementById('photo9');
+//    let photoFunc9 = function() {
+//        photo9.innerHTML = "<img src='assets/photo-24px.svg'> <span style='color: #0092c0'>Retake</span>"
+//        photo9.style.backgroundColor = 'white';
+//    }
+//     photo9.addEventListener('click', photoFunc9);
    
    
     let photo10= document.getElementById('photo10');
