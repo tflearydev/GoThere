@@ -1,0 +1,716 @@
+body,
+html {
+  height: 100%;
+  font-family: 'Work Sans', sans-serif;
+}
+
+
+* {-webkit-font-smoothing: antialiased;}
+
+#header {
+  height: 100px;
+  background-image: url("../assets/bg.svg");
+  background-size: cover;
+  background-color: black;
+  background-position: -320px -325px;
+}
+
+@media screen and (min-width: 800px) {
+  #header {
+    height: 170px;
+    background-image: url("../assets/bg.svg");
+    background-size: cover;
+    background-color: black;
+    background-position: -320px -325px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+#header3 {
+  
+  background-image: url("../assets/bg.svg");
+  background-size: cover;
+  background-color: black;
+  background-position: -320px -325px;
+}
+}
+
+@media screen and (min-width: 700px) {
+  #header3 {
+    background-image: url("../assets/bg.svg");
+    background-size: cover;
+    background-color: black;
+    background-position: -320px -325px;
+  }
+}
+
+
+
+
+
+  .center-search {
+    
+      text-align: center;
+      font-weight: 900; 
+      font-size: 35px ;
+     
+      letter-spacing: 0;
+      color: #FFFFFF;
+      opacity: 1;
+      margin-top: -50px;
+      
+  }
+
+  @media screen and (max-width: 800px) {
+      .center-search {
+          display: none;
+      }
+  }
+  
+
+.content {
+  background: #ffffff;
+  border-radius: 20px 20px 0 0;
+  margin-top: -20px;
+  padding-top: 35px;
+  opacity: 1;
+  
+}
+
+@media screen and (max-width: 425px) {
+  .content {
+    background: #ffffff;
+  margin-top: -20px;
+  padding-top: 35px;
+  opacity: 1;
+  }
+}
+
+
+body {
+  margin: 0;
+
+}
+
+
+.header-check {
+  color: #fff;
+  top: 150px;
+  right: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  position: absolute;
+  margin-right: 40px;
+  margin-top: -65px;
+ 
+ }
+
+
+.header-check a {
+  color: #fff;
+  text-decoration: none;
+
+}
+
+@media screen and (max-width: 800px) {
+  .header-check {
+    display: none;
+  }
+}
+
+.header-check1 {
+    color: #fff;
+    top: 110px;
+    right: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    position: absolute;
+    margin-right: 40px;
+    margin-top: -65px;
+   
+   }
+  
+  
+  .header-check1 a {
+    color: #fff;
+    text-decoration: none;
+  
+  }
+  
+  @media screen and (max-width: 800px) {
+    .header-check1 {
+      display: none;
+    }
+  }
+
+a:hover {
+  color: #0089b4;
+
+}
+
+
+.btn-primary {
+  background-color: #0092c0;
+  margin-bottom: 20px;
+  font-size: 22px;
+  margin-top: 15px;
+ transition: transform 0.4s; 
+}
+.btn-primary:hover {
+  transform: scale(0.90)
+}
+
+
+.center{    
+     width: 150px; 
+    }
+
+    .btn-color {
+        background-color: #0092c0;
+        border: #0092c0;
+    }
+
+.btn-default {
+  letter-spacing: 1px;
+  width: 230px;
+  border: 2px solid #0092c0;
+  border-radius: 40px;
+  transition: all 0.3s ease 0s;
+}
+
+
+
+.login-text {
+  margin-bottom: 45px;
+  margin-top: -10px;
+  font-size: 22px;
+
+}
+
+/* .input {
+  height: 40px; 
+  margin-left: 11px;
+} */
+.form-control {
+  font-size: 23px;
+  
+}
+@media screen and (max-width: 420px) {
+  .form-control {
+    font-size: 18px;
+   
+  }
+}
+
+.form-input {
+  font-size: 23px;
+}
+@media screen and (max-width: 585px) {
+  .form-input {
+    font-size: 16px;
+  }
+}
+.passw {
+  margin-bottom: 40px;
+}
+
+/* .small-car {
+  width: 121px; 
+  height: 81px;
+}
+
+@media screen and (max-width: 1347px) {
+  .small-car {
+    width: 100px; 
+    height: 66px;
+  }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1130px) {
+  .small-car {
+    width: 80px;
+    height: 53px;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .small-car { 
+    width: 70px;
+    height: 46px;
+    margin-left: 10px;
+  }
+}
+*/
+
+  /* .car-box1, .car-box2, .car-box3 {
+    width: 200px;
+    height: 70px;
+  }
+
+ */
+
+/*
+@media screen and (min-width: 1000px) and (max-width: 1130px) {
+  .car-box1, .u1 {
+    margin-left: -15px;
+
+  }
+}
+
+
+
+@media screen and (min-width: 1000px) and (max-width: 1130px) {
+  .car-box2, .u2 {
+    margin-left: 5px;
+
+  }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1130px) {
+  .car-box3, .u3 {
+    margin-left: 5px;
+
+  }
+}
+
+@media screen and (min-width: 1450px) and (max-width: 1600px) {
+  .car-box1, .u1 {
+    margin-left: 20px;
+
+  }
+}
+
+@media screen and (min-width: 1625px) and (max-width: 1850px) {
+  .car-box1, .u1 {
+    margin-left: 40px;
+
+  }
+}
+
+@media screen and (min-width: 1851px) and (max-width: 2000px) {
+  .car-box1, .u1 {
+    margin-left: 60px;
+
+  }
+}
+
+@media screen and (min-width: 2001px) and (max-width: 2200px) {
+  .car-box1, .u1 {
+    margin-left: 90px;
+
+  }
+}
+
+@media screen and (min-width: 2201px) and (max-width: 2400px) {
+  .car-box1, .u1 {
+    margin-left: 100px;
+
+  }
+}
+
+@media screen and (min-width: 2401px) {
+  .car-box1, .u1 {
+    margin-left: 130px;
+
+  }
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1346px) {
+  .car-box1, .u1 {
+    margin-left: 7px;
+
+  }
+}
+
+@media screen and (min-width: 1550px) {
+  .car-box2, .u2 {
+    margin-left: 20px;
+
+  }
+}
+
+@media screen and (min-width: 1550px) {
+  .car-box3, .u3 {
+    margin-left: 20px;
+
+  }
+}
+
+
+
+
+ */
+
+
+
+
+
+
+
+#c1:hover .car-box1, #c2:hover .car-box2, #c3:hover .car-box3 {
+  background-color: #0092c0;
+}
+
+.car-box1, .car-box2, .car-box3 {
+  top: 710px;
+left: 216px;
+width: 170px;
+height: 60px;
+background: #F0F0F0 0% 0% no-repeat padding-box;
+border-radius: 4px;
+opacity: 1;
+margin-top: -35px;
+}
+
+.new {
+  background-color: #0092c0;
+}
+
+/* .car-divs {
+  margin-left: 22px;
+}
+
+@media screen and (max-width: 430px) {
+  .car-divs {
+    margin-left: 10px;
+  }
+} */
+
+/* @media screen and (max-width: 1347px) {
+  .car-box1, .car-box2, .car-box3 {
+    width: 90px; 
+    height: 58px;
+  }
+} */
+img.cart {
+    width: 30px;
+    height: 30px;
+}
+.cart {
+  margin-right: 10px;
+}
+.col-5 {
+  margin: 0 auto;
+  margin-bottom: 10px;
+  float: none;
+}
+
+a.btn.newAc {
+  color: #0092c0;
+  text-decoration: underline;
+}
+
+
+@media screen and (max-width: 420px) {
+  a.btn.newAc {
+    color: #0092c0;
+    text-decoration: underline;
+    font-size: 15px;
+    margin-bottom: -90px;
+    margin-top: -40px;
+  }
+}
+
+.sidenav {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  border-radius: 0 10px 10px 0;
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: black; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  z-index: 10;
+ 
+}
+
+.content1 {
+  background: #FFFFFF;
+  border-radius: 20px 20px 0 0;
+  margin-top: 30px;
+  /* padding-top: 0px;
+  /*padding-bottom: 120px; */
+}
+
+
+@media screen and (max-width: 800px) {
+
+.content1 {
+  background: #FFFFFF;
+  border-radius: none;
+  margin-top: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  
+}
+}
+
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 22px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #0092c0;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.fa-bars{
+  display: inline-block;
+  font-size: 36px;
+  margin-left: 20px;
+  margin-top: 0px;
+  transition: transform 0.4s; 
+
+}
+
+@media screen and (max-width: 800px) {
+  .fa-bars {
+  font-size: 25px;
+  margin-left: 20px;
+  margin-top: 34px;
+  transition: transform 0.4s; 
+  color: white;
+ 
+  }
+}
+
+.head-title1 {
+  font-size: 20px;
+  text-align: center;
+  
+  margin-top: -32px;
+ color: white;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 800px) {
+  .head-title1 {
+    display: none;
+  }
+}
+
+.head-title {
+  display: flex;
+  /* justify-content: center;  center p horizontally */
+  align-items: center;
+margin-top: -63px;
+     font-weight: 900; 
+     font-size:30px ;
+    
+     letter-spacing: 0;
+     color: #FFFFFF;
+     opacity: 1;
+     padding-top: 25px;
+     
+
+ }
+ 
+ @media screen and (min-width: 800px) {
+   .head-title {
+       display: none;
+   }
+ }
+
+ @media screen and (max-width: 800px) {
+
+  .atlPic {
+   height: 28px;
+   margin-top: -27px;
+  float: right; 
+   font-weight: 600;
+   padding-right: 10px;
+ 
+  }
+ }
+
+
+
+@media screen and (min-width: 800px) {
+    .atlPic {   
+      margin-left: 60px;     
+      height:  110px; 
+     
+      display: block;
+      padding-top: 50px;
+      font-weight: 600;
+    }
+  }
+
+
+
+
+
+@media screen and (min-width: 800px) {
+  #navToggle, #mySidenav {
+      display: none;
+      
+  }
+}
+
+#navToggle:hover {
+  color: #0092c0;
+  cursor: pointer;
+  transform: scale(0.90); 
+}
+
+
+
+.form-control {
+    background-color: #F0F0F0;
+  }
+
+.card {
+   
+    letter-spacing: 0.36px;
+    color: #1D1D1D; 
+    width: 500px;
+
+}
+
+.card1 {
+  height: 317px
+}
+.card2 {
+  height: 390px;
+}
+.card3 {
+  height: 622px;
+}
+/* taken out for mobile */
+/* @media screen and (max-width: 850px) {
+  .card3 {
+    height: 725px;
+  }
+} */
+.card4 {
+  height: 145px;
+}
+.card5 {
+  height: 385px;
+}
+
+@media screen and (max-width: 800px) {
+  .container-fluid {
+      padding-left: 0px;
+      padding-right: 0px;
+    margin-top: -100px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+
+.row {
+
+    display: inline-block;
+    /* -ms-flex-wrap: wrap; */
+    flex-wrap: wrap;
+    /* margin-right: -15px; */
+    /* margin-left: -15px; */
+}
+}
+
+
+
+
+
+.slider1 {
+	/* font-family: sans-serif; */
+	/* scroll-snap-type: x mandatory;	 this makes it jump from card to card */
+  display: flex;
+  flex-direction: row;
+	/* white-space: nowrap; */
+   overflow-x: scroll;
+   overflow-y: hidden;
+   
+   margin-top: -17px;
+   
+    z-index: 2;
+  
+    height: 160px;
+    margin-bottom: -10px;
+}
+.section1 {
+	/* border-right: 1px solid white; */
+  /* padding: 1rem; */
+
+   /* min-width: 60%; */
+    z-index: 2;
+/* display: inline; */
+	/* height: 100vh; */
+    scroll-snap-align: start;
+    border-right: 6px solid transparent;
+    border-left: 6px solid transparent;
+	
+    
+    /* margin-top: 100px; */
+	/* text-align: center; */
+	/* position: relative; */
+}
+
+/* 
+.car-divs {
+  margin-left: 22px;
+  display: flex;
+}
+
+@media screen and (max-width: 430px) {
+  .car-divs {
+    margin-left: 10px;
+    display: flex;
+  }
+} */
+
+
+
+@media screen and (max-width: 576px) {
+    .col-sm-7 {
+        position: relative;
+       width: 40%;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+}
+
+
+.card-columns {
+    margin-top: 30px;
+} 
+
+
+ @media (max-width: 1000px) and (min-width: 450px) {
+    .card-columns {
+        
+        -webkit-column-count:1;
+        -moz-column-count:1;
+        column-count: 1;
+       margin-left: auto;
+        margin-right: auto;
+       width: 400px;
+        
+    }
+    }

@@ -47,7 +47,7 @@ html {
   }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (min-width: 540px) and (max-width: 800px) {
   .card-head {
    
     padding-left: 70px
@@ -98,11 +98,28 @@ html {
   }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (min-width: 540px) and (max-width: 800px) {
   .card-head2 {
     padding-left: 70px !important;
   }
 }
+
+
+
+
+@media screen and (min-width: 456px) and (max-width: 540px) {
+  .card-head2 {
+    padding-left: 30px !important;
+  }
+}
+@media screen and (min-width: 456px) and (max-width: 540px) {
+  .card-head {
+    padding-left: 30px !important;
+  }
+}
+
+
+
 
 .card-head2 {
   font-weight: bold;
