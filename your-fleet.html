@@ -148,18 +148,51 @@
   }
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1050px) {
   .rv {
     width: 340px !important; 
     /* height: 110px !important; */
   }
 }
 
+@media screen and (min-width: 950px) and (max-width: 1050px)  {
+  .rv {
+    width: 320px !important; 
+    /* height: 110px !important; */
+  }
+}
+
+@media screen and (min-width: 800px) and (max-width: 950px)  {
+  .rv {
+    width: 260px !important; 
+    /* height: 110px !important; */
+  }
+}
+
+
+
+@media screen and (min-width: 800px) and (max-width: 1050px)  {
+  .sl {
+    font-size: 12px !important; 
+    /* height: 110px !important; */
+  }
+}
+
+@media screen and (max-width: 800px)  {
+  .sl {
+    font-size: 10px !important; 
+    /* height: 110px !important; */
+  }
+}
+
+
+
         @media screen and (max-width: 800px)  {
   
   .nav {
     padding-top: 15px !important;
-    
+    margin-left: auto;
+    margin-right: -60px;
   
   }
   
@@ -173,6 +206,7 @@
      
   }
 }
+
 
 @media screen and (max-width: 800px) {
   .ct1 {
@@ -198,6 +232,14 @@
   }
 }
 
+@media screen and (min-width: 800px) and (max-width: 950px) {
+  .card {
+    
+      height: 210px !important;
+     
+  }
+}
+
 @media screen and (max-width: 800px) {
   .card {
     
@@ -212,7 +254,9 @@
       
 @media screen and (max-width: 800px) {
   .btn-primary {
-    display: none;
+   font-size: 15px !important;
+   height: 33px !important;
+   margin-right: 15px;
   }
 }
         
@@ -247,6 +291,16 @@
         }
       }
 
+      /* @media screen and (min-width: 730px) and (max-width: 800px) {
+        .item1 {
+          margin-left: 110px !important;
+        }
+      }
+      @media screen and (min-width: 630px) and (max-width: 730px) {
+        .item1 {
+          margin-left: 40px !important;
+        }
+      } */
       /* @media screen and (max-width: 700px) {
         .item1 {
           margin-left: 150px !important;
@@ -345,11 +399,12 @@
   .nav-link {
     margin-top: -40px;
     font-weight: 800;
+    
     /* background: white 100%; */
   }
 }
 
-@media screen and (min-width: 800px) and (max-width: 1100px) {
+@media screen and (min-width: 942px) and (max-width: 1100px) {
   .nav-link {
     color: grey;
     padding-left: 20px !important;
@@ -360,12 +415,45 @@
   }
 }
 
-@media screen and (min-width: 530px) and (max-width: 800px) {
+@media screen and (min-width: 840px) and (max-width: 942px) {
+  .nav-link {
+    color: grey;
+    padding-left: 10px !important;
+    padding-right: 20px !important;
+    font-size: 17px !important;
+    margin-top: 10px !important;
+    font-weight: 800;
+  }
+}
+
+@media screen and (min-width: 800px) and (max-width: 840px) {
+  .nav-link {
+    color: grey;
+    padding-left: 5px !important;
+    padding-right: 20px !important;
+    font-size: 15px !important;
+    margin-top: 10px !important;
+    font-weight: 800;
+  }
+}
+
+@media screen and (min-width: 620px) and (max-width: 800px) {
   .nav-link {
     color: grey;
     padding-left: 15px;
     padding-right: 15px;
     font-size: 20px;
+    margin-top: 40px;
+    font-weight: 800;
+  }
+}
+
+@media screen and (min-width: 530px) and (max-width: 620px) {
+  .nav-link {
+    color: grey;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 15px;
     margin-top: 40px;
     font-weight: 800;
   }
@@ -471,10 +559,8 @@
         
 
 
-        <div class="logo" id="atl2">
-          <a href="index.html"
-            ><img src="assets/That_New_New.png" alt="" class="atlPic"
-          /></a>
+        <div class="logo atlPic" id="atl2" style="z-index: 1; color: white; text-align: center; font-size: 30px;">
+          Your Fleet
         </div>
 
         <div class="center-search">Your Fleet</div>
@@ -554,7 +640,7 @@
 
                   <div class="specs">
                     <span
-                      style="background-color: #F0F0F0; display: inline-block; font-size: 15px; font-weight: bold"
+                      style="background-color: #F0F0F0; display: inline-block; font-size: 15px; font-weight: bold" class="sl"
                     >
                       <p style="margin: 4px;">
                         <img
@@ -566,7 +652,7 @@
                     </span>
 
                     <span
-                      style="background-color: #F0F0F0; display: inline-block; font-size: 15px; font-weight: bold"
+                      style="background-color: #F0F0F0; display: inline-block; font-size: 15px; font-weight: bold" class="sl"
                     >
                       <p style="margin: 4px;">
                         <img
@@ -578,7 +664,7 @@
                     </span>
 
                     <span
-                      style="background-color: #F0F0F0; display: inline-block; font-size: 15px; font-weight: bold"
+                      style="background-color: #F0F0F0; display: inline-block; font-size: 15px; font-weight: bold" class="sl"
                     >
                       <p style="margin: 4px;">
                         <img
@@ -636,7 +722,7 @@
 
                   <div class="specs">
                     <span
-                      style="background-color: #F0F0F0; display: inline-block; font-size: 15px; font-weight: bold"
+                      style="background-color: #F0F0F0; display: inline-block; font-size: 15px; font-weight: bold" class="sl"
                     >
                       <p style="margin: 4px;">
                         <img
@@ -648,7 +734,7 @@
                     </span>
 
                     <span
-                      style="background-color: #F0F0F0; display: inline-block; font-size: 15px; font-weight: bold"
+                      style="background-color: #F0F0F0; display: inline-block; font-size: 15px; font-weight: bold" class="sl"
                     >
                       <p style="margin: 4px;">
                         <img
@@ -660,7 +746,7 @@
                     </span>
 
                     <span
-                      style="background-color: #F0F0F0; display: inline-block; font-size: 15px; font-weight: bold"
+                      style="background-color: #F0F0F0; display: inline-block; font-size: 15px; font-weight: bold" class="sl"
                     >
                       <p style="margin: 4px;">
                         <img
@@ -716,7 +802,7 @@
 
                   <div class="specs">
                     <span
-                      style="background-color: #F0F0F0; display: inline-block; font-size: 15px; font-weight: bold"
+                      style="background-color: #F0F0F0; display: inline-block; font-size: 15px; font-weight: bold" class="sl"
                     >
                       <p style="margin: 4px;">
                         <img
@@ -728,7 +814,7 @@
                     </span>
 
                     <span
-                      style="background-color: #F0F0F0; display: inline-block; font-size: 15px; font-weight: bold"
+                      style="background-color: #F0F0F0; display: inline-block; font-size: 15px; font-weight: bold" class="sl"
                     >
                       <p style="margin: 4px;">
                         <img
@@ -740,7 +826,7 @@
                     </span>
 
                     <span
-                      style="background-color: #F0F0F0; display: inline-block; font-size: 15px; font-weight: bold"
+                      style="background-color: #F0F0F0; display: inline-block; font-size: 15px; font-weight: bold" class="sl"
                     >
                       <p style="margin: 4px;">
                         <img
@@ -799,7 +885,7 @@
 
                   <div class="specs">
                     <span
-                      style="background-color: #F0F0F0; display: inline-block; font-size: 10px; font-weight: bold"
+                      style="background-color: #F0F0F0; display: inline-block; font-size: 10px; font-weight: bold" class="sl"
                     >
                       <p style="margin: 4px;">
                         <img
@@ -811,7 +897,7 @@
                     </span>
 
                     <span
-                      style="background-color: #F0F0F0; display: inline-block; font-size: 10px; font-weight: bold"
+                      style="background-color: #F0F0F0; display: inline-block; font-size: 10px; font-weight: bold" class="sl"
                     >
                       <p style="margin: 4px;">
                         <img
@@ -823,7 +909,7 @@
                     </span>
 
                     <span
-                      style="background-color: #F0F0F0; display: inline-block; font-size: 10px; font-weight: bold"
+                      style="background-color: #F0F0F0; display: inline-block; font-size: 10px; font-weight: bold" class="sl"
                     >
                       <p style="margin: 4px;">
                         <img
