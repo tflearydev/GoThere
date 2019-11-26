@@ -37,6 +37,7 @@ html {
 .card-head {
   font-size: 26px;
   font-weight: 900;
+  padding-left: 170px;
 }
 
 @media screen and (max-width: 456px) {
@@ -46,10 +47,26 @@ html {
   }
 }
 
+@media screen and (max-width: 700px) {
+  .card-head {
+   
+    padding-left: 70px;
+    float: right !important
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .card-head2 {
+    padding-left: 70px !important;
+    float: right;
+  }
+}
+
 .card-head2 {
   font-weight: bold;
   margin-top: -10px;
   font-size: 22px;
+  padding-left: 170px;
 }
 
 @media screen and (max-width: 456px) {
@@ -184,11 +201,7 @@ html {
   }
 }
 
-@media screen and (max-width: 700px) {
-  .rv {
-    width: 160px !important; height: 110px !important;
-  }
-}
+
 
 .atlPic {
   /* width: 220px; */
@@ -208,9 +221,17 @@ html {
     
     /* width: 220px; */
     height: 90px;
+    
   }
 }
 
+@media screen and (min-width: 700px) {
+  #atl2 {
+    /* float: left; */
+    display: none;
+    
+  }
+}
 .center-search {
   text-align: center;
   font-weight: 900;
@@ -562,7 +583,7 @@ a.btn.newAc {
   }
 }
 
-@media screen and (max-width: 700px) {
+/* @media screen and (max-width: 700px) {
   .ct1 {
     margin-top: 40px !important;
     
@@ -574,7 +595,7 @@ a.btn.newAc {
     margin-top: 20px !important;
     
   }
-}
+} */
 
 @media screen and (max-width: 405px) {
   .nav-link {
