@@ -50,15 +50,20 @@ html {
 @media screen and (max-width: 700px) {
   .card-head {
    
-    padding-left: 70px;
-    float: right !important
+    padding-left: 70px
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .card-body {
+   
+    text-align: right;
   }
 }
 
 @media screen and (max-width: 700px) {
   .card-head2 {
     padding-left: 70px !important;
-    float: right;
   }
 }
 
@@ -89,6 +94,21 @@ html {
     margin-bottom: 2px;
     margin-top: 5px;
     margin-left: -170px !important;
+    /* display: flex;
+    text-align: center;
+    justify-content: center; */
+
+   
+    
+    /* margin-left: -200px; */
+  }
+}
+@media screen and (min-width: 1130px) {
+  .specs {
+    margin-bottom: 2px;
+    margin-top: 50px;
+    float: right;
+    margin-left: -20px
     /* display: flex;
     text-align: center;
     justify-content: center; */
