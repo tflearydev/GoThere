@@ -35,7 +35,7 @@ html {
 }
 
 .card-head {
-  font-size: 26px;
+  font-size: 32px;
   font-weight: 900;
   padding-left: 170px;
 }
@@ -47,7 +47,7 @@ html {
   }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
   .card-head {
    
     padding-left: 70px
@@ -61,7 +61,7 @@ html {
   }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
   .card-head2 {
     padding-left: 70px !important;
   }
@@ -70,7 +70,7 @@ html {
 .card-head2 {
   font-weight: bold;
   margin-top: -10px;
-  font-size: 22px;
+  font-size: 27px;
   padding-left: 170px;
 }
 
@@ -204,7 +204,7 @@ html {
   float: left;
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 800px) {
   #header {
     height: 230px;
     /* transition: all 0.5s;
@@ -234,7 +234,7 @@ html {
   /* float:none !important; */
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 800px) {
   .atlPic {
     /* float: left; */
     margin-left: 60px;
@@ -245,7 +245,7 @@ html {
   }
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 800px) {
   #atl2 {
     /* float: left; */
     display: none;
@@ -263,7 +263,7 @@ html {
   margin-top: -50px;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
   .center-search {
     display: none;
   }
@@ -310,7 +310,7 @@ body {
   text-decoration: none;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
   .header-check {
     display: none;
   }
@@ -332,7 +332,7 @@ body {
   text-decoration: none;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
   .header-check1 {
     display: none;
   }
@@ -345,10 +345,11 @@ body {
 .btn-primary {
   background-color: #0092c0;
   /* border: #0092c0; */
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
   font-size: 22px;
   margin-top: 15px;
   transition: transform 0.4s;
+  border-color: #0092c0
 }
 .btn-primary:hover {
   transform: scale(0.9);
@@ -512,7 +513,7 @@ a.btn.newAc {
   color: white;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
   .fa-bars {
     font-size: 25px;
     margin-left: 20px;
@@ -526,7 +527,7 @@ a.btn.newAc {
 
 
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
   .card-uno {
     margin-top: -10px;
   }
@@ -543,93 +544,7 @@ a.btn.newAc {
     background-color: #111;
   } */
 
-@media screen and (min-width: 1201px) {
-  .nav-link {
-    color: grey;
-    padding-left: 60px;
-    padding-right: 60px;
-    font-weight: 800;
-  }
-}
 
-@media screen and (min-width: 940px) and (max-width: 1200px) {
-  .nav-link {
-    color: grey;
-    padding-left: 30px;
-    padding-right: 30px;
-    font-weight: 800;
-  }
-}
-
-@media screen and (max-width: 699px) {
-  .nav-link {
-    margin-top: -40px;
-    font-weight: 800;
-    /* background: white 100%; */
-  }
-}
-
-@media screen and (min-width: 700px) and (max-width: 940px) {
-  .nav-link {
-    color: grey;
-    padding-left: 20px;
-    padding-right: 20px;
-    font-size: 20px;
-    margin-top: 10px;
-    font-weight: 800;
-  }
-}
-
-@media screen and (min-width: 530px) and (max-width: 699px) {
-  .nav-link {
-    color: grey;
-    padding-left: 15px;
-    padding-right: 15px;
-    font-size: 20px;
-    margin-top: 40px;
-    font-weight: 800;
-  }
-}
-
-@media screen and (max-width: 530px) {
-  .nav-link {
-    color: grey;
-    font-weight: bold;
-    margin-top: 40px !important;
-    padding-right: 5px;
-    font-size: 17px !important;
-    font-weight: 800;
-    
-  }
-}
-
-/* @media screen and (max-width: 700px) {
-  .ct1 {
-    margin-top: 40px !important;
-    
-  }
-}
-
-@media screen and (max-width: 400px) {
-  .ct1 {
-    margin-top: 20px !important;
-    
-  }
-} */
-
-@media screen and (max-width: 405px) {
-  .nav-link {
-    color: grey;
-    font-weight: bold;
-
-    padding-right: 2px;
-    font-size: 13px !important;
-    margin-top: -32px;
-    
-    
-  
-  }
-}
 
 @media screen and (max-width: 405px) {
   .item1 {
@@ -649,14 +564,14 @@ a.btn.newAc {
   color: white;
 }
 
-@media screen and (max-width: 699px) {
+@media screen and (max-width: 800px) {
   .nav-link:hover {
     text-decoration: underline #0092c0;
     color: #0092c0;
   }
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 800px) {
   .nav {
     margin-top: -55px;
     font-size: 30px;
