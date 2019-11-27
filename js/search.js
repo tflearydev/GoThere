@@ -51,37 +51,6 @@ $(document).ready(function () {
 });
 
 
-// // make fraction utilization header sticky/fixed
-// // add this into search.js file for van2share bitbucket account when you are ready to add in the fraction pages
-// window.onscroll = function() {myFunction()};
-
-// var header = document.getElementById("header");
-// var sticky = header.offsetTop;
-// var map = document.getElementById('map');
-// var map2 = document.getElementById('map2')
-// // var ec1 = document.getElementsByClassName('ec1')
-
-// function myFunction() {
-//   if (window.pageYOffset > sticky) {
-//     header.classList.add("sticky");
-//     // ec1.classList.add('tops');
-  
-//     map.classList.add("sticky", "map-height");
-
-//     // map2.classList.add("sticky", "map-height2");
-
-//   } else {
-//     header.classList.remove("sticky");
-//     // ec1.classList.remove('tops');
-    
-//     map.classList.remove("sticky", "map-height");
-
-//     // map2.classList.remove("sticky", "map-height2");
-//   }
-// }
-
-
-
 
 
 
