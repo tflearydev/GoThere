@@ -43,6 +43,85 @@
             }
         }
 
+.resdate {
+    font-size: 22px;
+}
+
+        @media screen and (min-width: 800px) and (max-width: 940px) {
+            .resdate {
+                font-size: 18px;
+            }
+        }
+
+        @media screen and (max-width: 460px) {
+            .resdate {
+                font-size: 18px;
+            }
+        }
+
+
+
+        @media screen and (min-width: 800px) and (max-width: 940px) {
+            .rc2 {
+                margin-top: -15px !important;
+            }
+        }
+
+        @media screen and (max-width: 800px) {
+            .rc2 {
+                margin-top: 0px !important;
+            }
+        }
+
+        @media screen and (max-width: 940px) {
+            .red1 {
+                margin-left: 60px !important;
+            }
+        }
+
+        @media screen and (max-width: 940px) {
+            .reserve-alert {
+                margin-top: -80px !important;
+                z-index: 2;
+            }
+        }
+        @media screen and (max-width: 940px) {
+            .reserve-alert {
+                margin-top: -80px !important;
+                z-index: 2;
+                margin-right: -50px !important;
+            }
+        }
+
+
+        @media screen and (max-width: 800px) {
+            .request-titile {
+                margin-left: 0px !important;
+            }
+        }
+
+
+        @media screen and  (max-width: 940px) {
+            .rd2 {
+                margin-left: 70px !important;
+            }
+        }
+
+        @media screen and  (max-width: 940px) {
+            .rd5 {
+                margin-left: 110px !important;
+            }
+        }
+
+        @media screen and  (max-width: 940px) {
+            .rd6 {
+                margin-left: 115px !important;
+            }
+        }
+
+
+
+
 
     </style>
 </head>
@@ -263,14 +342,14 @@
                           <div class="reserve-content rc">
                             Today's Date
                             <span
-                              style="font-weight: 900; font-size: 22px; margin-left: 80px;"
+                              style="font-weight: 900; margin-left: 80px;" class="resdate red1"
                               >10.17.19</span
                             >
                           </div>
                           <div class="reserve-content rc">
                             Total Miles 
                             <span
-                              style="font-weight: 900; font-size: 22px; margin-left: 100px;"
+                              style="font-weight: 900; margin-left: 100px;" class="resdate rd2"
                               >180 Miles</span
                             >
                           </div>
@@ -278,14 +357,14 @@
                           <div class="reserve-content rc">
                                 Basic Rental Cost
                                 <span
-                                  style="font-weight: 900; font-size: 22px; margin-left: 20px;"
+                                  style="font-weight: 900; margin-left: 20px;" class="resdate rd3"
                                   >$110.00 (Sprinter Van)</span
                                 >
                               </div>
                               <div class="reserve-content rc">
                                 + Stocked Fridge
                                 <span
-                                  style="font-weight: 900; font-size: 22px; margin-left: 30px;"
+                                  style="font-weight: 900; margin-left: 30px;" class="resdate rd4"
                                   >$45.00</span
                                 >
                               </div>
@@ -293,14 +372,14 @@
                               <div class="reserve-content rc">
                                     Taxes 
                                     <span
-                                      style="font-weight: 900; font-size: 22px; margin-left: 155px;"
+                                      style="font-weight: 900; margin-left: 155px;" class="resdate rd5"
                                       >$12.50</span
                                     >
                                   </div>
                                   <div class="reserve-content rc">
                                     Fees 
                                     <span
-                                      style="font-weight: 900; font-size: 22px; margin-left: 170px;"
+                                      style="font-weight: 900; margin-left: 170px;" class="resdate rd6"
                                       >$0.00</span
                                     >
                                   </div>
@@ -335,11 +414,11 @@
                               >
                             </div> -->
 <div style="text-align: right">
-                            <div style="margin-top: -80px" class="reserve-content rc">
+                            <div style="margin-top: -80px" class="reserve-content rc rc2">
                                     Subtotal
                                   </div>
                                   <div
-                                      style="font-weight: 900; font-size: 22px;"
+                                      style="font-weight: 900;" class="resdate"
                                       >$167.50</div>
                                   <!-- <div class="van-address va">Atlanta GA, 30303</div> -->
                                 
@@ -349,7 +428,7 @@
                                         - Deposit Paid
                                       </div>
                                       <div
-                                          style="font-weight: 900; font-size: 22px; "
+                                          style="font-weight: 900; " class="resdate"
                                           >$100.00</div>
 
                                           <hr style="width: 150px; float: right">
@@ -416,12 +495,35 @@
 
           <div class="row readyrow">
             <div class="col-md-5">
-              <div class="van-card-square" style="width: 100vw; height: 650px; padding-top: 80px; margin-left: 15px;">
+              <div class="van-card-square" style="width: 100vw; height: 1050px; padding-top: 80px; margin-left: 15px;">
                 
                  
                 <div class="request-titile re" style="margin-top: -20px; margin-bottom: 15px; font-size: 30px !important; font-weight: 900; text-align: left; margin-left: 20px">Request #22938</div>
 
                 
+
+                <div class="" style="font-weight: 900; font-size: 30px">
+                        John Doe
+                      </div>
+                      <div class="reserve-content rc">
+                        Start:
+                        <span
+                          style="font-weight: 900; font-size: 22px; margin-left: 20px;"
+                          >10.15.19 — 4PM</span
+                        >
+                      </div>
+                      <div class="reserve-content rc">
+                        End:
+                        <span
+                          style="font-weight: 900; font-size: 22px; margin-left: 30px;"
+                          >10.17.19 — 2PM</span
+                        >
+                      </div>
+                      <div style="margin-top: 25px;" class="reserve-content rc">
+                        Pick-up & Drop Off:
+                      </div>
+                      <div class="van-address va">1120 Atlanta Rd</div>
+                      <div class="van-address va">Atlanta GA, 30303</div>
                 <!-- <div style="font-size: 23px; text-align: left; font-weight: 900; width: 320px;
                 height: 33px; margin-bottom: 20px;  margin-left: 20px">Ending Your Reservation:</div>
 
@@ -458,15 +560,123 @@
                                           >Emergency Contact</a
                                         >
                                       </div>
+
+
+
             </div>
+
+
+            <hr style="width: 100; margin-top: 70px;">
+
+<div style="text-align: left">
+
+        <div class="" style="font-weight: 900; font-size: 30px; margin-top: 20px;">
+                Invoice Details
+              </div>
+              <div class="reserve-content rc">
+                Today's Date
+                <span
+                  style="font-weight: 900; margin-left: 80px;" class="resdate red1"
+                  >10.17.19</span
+                >
+              </div>
+              <div class="reserve-content rc">
+                Total Miles 
+                <span
+                  style="font-weight: 900; margin-left: 100px;" class="resdate rd2"
+                  >180 Miles</span
+                >
+              </div>
+<br>
+              <div class="reserve-content rc">
+                    Basic Rental Cost
+                    <span
+                      style="font-weight: 900; margin-left: 20px;" class="resdate rd3"
+                      >$110.00 (Sprinter Van)</span
+                    >
+                  </div>
+                  <div class="reserve-content rc">
+                    + Stocked Fridge
+                    <span
+                      style="font-weight: 900; margin-left: 30px;" class="resdate rd4"
+                      >$45.00</span
+                    >
+                  </div>
+
+                  <div class="reserve-content rc">
+                        Taxes 
+                        <span
+                          style="font-weight: 900; margin-left: 155px;" class="resdate rd5"
+                          >$12.50</span
+                        >
+                      </div>
+                      <div class="reserve-content rc">
+                        Fees 
+                        <span
+                          style="font-weight: 900; margin-left: 170px;" class="resdate rd6"
+                          >$0.00</span
+                        >
+                      </div>
+
+
+
+
+                      <hr style="width: 100; margin-top: 40px;">
+
+                      <div style="text-align: right">
+                            <div style="margin-top: -80px" class="reserve-content rc rc2">
+                                    Subtotal
+                                  </div>
+                                  <div
+                                      style="font-weight: 900;" class="resdate"
+                                      >$167.50</div>
+                                  <!-- <div class="van-address va">Atlanta GA, 30303</div> -->
+                                
+
+
+                                  <div style="margin-top: 10px;" class="reserve-content rc">
+                                        - Deposit Paid
+                                      </div>
+                                      <div
+                                          style="font-weight: 900; " class="resdate"
+                                          >$100.00</div>
+
+                                          <hr style="width: 150px; float: right">
+
+                                          <div style="margin-top: 20px; float: right; margin-right: -150px" class="reserve-content rc">
+                                                Net Total: <span style="font-size: 30px; font-weight: 900">$67.50</span>
+                                              </div>
+                                              
+        
+
+                                            </div>
+
+                                            <hr style="width: 100; margin-top: 80px;">
+
+
+
+                                            <div style="margin-top: 30px; text-align: center; font-size: 30px; font-weight: 900" class="reserve-content rc">
+                                                    Amount Paid: <span style=" font-weight: 900">$67.50</span>
+                                                   </div>
+
+
+
+
+</div>
+
+
            
         </div>
            
-            
+       
 
        </div>
           
+
+       
+
         </div>
+        
         </div>
         </div>
 
