@@ -93,6 +93,12 @@
             margin-top: 10px;
           }
         }
+
+        @media screen and (max-width: 460px) {
+          .card-uno {
+            margin-top: -10px !important;
+          }
+        }
   
        
   
@@ -141,9 +147,17 @@
           
         }
 
-        @media screen and (max-width: 540px) {
+        @media screen and (min-width: 460px) and (max-width: 540px) {
   .rv {
     width: 225px !important; 
+    
+  }
+}
+
+
+@media screen and (max-width: 460px) {
+  .rv {
+    width: 200px !important; 
     
   }
 }
@@ -208,6 +222,13 @@
   }
 }
 
+@media screen and (max-width: 400px)  {
+  .sl {
+    font-size: 6px !important; 
+    /* height: 110px !important; */
+  }
+}
+
 
 
         @media screen and (max-width: 800px)  {
@@ -215,7 +236,18 @@
   .nav {
     padding-top: 15px !important;
     margin-left: auto;
-    margin-right: -60px;
+    /* margin-right: -60px; */
+  
+  }
+  
+}
+
+@media screen and (max-width: 490px)  {
+  
+  .nav {
+    padding-top: 15px !important;
+    margin-left: auto;
+    margin-right: -10px;
   
   }
   
@@ -286,16 +318,51 @@ ul {
      
   }
 }
+@media screen and (max-width: 460px) {
+  .card {
+    
+      height: 190px !important;
+     
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .card {
+    
+      height: 170px !important;
+     
+  }
+}
 
 
-  
-  
       
 @media screen and (max-width: 800px) {
   .btn-primary {
    font-size: 15px !important;
    height: 33px !important;
-   margin-right: 15px;
+   margin-right: 10px !important;
+   margin-top: -50px !important;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .btn-primary {
+   font-size: 15px !important;
+   height: 33px !important;
+   margin-right: 10px !important;
+   margin-top: -30px !important;
+  }
+}
+
+
+
+@media screen and (max-width: 460px) {
+  .btn-primary {
+   font-size: 10px !important;
+   height: 25px !important;
+   margin-right: 10px !important;
+   margin-top: -25px !important;
+   width: 78px !important
   }
 }
         
@@ -311,24 +378,24 @@ ul {
         }
       }
   
-  
-      /* @media screen and (max-width: 700px) {
-        .content {
-          margin-top: -70px;
-        }
-      } */
-  
-      @media screen and (max-width: 490px) {
+
+      /* @media screen and (max-width: 490px) {
         .item1 {
           margin-left: -40px !important;
         }
-      }
+      } */
 
-      @media screen and (max-width: 390px) {
+      /* @media screen and (max-width: 800px) and (min-width: 490px) {
+        .item1 {
+          margin-left: 30px !important;
+        }
+      } */
+
+      /* @media screen and (max-width: 390px) {
         .item1 {
           margin-left: -65px !important;
         }
-      }
+      } */
 
       @media screen and (min-width: 800px) {
         .item1 {
@@ -336,23 +403,14 @@ ul {
         }
       }
 
-      /* @media screen and (min-width: 730px) and (max-width: 800px) {
-        .item1 {
-          margin-left: 110px !important;
+      
+      @media screen and (max-width: 800px) {
+        .fa-bars {
+          margin-top: -47px;
         }
       }
-      @media screen and (min-width: 630px) and (max-width: 730px) {
-        .item1 {
-          margin-left: 40px !important;
-        }
-      } */
-      /* @media screen and (max-width: 700px) {
-        .item1 {
-          margin-left: 150px !important;
-        }
-      } */
-  
-      @media screen and (max-width: 800px) {
+
+      @media screen and (max-width: 460px) {
         .fa-bars {
           margin-top: -30px;
         }
@@ -395,12 +453,11 @@ ul {
         }
       }
        
-      @media screen and (min-width: 800px) {
+      /* @media screen and (min-width: 800px) {
         .center-search {
-         /* padding-top: 100px; */
-         /* justify-content: center !important; */
+         
         }
-      }
+      } */
 
       
       @media screen and (min-width: 800px) {
@@ -488,8 +545,14 @@ ul {
     padding-left: 15px;
     padding-right: 15px;
     font-size: 20px;
-    margin-top: 40px;
+   
     font-weight: 800;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .nav-link {
+    margin-top: 20px !important;
   }
 }
 
@@ -508,7 +571,7 @@ ul {
   .nav-link {
     color: grey;
     font-weight: bold;
-    margin-top: 40px !important;
+   
     padding-left: 10px;
     padding-right: 5px;
     font-size: 15px !important;
@@ -605,7 +668,7 @@ ul {
         
 
 
-        <div class="logo atlPic" id="atl2" style="z-index: 1; color: white; text-align: center; font-size: 30px;">
+        <div class="logo atlPic" id="atl2" style="z-index: 1; color: white; text-align: center;">
           Your Fleet
         </div>
 

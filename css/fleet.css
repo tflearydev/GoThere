@@ -40,7 +40,7 @@ html {
   padding-left: 170px;
 }
 
-@media screen and (max-width: 456px) {
+@media screen and (max-width: 490px) {
   .card-head {
     font-size: 14px;
     font-weight: bold;
@@ -107,16 +107,53 @@ html {
 
 
 
-@media screen and (min-width: 456px) and (max-width: 540px) {
+@media screen and (min-width: 460px) and (max-width: 540px) {
   .card-head2 {
     padding-left: 30px !important;
   }
 }
-@media screen and (min-width: 456px) and (max-width: 540px) {
+@media screen and (min-width: 460px) and (max-width: 540px) {
   .card-head {
     padding-left: 30px !important;
   }
 }
+
+
+
+@media screen and (max-width: 460px) {
+  .card-head2 {
+    padding-left: 0px !important;
+    font-size: 30px;
+    margin-bottom: 20px
+  }
+}
+@media screen and (max-width: 460px) {
+  .card-head {
+    padding-left: 0px !important;
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .card-head2 {
+    padding-left: 0px !important;
+    font-size: 15px !important;
+    margin-bottom: 35px !important;
+  }
+}
+@media screen and (max-width: 390px) {
+  .card-head {
+    padding-left: 0px !important;
+    font-size: 13px;
+  }
+}
+
+/* @media screen and (max-width: 460px) {
+  .rv {
+   width: 200 !important;
+  }
+} */
+
 
 
 
@@ -299,6 +336,28 @@ html {
   }
 }
 
+#atl2 {
+  font-size: 30px !important;
+}
+
+@media screen and (max-width: 460px) {
+  #atl2 {
+    font-size: 25px !important;
+    padding-top: 40px !important
+  }
+}
+
+@media screen and (min-width: 460px) {
+  .atlPic {
+    /* float: left; */
+    /* margin-left: 60px; */
+    
+    /* width: 220px; */
+    height: 90px;
+    font-size: 20px !important;
+  }
+}
+
 @media screen and (min-width: 800px) {
   #atl2 {
     /* float: left; */
@@ -405,6 +464,7 @@ body {
   transition: transform 0.4s;
   border-color: #0092c0
 }
+
 .btn-primary:hover {
   transform: scale(0.9);
 }
