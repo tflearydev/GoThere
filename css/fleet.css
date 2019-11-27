@@ -122,7 +122,7 @@ html {
 
 
 .card-head2 {
-  font-weight: bold;
+  /* font-weight: bold; */
   margin-top: -10px;
   font-size: 27px;
   padding-left: 170px;
@@ -610,6 +610,14 @@ a.btn.newAc {
   
   }
 }
+
+/* @media screen and (max-width: 490px) {
+  .nav {
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+  
+  }
+} */
 
 
 
