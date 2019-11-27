@@ -17,16 +17,10 @@
     />
 
     <!-- Libraries CSS Files -->
-    <link
-      href="lib/font-awesome/css/font-awesome.min.css"
-      rel="stylesheet"
-    />
+    <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
     <link href="lib/animate/animate.min.css" rel="stylesheet" />
     <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet" />
-    <link
-      href="lib/owlcarousel/assets/owl.carousel.min.css"
-      rel="stylesheet"
-    />
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
     <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
 
     <link
@@ -44,89 +38,56 @@
       rel="stylesheet"
     />
 
-    
-
     <style>
-        /* @media screen and (max-width: 1030px) {
-          #map {
-            display: none;
-          }
-        } */
-  
-        .card {
-          margin-bottom: 30px;
-        }
-  
-        /* @media screen and (min-width: 1600px) and (max-width: 3000px) {
-            .mt-1 {
-              width: 40% !important;
-              margin-left: auto !important;
-              margin-right: auto !important;
-            }
-        }
-  
-        @media screen and (min-width: 800px) and (max-width: 1600px) {
-            .mt-1 {
-              width: 60% !important;
-              margin-left: auto !important;
-              margin-right: auto !important;
-            }
-        } */
-  
-        .mt-1{
-          width: 100% !important;
-        }
-  
-        #header3 {
-          width: 100% !important;
-        }
-  
-        @media screen and (min-width: 800px) {
-        .content, #header {
+      .card {
+        margin-bottom: 30px;
+      }
+
+      .mt-1 {
+        width: 100% !important;
+      }
+
+      #header3 {
+        width: 100% !important;
+      }
+
+      @media screen and (min-width: 800px) {
+        .content,
+        #header {
           margin-left: 270px;
           /* padding-right: 50px; */
         }
       }
-  
-        @media screen and (max-width: 1030px) {
-          .card-uno {
-            margin-top: 10px;
-          }
-        }
 
-        @media screen and (max-width: 460px) {
-          .card-uno {
-            margin-top: -10px !important;
-          }
+      @media screen and (max-width: 1030px) {
+        .card-uno {
+          margin-top: 10px;
         }
-  
-       
-  
+      }
+
+      @media screen and (max-width: 460px) {
+        .card-uno {
+          margin-top: -10px !important;
+        }
+      }
+
+      .active {
+        color: white;
+      }
+
+      .active::after {
+        content: "";
+        margin-left: -10%;
+        width: 120%;
+        height: 3px;
+        display: block;
+        background: white;
+      }
+
+      @media screen and (max-width: 800px) {
         .active {
-          color: white;
+          color: #0092c0;
         }
-  
-        .active::after {
-          content: "";
-          margin-left: -10%;
-          width: 120%;
-          height: 3px;
-          display: block;
-          background: white;
-        } 
-  
-        @media screen and (max-width: 800px) {
-          
-        .active {
-          color: #0092C0;
-        }
-
-       /* @media screen and (min-width: 700px) {
-         #atl2 {
-           display: none !important;
-         }
-       } */
-
 
         .active::after {
           content: "";
@@ -134,304 +95,215 @@
           width: 120%;
           height: 3px;
           display: block;
-          background: #0092C0;
-        } 
+          background: #0092c0;
         }
-  
-        @media screen and (min-width: 800px)  {
-  
-          .nav {
-            margin-top: 25px !important;
-            /* margin-left: -150px !important */
-          }
-          
+      }
+
+      @media screen and (min-width: 800px) {
+        .nav {
+          margin-top: 25px !important;
+          /* margin-left: -150px !important */
         }
+      }
 
-        @media screen and (min-width: 460px) and (max-width: 540px) {
-  .rv {
-    width: 225px !important; 
-    margin-top: 33px;
-    margin-left: 10px;
-    
-  }
-}
-
-
-
-
-@media screen and (max-width: 460px) {
-  .rv {
-    width: 190px !important; 
-    height: 100%;
-    margin-top: 20px;
-    margin-left: 10px
-    
-  }
-}
-
-@media screen and (max-width: 400px) {
-  .rv {
-    width: 190px !important; 
-    height: 100%;
-    margin-top: 15px;
-    margin-left: 5px
-    
-  }
-}
-
-
-@media screen and (max-width: 460px) {
-  .card-body {
-    padding-top: 10px !important;
-    padding-left: 0px !important;
-    
-  }
-}
-
-@media screen and (max-width: 700px) {
-  .mt-1 {
-    margin-left: 0px !important;
-    margin-right: 0px !important;
-    
-  }
-}
-
-
-/* @media screen and (max-width: 540px) {
-  .rv {
-    width: 100% !important; 
-    
-  }
-} */
-
-        @media screen and (min-width: 540px) and (max-width: 800px) {
-  .rv {
-    width: 300px !important; 
-    margin-top: 10px !important;
-    margin-left: 10px !important;
-  }
-}
-
-@media screen and (min-width: 1050px) {
-  .rv {
-    width: 320px !important; 
-    margin-top: 9px;
-    margin-left: 7px;
-    /* height: 110px !important; */
-  }
-}
-
-/* @media screen and (min-width: 950px) and (max-width: 1050px)  {
-  .rv {
-    width: 320px !important;
-    margin-top: 7px;
-    margin-left: 7px; 
-    /* height: 110px !important; */
-  /* }
-} */ 
-
-@media screen and (min-width: 800px) and (max-width: 1050px)  {
-  .rv {
-    width: 260px !important; 
-    margin-top: 25px !important;
-    margin-left: 20px !important
-    /* height: 110px !important; */
-  }
-}
-
-
-
-
-
-
-@media screen and (min-width: 800px) and (max-width: 1050px)  {
-  .sl {
-    font-size: 8px !important; 
-    /* height: 110px !important; */
-  }
-}
-
-@media screen and (max-width: 800px)  {
-  .sl {
-    font-size: 10px !important; 
-    /* height: 110px !important; */
-  }
-}
-
-@media screen and (max-width: 400px)  {
-  .sl {
-    font-size: 6px !important; 
-    /* height: 110px !important; */
-  }
-}
-
-
-
-        @media screen and (max-width: 800px)  {
-  
-  .nav {
-    padding-top: 15px !important;
-    margin-left: auto;
-    /* margin-right: -60px; */
-  
-  }
-  
-}
-
-@media screen and (max-width: 490px)  {
-  
-  .nav {
-    padding-top: 15px !important;
-    margin-left: auto;
-    /* margin-right: -10px; */
-  
-  }
-  
-}
-
-
-@media screen and (max-width: 490px)  {
-  
-
-ul {
-    margin-top: 5px !important;
-    /* margin-bottom: 1rem; */
-}
-}
-
-
-
-
-
-  
-        @media screen and (min-width: 800px) {
-  .nav-link {
-    
-      padding-left: 0px !important;
-      font-size: 25px !important;
-     
-  }
-}
-
-
-@media screen and (max-width: 800px) {
-  .ct1 {
-    
-      margin-top: -40px !important;
-     
-  }
-}
-
-
-@media screen and (min-width: 800px) {
-  .ct1 {
-    
-      margin-top: 230px !important;
-     
-  }
-}
-
-@media screen and (min-width: 800px) {
-  .card {
-    
-      height: 230px !important;
-     
-  }
-}
-
-@media screen and (min-width: 800px) and (max-width: 950px) {
-  .card {
-    
-      height: 210px !important;
-     
-  }
-}
-
-@media screen and (max-width: 800px) {
-  .card {
-    
-      height: 220px !important;
-     
-  }
-}
-@media screen and (max-width: 460px) {
-  .card {
-    
-      height: 190px !important;
-     
-  }
-}
-
-@media screen and (max-width: 400px) {
-  .card {
-    
-      height: 170px !important;
-     
-  }
-}
-
-
-      
-@media screen and (max-width: 800px) {
-  .btn-primary {
-   font-size: 15px !important;
-   height: 33px !important;
-   margin-right: 10px !important;
-   margin-top: -50px !important;
-  }
-}
-
-@media screen and (max-width: 460px) {
-  .btn-primary {
-   font-size: 15px !important;
-   height: 33px !important;
-   margin-right: 10px !important;
-   margin-top: -30px !important;
-  }
-}
-
-
-
-@media screen and (max-width: 460px) {
-  .btn-primary {
-   font-size: 10px !important;
-   height: 25px !important;
-   margin-right: 10px !important;
-   margin-top: -40px !important;
-   width: 78px !important
-  }
-}
-        
-        @media screen and (min-width: 800px) {
-          .fa, .fa-bars {
-            display: none;
-          }
+      @media screen and (min-width: 460px) and (max-width: 540px) {
+        .rv {
+          width: 225px !important;
+          margin-top: 33px;
+          margin-left: 10px;
         }
-  
-        @media screen and (min-width: 800px) {
-          #mySidenav {
+      }
+
+      @media screen and (max-width: 460px) {
+        .rv {
+          width: 190px !important;
+          height: 100%;
+          margin-top: 20px;
+          margin-left: 10px;
+        }
+      }
+
+      @media screen and (max-width: 400px) {
+        .rv {
+          width: 190px !important;
+          height: 100%;
+          margin-top: 15px;
+          margin-left: 5px;
+        }
+      }
+
+      @media screen and (max-width: 460px) {
+        .card-body {
+          padding-top: 10px !important;
+          padding-left: 0px !important;
+        }
+      }
+
+      @media screen and (max-width: 700px) {
+        .mt-1 {
+          margin-left: 0px !important;
+          margin-right: 0px !important;
+        }
+      }
+
+      @media screen and (min-width: 540px) and (max-width: 800px) {
+        .rv {
+          width: 300px !important;
+          margin-top: 10px !important;
+          margin-left: 10px !important;
+        }
+      }
+
+      @media screen and (min-width: 1050px) {
+        .rv {
+          width: 320px !important;
+          margin-top: 9px;
+          margin-left: 7px;
+          /* height: 110px !important; */
+        }
+      }
+
+      @media screen and (min-width: 800px) and (max-width: 1050px) {
+        .rv {
+          width: 260px !important;
+          margin-top: 25px !important;
+          margin-left: 20px !important;
+          /* height: 110px !important; */
+        }
+      }
+
+      @media screen and (min-width: 800px) and (max-width: 1050px) {
+        .sl {
+          font-size: 8px !important;
+          /* height: 110px !important; */
+        }
+      }
+
+      @media screen and (max-width: 800px) {
+        .sl {
+          font-size: 10px !important;
+          /* height: 110px !important; */
+        }
+      }
+
+      @media screen and (max-width: 400px) {
+        .sl {
+          font-size: 6px !important;
+          /* height: 110px !important; */
+        }
+      }
+
+      @media screen and (max-width: 800px) {
+        .nav {
+          padding-top: 15px !important;
+          margin-left: auto;
+          /* margin-right: -60px; */
+        }
+      }
+
+      @media screen and (max-width: 490px) {
+        .nav {
+          padding-top: 15px !important;
+          margin-left: auto;
+          /* margin-right: -10px; */
+        }
+      }
+
+      @media screen and (max-width: 490px) {
+        ul {
+          margin-top: 5px !important;
+          /* margin-bottom: 1rem; */
+        }
+      }
+
+      @media screen and (min-width: 800px) {
+        .nav-link {
+          padding-left: 0px !important;
+          font-size: 25px !important;
+        }
+      }
+
+      @media screen and (max-width: 800px) {
+        .ct1 {
+          margin-top: -40px !important;
+        }
+      }
+
+      @media screen and (min-width: 800px) {
+        .ct1 {
+          margin-top: 230px !important;
+        }
+      }
+
+      @media screen and (min-width: 800px) {
+        .card {
+          height: 230px !important;
+        }
+      }
+
+      @media screen and (min-width: 800px) and (max-width: 950px) {
+        .card {
+          height: 210px !important;
+        }
+      }
+
+      @media screen and (max-width: 800px) {
+        .card {
+          height: 220px !important;
+        }
+      }
+      @media screen and (max-width: 460px) {
+        .card {
+          height: 190px !important;
+        }
+      }
+
+      @media screen and (max-width: 400px) {
+        .card {
+          height: 170px !important;
+        }
+      }
+
+      @media screen and (max-width: 800px) {
+        .btn-primary {
+          font-size: 15px !important;
+          height: 33px !important;
+          margin-right: 10px !important;
+          margin-top: -50px !important;
+        }
+      }
+
+      @media screen and (max-width: 460px) {
+        .btn-primary {
+          font-size: 15px !important;
+          height: 33px !important;
+          margin-right: 10px !important;
+          margin-top: -30px !important;
+        }
+      }
+
+      @media screen and (max-width: 460px) {
+        .btn-primary {
+          font-size: 10px !important;
+          height: 25px !important;
+          margin-right: 10px !important;
+          margin-top: -40px !important;
+          width: 78px !important;
+        }
+      }
+
+      @media screen and (min-width: 800px) {
+        .fa,
+        .fa-bars {
+          display: none;
+        }
+      }
+
+      @media screen and (min-width: 800px) {
+        #mySidenav {
           width: 275px;
         }
       }
-  
-
-      /* @media screen and (max-width: 490px) {
-        .item1 {
-          margin-left: -40px !important;
-        }
-      } */
-
-      /* @media screen and (max-width: 800px) and (min-width: 490px) {
-        .item1 {
-          margin-left: 30px !important;
-        }
-      } */
-
-      /* @media screen and (max-width: 390px) {
-        .item1 {
-          margin-left: -65px !important;
-        }
-      } */
 
       @media screen and (min-width: 800px) {
         .item1 {
@@ -439,7 +311,6 @@ ul {
         }
       }
 
-      
       @media screen and (max-width: 800px) {
         .fa-bars {
           margin-top: -47px;
@@ -451,15 +322,13 @@ ul {
           margin-top: -42px;
         }
       }
-  
 
-  
       @media screen and (max-width: 800px) {
         .content {
           padding-top: 120px;
         }
       }
-  
+
       @media screen and (max-width: 800px) {
         #header {
           height: 120px;
@@ -475,167 +344,150 @@ ul {
       @media screen and (min-width: 800px) {
         #header {
           border-radius: 0 0 20px 20px;
-          
+
           position: fixed;
           width: calc(100% - 270px);
-        
         }
       }
-  
+
       @media screen and (max-width: 800px) {
         .fa {
-         
           float: left;
         }
       }
-  
+
       @media screen and (min-width: 800px) {
         .closebtn {
           display: none !important;
         }
       }
-       
-      /* @media screen and (min-width: 800px) {
-        .center-search {
-         
-        }
-      } */
 
-      
       @media screen and (min-width: 800px) {
-      .center-search {
-  text-align: center;
-  font-weight: 900;
-  font-size: 40px;
- 
-  letter-spacing: 0;
-  color: #ffffff;
-  opacity: 1;
-  margin-top: 70px;
-}
-      }
-      
+        .center-search {
+          text-align: center;
+          font-weight: 900;
+          font-size: 40px;
 
+          letter-spacing: 0;
+          color: #ffffff;
+          opacity: 1;
+          margin-top: 70px;
+        }
+      }
 
       @media screen and (min-width: 1201px) {
-  .nav-link {
-    color: grey;
-    padding-left: 60px;
-    padding-right: 60px;
-    font-weight: 800;
-  }
-}
+        .nav-link {
+          color: grey;
+          padding-left: 60px;
+          padding-right: 60px;
+          font-weight: 800;
+        }
+      }
 
-@media screen and (min-width: 1100px) and (max-width: 1200px) {
-  .nav-link {
-    color: grey;
-    padding-left: 30px;
-    padding-right: 30px;
-    font-weight: 800;
-  }
-}
+      @media screen and (min-width: 1100px) and (max-width: 1200px) {
+        .nav-link {
+          color: grey;
+          padding-left: 30px;
+          padding-right: 30px;
+          font-weight: 800;
+        }
+      }
 
+      @media screen and (max-width: 800px) {
+        .nav-link {
+          margin-top: -40px;
+          font-weight: 800;
 
+          /* background: white 100%; */
+        }
+      }
 
+      @media screen and (min-width: 942px) and (max-width: 1100px) {
+        .nav-link {
+          color: grey;
+          padding-left: 20px !important;
+          padding-right: 20px !important;
+          font-size: 20px !important;
+          margin-top: 10px !important;
+          font-weight: 800;
+        }
+      }
 
+      @media screen and (min-width: 840px) and (max-width: 942px) {
+        .nav-link {
+          color: grey;
+          padding-left: 10px !important;
+          padding-right: 20px !important;
+          font-size: 17px !important;
+          margin-top: 10px !important;
+          font-weight: 800;
+        }
+      }
 
-@media screen and (max-width: 800px) {
-  .nav-link {
-    margin-top: -40px;
-    font-weight: 800;
-    
-    /* background: white 100%; */
-  }
-}
+      @media screen and (min-width: 800px) and (max-width: 840px) {
+        .nav-link {
+          color: grey;
+          padding-left: 5px !important;
+          padding-right: 20px !important;
+          font-size: 15px !important;
+          margin-top: 10px !important;
+          font-weight: 800;
+        }
+      }
 
-@media screen and (min-width: 942px) and (max-width: 1100px) {
-  .nav-link {
-    color: grey;
-    padding-left: 20px !important;
-    padding-right: 20px !important;
-    font-size: 20px !important;
-    margin-top: 10px !important;
-    font-weight: 800;
-  }
-}
+      @media screen and (min-width: 620px) and (max-width: 800px) {
+        .nav-link {
+          color: grey;
+          padding-left: 15px;
+          padding-right: 15px;
+          font-size: 20px;
 
-@media screen and (min-width: 840px) and (max-width: 942px) {
-  .nav-link {
-    color: grey;
-    padding-left: 10px !important;
-    padding-right: 20px !important;
-    font-size: 17px !important;
-    margin-top: 10px !important;
-    font-weight: 800;
-  }
-}
+          font-weight: 800;
+        }
+      }
 
-@media screen and (min-width: 800px) and (max-width: 840px) {
-  .nav-link {
-    color: grey;
-    padding-left: 5px !important;
-    padding-right: 20px !important;
-    font-size: 15px !important;
-    margin-top: 10px !important;
-    font-weight: 800;
-  }
-}
+      @media screen and (max-width: 800px) {
+        .nav-link {
+          margin-top: 20px !important;
+        }
+      }
 
-@media screen and (min-width: 620px) and (max-width: 800px) {
-  .nav-link {
-    color: grey;
-    padding-left: 15px;
-    padding-right: 15px;
-    font-size: 20px;
-   
-    font-weight: 800;
-  }
-}
+      @media screen and (min-width: 530px) and (max-width: 620px) {
+        .nav-link {
+          color: grey;
+          padding-left: 15px;
+          padding-right: 15px;
+          font-size: 15px;
+          margin-top: 40px;
+          font-weight: 800;
+        }
+      }
 
-@media screen and (max-width: 800px) {
-  .nav-link {
-    margin-top: 20px !important;
-  }
-}
+      @media screen and (max-width: 530px) {
+        .nav-link {
+          color: grey;
+          font-weight: bold;
 
-@media screen and (min-width: 530px) and (max-width: 620px) {
-  .nav-link {
-    color: grey;
-    padding-left: 15px;
-    padding-right: 15px;
-    font-size: 15px;
-    margin-top: 40px;
-    font-weight: 800;
-  }
-}
+          padding-left: 10px;
+          padding-right: 5px;
+          font-size: 15px !important;
+          font-weight: 800;
+        }
+      }
 
-@media screen and (max-width: 530px) {
-  .nav-link {
-    color: grey;
-    font-weight: bold;
-   
-    padding-left: 10px;
-    padding-right: 5px;
-    font-size: 15px !important;
-    font-weight: 800;
-    
-  }
-}
+      @media screen and (max-width: 460px) {
+        .nav-link {
+          color: grey;
+          font-weight: bold;
+          margin-top: 0px !important;
+          padding-left: 10px;
+          padding-right: 5px;
+          font-size: 15px !important;
+          font-weight: 800;
+        }
+      }
 
-@media screen and (max-width: 460px) {
-  .nav-link {
-    color: grey;
-    font-weight: bold;
-   margin-top: 0px !important;
-    padding-left: 10px;
-    padding-right: 5px;
-    font-size: 15px !important;
-    font-weight: 800;
-    
-  }
-}
-
-/* @media screen and (max-width: 700px) {
+      /* @media screen and (max-width: 700px) {
   .ct1 {
     margin-top: 40px !important;
     
@@ -649,27 +501,17 @@ ul {
   }
 } */
 
-@media screen and (max-width: 405px) {
-  .nav-link {
-    color: grey;
-    font-weight: bold;
+      @media screen and (max-width: 405px) {
+        .nav-link {
+          color: grey;
+          font-weight: bold;
 
-    padding-right: 2px;
-    font-size: 13px !important;
-    margin-top: -32px;
-    
-    
-  
-  }
-}
-      
-  
-        
-  
-      </style>
-
-
-
+          padding-right: 2px;
+          font-size: 13px !important;
+          margin-top: -32px;
+        }
+      }
+    </style>
   </head>
 
   <body>
@@ -719,11 +561,11 @@ ul {
 
     <div class="nav-wrapper">
       <header id="header">
-
-        
-
-
-        <div class="logo atlPic" id="atl2" style="z-index: 1; color: white; text-align: center;">
+        <div
+          class="logo atlPic"
+          id="atl2"
+          style="z-index: 1; color: white; text-align: center;"
+        >
           Your Fleet
         </div>
 
@@ -731,21 +573,16 @@ ul {
 
         <div>
           <a href="#" class="header-check1"
-            ><img
-              src="assets/accnt.svg"
-              class="cart"
-              alt=""
-            />Log out</a
+            ><img src="assets/accnt.svg" class="cart" alt="" />Log out</a
           >
 
           <a
-                class="btn btn-primary btn4 b5 light-bg shadow"
-                href="#"
-                style="margin-top: -30px; height: 40px; float: right; border-radius: 100px; margin-right: 40px; font-weight: 700"
-                role="button"
-                >Add Client</a
-              >
-              
+            class="btn btn-primary btn4 b5 light-bg shadow"
+            href="#"
+            style="margin-top: -30px; height: 40px; float: right; border-radius: 100px; margin-right: 40px; font-weight: 700"
+            role="button"
+            >Add Client</a
+          >
 
           <!-- <a href="search-reserve.html" class="header-check"><img src="assets/shopping_cart-24px.svg" class='cart' alt="">Check out</a> -->
         </div>
@@ -795,7 +632,6 @@ ul {
                     class="rv img-rounded shadow"
                     src="assets/rightVan2x.png"
                     alt="Card image cap"
-                   
                   />
                 </div>
                 <div class="card-body">
@@ -804,7 +640,8 @@ ul {
 
                   <div class="specs">
                     <span
-                      style="background-color: #F0F0F0; display: inline-block; font-size: 15px; font-weight: bold" class="sl"
+                      style="background-color: #F0F0F0; display: inline-block; font-size: 15px; font-weight: bold"
+                      class="sl"
                     >
                       <p style="margin: 4px;">
                         <img
@@ -817,7 +654,8 @@ ul {
                     </span>
 
                     <span
-                      style="background-color: #F0F0F0; display: inline-block; font-size: 15px; font-weight: bold" class="sl"
+                      style="background-color: #F0F0F0; display: inline-block; font-size: 15px; font-weight: bold"
+                      class="sl"
                     >
                       <p style="margin: 4px;">
                         <img
@@ -830,7 +668,8 @@ ul {
                     </span>
 
                     <span
-                      style="background-color: #F0F0F0; display: inline-block; font-size: 15px; font-weight: bold" class="sl"
+                      style="background-color: #F0F0F0; display: inline-block; font-size: 15px; font-weight: bold"
+                      class="sl"
                     >
                       <p style="margin: 4px;">
                         <img
@@ -880,7 +719,6 @@ ul {
                     class="rv img-rounded shadow"
                     src="assets/rightVan2x.png"
                     alt="Card image cap"
-                    
                   />
                 </div>
                 <div class="card-body">
@@ -889,7 +727,8 @@ ul {
 
                   <div class="specs">
                     <span
-                      style="background-color: #F0F0F0; display: inline-block; font-size: 15px; font-weight: bold" class="sl"
+                      style="background-color: #F0F0F0; display: inline-block; font-size: 15px; font-weight: bold"
+                      class="sl"
                     >
                       <p style="margin: 4px;">
                         <img
@@ -901,7 +740,8 @@ ul {
                     </span>
 
                     <span
-                      style="background-color: #F0F0F0; display: inline-block; font-size: 15px; font-weight: bold" class="sl"
+                      style="background-color: #F0F0F0; display: inline-block; font-size: 15px; font-weight: bold"
+                      class="sl"
                     >
                       <p style="margin: 4px;">
                         <img
@@ -913,7 +753,8 @@ ul {
                     </span>
 
                     <span
-                      style="background-color: #F0F0F0; display: inline-block; font-size: 15px; font-weight: bold" class="sl"
+                      style="background-color: #F0F0F0; display: inline-block; font-size: 15px; font-weight: bold"
+                      class="sl"
                     >
                       <p style="margin: 4px;">
                         <img
@@ -969,7 +810,8 @@ ul {
 
                   <div class="specs">
                     <span
-                      style="background-color: #F0F0F0; display: inline-block; font-size: 15px; font-weight: bold" class="sl"
+                      style="background-color: #F0F0F0; display: inline-block; font-size: 15px; font-weight: bold"
+                      class="sl"
                     >
                       <p style="margin: 4px;">
                         <img
@@ -981,7 +823,8 @@ ul {
                     </span>
 
                     <span
-                      style="background-color: #F0F0F0; display: inline-block; font-size: 15px; font-weight: bold" class="sl"
+                      style="background-color: #F0F0F0; display: inline-block; font-size: 15px; font-weight: bold"
+                      class="sl"
                     >
                       <p style="margin: 4px;">
                         <img
@@ -993,7 +836,8 @@ ul {
                     </span>
 
                     <span
-                      style="background-color: #F0F0F0; display: inline-block; font-size: 15px; font-weight: bold" class="sl"
+                      style="background-color: #F0F0F0; display: inline-block; font-size: 15px; font-weight: bold"
+                      class="sl"
                     >
                       <p style="margin: 4px;">
                         <img
@@ -1043,7 +887,6 @@ ul {
                     class="rv img-rounded shadow"
                     src="assets/rightVan2x.png"
                     alt="Card image cap"
-                   
                   />
                 </div>
                 <div class="card-body">
@@ -1052,7 +895,8 @@ ul {
 
                   <div class="specs">
                     <span
-                      style="background-color: #F0F0F0; display: inline-block; font-size: 10px; font-weight: bold" class="sl"
+                      style="background-color: #F0F0F0; display: inline-block; font-size: 10px; font-weight: bold"
+                      class="sl"
                     >
                       <p style="margin: 4px;">
                         <img
@@ -1064,7 +908,8 @@ ul {
                     </span>
 
                     <span
-                      style="background-color: #F0F0F0; display: inline-block; font-size: 10px; font-weight: bold" class="sl"
+                      style="background-color: #F0F0F0; display: inline-block; font-size: 10px; font-weight: bold"
+                      class="sl"
                     >
                       <p style="margin: 4px;">
                         <img
@@ -1076,7 +921,8 @@ ul {
                     </span>
 
                     <span
-                      style="background-color: #F0F0F0; display: inline-block; font-size: 10px; font-weight: bold" class="sl"
+                      style="background-color: #F0F0F0; display: inline-block; font-size: 10px; font-weight: bold"
+                      class="sl"
                     >
                       <p style="margin: 4px;">
                         <img
@@ -1129,8 +975,6 @@ ul {
             />
             
           </div> -->
-
-
         </div>
       </div>
     </div>
