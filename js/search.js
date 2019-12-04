@@ -12,6 +12,9 @@ function show(elementID) {
     ele.style.display = 'block';
 }
 
+
+
+
 //side navigation js
 function openNav() {
     document.getElementById("mySidenav").style.width = "260px";
@@ -22,6 +25,56 @@ function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
     // planned to make entire page slide right but it compromised style on mobile
 }
+
+
+
+
+
+
+
+// var primary = document.getElementsByTagName('body');
+// var sidenav = document.getElementById('mySidenav');
+
+// window.onclick = function(event){
+
+//     var sideNavWidth = sidenav.style.width;
+
+//     // check to see if the event target was not the side nav
+//     // AND that the side nav is open
+//     if( event.target !== sidenav && sideNavWidth !== "0" ){
+//        sidenav.style.width = "0";
+       
+//     }
+// }
+
+// var primary = document.getElementById('primary');
+// var sidenav = document.getElementById('mySidenav');
+
+// window.onclick = function(event){
+
+//     var sideNavWidth = sidenav.style.width;
+
+//     // check to see if the event target was not the side nav
+//     // AND that the side nav is open
+//     if( event.target !== sidenav && sideNavWidth !== "0" ){
+//         closeNav();
+//     }
+// }
+
+// function closeNav(){
+//          sidenav.style.width = "0";
+//        primary.style.marginLeft = "0";
+// }
+// var $body = $('body');
+// $body.on('click', function(event) {
+//   var clickedOutside = $(event.target).closest('#mySidenav').length == 0;
+//   if (clickedOutside && $body.hasClass('sidenav')) {
+//     $body.removeClass('sidenav');
+//   }
+// })
+
+
+
 
 //dropdown for filters and show details, hard coded for mvp
 $(document).ready(function () {
