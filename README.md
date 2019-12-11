@@ -25,23 +25,23 @@ ___
 ## Quick Site Glance :
 ____
 
-<img src='assets/1.png' alt='home' height=450 width=550/>
+<img src='assets/1.png' alt='home' height=450 width=650/>
 
-<img src='assets/2.png' alt='home' height=450 width=550/>
+<img src='assets/2.png' alt='home' height=450 width=650/>
 
-<img src='assets/3.png' alt='home' height=450 width=550/>
+<img src='assets/3.png' alt='home' height=450 width=650/>
 
-<img src='assets/4.png' alt='home' height=450 width=550/>
+<img src='assets/4.png' alt='home' height=450 width=650/>
 
-<img src='assets/5.png' alt='home' height=450 width=550/>
+<img src='assets/5.png' alt='home' height=450 width=650/>
 
-<img src='assets/6.png' alt='home' height=450 width=550/>
+<img src='assets/6.png' alt='home' height=450 width=650/>
 
-<img src='assets/7.png' alt='home' height=450 width=550/>
+<img src='assets/7.png' alt='home' height=450 width=650/>
 
-<img src='assets/8.png' alt='home' height=450 width=550/>
+<img src='assets/8.png' alt='home' height=450 width=650/>
 
-<img src='assets/9.png' alt='home' height=450 width=550/>
+<img src='assets/9.png' alt='home' height=450 width=650/>
 
 
 
