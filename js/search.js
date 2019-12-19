@@ -215,4 +215,3 @@ $('#c1').click(function() {
    }
     photo10.addEventListener('click', photoFunc10);
    
-   

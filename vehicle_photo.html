@@ -81,6 +81,15 @@
         input[type="file"] {
         display: none;
         } 
+
+        .sidenav a:hover {
+          color: black !important; 
+        }
+
+        .sidenav a {
+          color: white !important;
+        }
+
         
  
 
@@ -88,15 +97,15 @@
 </head>
 
 <body>
-        <div id="mySidenav" class="sidenav">
+        <div id="mySidenav" class="sidenav" style="background-color: #0092c0">
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
                 
                   <div style="margin-bottom: 10px"><a class="go-back" href="reservation_info.html"><img
                     src="assets/keyboard_backspace.svg">Back</a></div>
                   <br>
                   <br>
-                <a href="index.html" style="margin-top: -30px;"><img src="assets/accnt.svg" alt="" style="width: 24px; height: 25px; margin-top: -10px;"><span style="font-size: 20px; margin-left: 15px;">Haley R.</span></a>
-                <a href="search-reserve.html"><img src="assets/shopping_cart-24px.svg" alt="" style="width: 24px; height: 25px; margin-top: -10px;"><span style="font-size: 20px; margin-left: 15px;">Check out</span></a>
+                <a href="index.html" style="margin-top: -30px;"><img src="assets/accnt.svg" alt="" style="width: 24px; height: 25px; margin-top: -3px;"><span style="font-size: 20px; margin-left: 15px;">Haley R.</span></a>
+                <a href="search-reserve.html"><img src="assets/shopping_cart-24px.svg" alt="" style="width: 24px; height: 25px; margin-top: -3px;"><span style="font-size: 20px; margin-left: 15px;">Check out</span></a>
                
               </div>
 
@@ -119,7 +128,7 @@
         </div>
     </header>
 
-    <div class="content">
+    <div class="content" onclick="closeNav()">
         <span onclick="openNav()" id="navToggle" class="fa fa-bars" aria-hidden="true"></span>
         <div class="head-title">Search</div>
 
@@ -283,7 +292,7 @@ height: 47px; font-size: 20px; margin-bottom: -20px; margin-top: -25px !importan
         </div>
 
 
-        <div class="onesix" style="margin-top: -130px;">
+        <div class="onesix" style="margin-top: -130px;" onclick="closeNav()">
 
                 <!-- <div
                 class="reserve-alert ra11 animated fadeInDown"
@@ -398,7 +407,7 @@ height: 47px; font-size: 20px; margin-bottom: -20px; margin-top: -25px !importan
     
 
 
-        <div class="onesix" style="margin-top: 80px;">
+        <div class="onesix" style="margin-top: 80px;" onclick="closeNav()">
                 <div class="row readyrow">
                   <div class="col-md-5">
                     <div class="van-card-square animated fadeInDown" style="width: 100vw; height: 550px; padding-top: 30px; margin-left: 15px">

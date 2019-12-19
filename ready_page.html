@@ -48,6 +48,14 @@
                     margin-left: 0px;
                 }
             }
+
+            .sidenav a {
+                color: white;
+            }
+
+            .sidenav a:hover {
+                color: black
+            }
             
                   </style>
 </head>
@@ -55,7 +63,7 @@
 <body>
     
 
-    <div id="mySidenav" class="sidenav">
+    <div id="mySidenav" class="sidenav" style="background-color: #0092c0">
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
             <!-- <div class="logo" style="margin-left: -30px; margin-top: -60px; margin-bottom: 60px">
                 <a href="login-welcome.html"><img src="assets/logo.svg" alt="" class="atlPic" /></a>
@@ -64,8 +72,8 @@
                 src="assets/keyboard_backspace.svg">Back</a></div>
               <br>
               <br>
-            <a href="index.html" style="margin-top: -30px;"><img src="assets/accnt.svg" alt="" style="width: 24px; height: 25px; margin-top: -10px;"><span style="font-size: 20px; margin-left: 15px;">Haley R.</span></a>
-            <a href="search-reserve.html"><img src="assets/shopping_cart-24px.svg" alt="" style="width: 24px; height: 25px; margin-top: -10px;"><span style="font-size: 20px; margin-left: 15px;">Check out</span></a>
+            <a href="index.html" style="margin-top: -30px;"><img src="assets/accnt.svg" alt="" style="width: 24px; height: 25px; margin-top: -3px;"><span style="font-size: 20px; margin-left: 15px;">Haley R.</span></a>
+            <a href="search-reserve.html"><img src="assets/shopping_cart-24px.svg" alt="" style="width: 24px; height: 25px; margin-top: -3px;"><span style="font-size: 20px; margin-left: 15px;">Check out</span></a>
             <!-- <a href="search-reserve.html"><img src="assets/shopping_cart-24px.svg" alt="" style="width: 24px; height: 25px; margin-top: -10px;"><span style="font-size: 20px; margin-left: 15px;">Check Out</span></a> -->
             
         
@@ -92,7 +100,7 @@
 
 
 
-    <div class="content">
+    <div class="content" onclick="closeNav()">
         
             <span onclick="openNav()" id="navToggle" class="fa fa-bars" aria-hidden="true"></span>
             <div class="head-title">Your Rentals</div>
@@ -101,13 +109,13 @@
             <div class="container">
                 <div class="row readyrow">
                     <div class="col-md-5">
-                        <div class="van-card-square animated shake" style="padding-bottom: 40px">
+                        <div class="van-card-square animated shake" style="padding-bottom: 40px" >
                             <img id="img-2" class="readyimg" src="assets/ready.svg">
                             <div class="readynot">
 
                                     <div class="title-1 t1" >You are ready to go!</div>
                                     <div class="title-2 t2">Your vehicle has been unlocked.</div>
-                                    <p class="title-3">Enjoy the ride, and let us know if you have any questions before your rental period is over.
+                                    <p class="title-3" style="font-weight: 500 !important">Enjoy the ride, and let us know if you have any questions before your rental period is over.
                                     </p>
                                     <div class="button-group">
                                         <a class="btn btn-primary ready-btn" href="control_center.html" role="button">Go to Your Reservation</a>
@@ -121,7 +129,7 @@
                     <div class="col-md-6 animated shake readynt" style="margin-top: -30px">
                         <div class="title-1" >You are ready to go!</div>
                         <div class="title-2">Your vehicle has been unlocked.</div>
-                        <p class="title-3">Enjoy the ride, and let us know if you have any questions before your rental period is over.
+                        <p class="title-3" style="font-weight: 500 !important">Enjoy the ride, and let us know if you have any questions before your rental period is over.
                         </p>
                         
                         <div class="button-group rdybtn" style="margin-top: 20px">
@@ -136,6 +144,17 @@
 
         
         
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src='js/search.js'></script>
+
         
 </body>
 

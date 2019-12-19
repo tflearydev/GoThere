@@ -78,6 +78,15 @@
                     margin-top: -80px !important;
                 }
             }
+
+            .sidenav a:hover {
+          color: black !important; 
+        }
+
+        .sidenav a {
+          color: white !important;
+        }
+
           </style>
 
 
@@ -85,7 +94,7 @@
 
 <body>
     
-        <div id="mySidenav" class="sidenav">
+        <div id="mySidenav" class="sidenav" style="background-color: #0092c0">
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
                 <!-- <div class="logo" style="margin-left: -30px; margin-top: -60px; margin-bottom: 60px">
                     <a href="login-welcome.html"><img src="assets/logo.svg" alt="" class="atlPic" /></a>
@@ -94,8 +103,8 @@
                     src="assets/keyboard_backspace.svg">Back</a></div>
                   <br>
                   <br>
-                <a href="index.html" style="margin-top: -30px;"><img src="assets/accnt.svg" alt="" style="width: 24px; height: 25px; margin-top: -10px;"><span style="font-size: 20px; margin-left: 15px;">Haley R.</span></a>
-                <a href="search-reserve.html"><img src="assets/shopping_cart-24px.svg" alt="" style="width: 24px; height: 25px; margin-top: -10px;"><span style="font-size: 20px; margin-left: 15px;">Search Rentals</span></a>
+                <a href="index.html" style="margin-top: -30px;"><img src="assets/accnt.svg" alt="" style="width: 24px; height: 25px; margin-top: -3px;"><span style="font-size: 20px; margin-left: 15px;">Haley R.</span></a>
+                <a href="search-reserve.html"><img src="assets/shopping_cart-24px.svg" alt="" style="width: 24px; height: 25px; margin-top: -3px;"><span style="font-size: 20px; margin-left: 15px;">Search Rentals</span></a>
                 
             
               </div>
@@ -139,7 +148,7 @@
     
 
 
-    <div class="content">
+    <div class="content" onclick="closeNav()">
         <span onclick="openNav()" id="navToggle" class="fa fa-bars" aria-hidden="true"></span>
         <div class="head-title">Search</div>
         <div class="reserve-space"></div>
