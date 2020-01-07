@@ -11,15 +11,32 @@ This repository does not include the backend/functioning setup (in Laravel on Bi
 
 ## Technologies Used:
 ____
-* Visual Studio
-* Frontend: jQuery, JavaScript, HTML, CSS, Bootstrap
+* Visual Studio Code
+* Frontend: JavaScript, jQuery, HTML, CSS, Bootstrap
 * Backend: APIs, PHP, Laravel
 * UI/UX: Adobe XD
 
 
+## Features
+___
+
+### Current Features Live Site
+
+* Create Profile, Login, Authentication, Log Out
+* Search sprinter vans, including being able to apply multiple filters
+* Add to reservation, remove from reservation, manage reservations
+* Check out
+* Take photos of vehicle
+* Unlock and lock vehicle from application
+* Businesses can manage their clients and their fleets
+* and more
+
+
 ## Live Deployed Project Link & User Stories
 ___
-[Click Here to view Live Site](https://van2share.netlify.com/)
+[Click Here to view Quick Demo Site](https://van2share.netlify.com/)
+
+[Click Here to view Live Site](http://booking.atlsprinters.com/)
 
 
 ## Quick Site Glance :
@@ -47,16 +64,3 @@ ____
 
 
 
-## Features
-___
-
-### Current Features Live Site
-
-* Create Profile, Login, Authentication, Log Out
-* Search sprinter vans, including being able to apply multiple filters
-* Add to reservation, remove from reservation, manage reservations
-* Check out
-* Take photos of vehicle
-* Unlock and lock vehicle from application
-* Businesses can manage their clients and their fleets
-* and more
