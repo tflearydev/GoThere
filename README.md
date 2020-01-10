@@ -42,6 +42,8 @@ ___
 ## Quick Site Glance (Desktop & Mobile):
 ____
 
+### Desktop
+
 <img src='assets/1.png' alt='home' height=450 width=650/>
 
 <img src='assets/business.png' alt='home' height=450 width=650/>
@@ -59,6 +61,20 @@ ____
 <img src='assets/7.png' alt='home' height=450 width=650/>
 
 <img src='assets/8.png' alt='home' height=450 width=650/>
+
+### Mobile
+
+<img src='assets/4.png' alt='home' height=450 width=650/>
+
+<img src='assets/5.png' alt='home' height=450 width=650/>
+
+<img src='assets/6.png' alt='home' height=450 width=650/>
+
+<img src='assets/7.png' alt='home' height=450 width=650/>
+
+<img src='assets/8.png' alt='home' height=450 width=650/>
+
+
 
 
 
