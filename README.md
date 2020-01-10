@@ -64,7 +64,7 @@ ____
 
 ### Mobile
 
-<img src='assets/mobilesearchuno.png' alt='home' height=350 width=150/>
+<img src='assets/mobilesearchuno.png' alt='home' height=250 width=150/>
 
 <img src='assets/mobilesearch0.png' alt='home' height=450 width=650/>
 
