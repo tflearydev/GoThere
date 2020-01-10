@@ -39,7 +39,7 @@ ___
 [Click Here to view Live Site](http://booking.atlsprinters.com/)
 
 
-## Quick Site Glance :
+## Quick Site Glance (Desktop & Mobile):
 ____
 
 <img src='assets/1.png' alt='home' height=450 width=650/>
