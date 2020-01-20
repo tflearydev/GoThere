@@ -36,7 +36,7 @@ ___
 ___
 [Click Here to view Quick Demo Site](https://van2share.netlify.com/)
 
-[Click Here to view Live Site](http://booking.atlsprinters.com/)
+[Click Here to view Live Site for B2B client (ATL Sprinters)](http://booking.atlsprinters.com/)
 
 
 ## Quick Site Glance (Desktop & Mobile):
