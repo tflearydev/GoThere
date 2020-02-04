@@ -98,13 +98,8 @@ $(document).ready(function () {
       $("#detail-4").toggle(500);
       $("#arrow-4").toggleClass('rotation', 1000);
   });
-
-
-    
+  
 });
-
-
-
 
 
 
@@ -137,7 +132,6 @@ $('#c1').click(function() {
   }
 
 
-  
 
   //hard coded the change of photo icons once clicked, was not sure how you wanted to do them on backend.. this is just a quick fix/ example
   //so here is just something quick
